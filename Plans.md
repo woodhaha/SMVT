@@ -62,6 +62,40 @@ Vina docking pose has **steric clashes** with protein (shortest 2.08Å = 61% vdW
 | `SMVT_Colab_MD_Files/ligand_params_v3/` | MMFF94 templates (production) |
 | `SMVT_Colab_MD_Files/ligand_params/` | Gasteiger templates (fallback) |
 
+## Execution Strategy: Colab Free Tier (Zero Cost)
+
+Rationale: 阿里云竞价实例 ¥1,000-2,000 vs Colab 免费。省下的钱够 Colab Pro+ 一年。
+
+| Option | 7×100ns | Cost | Speed |
+|--------|:---:|------|------|
+| Colab T4 free | ~30 days (serial) | ¥0 | Slow |
+| Colab Pro+ | ~14 days | $50/mo | Medium |
+| Ali V100 spot | ~7 days | ¥1,000-1,500 | Fast |
+| Ali T4 spot | ~21 days | ¥1,500-2,000 | Slow |
+
+**Plan**: Colab free, 1 compound/day. Add `CheckpointReporter(10ns)` so interrupted runs resume.
+
+### Daily Run
+
+```bash
+colab new --gpu T4 -s smvt-md
+colab upload AF-Q9Y289-F1.pdb + {COMPOUND}_docked.pdbqt + ligand_params/{COMPOUND}_template.xml
+colab install openmm pdbfixer rdkit openmmforcefields
+colab exec -f md_v7_staged_min.py --timeout 43200  # 12h timeout
+# Download results → analyze → next compound
+```
+
+### Run Order (1/day)
+
+1. Esketamine (pilot, finish NVT→production) — verify protocol
+2. Biotin (reference) — validate binding site
+3. Phenobarbital — simplest test hit
+4. Naftazone
+5. Furosemide (has Cl+S)
+6. Hydromorphone (best hit)
+7. Gabapentin enacarbil (positive control)
+8. Riboflavin (negative control)
+
 ## Resume Command
 
 ```bash
