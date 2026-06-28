@@ -1,6 +1,49 @@
-# SMVT MD — Experimental Plan
+# SMVT — Master Plan & Results
 
-> Created: 2026-06-28 · Status: Debugging Esketamine pilot
+> Updated: 2026-06-28 · Status: Esketamine MD debugging, screening complete
+
+---
+
+## Virtual Screening Results (completed)
+
+### Pipeline: ZINC 230M → FDA/ChEMBL 3,300 → ML (AUC=0.888) → 500 docked → 8 Elite Hits
+
+### Top 8 Elite Hits (ΔG < −8.0 kcal/mol)
+
+| Rank | Compound | ΔG | Class | Novel? |
+|:--:|----------|:--:|-------|:---:|
+| 1 | Hydromorphone | −8.58 | Opioid | ✅ First opioid SMVT ligand |
+| 2 | Furosemide | −8.36 | Sulfonamide | ✅ New scaffold |
+| 3 | Naftazone | −8.34 | Naphthoquinone | — |
+| 4 | Phenobarbital | −8.30 | Barbiturate | 100% class hit rate |
+| 5 | Pentobarbital | −8.18 | Barbiturate | |
+| 6 | Diclofenac | −8.07 | NSAID | NSAID-SMVT axis |
+| 7 | Carprofen | −8.04 | NSAID | |
+| 8 | Butabarbital | −8.02 | Barbiturate | |
+
+### Chemical Family Hit Rates
+
+| Family | Hit/Tested | Rate | Key Insight |
+|--------|:---:|:---:|------|
+| Barbiturate | 8/8 | **100%** | Barbituric acid = biotin ureido mimic |
+| NSAID | 6/12 | 50% | Confirms NSAID-SMVT transport axis |
+| Opioid | 2/5 | 40% | Morphinan = new SMVT ligand class |
+| Sulfonamide | 1/6 | 17% | Furosemide hit |
+| Vitamin/Cofactor | 2/8 | 25% | Biotin baseline −6.76 |
+
+### Pharmacophore SAR Rules
+1. Cyclic ureide/carboxamide core = key pharmacophore
+2. Carboxyl NOT essential (barbiturates lack it → expands chemical space)
+3. Aromatic ring enhances affinity (hydrophobic contact)
+4. ≥2 H-bond acceptors (C=O) for optimal binding
+5. Halogen (Cl) tolerated, adds specificity
+
+### Controls
+- Biotin (−6.76): natural substrate reference
+- Gabapentin enacarbil (−6.63): FDA-approved SMVT prodrug, positive control
+- Riboflavin (−0.01): non-binding vitamin, negative control
+
+---
 
 ## Experiment Design
 
