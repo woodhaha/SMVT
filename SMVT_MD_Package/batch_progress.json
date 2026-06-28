@@ -1,0 +1,55 @@
+{
+  "completed": 6,
+  "total": 6,
+  "results": [
+    {
+      "compound": "HYDROMORPHONE",
+      "ns": 50,
+      "success": true,
+      "elapsed_h": 0.0006351460350884332,
+      "ns_per_day": 1889329.2781602906,
+      "platform": "OpenCL"
+    },
+    {
+      "compound": "FUROSEMIDE",
+      "ns": 50,
+      "success": true,
+      "elapsed_h": 0.0007249555322859022,
+      "ns_per_day": 1655273.9396528304,
+      "platform": "OpenCL"
+    },
+    {
+      "compound": "NAFTAZONE",
+      "ns": 50,
+      "success": true,
+      "elapsed_h": 0.0006857714388105604,
+      "ns_per_day": 1749854.152691669,
+      "platform": "OpenCL"
+    },
+    {
+      "compound": "BIOTIN",
+      "ns": 50,
+      "success": true,
+      "elapsed_h": 0.0005923548009660509,
+      "ns_per_day": 2025812.9047708597,
+      "platform": "OpenCL"
+    },
+    {
+      "compound": "GABAPENTIN_ENACARBIL",
+      "ns": 50,
+      "success": true,
+      "elapsed_h": 0.0008517301082611084,
+      "ns_per_day": 1408897.006646764,
+      "platform": "OpenCL"
+    },
+    {
+      "compound": "RIBOFLAVIN",
+      "ns": 50,
+      "success": true,
+      "elapsed_h": 0.0006697902414533828,
+      "ns_per_day": 1791605.6785122927,
+      "platform": "OpenCL"
+    }
+  ],
+  "started": "2026-06-27T20:25:15.130120"
+}

@@ -1,0 +1,5827 @@
+{
+  "completed": [
+    "AMINOCAPROIC ACID",
+    "BIOTIN",
+    "TYROSINE",
+    "TRYPTOPHAN",
+    "LEVODOPA",
+    "MEFENAMIC ACID",
+    "CYSTEINE",
+    "DEBRISOQUIN",
+    "DICLOFENAC",
+    "AZELAIC ACID",
+    "CLONIDINE",
+    "PHENYLBUTANOIC ACID",
+    "SOLRIAMFETOL",
+    "MECLOFENAMIC ACID",
+    "PIRACETAM",
+    "PHENACEMIDE",
+    "PRALIDOXIME",
+    "OZAGREL",
+    "RUFINAMIDE",
+    "MONOBENZONE",
+    "FLUOROURACIL",
+    "PYRITHIONE",
+    "TOLAZOLINE",
+    "BENZYL BENZOATE",
+    "MODAFINIL",
+    "MERCAPTOPURINE ANHYDROUS",
+    "ARMODAFINIL",
+    "ETHOTOIN",
+    "PROPYLTHIOURACIL",
+    "ALLOPURINOL",
+    "CARBARIL",
+    "PYRAZINAMIDE",
+    "CLAVULANIC ACID",
+    "TRANEXAMIC ACID",
+    "GUANETHIDINE",
+    "PHENMETRAZINE",
+    "NAFTAZONE",
+    "NIACIN",
+    "PHENOBARBITAL",
+    "DACARBAZINE",
+    "BENZNIDAZOLE",
+    "TISOPURINE",
+    "BENZOYL PEROXIDE",
+    "CHLOROXINE",
+    "FENCLOFENAC",
+    "NIACINAMIDE",
+    "CHLORZOXAZONE",
+    "BETAHISTINE",
+    "PHENSUXIMIDE",
+    "PYRIDOSTIGMINE",
+    "COUMARIN",
+    "FLUMEXADOL",
+    "OXYBENZONE",
+    "RASAGILINE",
+    "PRONETALOL",
+    "PINDOLOL",
+    "ACEFYLLINE",
+    "LOFEXIDINE",
+    "ZILEUTON",
+    "LORCASERIN",
+    "TRICLOSAN",
+    "LEVETIRACETAM",
+    "PRIMIDONE",
+    "TIPIRACIL",
+    "NITROXOLINE",
+    "PENTOXIFYLLINE",
+    "BUTALBITAL",
+    "MELATONIN",
+    "DEFERIPRONE",
+    "BARBITAL",
+    "PROPYPHENAZONE",
+    "APROBARBITAL",
+    "HYDRALAZINE",
+    "CAFFEINE",
+    "AMINOPYRINE",
+    "TEGAFUR",
+    "CAPTOPRIL",
+    "NAPROXEN",
+    "BUTABARBITAL",
+    "MEPHOBARBITAL",
+    "FLOSEQUINAN",
+    "PROXIBARBAL",
+    "MEPHENYTOIN",
+    "PIRPROFEN",
+    "MAVACAMTEN",
+    "CYCLOBARBITAL",
+    "CHLORMEZANONE",
+    "CLIOQUINOL",
+    "ISAXONINE",
+    "MEDIFOXAMINE",
+    "MITOTANE",
+    "VILOXAZINE",
+    "PROPRANOLOL",
+    "HEPTABARBITAL",
+    "PEMOLINE",
+    "FURAZOLIDONE",
+    "CARBIMAZOLE",
+    "DIETHYLCARBAMAZINE",
+    "DEXMETHYLPHENIDATE",
+    "BENZPHETAMINE",
+    "METHYLPHENIDATE",
+    "FLUCICLOVINE F18",
+    "IBUDILAST",
+    "STAVUDINE",
+    "FLUCICLOVINE",
+    "DIFLUNISAL",
+    "EPALRESTAT",
+    "KETOPROFEN",
+    "NALIDIXIC ACID",
+    "METHYPRYLON",
+    "PHENDIMETRAZINE",
+    "PILOCARPINE",
+    "FAVIPIRAVIR",
+    "BROXYQUINOLINE",
+    "PHENYL AMINOSALICYLATE",
+    "DIAZOXIDE",
+    "TRIPELENNAMINE",
+    "ERDOSTEINE",
+    "ALBENDAZOLE",
+    "CLOMETHIAZOLE",
+    "RITODRINE",
+    "TROPICAMIDE",
+    "TRIMETAZIDINE",
+    "ACIPIMOX",
+    "ETHIONAMIDE",
+    "AMINOREX",
+    "FLUCYTOSINE",
+    "ZONISAMIDE",
+    "METAXALONE",
+    "LOXOPROFEN",
+    "METYRAPONE",
+    "CENOBAMATE",
+    "MILNACIPRAN",
+    "TILBROQUINOL",
+    "FENOPROFEN",
+    "LEVOMILNACIPRAN",
+    "DIROXIMEL FUMARATE",
+    "PYRANTEL",
+    "METRONIDAZOLE",
+    "DYPHYLLINE",
+    "NEPAFENAC",
+    "QUINETHAZONE",
+    "ETOMIDATE",
+    "TEMOZOLOMIDE",
+    "APRACLONIDINE",
+    "LOMUSTINE",
+    "FENCLOZIC ACID",
+    "CLOBENZOREX",
+    "DIPHENHYDRAMINE",
+    "TERTATOLOL",
+    "EDARAVONE",
+    "PIRFENIDONE",
+    "THIOGUANINE",
+    "2-MERCAPTOETHANESULFONIC ACID",
+    "METHAPYRILENE",
+    "TAPINAROF",
+    "FLUTAMIDE",
+    "PIPOBROMAN",
+    "MENADIONE",
+    "CIMETIDINE",
+    "SULTHIAME",
+    "TICRYNAFEN",
+    "ISONIAZID",
+    "PYRILAMINE",
+    "PYRIDOXINE",
+    "PRAMOXINE",
+    "SOTALOL",
+    "HEXYLCAINE",
+    "PITOLISANT",
+    "PERFLUTREN",
+    "SECNIDAZOLE",
+    "HALOTHANE",
+    "IFOSFAMIDE",
+    "TIAPROFENIC ACID",
+    "NITROFURAZONE",
+    "XANOMELINE",
+    "NIFURTIMOX",
+    "DROXIDOPA",
+    "PENTOLINIUM",
+    "METOPROLOL",
+    "SAFINAMIDE",
+    "PRACTOLOL",
+    "TEGASEROD",
+    "NATEGLINIDE",
+    "ALTRETAMINE",
+    "GLUTETHIMIDE",
+    "INAMRINONE",
+    "CYCLOPHOSPHAMIDE ANHYDROUS",
+    "OXYMETAZOLINE",
+    "MILRINONE",
+    "MOXONIDINE",
+    "ISOCARBOXAZID",
+    "LUMIRACOXIB",
+    "URACIL MUSTARD",
+    "LEVOBUNOLOL",
+    "LAMOTRIGINE",
+    "ENOXIMONE",
+    "ASCORBIC ACID",
+    "FLURBIPROFEN",
+    "LINDANE",
+    "MOLSIDOMINE",
+    "DAPSONE",
+    "ESFLURBIPROFEN",
+    "CHLOPHEDIANOL",
+    "CARBINOXAMINE",
+    "PENTOBARBITAL",
+    "PHENINDIONE",
+    "BRIVARACETAM",
+    "LAMIVUDINE",
+    "DOXYLAMINE",
+    "AMOBARBITAL",
+    "OXCARBAZEPINE",
+    "FOSFOMYCIN",
+    "ISOSORBIDE",
+    "KETAMINE",
+    "SULFUR",
+    "PHENAZOPYRIDINE",
+    "DEXMEDETOMIDINE",
+    "ROPINIROLE",
+    "CICLOPIROX",
+    "SECOBARBITAL",
+    "METAMIZOLE",
+    "RILUZOLE",
+    "ESKETAMINE",
+    "ROPIVACAINE",
+    "DEXRAZOXANE",
+    "CARTEOLOL",
+    "HYDROCHLOROTHIAZIDE",
+    "DIFEMERINE",
+    "GLYCEROL, IODINATED",
+    "ABAMETAPIR",
+    "PRAMIPEXOLE",
+    "NITROFURANTOIN",
+    "XYLOMETAZOLINE",
+    "SULFAPYRIDINE",
+    "FEXINIDAZOLE",
+    "ZOLEDRONIC ACID ANHYDROUS",
+    "OXAMNIQUINE",
+    "HEXESTROL",
+    "ARTICAINE",
+    "CHLORNAPHAZINE",
+    "EMEPRONIUM",
+    "EMTRICITABINE",
+    "BELINOSTAT",
+    "METHAZOLAMIDE",
+    "THIOPENTAL",
+    "FLUINDIONE",
+    "PRIMAQUINE",
+    "ORPHENADRINE",
+    "BUPIVACAINE",
+    "LEVOBUPIVACAINE",
+    "CIPROFIBRATE",
+    "ANASTROZOLE",
+    "SUMATRIPTAN",
+    "METHADONE",
+    "VADADUSTAT",
+    "MEPTAZINOL",
+    "CHLOROTHIAZIDE",
+    "BITHIONOL",
+    "NICOTINE",
+    "MEPIVACAINE",
+    "THIAMYLAL",
+    "MIGALASTAT",
+    "3,3',4',5-TETRACHLOROSALICYLANILIDE",
+    "TIZANIDINE",
+    "TAUROLIDINE",
+    "FLOXURIDINE",
+    "FENOTEROL",
+    "KETOROLAC",
+    "RANITIDINE",
+    "MINOXIDIL",
+    "PROPYLHEXEDRINE",
+    "PROTRIPTYLINE",
+    "NAPHAZOLINE",
+    "MUZOLIMINE",
+    "ANISINDIONE",
+    "DESVENLAFAXINE",
+    "PHENOXYBENZAMINE",
+    "BUFLOMEDIL",
+    "LEVOBETAXOLOL",
+    "BETAXOLOL",
+    "TETRAHYDROZOLINE",
+    "ETHOXZOLAMIDE",
+    "CEDAZURIDINE",
+    "ANTAZOLINE",
+    "CYCLIZINE",
+    "ATOMOXETINE",
+    "CHLORPHENIRAMINE",
+    "GABAPENTIN",
+    "DEXCHLORPHENIRAMINE",
+    "SULFADIAZINE",
+    "EXIFONE",
+    "DANTHRON",
+    "MEPERIDINE",
+    "INDALPINE",
+    "ZALCITABINE",
+    "ZIMELDINE",
+    "ZOMEPIRAC",
+    "BENORILATE",
+    "NIALAMIDE",
+    "TERBINAFINE",
+    "BRIMONIDINE",
+    "TOLMETIN",
+    "DIAMTHAZOLE",
+    "TRIFLURIDINE",
+    "VENLAFAXINE",
+    "ACETAZOLAMIDE",
+    "ETHOSUXIMIDE",
+    "ISOSORBIDE MONONITRATE",
+    "PYRIMETHAMINE",
+    "AMINOGLUTETHIMIDE",
+    "NEFOPAM",
+    "METABROMSALAN",
+    "ESLICARBAZEPINE",
+    "ACYCLOVIR",
+    "THALIDOMIDE",
+    "DOBUTAMINE",
+    "SULFATHIAZOLE",
+    "FENOLDOPAM",
+    "LEVAMISOLE",
+    "ZIDOVUDINE",
+    "DEXBROMPHENIRAMINE",
+    "TASIMELTEON",
+    "BROMPHENIRAMINE",
+    "HYDROXYSTILBAMIDINE",
+    "XANTHINOL",
+    "BROMFENAC",
+    "OLSALAZINE",
+    "NIZATIDINE",
+    "DYCLONINE",
+    "PROPAFENONE",
+    "APOMORPHINE",
+    "TELBIVUDINE",
+    "ARIMOCLOMOL",
+    "TOLRESTAT",
+    "LIOTHYRONINE",
+    "DILEVALOL",
+    "METHENAMINE",
+    "TRIDIHEXETHYL",
+    "HYDROFLUMETHIAZIDE",
+    "METHSUXIMIDE",
+    "NITISINONE",
+    "LABETALOL",
+    "TICLOPIDINE",
+    "CYCLOPENTOLATE",
+    "MYCOPHENOLIC ACID",
+    "NITAZOXANIDE",
+    "NORTRIPTYLINE",
+    "FORMOTEROL",
+    "MAZINDOL",
+    "TOLAZAMIDE",
+    "SULFALENE",
+    "ARFORMOTEROL",
+    "NORFLOXACIN",
+    "MOLINDONE",
+    "CANNABIDIOL"
+  ],
+  "failed": [
+    "AMINOLEVULINIC ACID HYDROCHLORIDE",
+    "CLONIDINE HYDROCHLORIDE",
+    "CYSTEINE HYDROCHLORIDE",
+    "DICLOFENAC SODIUM",
+    "BETAZOLE HYDROCHLORIDE",
+    "PRALIDOXIME CHLORIDE",
+    "TOLAZOLINE HYDROCHLORIDE",
+    "DICLOFENAC POTASSIUM",
+    "HISTAMINE DIHYDROCHLORIDE",
+    "MERCAPTOPURINE",
+    "PHENMETRAZINE HYDROCHLORIDE",
+    "FELBINAC",
+    "PYRITHIONE ZINC",
+    "BETAHISTINE HYDROCHLORIDE",
+    "TAVABOROLE",
+    "PYRIDOSTIGMINE BROMIDE",
+    "TIPIRACIL HYDROCHLORIDE",
+    "LORCASERIN HYDROCHLORIDE",
+    "NAPROXEN SODIUM",
+    "HYDRALAZINE HYDROCHLORIDE",
+    "OXTRIPHYLLINE",
+    "VILOXAZINE HYDROCHLORIDE",
+    "LOFEXIDINE HYDROCHLORIDE",
+    "METHYLPHENIDATE HYDROCHLORIDE",
+    "BENZPHETAMINE HYDROCHLORIDE",
+    "DEXMETHYLPHENIDATE HYDROCHLORIDE",
+    "RASAGILINE MESYLATE",
+    "DEXKETOPROFEN",
+    "BARBITAL SODIUM",
+    "VABORBACTAM",
+    "PILOCARPINE HYDROCHLORIDE",
+    "LEVOMILNACIPRAN HYDROCHLORIDE",
+    "BUTABARBITAL SODIUM",
+    "MILNACIPRAN HYDROCHLORIDE",
+    "TRIPELENNAMINE HYDROCHLORIDE",
+    "APRACLONIDINE HYDROCHLORIDE",
+    "METRONIDAZOLE HYDROCHLORIDE",
+    "AMIFOSTINE",
+    "PINACIDIL ANHYDROUS",
+    "STIRIPENTOL",
+    "ORNIDAZOLE",
+    "PYRIDOXINE HYDROCHLORIDE",
+    "PINACIDIL",
+    "NITROFURANTOIN SODIUM",
+    "CYCLOPHOSPHAMIDE",
+    "PARALDEHYDE",
+    "TRICLOFOS SODIUM",
+    "FLURBIPROFEN SODIUM",
+    "DIPHENHYDRAMINE HYDROCHLORIDE",
+    "ISAXONINE PHOSPHATE",
+    "METHAPYRILENE HYDROCHLORIDE",
+    "HEXYLCAINE HYDROCHLORIDE",
+    "RITODRINE HYDROCHLORIDE",
+    "PHENYTOIN",
+    "SUPROFEN",
+    "METHOHEXITAL SODIUM",
+    "ARBUTAMINE",
+    "ZOLEDRONIC ACID",
+    "DEXMEDETOMIDINE HYDROCHLORIDE",
+    "CARBAMAZEPINE",
+    "ESKETAMINE HYDROCHLORIDE",
+    "KETAMINE HYDROCHLORIDE",
+    "PHENAZOPYRIDINE HYDROCHLORIDE",
+    "HISTAMINE PHOSPHATE",
+    "OXYMETAZOLINE HYDROCHLORIDE",
+    "MASOPROCOL",
+    "ROPINIROLE HYDROCHLORIDE",
+    "DIENESTROL",
+    "PENBUTOLOL",
+    "PHENIRAMINE",
+    "LEVOBUNOLOL HYDROCHLORIDE",
+    "PRAMIPEXOLE DIHYDROCHLORIDE",
+    "PIFOXIME",
+    "DEXRAZOXANE HYDROCHLORIDE",
+    "MIGALASTAT HYDROCHLORIDE",
+    "THIAMYLAL SODIUM",
+    "THIOPENTAL SODIUM",
+    "NAPHAZOLINE HYDROCHLORIDE",
+    "SECOBARBITAL SODIUM",
+    "PITOLISANT HYDROCHLORIDE",
+    "TRIMETAZIDINE DIHYDROCHLORIDE",
+    "ROPIVACAINE HYDROCHLORIDE",
+    "TIZANIDINE HYDROCHLORIDE",
+    "PRAMOXINE HYDROCHLORIDE",
+    "GUANETHIDINE MONOSULFATE",
+    "PENTOBARBITAL SODIUM",
+    "ACORAMIDIS",
+    "DIETHYLSTILBESTROL",
+    "ARTICAINE HYDROCHLORIDE",
+    "IMIPENEM ANHYDROUS",
+    "ETHINAMATE",
+    "AMOBARBITAL SODIUM",
+    "TETRAHYDROZOLINE HYDROCHLORIDE",
+    "XYLOMETAZOLINE HYDROCHLORIDE",
+    "TRANYLCYPROMINE",
+    "SULFADIAZINE SODIUM",
+    "MEPIVACAINE HYDROCHLORIDE",
+    "MEPTAZINOL HYDROCHLORIDE",
+    "PHENYTOIN SODIUM",
+    "GLUCOSAMINE HYDROCHLORIDE",
+    "MEPERIDINE HYDROCHLORIDE",
+    "MINODRONIC ACID",
+    "RAMELTEON",
+    "ATOMOXETINE HYDROCHLORIDE",
+    "TOLMETIN SODIUM",
+    "CARTEOLOL HYDROCHLORIDE",
+    "BITHIONOLATE SODIUM",
+    "HEXOBARBITAL",
+    "ANAGRELIDE",
+    "THEOPHYLLINE GLYCINATE",
+    "MOCLOBEMIDE",
+    "CRISABOROLE",
+    "TIMOLOL",
+    "CHLOROTHIAZIDE SODIUM",
+    "ARBUTAMINE HYDROCHLORIDE",
+    "BUPIVACAINE HYDROCHLORIDE",
+    "LEVOBUPIVACAINE HYDROCHLORIDE",
+    "LEVAMISOLE HYDROCHLORIDE",
+    "ANAGRELIDE HYDROCHLORIDE",
+    "PROPYLIODONE",
+    "LEVOPROPOXYPHENE",
+    "PROPOXYPHENE",
+    "VARENICLINE",
+    "LEVOBETAXOLOL HYDROCHLORIDE",
+    "BETAXOLOL HYDROCHLORIDE",
+    "CLOBAZAM",
+    "NEFOPAM HYDROCHLORIDE",
+    "ISOSORBIDE DINITRATE",
+    "PHENOXYBENZAMINE HYDROCHLORIDE",
+    "PARAMETHADIONE",
+    "THIOTEPA",
+    "DIBROMSALAN",
+    "PROMETHAZINE",
+    "TRAMADOL",
+    "LEFLUNOMIDE",
+    "TERBINAFINE HYDROCHLORIDE",
+    "PROTRIPTYLINE HYDROCHLORIDE",
+    "TRIMETHADIONE",
+    "SULFAMETHOXYPYRIDAZINE",
+    "NICLOSAMIDE",
+    "METHYLHOMATROPINE",
+    "SORIVUDINE",
+    "NADOLOL",
+    "RANELIC ACID"
+  ],
+  "results": [
+    {
+      "name": "AMINOCAPROIC ACID",
+      "best_affinity": -5.059,
+      "all_affinities": [
+        -5.059,
+        -4.968,
+        -4.744,
+        -4.568,
+        -4.49,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "BIOTIN",
+      "best_affinity": -6.816,
+      "all_affinities": [
+        -6.816,
+        -6.607,
+        -6.541,
+        -6.288,
+        -6.114,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TYROSINE",
+      "best_affinity": -6.356,
+      "all_affinities": [
+        -6.356,
+        -6.245,
+        -6.192,
+        -6.147,
+        -5.824,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TRYPTOPHAN",
+      "best_affinity": -6.865,
+      "all_affinities": [
+        -6.865,
+        -6.618,
+        -6.421,
+        -6.358,
+        -6.252,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "LEVODOPA",
+      "best_affinity": -6.294,
+      "all_affinities": [
+        -6.294,
+        -6.205,
+        -6.017,
+        -5.879,
+        -5.844,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "MEFENAMIC ACID",
+      "best_affinity": -5.856,
+      "all_affinities": [
+        -5.856,
+        -5.843,
+        -5.703,
+        -5.609,
+        -5.109,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CYSTEINE",
+      "best_affinity": -3.99,
+      "all_affinities": [
+        -3.99,
+        -3.9,
+        -3.864,
+        -3.819,
+        -3.627,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DEBRISOQUIN",
+      "best_affinity": -7.385,
+      "all_affinities": [
+        -7.385,
+        -6.689,
+        -6.255,
+        -6.243,
+        -5.885,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DICLOFENAC",
+      "best_affinity": -7.232,
+      "all_affinities": [
+        -7.232,
+        -7.025,
+        -5.642,
+        -5.441,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "AZELAIC ACID",
+      "best_affinity": -6.349,
+      "all_affinities": [
+        -6.349,
+        -6.3,
+        -6.215,
+        -6.175,
+        -5.807,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CLONIDINE",
+      "best_affinity": -5.611,
+      "all_affinities": [
+        -5.611,
+        -5.556,
+        -5.516,
+        -5.423,
+        -4.456,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PHENYLBUTANOIC ACID",
+      "best_affinity": -6.436,
+      "all_affinities": [
+        -6.436,
+        -6.435,
+        -6.326,
+        -6.157,
+        -6.025,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "SOLRIAMFETOL",
+      "best_affinity": -6.763,
+      "all_affinities": [
+        -6.763,
+        -6.416,
+        -6.404,
+        -6.321,
+        -6.04,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "MECLOFENAMIC ACID",
+      "best_affinity": -6.567,
+      "all_affinities": [
+        -6.567,
+        -6.156,
+        -5.641,
+        -5.451,
+        -5.198,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PIRACETAM",
+      "best_affinity": -5.398,
+      "all_affinities": [
+        -5.398,
+        -5.36,
+        -5.335,
+        -5.325,
+        -5.253,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PHENACEMIDE",
+      "best_affinity": -7.292,
+      "all_affinities": [
+        -7.292,
+        -7.261,
+        -7.053,
+        -6.976,
+        -6.469,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PRALIDOXIME",
+      "best_affinity": -5.969,
+      "all_affinities": [
+        -5.969,
+        -5.879,
+        -5.511,
+        -5.493,
+        -5.185,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "OZAGREL",
+      "best_affinity": -5.596,
+      "all_affinities": [
+        -5.596,
+        -1.806,
+        -1.63,
+        -0.292,
+        0.0,
+        0.386,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "RUFINAMIDE",
+      "best_affinity": -7.2,
+      "all_affinities": [
+        -7.2,
+        -7.118,
+        -6.394,
+        -6.378,
+        -5.92,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "MONOBENZONE",
+      "best_affinity": -6.736,
+      "all_affinities": [
+        -6.736,
+        -6.617,
+        -6.122,
+        -6.043,
+        -5.854,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "FLUOROURACIL",
+      "best_affinity": -5.465,
+      "all_affinities": [
+        -5.465,
+        -5.327,
+        -5.316,
+        -5.22,
+        -5.116,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PYRITHIONE",
+      "best_affinity": -4.706,
+      "all_affinities": [
+        -4.706,
+        -4.658,
+        -4.567,
+        -4.362,
+        -4.323,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TOLAZOLINE",
+      "best_affinity": -6.127,
+      "all_affinities": [
+        -6.127,
+        -5.803,
+        -5.461,
+        -5.415,
+        -5.134,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "BENZYL BENZOATE",
+      "best_affinity": -6.8,
+      "all_affinities": [
+        -6.8,
+        -6.754,
+        -6.722,
+        -6.39,
+        -6.154,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "MODAFINIL",
+      "best_affinity": -5.523,
+      "all_affinities": [
+        -5.523,
+        -5.337,
+        -5.252,
+        -4.713,
+        -4.385,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "MERCAPTOPURINE ANHYDROUS",
+      "best_affinity": -5.252,
+      "all_affinities": [
+        -5.252,
+        -5.119,
+        -5.074,
+        -4.954,
+        -4.793,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ARMODAFINIL",
+      "best_affinity": -5.406,
+      "all_affinities": [
+        -5.406,
+        -5.254,
+        -4.912,
+        -4.604,
+        -4.559,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ETHOTOIN",
+      "best_affinity": -6.392,
+      "all_affinities": [
+        -6.392,
+        -5.426,
+        -5.265,
+        -5.151,
+        -4.917,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PROPYLTHIOURACIL",
+      "best_affinity": -6.022,
+      "all_affinities": [
+        -6.022,
+        -6.003,
+        -5.344,
+        -5.337,
+        -5.301,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ALLOPURINOL",
+      "best_affinity": -5.355,
+      "all_affinities": [
+        -5.355,
+        -5.335,
+        -5.334,
+        -5.265,
+        -5.233,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CARBARIL",
+      "best_affinity": -6.854,
+      "all_affinities": [
+        -6.854,
+        -6.769,
+        -6.505,
+        -6.452,
+        -6.383,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PYRAZINAMIDE",
+      "best_affinity": -5.002,
+      "all_affinities": [
+        -5.002,
+        -4.933,
+        -4.788,
+        -4.765,
+        -4.63,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CLAVULANIC ACID",
+      "best_affinity": -6.603,
+      "all_affinities": [
+        -6.603,
+        -6.478,
+        -6.279,
+        -6.142,
+        -6.074,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TRANEXAMIC ACID",
+      "best_affinity": -6.112,
+      "all_affinities": [
+        -6.112,
+        -6.007,
+        -5.49,
+        -5.346,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "GUANETHIDINE",
+      "best_affinity": -4.839,
+      "all_affinities": [
+        -4.839,
+        -4.734,
+        -4.398,
+        -4.205,
+        -4.169,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PHENMETRAZINE",
+      "best_affinity": -6.97,
+      "all_affinities": [
+        -6.97,
+        -6.193,
+        -5.931,
+        -5.57,
+        -5.376,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "NAFTAZONE",
+      "best_affinity": -8.339,
+      "all_affinities": [
+        -8.339,
+        -7.435,
+        -6.508,
+        -5.902,
+        -3.601,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "NIACIN",
+      "best_affinity": -5.181,
+      "all_affinities": [
+        -5.181,
+        -5.117,
+        -5.114,
+        -5.095,
+        -5.082,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PHENOBARBITAL",
+      "best_affinity": -8.299,
+      "all_affinities": [
+        -8.299,
+        -7.866,
+        -7.728,
+        -7.423,
+        -7.419,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DACARBAZINE",
+      "best_affinity": -5.854,
+      "all_affinities": [
+        -5.854,
+        -5.729,
+        -5.646,
+        -5.171,
+        -5.09,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "BENZNIDAZOLE",
+      "best_affinity": -5.392,
+      "all_affinities": [
+        -5.392,
+        -5.148,
+        -4.866,
+        -4.494,
+        -4.411,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TISOPURINE",
+      "best_affinity": -5.348,
+      "all_affinities": [
+        -5.348,
+        -5.242,
+        -5.122,
+        -5.098,
+        -4.967,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "BENZOYL PEROXIDE",
+      "best_affinity": -6.885,
+      "all_affinities": [
+        -6.885,
+        -6.883,
+        -6.601,
+        -6.27,
+        -6.262,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CHLOROXINE",
+      "best_affinity": -5.928,
+      "all_affinities": [
+        -5.928,
+        -5.868,
+        -5.834,
+        -5.604,
+        -5.599,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "FENCLOFENAC",
+      "best_affinity": -6.593,
+      "all_affinities": [
+        -6.593,
+        -4.669,
+        -4.575,
+        -4.531,
+        -4.486,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "NIACINAMIDE",
+      "best_affinity": -5.371,
+      "all_affinities": [
+        -5.371,
+        -5.337,
+        -5.289,
+        -5.125,
+        -4.991,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CHLORZOXAZONE",
+      "best_affinity": -6.699,
+      "all_affinities": [
+        -6.699,
+        -6.521,
+        -6.375,
+        -6.308,
+        -5.984,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "BETAHISTINE",
+      "best_affinity": -5.196,
+      "all_affinities": [
+        -5.196,
+        -5.088,
+        -5.052,
+        -4.949,
+        -4.882,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PHENSUXIMIDE",
+      "best_affinity": -6.651,
+      "all_affinities": [
+        -6.651,
+        -6.474,
+        -6.318,
+        -6.092,
+        -6.056,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PYRIDOSTIGMINE",
+      "best_affinity": -5.657,
+      "all_affinities": [
+        -5.657,
+        -5.176,
+        -5.162,
+        -5.14,
+        -5.047,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "COUMARIN",
+      "best_affinity": -6.687,
+      "all_affinities": [
+        -6.687,
+        -6.624,
+        -6.584,
+        -6.515,
+        -6.488,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "FLUMEXADOL",
+      "best_affinity": -5.708,
+      "all_affinities": [
+        -5.708,
+        -5.233,
+        -5.206,
+        -5.038,
+        -4.913,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "OXYBENZONE",
+      "best_affinity": -6.144,
+      "all_affinities": [
+        -6.144,
+        -5.739,
+        -4.917,
+        -3.875,
+        -3.096,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "RASAGILINE",
+      "best_affinity": -6.981,
+      "all_affinities": [
+        -6.981,
+        -6.97,
+        -6.807,
+        -6.761,
+        -6.505,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PRONETALOL",
+      "best_affinity": -6.077,
+      "all_affinities": [
+        -6.077,
+        -5.308,
+        -5.216,
+        -5.215,
+        -5.202,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PINDOLOL",
+      "best_affinity": -6.51,
+      "all_affinities": [
+        -6.51,
+        -6.343,
+        -6.335,
+        -6.305,
+        -6.296,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ACEFYLLINE",
+      "best_affinity": -5.574,
+      "all_affinities": [
+        -5.574,
+        -5.008,
+        -4.796,
+        -4.766,
+        -4.704,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "LOFEXIDINE",
+      "best_affinity": -6.783,
+      "all_affinities": [
+        -6.783,
+        -6.376,
+        -6.056,
+        -5.986,
+        -5.83,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ZILEUTON",
+      "best_affinity": -6.452,
+      "all_affinities": [
+        -6.452,
+        -6.02,
+        -5.947,
+        -5.811,
+        -4.727,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "LORCASERIN",
+      "best_affinity": -5.201,
+      "all_affinities": [
+        -5.201,
+        -5.013,
+        -4.46,
+        -4.431,
+        -4.252,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TRICLOSAN",
+      "best_affinity": -4.47,
+      "all_affinities": [
+        -4.47,
+        -4.407,
+        -3.744,
+        -2.983,
+        -2.82,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "LEVETIRACETAM",
+      "best_affinity": -5.939,
+      "all_affinities": [
+        -5.939,
+        -5.938,
+        -5.778,
+        -5.754,
+        -5.718,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PRIMIDONE",
+      "best_affinity": -7.63,
+      "all_affinities": [
+        -7.63,
+        -7.153,
+        -6.965,
+        -6.47,
+        -6.431,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TIPIRACIL",
+      "best_affinity": -7.078,
+      "all_affinities": [
+        -7.078,
+        -6.862,
+        -6.561,
+        -6.526,
+        -6.46,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "NITROXOLINE",
+      "best_affinity": -6.945,
+      "all_affinities": [
+        -6.945,
+        -6.336,
+        -6.306,
+        -6.297,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PENTOXIFYLLINE",
+      "best_affinity": -5.056,
+      "all_affinities": [
+        -5.056,
+        -4.983,
+        -4.128,
+        -4.065,
+        -3.976,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "BUTALBITAL",
+      "best_affinity": -7.728,
+      "all_affinities": [
+        -7.728,
+        -7.178,
+        -6.986,
+        -6.974,
+        -6.891,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "MELATONIN",
+      "best_affinity": -6.609,
+      "all_affinities": [
+        -6.609,
+        -6.46,
+        -5.879,
+        -5.869,
+        -5.452,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DEFERIPRONE",
+      "best_affinity": -5.378,
+      "all_affinities": [
+        -5.378,
+        -5.346,
+        -5.298,
+        -5.195,
+        -5.147,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "BARBITAL",
+      "best_affinity": -7.045,
+      "all_affinities": [
+        -7.045,
+        -6.993,
+        -6.955,
+        -6.722,
+        -6.293,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PROPYPHENAZONE",
+      "best_affinity": -3.848,
+      "all_affinities": [
+        -3.848,
+        -3.828,
+        -3.676,
+        -3.006,
+        -0.974,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "APROBARBITAL",
+      "best_affinity": -7.675,
+      "all_affinities": [
+        -7.675,
+        -7.5,
+        -7.406,
+        -7.224,
+        -7.185,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "HYDRALAZINE",
+      "best_affinity": -7.344,
+      "all_affinities": [
+        -7.344,
+        -6.862,
+        -6.447,
+        -6.396,
+        -6.337,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CAFFEINE",
+      "best_affinity": -5.329,
+      "all_affinities": [
+        -5.329,
+        -5.307,
+        -4.773,
+        -4.692,
+        -4.676,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "AMINOPYRINE",
+      "best_affinity": -4.171,
+      "all_affinities": [
+        -4.171,
+        -3.205,
+        -2.829,
+        -2.704,
+        -2.583,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TEGAFUR",
+      "best_affinity": -6.887,
+      "all_affinities": [
+        -6.887,
+        -6.594,
+        -6.491,
+        -6.221,
+        -5.75,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CAPTOPRIL",
+      "best_affinity": -5.906,
+      "all_affinities": [
+        -5.906,
+        -5.879,
+        -5.86,
+        -5.757,
+        -5.578,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "NAPROXEN",
+      "best_affinity": -5.378,
+      "all_affinities": [
+        -5.378,
+        -5.181,
+        -4.828,
+        -4.22,
+        -3.176,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "BUTABARBITAL",
+      "best_affinity": -7.667,
+      "all_affinities": [
+        -7.667,
+        -7.329,
+        -7.156,
+        -6.949,
+        -6.674,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "MEPHOBARBITAL",
+      "best_affinity": -7.564,
+      "all_affinities": [
+        -7.564,
+        -7.007,
+        -7.005,
+        -6.982,
+        -6.807,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "FLOSEQUINAN",
+      "best_affinity": -4.561,
+      "all_affinities": [
+        -4.561,
+        -4.447,
+        -3.968,
+        -3.87,
+        -3.835,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PROXIBARBAL",
+      "best_affinity": -7.035,
+      "all_affinities": [
+        -7.035,
+        -6.857,
+        -6.648,
+        -6.459,
+        -6.4,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "MEPHENYTOIN",
+      "best_affinity": -7.395,
+      "all_affinities": [
+        -7.395,
+        -6.952,
+        -6.923,
+        -6.786,
+        -6.419,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PIRPROFEN",
+      "best_affinity": -5.176,
+      "all_affinities": [
+        -5.176,
+        -3.884,
+        -3.867,
+        -3.122,
+        -2.659,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "MAVACAMTEN",
+      "best_affinity": -3.942,
+      "all_affinities": [
+        -3.942,
+        -3.907,
+        -3.188,
+        -3.101,
+        -2.052,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CYCLOBARBITAL",
+      "best_affinity": -7.826,
+      "all_affinities": [
+        -7.826,
+        -6.985,
+        -6.96,
+        -6.878,
+        -6.556,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CHLORMEZANONE",
+      "best_affinity": -5.227,
+      "all_affinities": [
+        -5.227,
+        -4.75,
+        -4.007,
+        -3.684,
+        -2.844,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CLIOQUINOL",
+      "best_affinity": -5.032,
+      "all_affinities": [
+        -5.032,
+        -4.807,
+        -4.619,
+        -4.507,
+        -4.432,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ISAXONINE",
+      "best_affinity": -5.475,
+      "all_affinities": [
+        -5.475,
+        -5.251,
+        -5.213,
+        -5.204,
+        -5.179,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "MEDIFOXAMINE",
+      "best_affinity": -5.78,
+      "all_affinities": [
+        -5.78,
+        -5.679,
+        -5.486,
+        -3.512,
+        -3.26,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "MITOTANE",
+      "best_affinity": -5.369,
+      "all_affinities": [
+        -5.369,
+        -5.084,
+        -4.835,
+        -4.592,
+        -4.389,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "VILOXAZINE",
+      "best_affinity": -6.112,
+      "all_affinities": [
+        -6.112,
+        -5.895,
+        -5.794,
+        -5.621,
+        -5.389,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PROPRANOLOL",
+      "best_affinity": -6.239,
+      "all_affinities": [
+        -6.239,
+        -6.089,
+        -6.007,
+        -5.8,
+        -5.654,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "HEPTABARBITAL",
+      "best_affinity": -5.997,
+      "all_affinities": [
+        -5.997,
+        -5.965,
+        -5.882,
+        -5.683,
+        -5.631,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PEMOLINE",
+      "best_affinity": -7.13,
+      "all_affinities": [
+        -7.13,
+        -7.032,
+        -6.976,
+        -6.838,
+        -6.664,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "FURAZOLIDONE",
+      "best_affinity": -5.091,
+      "all_affinities": [
+        -5.091,
+        -4.576,
+        -4.442,
+        -3.597,
+        -3.413,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CARBIMAZOLE",
+      "best_affinity": -5.193,
+      "all_affinities": [
+        -5.193,
+        -4.899,
+        -4.866,
+        -4.731,
+        -4.704,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DIETHYLCARBAMAZINE",
+      "best_affinity": -4.124,
+      "all_affinities": [
+        -4.124,
+        -3.951,
+        -3.762,
+        -3.487,
+        -3.363,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DEXMETHYLPHENIDATE",
+      "best_affinity": -6.361,
+      "all_affinities": [
+        -6.361,
+        -5.897,
+        -5.727,
+        -5.512,
+        -5.347,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "BENZPHETAMINE",
+      "best_affinity": -6.346,
+      "all_affinities": [
+        -6.346,
+        -6.125,
+        -5.727,
+        -4.608,
+        -3.564,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "METHYLPHENIDATE",
+      "best_affinity": -6.295,
+      "all_affinities": [
+        -6.295,
+        -5.995,
+        -5.77,
+        -5.748,
+        -5.518,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "FLUCICLOVINE F18",
+      "best_affinity": -5.285,
+      "all_affinities": [
+        -5.285,
+        -5.104,
+        -5.096,
+        -5.009,
+        -4.894,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "IBUDILAST",
+      "best_affinity": -7.025,
+      "all_affinities": [
+        -7.025,
+        -6.676,
+        -6.403,
+        -6.332,
+        -6.143,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "STAVUDINE",
+      "best_affinity": -6.198,
+      "all_affinities": [
+        -6.198,
+        -6.076,
+        -5.868,
+        -5.397,
+        -5.368,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "FLUCICLOVINE",
+      "best_affinity": -5.283,
+      "all_affinities": [
+        -5.283,
+        -5.112,
+        -5.029,
+        -4.953,
+        -4.856,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DIFLUNISAL",
+      "best_affinity": -5.724,
+      "all_affinities": [
+        -5.724,
+        -5.125,
+        -4.836,
+        -4.277,
+        -4.04,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "EPALRESTAT",
+      "best_affinity": 0.0,
+      "all_affinities": [
+        0.0,
+        1.0,
+        2.973,
+        3.829,
+        4.823,
+        5.351,
+        10.0,
+        16.0,
+        17.25
+      ]
+    },
+    {
+      "name": "KETOPROFEN",
+      "best_affinity": -5.427,
+      "all_affinities": [
+        -5.427,
+        -4.936,
+        -4.628,
+        -4.464,
+        -4.402,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "NALIDIXIC ACID",
+      "best_affinity": -5.997,
+      "all_affinities": [
+        -5.997,
+        -5.982,
+        -5.276,
+        -4.845,
+        -4.374,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "METHYPRYLON",
+      "best_affinity": -6.563,
+      "all_affinities": [
+        -6.563,
+        -6.496,
+        -6.451,
+        -6.297,
+        -6.184,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PHENDIMETRAZINE",
+      "best_affinity": -6.053,
+      "all_affinities": [
+        -6.053,
+        -5.876,
+        -5.198,
+        -5.186,
+        -4.927,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PILOCARPINE",
+      "best_affinity": -6.571,
+      "all_affinities": [
+        -6.571,
+        -6.495,
+        -6.085,
+        -5.66,
+        -5.633,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "FAVIPIRAVIR",
+      "best_affinity": -5.962,
+      "all_affinities": [
+        -5.962,
+        -5.716,
+        -5.707,
+        -5.598,
+        -5.504,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "BROXYQUINOLINE",
+      "best_affinity": -5.282,
+      "all_affinities": [
+        -5.282,
+        -5.159,
+        -5.096,
+        -5.042,
+        -4.896,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PHENYL AMINOSALICYLATE",
+      "best_affinity": -6.485,
+      "all_affinities": [
+        -6.485,
+        -6.419,
+        -6.37,
+        -6.281,
+        -6.207,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DIAZOXIDE",
+      "best_affinity": -6.682,
+      "all_affinities": [
+        -6.682,
+        -6.278,
+        -5.94,
+        -5.891,
+        -5.886,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TRIPELENNAMINE",
+      "best_affinity": -5.676,
+      "all_affinities": [
+        -5.676,
+        -5.498,
+        -5.425,
+        -4.446,
+        -4.426,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ERDOSTEINE",
+      "best_affinity": -5.044,
+      "all_affinities": [
+        -5.044,
+        -4.464,
+        -4.319,
+        -4.301,
+        -4.204,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ALBENDAZOLE",
+      "best_affinity": -5.049,
+      "all_affinities": [
+        -5.049,
+        -3.93,
+        -3.293,
+        -1.491,
+        -0.83,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CLOMETHIAZOLE",
+      "best_affinity": -4.806,
+      "all_affinities": [
+        -4.806,
+        -4.734,
+        -4.719,
+        -4.645,
+        -4.589,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "RITODRINE",
+      "best_affinity": -5.475,
+      "all_affinities": [
+        -5.475,
+        -5.474,
+        -5.15,
+        -5.045,
+        -4.124,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TROPICAMIDE",
+      "best_affinity": -6.826,
+      "all_affinities": [
+        -6.826,
+        -6.501,
+        -6.344,
+        -5.422,
+        -5.166,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TRIMETAZIDINE",
+      "best_affinity": -4.378,
+      "all_affinities": [
+        -4.378,
+        -3.572,
+        -3.508,
+        -3.152,
+        -2.66,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ACIPIMOX",
+      "best_affinity": -6.223,
+      "all_affinities": [
+        -6.223,
+        -5.819,
+        -5.519,
+        -5.406,
+        -5.36,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ETHIONAMIDE",
+      "best_affinity": -5.858,
+      "all_affinities": [
+        -5.858,
+        -5.843,
+        -5.642,
+        -5.553,
+        -5.387,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "AMINOREX",
+      "best_affinity": -6.575,
+      "all_affinities": [
+        -6.575,
+        -6.385,
+        -6.324,
+        -6.308,
+        -6.0,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "FLUCYTOSINE",
+      "best_affinity": -5.3,
+      "all_affinities": [
+        -5.3,
+        -5.197,
+        -5.064,
+        -4.856,
+        -4.849,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ZONISAMIDE",
+      "best_affinity": -6.866,
+      "all_affinities": [
+        -6.866,
+        -6.606,
+        -6.398,
+        -6.357,
+        -5.832,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "METAXALONE",
+      "best_affinity": -6.971,
+      "all_affinities": [
+        -6.971,
+        -6.936,
+        -6.439,
+        -6.281,
+        -6.189,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "LOXOPROFEN",
+      "best_affinity": -4.555,
+      "all_affinities": [
+        -4.555,
+        -4.544,
+        -4.186,
+        -2.846,
+        -2.503,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "METYRAPONE",
+      "best_affinity": -7.358,
+      "all_affinities": [
+        -7.358,
+        -6.717,
+        -6.542,
+        -6.5,
+        -6.17,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CENOBAMATE",
+      "best_affinity": -7.368,
+      "all_affinities": [
+        -7.368,
+        -7.172,
+        -6.862,
+        -6.843,
+        -6.57,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "MILNACIPRAN",
+      "best_affinity": -6.532,
+      "all_affinities": [
+        -6.532,
+        -5.864,
+        -5.839,
+        -5.837,
+        -5.52,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TILBROQUINOL",
+      "best_affinity": -5.719,
+      "all_affinities": [
+        -5.719,
+        -5.544,
+        -5.331,
+        -5.298,
+        -5.208,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "FENOPROFEN",
+      "best_affinity": -6.394,
+      "all_affinities": [
+        -6.394,
+        -6.283,
+        -5.93,
+        -5.776,
+        -5.722,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "LEVOMILNACIPRAN",
+      "best_affinity": -6.131,
+      "all_affinities": [
+        -6.131,
+        -5.267,
+        -5.254,
+        -4.914,
+        -4.61,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DIROXIMEL FUMARATE",
+      "best_affinity": -6.501,
+      "all_affinities": [
+        -6.501,
+        -6.485,
+        -6.051,
+        -5.931,
+        -5.93,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PYRANTEL",
+      "best_affinity": -3.467,
+      "all_affinities": [
+        -3.467,
+        -2.724,
+        -2.595,
+        -2.051,
+        -1.682,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "METRONIDAZOLE",
+      "best_affinity": -5.775,
+      "all_affinities": [
+        -5.775,
+        -5.747,
+        -5.635,
+        -5.549,
+        -5.392,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DYPHYLLINE",
+      "best_affinity": -5.423,
+      "all_affinities": [
+        -5.423,
+        -5.132,
+        -4.853,
+        -4.715,
+        -4.705,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "NEPAFENAC",
+      "best_affinity": -6.09,
+      "all_affinities": [
+        -6.09,
+        -5.565,
+        -4.075,
+        -3.435,
+        -3.376,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "QUINETHAZONE",
+      "best_affinity": -6.222,
+      "all_affinities": [
+        -6.222,
+        -5.699,
+        -3.96,
+        -1.922,
+        -1.513,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ETOMIDATE",
+      "best_affinity": -6.637,
+      "all_affinities": [
+        -6.637,
+        -6.481,
+        -6.344,
+        -6.08,
+        -5.96,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TEMOZOLOMIDE",
+      "best_affinity": -6.538,
+      "all_affinities": [
+        -6.538,
+        -6.023,
+        -5.853,
+        -5.586,
+        -5.584,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "APRACLONIDINE",
+      "best_affinity": -4.71,
+      "all_affinities": [
+        -4.71,
+        -4.622,
+        -4.161,
+        -4.029,
+        -3.765,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "LOMUSTINE",
+      "best_affinity": -6.629,
+      "all_affinities": [
+        -6.629,
+        -6.109,
+        -6.036,
+        -5.862,
+        -5.596,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "FENCLOZIC ACID",
+      "best_affinity": -4.645,
+      "all_affinities": [
+        -4.645,
+        -4.14,
+        -4.015,
+        -3.815,
+        -3.176,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CLOBENZOREX",
+      "best_affinity": -6.597,
+      "all_affinities": [
+        -6.597,
+        -5.692,
+        -5.636,
+        -5.458,
+        -5.364,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DIPHENHYDRAMINE",
+      "best_affinity": -5.421,
+      "all_affinities": [
+        -5.421,
+        -5.312,
+        -5.126,
+        -5.114,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TERTATOLOL",
+      "best_affinity": -5.212,
+      "all_affinities": [
+        -5.212,
+        -4.449,
+        -4.333,
+        -4.006,
+        -3.982,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "EDARAVONE",
+      "best_affinity": -6.209,
+      "all_affinities": [
+        -6.209,
+        -5.957,
+        -5.888,
+        -5.808,
+        -5.521,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PIRFENIDONE",
+      "best_affinity": -6.217,
+      "all_affinities": [
+        -6.217,
+        -6.168,
+        -5.732,
+        -5.603,
+        -4.821,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "THIOGUANINE",
+      "best_affinity": -6.026,
+      "all_affinities": [
+        -6.026,
+        -5.763,
+        -5.554,
+        -5.476,
+        -5.407,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "2-MERCAPTOETHANESULFONIC ACID",
+      "best_affinity": -4.001,
+      "all_affinities": [
+        -4.001,
+        -3.967,
+        -3.869,
+        -3.865,
+        -3.628,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "METHAPYRILENE",
+      "best_affinity": -4.908,
+      "all_affinities": [
+        -4.908,
+        -4.639,
+        -4.601,
+        -4.343,
+        -4.208,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TAPINAROF",
+      "best_affinity": -1.511,
+      "all_affinities": [
+        -1.511,
+        -1.44,
+        0.0,
+        1.0,
+        2.582,
+        3.163,
+        5.168,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "FLUTAMIDE",
+      "best_affinity": -5.504,
+      "all_affinities": [
+        -5.504,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PIPOBROMAN",
+      "best_affinity": -4.68,
+      "all_affinities": [
+        -4.68,
+        -3.989,
+        -3.579,
+        -3.489,
+        0.0,
+        1.0,
+        3.177,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "MENADIONE",
+      "best_affinity": -6.826,
+      "all_affinities": [
+        -6.826,
+        -6.632,
+        -6.423,
+        -6.329,
+        -6.309,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CIMETIDINE",
+      "best_affinity": -5.676,
+      "all_affinities": [
+        -5.676,
+        -5.575,
+        -5.516,
+        -5.433,
+        -5.31,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "SULTHIAME",
+      "best_affinity": -6.404,
+      "all_affinities": [
+        -6.404,
+        -5.306,
+        -0.213,
+        0.0,
+        0.052,
+        0.779,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TICRYNAFEN",
+      "best_affinity": -5.775,
+      "all_affinities": [
+        -5.775,
+        -5.284,
+        -4.535,
+        -2.087,
+        -1.992,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ISONIAZID",
+      "best_affinity": -5.798,
+      "all_affinities": [
+        -5.798,
+        -5.688,
+        -5.686,
+        -5.149,
+        -5.103,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PYRILAMINE",
+      "best_affinity": -5.481,
+      "all_affinities": [
+        -5.481,
+        -4.114,
+        -4.062,
+        -3.866,
+        -3.639,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PYRIDOXINE",
+      "best_affinity": -5.57,
+      "all_affinities": [
+        -5.57,
+        -5.393,
+        -5.367,
+        -5.338,
+        -5.249,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PRAMOXINE",
+      "best_affinity": -4.915,
+      "all_affinities": [
+        -4.915,
+        -4.509,
+        -3.735,
+        -3.049,
+        -3.008,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "SOTALOL",
+      "best_affinity": -4.838,
+      "all_affinities": [
+        -4.838,
+        -4.283,
+        -4.052,
+        -3.1,
+        -2.981,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "HEXYLCAINE",
+      "best_affinity": -6.226,
+      "all_affinities": [
+        -6.226,
+        -5.965,
+        -5.784,
+        -5.62,
+        -5.529,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PITOLISANT",
+      "best_affinity": -5.028,
+      "all_affinities": [
+        -5.028,
+        -4.737,
+        -4.725,
+        -4.697,
+        -4.333,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PERFLUTREN",
+      "best_affinity": -5.757,
+      "all_affinities": [
+        -5.757,
+        -5.753,
+        -5.741,
+        -5.649,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "SECNIDAZOLE",
+      "best_affinity": -6.318,
+      "all_affinities": [
+        -6.318,
+        -6.174,
+        -6.141,
+        -5.967,
+        -5.933,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "HALOTHANE",
+      "best_affinity": -4.32,
+      "all_affinities": [
+        -4.32,
+        -4.296,
+        -4.26,
+        -4.259,
+        -4.188,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "IFOSFAMIDE",
+      "best_affinity": -5.892,
+      "all_affinities": [
+        -5.892,
+        -5.54,
+        -5.488,
+        -5.35,
+        -5.279,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TIAPROFENIC ACID",
+      "best_affinity": -5.48,
+      "all_affinities": [
+        -5.48,
+        -5.439,
+        -5.226,
+        -5.067,
+        -5.037,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "NITROFURAZONE",
+      "best_affinity": -6.36,
+      "all_affinities": [
+        -6.36,
+        -5.529,
+        -4.491,
+        -3.981,
+        -3.614,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "XANOMELINE",
+      "best_affinity": -5.587,
+      "all_affinities": [
+        -5.587,
+        -5.568,
+        -5.498,
+        -5.245,
+        -5.06,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "NIFURTIMOX",
+      "best_affinity": -4.372,
+      "all_affinities": [
+        -4.372,
+        -3.554,
+        -3.125,
+        -0.741,
+        0.0,
+        1.0,
+        1.581,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DROXIDOPA",
+      "best_affinity": -6.346,
+      "all_affinities": [
+        -6.346,
+        -6.146,
+        -6.03,
+        -6.021,
+        -5.966,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PENTOLINIUM",
+      "best_affinity": -4.399,
+      "all_affinities": [
+        -4.399,
+        -4.349,
+        -4.249,
+        -4.228,
+        -4.136,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "METOPROLOL",
+      "best_affinity": -5.7,
+      "all_affinities": [
+        -5.7,
+        -5.206,
+        -5.106,
+        -4.983,
+        -4.487,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "SAFINAMIDE",
+      "best_affinity": -5.809,
+      "all_affinities": [
+        -5.809,
+        -5.732,
+        -4.98,
+        -4.46,
+        -4.446,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PRACTOLOL",
+      "best_affinity": -6.309,
+      "all_affinities": [
+        -6.309,
+        -4.362,
+        -4.101,
+        -3.633,
+        -3.507,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TEGASEROD",
+      "best_affinity": 0.0,
+      "all_affinities": [
+        0.0,
+        1.0,
+        1.507,
+        1.581,
+        2.565,
+        3.136,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "NATEGLINIDE",
+      "best_affinity": -4.661,
+      "all_affinities": [
+        -4.661,
+        -4.138,
+        -4.015,
+        -3.324,
+        -3.122,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ALTRETAMINE",
+      "best_affinity": -5.35,
+      "all_affinities": [
+        -5.35,
+        -5.339,
+        -5.33,
+        -5.295,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "GLUTETHIMIDE",
+      "best_affinity": -7.611,
+      "all_affinities": [
+        -7.611,
+        -6.443,
+        -6.348,
+        -6.339,
+        -6.112,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "INAMRINONE",
+      "best_affinity": -6.033,
+      "all_affinities": [
+        -6.033,
+        -5.769,
+        -5.565,
+        -5.52,
+        -4.979,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CYCLOPHOSPHAMIDE ANHYDROUS",
+      "best_affinity": -5.748,
+      "all_affinities": [
+        -5.748,
+        -5.685,
+        -5.472,
+        -5.427,
+        -5.392,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "OXYMETAZOLINE",
+      "best_affinity": -3.901,
+      "all_affinities": [
+        -3.901,
+        -3.392,
+        -2.798,
+        -2.681,
+        -2.486,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "MILRINONE",
+      "best_affinity": -5.336,
+      "all_affinities": [
+        -5.336,
+        -5.236,
+        -4.948,
+        -4.911,
+        -4.686,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "MOXONIDINE",
+      "best_affinity": -6.227,
+      "all_affinities": [
+        -6.227,
+        -6.189,
+        -4.39,
+        -4.201,
+        -3.098,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ISOCARBOXAZID",
+      "best_affinity": -6.468,
+      "all_affinities": [
+        -6.468,
+        -6.222,
+        -6.07,
+        -5.876,
+        -5.168,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "LUMIRACOXIB",
+      "best_affinity": -5.659,
+      "all_affinities": [
+        -5.659,
+        -5.372,
+        -5.244,
+        -4.611,
+        -4.548,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "URACIL MUSTARD",
+      "best_affinity": -6.054,
+      "all_affinities": [
+        -6.054,
+        -6.008,
+        -5.93,
+        -5.815,
+        -5.807,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "LEVOBUNOLOL",
+      "best_affinity": -5.558,
+      "all_affinities": [
+        -5.558,
+        -5.495,
+        -5.449,
+        -5.063,
+        -5.047,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "LAMOTRIGINE",
+      "best_affinity": -7.106,
+      "all_affinities": [
+        -7.106,
+        -6.44,
+        -6.041,
+        -4.72,
+        -3.862,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ENOXIMONE",
+      "best_affinity": -4.739,
+      "all_affinities": [
+        -4.739,
+        -4.234,
+        -4.042,
+        -3.061,
+        -3.059,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ASCORBIC ACID",
+      "best_affinity": -5.549,
+      "all_affinities": [
+        -5.549,
+        -5.493,
+        -5.383,
+        -5.205,
+        -5.195,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "FLURBIPROFEN",
+      "best_affinity": -4.621,
+      "all_affinities": [
+        -4.621,
+        -2.953,
+        -2.941,
+        -1.243,
+        -1.071,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "LINDANE",
+      "best_affinity": -6.238,
+      "all_affinities": [
+        -6.238,
+        -5.921,
+        -5.853,
+        -5.755,
+        -5.466,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "MOLSIDOMINE",
+      "best_affinity": -6.393,
+      "all_affinities": [
+        -6.393,
+        -5.697,
+        -5.621,
+        -4.846,
+        -4.527,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DAPSONE",
+      "best_affinity": -3.906,
+      "all_affinities": [
+        -3.906,
+        -3.509,
+        -3.505,
+        -2.897,
+        0.0,
+        1.0,
+        10.0,
+        12.81,
+        16.0
+      ]
+    },
+    {
+      "name": "ESFLURBIPROFEN",
+      "best_affinity": -4.336,
+      "all_affinities": [
+        -4.336,
+        -4.025,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CHLOPHEDIANOL",
+      "best_affinity": -5.061,
+      "all_affinities": [
+        -5.061,
+        -4.999,
+        -4.041,
+        -3.952,
+        -3.906,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CARBINOXAMINE",
+      "best_affinity": -4.096,
+      "all_affinities": [
+        -4.096,
+        -3.996,
+        -3.826,
+        -3.389,
+        -2.498,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PENTOBARBITAL",
+      "best_affinity": -7.488,
+      "all_affinities": [
+        -7.488,
+        -7.381,
+        -7.084,
+        -6.948,
+        -6.732,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PHENINDIONE",
+      "best_affinity": -5.159,
+      "all_affinities": [
+        -5.159,
+        -4.707,
+        -4.617,
+        -4.593,
+        -3.989,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "BRIVARACETAM",
+      "best_affinity": -6.395,
+      "all_affinities": [
+        -6.395,
+        -5.857,
+        -5.648,
+        -5.251,
+        -5.172,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "LAMIVUDINE",
+      "best_affinity": -5.313,
+      "all_affinities": [
+        -5.313,
+        -5.293,
+        -5.186,
+        -4.325,
+        -4.267,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DOXYLAMINE",
+      "best_affinity": -4.916,
+      "all_affinities": [
+        -4.916,
+        -4.814,
+        -4.516,
+        -4.356,
+        -4.041,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "AMOBARBITAL",
+      "best_affinity": -7.583,
+      "all_affinities": [
+        -7.583,
+        -7.267,
+        -7.153,
+        -6.977,
+        -6.906,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "OXCARBAZEPINE",
+      "best_affinity": -5.682,
+      "all_affinities": [
+        -5.682,
+        -5.532,
+        -5.328,
+        -5.1,
+        -5.012,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "FOSFOMYCIN",
+      "best_affinity": -4.631,
+      "all_affinities": [
+        -4.631,
+        -4.576,
+        -4.546,
+        -4.356,
+        -4.102,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ISOSORBIDE",
+      "best_affinity": -5.239,
+      "all_affinities": [
+        -5.239,
+        -5.064,
+        -5.013,
+        -4.972,
+        -4.817,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "KETAMINE",
+      "best_affinity": -6.665,
+      "all_affinities": [
+        -6.665,
+        -6.309,
+        -6.188,
+        -5.834,
+        -5.81,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "SULFUR",
+      "best_affinity": -2.692,
+      "all_affinities": [
+        -2.692,
+        -2.673,
+        -2.657,
+        -2.528,
+        -2.521,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PHENAZOPYRIDINE",
+      "best_affinity": -4.445,
+      "all_affinities": [
+        -4.445,
+        -3.602,
+        -2.946,
+        -2.692,
+        -1.898,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DEXMEDETOMIDINE",
+      "best_affinity": -6.566,
+      "all_affinities": [
+        -6.566,
+        -6.337,
+        -5.577,
+        -5.357,
+        -5.331,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ROPINIROLE",
+      "best_affinity": -6.261,
+      "all_affinities": [
+        -6.261,
+        -6.162,
+        -6.099,
+        -5.901,
+        -5.863,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CICLOPIROX",
+      "best_affinity": -7.213,
+      "all_affinities": [
+        -7.213,
+        -5.764,
+        -5.521,
+        -5.428,
+        -5.143,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "SECOBARBITAL",
+      "best_affinity": -7.243,
+      "all_affinities": [
+        -7.243,
+        -6.939,
+        -6.681,
+        -6.633,
+        -6.567,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "METAMIZOLE",
+      "best_affinity": -4.492,
+      "all_affinities": [
+        -4.492,
+        -3.019,
+        -2.722,
+        -2.071,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "RILUZOLE",
+      "best_affinity": -6.25,
+      "all_affinities": [
+        -6.25,
+        -5.469,
+        -5.196,
+        -4.926,
+        -3.932,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ESKETAMINE",
+      "best_affinity": -7.58,
+      "all_affinities": [
+        -7.58,
+        -7.157,
+        -7.096,
+        -6.83,
+        -6.797,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ROPIVACAINE",
+      "best_affinity": -2.459,
+      "all_affinities": [
+        -2.459,
+        -2.396,
+        -2.095,
+        -2.071,
+        -2.012,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DEXRAZOXANE",
+      "best_affinity": -7.378,
+      "all_affinities": [
+        -7.378,
+        -7.307,
+        -6.794,
+        -6.73,
+        -6.248,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CARTEOLOL",
+      "best_affinity": -6.374,
+      "all_affinities": [
+        -6.374,
+        -6.251,
+        -5.71,
+        -5.6,
+        -4.921,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "HYDROCHLOROTHIAZIDE",
+      "best_affinity": -6.152,
+      "all_affinities": [
+        -6.152,
+        -6.082,
+        -5.922,
+        -5.762,
+        -5.684,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DIFEMERINE",
+      "best_affinity": -4.108,
+      "all_affinities": [
+        -4.108,
+        -3.954,
+        -3.532,
+        -0.787,
+        0.0,
+        1.0,
+        1.918,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "GLYCEROL, IODINATED",
+      "best_affinity": -5.408,
+      "all_affinities": [
+        -5.408,
+        -5.057,
+        -4.96,
+        -4.887,
+        -4.668,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ABAMETAPIR",
+      "best_affinity": -3.875,
+      "all_affinities": [
+        -3.875,
+        -3.867,
+        -3.799,
+        -3.741,
+        -3.64,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PRAMIPEXOLE",
+      "best_affinity": -6.497,
+      "all_affinities": [
+        -6.497,
+        -6.056,
+        -5.545,
+        -5.543,
+        -5.491,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "NITROFURANTOIN",
+      "best_affinity": -5.019,
+      "all_affinities": [
+        -5.019,
+        -4.305,
+        -4.257,
+        -4.182,
+        -4.041,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "XYLOMETAZOLINE",
+      "best_affinity": -3.815,
+      "all_affinities": [
+        -3.815,
+        -3.712,
+        -1.223,
+        0.0,
+        1.0,
+        10.0,
+        16.0,
+        38.33
+      ]
+    },
+    {
+      "name": "SULFAPYRIDINE",
+      "best_affinity": -6.921,
+      "all_affinities": [
+        -6.921,
+        -6.841,
+        -6.456,
+        -6.351,
+        -6.296,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "FEXINIDAZOLE",
+      "best_affinity": -4.897,
+      "all_affinities": [
+        -4.897,
+        -4.703,
+        -4.65,
+        -3.847,
+        -3.579,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ZOLEDRONIC ACID ANHYDROUS",
+      "best_affinity": -6.393,
+      "all_affinities": [
+        -6.393,
+        -6.293,
+        -6.15,
+        -5.79,
+        -5.436,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "OXAMNIQUINE",
+      "best_affinity": -3.463,
+      "all_affinities": [
+        -3.463,
+        -2.827,
+        -2.155,
+        -1.22,
+        -0.707,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "HEXESTROL",
+      "best_affinity": -5.792,
+      "all_affinities": [
+        -5.792,
+        -5.758,
+        -5.634,
+        -4.471,
+        -3.899,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ARTICAINE",
+      "best_affinity": -5.109,
+      "all_affinities": [
+        -5.109,
+        -4.83,
+        -4.753,
+        -4.572,
+        -4.159,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CHLORNAPHAZINE",
+      "best_affinity": -5.981,
+      "all_affinities": [
+        -5.981,
+        -5.976,
+        -5.55,
+        -5.514,
+        -4.98,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "EMEPRONIUM",
+      "best_affinity": -4.303,
+      "all_affinities": [
+        -4.303,
+        -4.1,
+        -3.778,
+        -3.598,
+        -2.994,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "EMTRICITABINE",
+      "best_affinity": -4.856,
+      "all_affinities": [
+        -4.856,
+        -4.558,
+        -4.359,
+        -4.246,
+        -4.061,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "BELINOSTAT",
+      "best_affinity": -7.063,
+      "all_affinities": [
+        -7.063,
+        -4.169,
+        -3.809,
+        -2.984,
+        0.0,
+        1.0,
+        10.0,
+        16.0,
+        92.35
+      ]
+    },
+    {
+      "name": "METHAZOLAMIDE",
+      "best_affinity": -5.324,
+      "all_affinities": [
+        -5.324,
+        -5.133,
+        -4.553,
+        -4.407,
+        -3.951,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "THIOPENTAL",
+      "best_affinity": -6.268,
+      "all_affinities": [
+        -6.268,
+        -6.194,
+        -5.814,
+        -5.811,
+        -5.756,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "FLUINDIONE",
+      "best_affinity": -4.78,
+      "all_affinities": [
+        -4.78,
+        -4.46,
+        -4.166,
+        -3.744,
+        -3.02,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PRIMAQUINE",
+      "best_affinity": -5.882,
+      "all_affinities": [
+        -5.882,
+        -5.589,
+        -5.547,
+        -5.442,
+        -5.415,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ORPHENADRINE",
+      "best_affinity": -4.956,
+      "all_affinities": [
+        -4.956,
+        -4.092,
+        -4.079,
+        -3.753,
+        -3.663,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "BUPIVACAINE",
+      "best_affinity": -2.952,
+      "all_affinities": [
+        -2.952,
+        -2.835,
+        -2.82,
+        -2.404,
+        -2.335,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "LEVOBUPIVACAINE",
+      "best_affinity": -3.047,
+      "all_affinities": [
+        -3.047,
+        -3.022,
+        -2.904,
+        -2.273,
+        -1.449,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CIPROFIBRATE",
+      "best_affinity": -5.315,
+      "all_affinities": [
+        -5.315,
+        -5.008,
+        -4.558,
+        -4.539,
+        -3.512,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ANASTROZOLE",
+      "best_affinity": -2.091,
+      "all_affinities": [
+        -2.091,
+        -1.977,
+        -1.973,
+        0.0,
+        1.0,
+        4.078,
+        4.079,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "SUMATRIPTAN",
+      "best_affinity": -4.765,
+      "all_affinities": [
+        -4.765,
+        -4.141,
+        -4.019,
+        -3.906,
+        -3.863,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "METHADONE",
+      "best_affinity": -4.958,
+      "all_affinities": [
+        -4.958,
+        -4.507,
+        -3.856,
+        -3.023,
+        -1.304,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "VADADUSTAT",
+      "best_affinity": -0.944,
+      "all_affinities": [
+        -0.944,
+        -0.168,
+        0.0,
+        1.0,
+        2.128,
+        3.112,
+        10.0,
+        16.0,
+        29.87
+      ]
+    },
+    {
+      "name": "MEPTAZINOL",
+      "best_affinity": -5.546,
+      "all_affinities": [
+        -5.546,
+        -5.084,
+        -4.759,
+        -4.543,
+        -4.155,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CHLOROTHIAZIDE",
+      "best_affinity": -6.464,
+      "all_affinities": [
+        -6.464,
+        -5.789,
+        -5.715,
+        -5.576,
+        -4.697,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "BITHIONOL",
+      "best_affinity": -3.691,
+      "all_affinities": [
+        -3.691,
+        -3.523,
+        -2.711,
+        -2.604,
+        -2.552,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "NICOTINE",
+      "best_affinity": -6.603,
+      "all_affinities": [
+        -6.603,
+        -6.1,
+        -5.933,
+        -5.784,
+        -5.543,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "MEPIVACAINE",
+      "best_affinity": -2.572,
+      "all_affinities": [
+        -2.572,
+        -2.301,
+        -2.246,
+        -2.115,
+        -1.985,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "THIAMYLAL",
+      "best_affinity": -6.439,
+      "all_affinities": [
+        -6.439,
+        -6.023,
+        -6.021,
+        -5.914,
+        -5.879,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "MIGALASTAT",
+      "best_affinity": -5.29,
+      "all_affinities": [
+        -5.29,
+        -5.187,
+        -5.148,
+        -5.11,
+        -4.94,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "3,3',4',5-TETRACHLOROSALICYLANILIDE",
+      "best_affinity": 0.0,
+      "all_affinities": [
+        0.0,
+        1.0,
+        1.301,
+        1.765,
+        1.887,
+        2.409,
+        4.368,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TIZANIDINE",
+      "best_affinity": -4.471,
+      "all_affinities": [
+        -4.471,
+        -4.453,
+        -3.98,
+        -3.798,
+        -3.346,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TAUROLIDINE",
+      "best_affinity": -4.35,
+      "all_affinities": [
+        -4.35,
+        -3.746,
+        -3.657,
+        -3.406,
+        -2.904,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "FLOXURIDINE",
+      "best_affinity": -5.964,
+      "all_affinities": [
+        -5.964,
+        -5.77,
+        -5.623,
+        -5.592,
+        -5.487,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "FENOTEROL",
+      "best_affinity": -5.707,
+      "all_affinities": [
+        -5.707,
+        -5.686,
+        -5.59,
+        -5.508,
+        -5.365,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "KETOROLAC",
+      "best_affinity": -5.941,
+      "all_affinities": [
+        -5.941,
+        -5.158,
+        -3.63,
+        -3.346,
+        -3.311,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "RANITIDINE",
+      "best_affinity": -5.074,
+      "all_affinities": [
+        -5.074,
+        -4.711,
+        -4.684,
+        -4.636,
+        -4.507,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "MINOXIDIL",
+      "best_affinity": -5.704,
+      "all_affinities": [
+        -5.704,
+        -5.694,
+        -5.29,
+        -5.106,
+        -4.512,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PROPYLHEXEDRINE",
+      "best_affinity": -6.0,
+      "all_affinities": [
+        -6.0,
+        -5.776,
+        -5.761,
+        -5.62,
+        -5.547,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PROTRIPTYLINE",
+      "best_affinity": -5.954,
+      "all_affinities": [
+        -5.954,
+        -5.778,
+        -5.536,
+        -5.143,
+        -5.125,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "NAPHAZOLINE",
+      "best_affinity": -6.603,
+      "all_affinities": [
+        -6.603,
+        -6.415,
+        -5.731,
+        -5.677,
+        -5.184,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "MUZOLIMINE",
+      "best_affinity": -5.456,
+      "all_affinities": [
+        -5.456,
+        -5.249,
+        -5.234,
+        -4.881,
+        -4.793,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ANISINDIONE",
+      "best_affinity": -4.841,
+      "all_affinities": [
+        -4.841,
+        -4.211,
+        -3.393,
+        0.0,
+        0.114,
+        0.302,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DESVENLAFAXINE",
+      "best_affinity": -5.237,
+      "all_affinities": [
+        -5.237,
+        -4.643,
+        -4.435,
+        -4.405,
+        -4.011,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PHENOXYBENZAMINE",
+      "best_affinity": -5.919,
+      "all_affinities": [
+        -5.919,
+        -5.914,
+        -5.413,
+        -5.382,
+        -5.352,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "BUFLOMEDIL",
+      "best_affinity": -5.087,
+      "all_affinities": [
+        -5.087,
+        -4.961,
+        -4.876,
+        -4.673,
+        -4.074,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "LEVOBETAXOLOL",
+      "best_affinity": -5.03,
+      "all_affinities": [
+        -5.03,
+        -4.542,
+        -4.271,
+        -3.979,
+        -3.831,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "BETAXOLOL",
+      "best_affinity": -5.32,
+      "all_affinities": [
+        -5.32,
+        -4.603,
+        -4.075,
+        -3.976,
+        -3.935,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TETRAHYDROZOLINE",
+      "best_affinity": -7.468,
+      "all_affinities": [
+        -7.468,
+        -6.664,
+        -6.599,
+        -6.266,
+        -6.03,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ETHOXZOLAMIDE",
+      "best_affinity": -6.099,
+      "all_affinities": [
+        -6.099,
+        -5.378,
+        -5.279,
+        -5.231,
+        -1.794,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CEDAZURIDINE",
+      "best_affinity": -6.483,
+      "all_affinities": [
+        -6.483,
+        -5.993,
+        -5.987,
+        -5.671,
+        -5.504,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ANTAZOLINE",
+      "best_affinity": -5.357,
+      "all_affinities": [
+        -5.357,
+        -5.228,
+        -3.69,
+        -2.25,
+        0.0,
+        1.0,
+        5.924,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CYCLIZINE",
+      "best_affinity": -4.445,
+      "all_affinities": [
+        -4.445,
+        -4.04,
+        -4.031,
+        -3.553,
+        -3.093,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ATOMOXETINE",
+      "best_affinity": -6.883,
+      "all_affinities": [
+        -6.883,
+        -6.872,
+        -6.848,
+        -6.294,
+        -6.251,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CHLORPHENIRAMINE",
+      "best_affinity": -4.219,
+      "all_affinities": [
+        -4.219,
+        -4.187,
+        -4.167,
+        -3.675,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "GABAPENTIN",
+      "best_affinity": -6.35,
+      "all_affinities": [
+        -6.35,
+        -6.325,
+        -6.297,
+        -6.278,
+        -6.141,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DEXCHLORPHENIRAMINE",
+      "best_affinity": -4.438,
+      "all_affinities": [
+        -4.438,
+        -3.865,
+        -3.835,
+        -3.8,
+        -3.344,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "SULFADIAZINE",
+      "best_affinity": -6.731,
+      "all_affinities": [
+        -6.731,
+        -6.557,
+        -6.51,
+        -6.44,
+        -6.382,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "EXIFONE",
+      "best_affinity": -3.354,
+      "all_affinities": [
+        -3.354,
+        -3.212,
+        -3.196,
+        -3.066,
+        0.0,
+        0.237,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DANTHRON",
+      "best_affinity": -4.389,
+      "all_affinities": [
+        -4.389,
+        -4.276,
+        -4.253,
+        -3.755,
+        -3.739,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "MEPERIDINE",
+      "best_affinity": -6.141,
+      "all_affinities": [
+        -6.141,
+        -5.799,
+        -5.379,
+        -5.355,
+        -4.949,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "INDALPINE",
+      "best_affinity": -7.0,
+      "all_affinities": [
+        -7.0,
+        -6.963,
+        -6.643,
+        -6.522,
+        -6.505,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ZALCITABINE",
+      "best_affinity": -6.27,
+      "all_affinities": [
+        -6.27,
+        -6.055,
+        -5.993,
+        -5.759,
+        -5.524,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ZIMELDINE",
+      "best_affinity": -2.951,
+      "all_affinities": [
+        -2.951,
+        -1.167,
+        -0.609,
+        -0.56,
+        -0.31,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ZOMEPIRAC",
+      "best_affinity": -4.281,
+      "all_affinities": [
+        -4.281,
+        -4.208,
+        -3.842,
+        -3.447,
+        -3.433,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "BENORILATE",
+      "best_affinity": -5.763,
+      "all_affinities": [
+        -5.763,
+        -5.047,
+        -4.217,
+        -4.051,
+        -4.042,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "NIALAMIDE",
+      "best_affinity": -4.722,
+      "all_affinities": [
+        -4.722,
+        -4.504,
+        -4.434,
+        -4.33,
+        -4.239,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TERBINAFINE",
+      "best_affinity": -1.863,
+      "all_affinities": [
+        -1.863,
+        -1.684,
+        -1.558,
+        -1.393,
+        -1.212,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "BRIMONIDINE",
+      "best_affinity": -4.908,
+      "all_affinities": [
+        -4.908,
+        -4.592,
+        -3.51,
+        -2.565,
+        -2.422,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TOLMETIN",
+      "best_affinity": -5.03,
+      "all_affinities": [
+        -5.03,
+        -4.352,
+        -4.346,
+        -3.817,
+        -3.057,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DIAMTHAZOLE",
+      "best_affinity": -3.394,
+      "all_affinities": [
+        -3.394,
+        -3.104,
+        -2.449,
+        -1.561,
+        -1.017,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TRIFLURIDINE",
+      "best_affinity": -5.685,
+      "all_affinities": [
+        -5.685,
+        -5.092,
+        -4.93,
+        -4.81,
+        -4.224,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "VENLAFAXINE",
+      "best_affinity": -5.431,
+      "all_affinities": [
+        -5.431,
+        -4.562,
+        -3.808,
+        -3.679,
+        -3.39,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ACETAZOLAMIDE",
+      "best_affinity": -5.002,
+      "all_affinities": [
+        -5.002,
+        -4.66,
+        -4.545,
+        -4.222,
+        -3.956,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ETHOSUXIMIDE",
+      "best_affinity": -6.196,
+      "all_affinities": [
+        -6.196,
+        -5.928,
+        -5.913,
+        -5.809,
+        -5.786,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ISOSORBIDE MONONITRATE",
+      "best_affinity": -6.232,
+      "all_affinities": [
+        -6.232,
+        -6.018,
+        -5.935,
+        -5.884,
+        -5.598,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PYRIMETHAMINE",
+      "best_affinity": -5.865,
+      "all_affinities": [
+        -5.865,
+        -5.557,
+        -4.961,
+        -4.327,
+        -3.709,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "AMINOGLUTETHIMIDE",
+      "best_affinity": -7.011,
+      "all_affinities": [
+        -7.011,
+        -5.927,
+        -5.442,
+        -5.03,
+        -4.848,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "NEFOPAM",
+      "best_affinity": -4.975,
+      "all_affinities": [
+        -4.975,
+        -4.497,
+        -3.847,
+        -3.727,
+        -3.351,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "METABROMSALAN",
+      "best_affinity": -3.078,
+      "all_affinities": [
+        -3.078,
+        -2.544,
+        -2.028,
+        -0.601,
+        0.0,
+        1.0,
+        10.0,
+        16.0,
+        37.64
+      ]
+    },
+    {
+      "name": "ESLICARBAZEPINE",
+      "best_affinity": -5.201,
+      "all_affinities": [
+        -5.201,
+        -5.075,
+        -4.934,
+        -4.543,
+        -4.436,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ACYCLOVIR",
+      "best_affinity": -6.632,
+      "all_affinities": [
+        -6.632,
+        -6.428,
+        -6.383,
+        -6.234,
+        -6.153,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "THALIDOMIDE",
+      "best_affinity": -5.917,
+      "all_affinities": [
+        -5.917,
+        -5.671,
+        -4.935,
+        -3.333,
+        -3.318,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DOBUTAMINE",
+      "best_affinity": -6.043,
+      "all_affinities": [
+        -6.043,
+        -5.988,
+        -5.324,
+        -5.141,
+        -4.383,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "SULFATHIAZOLE",
+      "best_affinity": -6.053,
+      "all_affinities": [
+        -6.053,
+        -6.016,
+        -5.721,
+        -5.67,
+        -5.412,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "FENOLDOPAM",
+      "best_affinity": -2.932,
+      "all_affinities": [
+        -2.932,
+        -2.597,
+        -2.125,
+        -2.038,
+        -0.964,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "LEVAMISOLE",
+      "best_affinity": -4.157,
+      "all_affinities": [
+        -4.157,
+        -3.374,
+        -3.349,
+        -3.07,
+        -3.046,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ZIDOVUDINE",
+      "best_affinity": -5.589,
+      "all_affinities": [
+        -5.589,
+        -4.928,
+        -4.571,
+        -4.543,
+        -4.127,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DEXBROMPHENIRAMINE",
+      "best_affinity": -4.186,
+      "all_affinities": [
+        -4.186,
+        -2.685,
+        -2.457,
+        -2.392,
+        -2.323,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TASIMELTEON",
+      "best_affinity": -7.661,
+      "all_affinities": [
+        -7.661,
+        -6.62,
+        -6.451,
+        -6.417,
+        -6.329,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "BROMPHENIRAMINE",
+      "best_affinity": -2.884,
+      "all_affinities": [
+        -2.884,
+        -2.775,
+        -2.763,
+        -2.672,
+        -2.422,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "HYDROXYSTILBAMIDINE",
+      "best_affinity": 0.0,
+      "all_affinities": [
+        0.0,
+        1.0,
+        10.0,
+        10.7,
+        16.0
+      ]
+    },
+    {
+      "name": "XANTHINOL",
+      "best_affinity": -4.546,
+      "all_affinities": [
+        -4.546,
+        -4.329,
+        -4.298,
+        -4.165,
+        -3.594,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "BROMFENAC",
+      "best_affinity": -4.779,
+      "all_affinities": [
+        -4.779,
+        -4.198,
+        -3.827,
+        -3.332,
+        -3.176,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "OLSALAZINE",
+      "best_affinity": -0.085,
+      "all_affinities": [
+        -0.085,
+        0.0,
+        0.09,
+        0.747,
+        0.849,
+        1.0,
+        1.358,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "NIZATIDINE",
+      "best_affinity": -4.548,
+      "all_affinities": [
+        -4.548,
+        -4.247,
+        -3.999,
+        -3.979,
+        -3.823,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DYCLONINE",
+      "best_affinity": -5.184,
+      "all_affinities": [
+        -5.184,
+        -4.587,
+        -4.312,
+        -4.232,
+        -3.914,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "PROPAFENONE",
+      "best_affinity": -6.357,
+      "all_affinities": [
+        -6.357,
+        -6.174,
+        -5.253,
+        -5.234,
+        -5.171,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "APOMORPHINE",
+      "best_affinity": -3.873,
+      "all_affinities": [
+        -3.873,
+        -2.298,
+        -2.192,
+        -1.272,
+        -0.685,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TELBIVUDINE",
+      "best_affinity": -6.077,
+      "all_affinities": [
+        -6.077,
+        -5.525,
+        -5.31,
+        -5.3,
+        -5.234,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ARIMOCLOMOL",
+      "best_affinity": -5.446,
+      "all_affinities": [
+        -5.446,
+        -5.28,
+        -4.889,
+        -4.841,
+        -4.503,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TOLRESTAT",
+      "best_affinity": -3.697,
+      "all_affinities": [
+        -3.697,
+        -2.156,
+        -1.928,
+        -1.374,
+        0.0,
+        1.0,
+        1.645,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "LIOTHYRONINE",
+      "best_affinity": -0.148,
+      "all_affinities": [
+        -0.148,
+        0.0,
+        0.084,
+        1.0,
+        4.009,
+        5.409,
+        5.934,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "DILEVALOL",
+      "best_affinity": -5.648,
+      "all_affinities": [
+        -5.648,
+        -5.358,
+        -4.93,
+        -4.718,
+        -4.589,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "METHENAMINE",
+      "best_affinity": -4.971,
+      "all_affinities": [
+        -4.971,
+        -4.96,
+        -4.934,
+        -4.924,
+        -4.91,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TRIDIHEXETHYL",
+      "best_affinity": -4.2,
+      "all_affinities": [
+        -4.2,
+        -4.192,
+        0.0,
+        0.978,
+        1.0,
+        1.221,
+        10.0,
+        16.0,
+        42.93
+      ]
+    },
+    {
+      "name": "HYDROFLUMETHIAZIDE",
+      "best_affinity": -7.589,
+      "all_affinities": [
+        -7.589,
+        -5.166,
+        -4.856,
+        -4.761,
+        -4.547,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "METHSUXIMIDE",
+      "best_affinity": -7.191,
+      "all_affinities": [
+        -7.191,
+        -6.84,
+        -6.754,
+        -6.607,
+        -6.59,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "NITISINONE",
+      "best_affinity": -6.583,
+      "all_affinities": [
+        -6.583,
+        -6.016,
+        -5.608,
+        -5.604,
+        -5.518,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "LABETALOL",
+      "best_affinity": -5.778,
+      "all_affinities": [
+        -5.778,
+        -5.621,
+        -5.01,
+        -4.743,
+        -4.076,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TICLOPIDINE",
+      "best_affinity": -6.706,
+      "all_affinities": [
+        -6.706,
+        -6.29,
+        -5.507,
+        -5.422,
+        -5.314,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CYCLOPENTOLATE",
+      "best_affinity": -5.685,
+      "all_affinities": [
+        -5.685,
+        -5.659,
+        -5.189,
+        -4.998,
+        -4.89,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "MYCOPHENOLIC ACID",
+      "best_affinity": -5.087,
+      "all_affinities": [
+        -5.087,
+        -3.918,
+        -3.233,
+        -3.232,
+        -2.872,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "NITAZOXANIDE",
+      "best_affinity": -6.334,
+      "all_affinities": [
+        -6.334,
+        -4.215,
+        -3.241,
+        -1.226,
+        -0.986,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "NORTRIPTYLINE",
+      "best_affinity": -4.351,
+      "all_affinities": [
+        -4.351,
+        -4.302,
+        -3.224,
+        -2.967,
+        -2.684,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "FORMOTEROL",
+      "best_affinity": -4.997,
+      "all_affinities": [
+        -4.997,
+        -4.572,
+        -4.571,
+        -4.349,
+        -4.269,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "MAZINDOL",
+      "best_affinity": -3.767,
+      "all_affinities": [
+        -3.767,
+        -3.308,
+        -2.766,
+        -2.27,
+        0.0,
+        0.745,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "TOLAZAMIDE",
+      "best_affinity": -3.499,
+      "all_affinities": [
+        -3.499,
+        -2.631,
+        -1.838,
+        -1.575,
+        -1.119,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "SULFALENE",
+      "best_affinity": -6.106,
+      "all_affinities": [
+        -6.106,
+        -6.079,
+        -5.729,
+        -5.64,
+        -5.619,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "ARFORMOTEROL",
+      "best_affinity": -4.702,
+      "all_affinities": [
+        -4.702,
+        -4.683,
+        -4.647,
+        -4.172,
+        -3.981,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "NORFLOXACIN",
+      "best_affinity": -0.353,
+      "all_affinities": [
+        -0.353,
+        -0.005,
+        0.0,
+        0.511,
+        0.964,
+        1.0,
+        1.276,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "MOLINDONE",
+      "best_affinity": -6.343,
+      "all_affinities": [
+        -6.343,
+        -4.983,
+        -4.177,
+        -3.991,
+        -3.371,
+        0.0,
+        1.0,
+        10.0,
+        16.0
+      ]
+    },
+    {
+      "name": "CANNABIDIOL",
+      "best_affinity": -2.639,
+      "all_affinities": [
+        -2.639,
+        -2.409,
+        -1.956,
+        -0.524,
+        0.0,
+        0.526,
+        1.0,
+        10.0,
+        16.0
+      ]
+    }
+  ]
+}

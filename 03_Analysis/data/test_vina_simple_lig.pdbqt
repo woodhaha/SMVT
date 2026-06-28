@@ -1,0 +1,8 @@
+ROOT
+ATOM      1  C   UNL     1       2.280   0.374   0.864  1.00  0.00     0.012 C
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1       1.537   0.580  -0.462  1.00  0.00     0.002 C
+ENDBRANCH   1   2
+TORSDOF 1
+END

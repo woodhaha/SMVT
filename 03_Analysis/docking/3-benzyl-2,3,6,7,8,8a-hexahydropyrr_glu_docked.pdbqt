@@ -1,0 +1,200 @@
+MODEL 1
+REMARK VINA RESULT:    -7.078      0.000      0.000
+REMARK INTER + INTRA:          -7.180
+REMARK INTER:                  -7.906
+REMARK INTRA:                   0.726
+REMARK UNBOUND:                 0.726
+REMARK  Name = 
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_7  and  CB_12
+REMARK    2  A    between atoms: CB_12  and  CG_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  PRO A   2       0.248  -1.831   3.841  0.00  0.00    +0.000 C 
+ATOM      2  CB  PRO A   2      -1.129  -2.287   4.292  0.00  0.00    +0.000 C 
+ATOM      3  CA  PRO A   2      -1.495  -1.588   5.591  0.00  0.00    +0.000 C 
+ATOM      4  C   PRO A   2      -2.872  -2.043   6.042  0.00  0.00    +0.000 C 
+ATOM      5  O   PRO A   2      -3.016  -2.619   7.166  0.00  0.00    +0.000 OA
+ATOM      6  N   PHE A   1      -4.041  -1.818   5.178  0.00  0.00    +0.000 N 
+ATOM      7  CA  PHE A   1      -3.875  -1.152   3.878  0.00  0.00    +0.000 C 
+ATOM      8  C   PHE A   1      -4.334  -2.085   2.768  0.00  0.00    +0.000 C 
+ATOM      9  O   PHE A   1      -3.768  -3.212   2.611  0.00  0.00    +0.000 OA
+ATOM     10  N   PRO A   2      -1.504  -0.133   5.379  0.00  0.00    +0.000 N 
+ATOM     11  CD  PRO A   2       0.613  -2.530   2.541  0.00  0.00    +0.000 C 
+ATOM     12  H   PHE A   1      -4.965  -2.124   5.480  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   7  13
+ATOM     13  CB  PHE A   1      -4.709   0.118   3.849  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  CG  PHE A   1      -3.863   1.268   3.329  0.00  0.00    +0.000 A 
+ATOM     15  CD1 PHE A   1      -3.468   1.304   1.945  0.00  0.00    +0.000 A 
+ATOM     16  CE1 PHE A   1      -3.876   0.250   1.053  0.00  0.00    +0.000 A 
+ATOM     17  CZ  PHE A   1      -3.481   0.286  -0.332  0.00  0.00    +0.000 A 
+ATOM     18  CE2 PHE A   1      -3.890  -0.768  -1.225  0.00  0.00    +0.000 A 
+ATOM     19  CD2 PHE A   1      -3.454   2.323   4.222  0.00  0.00    +0.000 A 
+ENDBRANCH  13  14
+ENDBRANCH   7  13
+TORSDOF 2
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -6.660      2.651      5.840
+REMARK INTER + INTRA:          -6.712
+REMARK INTER:                  -6.829
+REMARK INTRA:                   0.116
+REMARK UNBOUND:                 0.726
+REMARK  Name = 
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_7  and  CB_12
+REMARK    2  A    between atoms: CB_12  and  CG_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  PRO A   2      -4.167   0.418   0.007  0.00  0.00    +0.000 C 
+ATOM      2  CB  PRO A   2      -3.378   0.734   1.267  0.00  0.00    +0.000 C 
+ATOM      3  CA  PRO A   2      -4.139   1.752   2.100  0.00  0.00    +0.000 C 
+ATOM      4  C   PRO A   2      -3.350   2.068   3.360  0.00  0.00    +0.000 C 
+ATOM      5  O   PRO A   2      -2.965   3.257   3.589  0.00  0.00    +0.000 OA
+ATOM      6  N   PHE A   1      -3.031   0.996   4.315  0.00  0.00    +0.000 N 
+ATOM      7  CA  PHE A   1      -3.476  -0.380   4.050  0.00  0.00    +0.000 C 
+ATOM      8  C   PHE A   1      -2.265  -1.296   3.964  0.00  0.00    +0.000 C 
+ATOM      9  O   PHE A   1      -1.372  -1.087   3.084  0.00  0.00    +0.000 OA
+ATOM     10  N   PRO A   2      -5.451   1.203   2.468  0.00  0.00    +0.000 N 
+ATOM     11  CD  PRO A   2      -3.407  -0.601  -0.826  0.00  0.00    +0.000 C 
+ATOM     12  H   PHE A   1      -2.501   1.207   5.160  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   7  13
+ATOM     13  CB  PHE A   1      -4.383  -0.845   5.178  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  CG  PHE A   1      -4.577  -2.349   5.084  0.00  0.00    +0.000 A 
+ATOM     15  CD1 PHE A   1      -4.479  -3.164   6.268  0.00  0.00    +0.000 A 
+ATOM     16  CE1 PHE A   1      -4.198  -2.552   7.541  0.00  0.00    +0.000 A 
+ATOM     17  CZ  PHE A   1      -4.100  -3.366   8.725  0.00  0.00    +0.000 A 
+ATOM     18  CE2 PHE A   1      -3.819  -2.754   9.999  0.00  0.00    +0.000 A 
+ATOM     19  CD2 PHE A   1      -4.858  -2.962   3.810  0.00  0.00    +0.000 A 
+ENDBRANCH  13  14
+ENDBRANCH   7  13
+TORSDOF 2
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -5.602      1.749      4.268
+REMARK INTER + INTRA:          -5.532
+REMARK INTER:                  -6.032
+REMARK INTRA:                   0.500
+REMARK UNBOUND:                 0.726
+REMARK  Name = 
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_7  and  CB_12
+REMARK    2  A    between atoms: CB_12  and  CG_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  PRO A   2      -4.951   1.210   3.293  0.00  0.00    +0.000 C 
+ATOM      2  CB  PRO A   2      -4.632  -0.028   4.113  0.00  0.00    +0.000 C 
+ATOM      3  CA  PRO A   2      -5.185  -1.258   3.412  0.00  0.00    +0.000 C 
+ATOM      4  C   PRO A   2      -4.866  -2.496   4.232  0.00  0.00    +0.000 C 
+ATOM      5  O   PRO A   2      -5.807  -3.227   4.674  0.00  0.00    +0.000 OA
+ATOM      6  N   PHE A   1      -3.467  -2.850   4.516  0.00  0.00    +0.000 N 
+ATOM      7  CA  PHE A   1      -2.378  -2.005   4.005  0.00  0.00    +0.000 C 
+ATOM      8  C   PHE A   1      -1.561  -1.472   5.172  0.00  0.00    +0.000 C 
+ATOM      9  O   PHE A   1      -2.117  -0.753   6.061  0.00  0.00    +0.000 OA
+ATOM     10  N   PRO A   2      -4.573  -1.380   2.081  0.00  0.00    +0.000 N 
+ATOM     11  CD  PRO A   2      -4.397   2.440   3.994  0.00  0.00    +0.000 C 
+ATOM     12  H   PHE A   1      -3.253  -3.681   5.067  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   7  13
+ATOM     13  CB  PHE A   1      -1.483  -2.828   3.094  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  CG  PHE A   1      -0.262  -2.009   2.709  0.00  0.00    +0.000 A 
+ATOM     15  CD1 PHE A   1      -0.423  -0.764   2.004  0.00  0.00    +0.000 A 
+ATOM     16  CE1 PHE A   1      -1.742  -0.295   1.663  0.00  0.00    +0.000 A 
+ATOM     17  CZ  PHE A   1      -1.903   0.950   0.957  0.00  0.00    +0.000 A 
+ATOM     18  CE2 PHE A   1      -3.221   1.420   0.616  0.00  0.00    +0.000 A 
+ATOM     19  CD2 PHE A   1       1.057  -2.477   3.050  0.00  0.00    +0.000 A 
+ENDBRANCH  13  14
+ENDBRANCH   7  13
+TORSDOF 2
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -5.498      1.588      3.406
+REMARK INTER + INTRA:          -5.415
+REMARK INTER:                  -6.278
+REMARK INTRA:                   0.864
+REMARK UNBOUND:                 0.726
+REMARK  Name = 
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_7  and  CB_12
+REMARK    2  A    between atoms: CB_12  and  CG_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  PRO A   2      -4.524  -2.117   7.070  0.00  0.00    +0.000 C 
+ATOM      2  CB  PRO A   2      -3.771  -2.571   5.830  0.00  0.00    +0.000 C 
+ATOM      3  CA  PRO A   2      -4.558  -2.185   4.589  0.00  0.00    +0.000 C 
+ATOM      4  C   PRO A   2      -3.805  -2.639   3.349  0.00  0.00    +0.000 C 
+ATOM      5  O   PRO A   2      -4.344  -3.459   2.542  0.00  0.00    +0.000 OA
+ATOM      6  N   PHE A   1      -2.451  -2.129   3.084  0.00  0.00    +0.000 N 
+ATOM      7  CA  PHE A   1      -1.828  -1.180   4.018  0.00  0.00    +0.000 C 
+ATOM      8  C   PHE A   1      -0.544  -1.781   4.568  0.00  0.00    +0.000 C 
+ATOM      9  O   PHE A   1      -0.581  -2.873   5.218  0.00  0.00    +0.000 OA
+ATOM     10  N   PRO A   2      -4.729  -0.726   4.551  0.00  0.00    +0.000 N 
+ATOM     11  CD  PRO A   2      -3.737  -2.503   8.311  0.00  0.00    +0.000 C 
+ATOM     12  H   PHE A   1      -1.946  -2.433   2.253  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   7  13
+ATOM     13  CB  PHE A   1      -1.509   0.114   3.288  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  CG  PHE A   1      -2.767   0.961   3.186  0.00  0.00    +0.000 A 
+ATOM     15  CD1 PHE A   1      -3.582   0.902   2.001  0.00  0.00    +0.000 A 
+ATOM     16  CE1 PHE A   1      -3.205   0.039   0.911  0.00  0.00    +0.000 A 
+ATOM     17  CZ  PHE A   1      -4.020  -0.020  -0.275  0.00  0.00    +0.000 A 
+ATOM     18  CE2 PHE A   1      -3.645  -0.884  -1.365  0.00  0.00    +0.000 A 
+ATOM     19  CD2 PHE A   1      -3.143   1.825   4.277  0.00  0.00    +0.000 A 
+ENDBRANCH  13  14
+ENDBRANCH   7  13
+TORSDOF 2
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -4.788      2.123      5.476
+REMARK INTER + INTRA:          -4.622
+REMARK INTER:                  -5.195
+REMARK INTRA:                   0.574
+REMARK UNBOUND:                 0.726
+REMARK  Name = 
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_7  and  CB_12
+REMARK    2  A    between atoms: CB_12  and  CG_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  PRO A   2      -3.976   1.914   2.978  0.00  0.00    +0.000 C 
+ATOM      2  CB  PRO A   2      -4.264   0.668   2.157  0.00  0.00    +0.000 C 
+ATOM      3  CA  PRO A   2      -3.210   0.519   1.073  0.00  0.00    +0.000 C 
+ATOM      4  C   PRO A   2      -3.498  -0.726   0.252  0.00  0.00    +0.000 C 
+ATOM      5  O   PRO A   2      -3.716  -0.629  -0.996  0.00  0.00    +0.000 OA
+ATOM      6  N   PHE A   1      -3.526  -2.045   0.902  0.00  0.00    +0.000 N 
+ATOM      7  CA  PHE A   1      -3.275  -2.157   2.346  0.00  0.00    +0.000 C 
+ATOM      8  C   PHE A   1      -4.489  -2.771   3.025  0.00  0.00    +0.000 C 
+ATOM      9  O   PHE A   1      -5.618  -2.192   2.954  0.00  0.00    +0.000 OA
+ATOM     10  N   PRO A   2      -1.883   0.401   1.693  0.00  0.00    +0.000 N 
+ATOM     11  CD  PRO A   2      -5.030   2.062   4.062  0.00  0.00    +0.000 C 
+ATOM     12  H   PHE A   1      -3.720  -2.881   0.352  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   7  13
+ATOM     13  CB  PHE A   1      -2.061  -3.042   2.582  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  CG  PHE A   1      -0.999  -2.254   3.330  0.00  0.00    +0.000 A 
+ATOM     15  CD1 PHE A   1      -1.224  -1.857   4.696  0.00  0.00    +0.000 A 
+ATOM     16  CE1 PHE A   1      -2.458  -2.207   5.353  0.00  0.00    +0.000 A 
+ATOM     17  CZ  PHE A   1      -2.683  -1.810   6.719  0.00  0.00    +0.000 A 
+ATOM     18  CE2 PHE A   1      -3.916  -2.161   7.376  0.00  0.00    +0.000 A 
+ATOM     19  CD2 PHE A   1       0.235  -1.903   2.673  0.00  0.00    +0.000 A 
+ENDBRANCH  13  14
+ENDBRANCH   7  13
+TORSDOF 2
+ENDMDL

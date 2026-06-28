@@ -1,0 +1,13 @@
+当前情况
+
+截至目前，Phase A（虚拟筛选）已完成并产出：
+
+- 440 个对接化合物 | 首选命中化合物 Naftazone (−8.34)、Phenobarbital (−8.30)
+- 巴比妥类药物作为新型 SMVT 配体支架（命中率 100%）
+- 完整报告：06_Logs/SMVT-virtual-screening-report.md
+
+Phase B（MD 验证）流水线已完成但受硬件限制——在 CPU 上每个化合物 200K 粒子的显式溶剂 MD 需要数天时间。当您可以使用 GPU 机器或 HPC 时，脚本 03_Analysis/md_binding_stability.py 已准备就绪。
+
+需要我转向其他方面吗——稿件撰写、对接结果 SAR 分析，还是其他事情？
+
+Notepad priority: SMVT MD Colab run — openff-toolkit installing in background for proper GAFF atom types to fix NaN during NVT heating.

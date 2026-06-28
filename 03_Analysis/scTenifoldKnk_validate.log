@@ -1,0 +1,57 @@
+
+Attaching package: 'data.table'
+
+The following object is masked from 'package:base':
+
+    %notin%
+
+Loaded: 1501 genes x 2000 cells
+SLC5A6 at row 180, expressed in 2000 cells
+Filtered: 1000 genes x 2000 cells
+
+=== Running scTenifoldKnk (nCores=1, PC regression GRN) ===
+
+── scTenifoldKnk ───────────────────────────────────────────────────────────────
+ℹ Simulating SLC5A6 gene knockout
+✔ Count matrix quality control applied: retained 1000 genes and 183 cells
+✔ Network construction complete (nNet = 5, nCells per net = 300)
+  |                                                                              |                                                                      |   0%  |                                                                              |                                                                      |   1%  |                                                                              |=                                                                     |   1%  |                                                                              |=                                                                     |   2%  |                                                                              |==                                                                    |   2%  |                                                                              |==                                                                    |   3%  |                                                                              |===                                                                   |   4%  |                                                                              |===                                                                   |   5%  |                                                                              |====                                                                  |   5%  |                                                                              |====                                                                  |   6%  |                                                                              |=====                                                                 |   7%  |                                                                              |=====                                                                 |   8%  |                                                                              |======                                                                |   8%  |                                                                              |======                                                                |   9%  |                                                                              |=======                                                               |   9%  |                                                                              |=======                                                               |  10%  |                                                                              |=======                                                               |  11%  |                                                                              |========                                                              |  11%  |                                                                              |========                                                              |  12%  |                                                                              |=========                                                             |  12%  |                                                                              |=========                                                             |  13%  |                                                                              |==========                                                            |  14%  |                                                                              |==========                                                            |  15%  |                                                                              |===========                                                           |  15%  |                                                                              |===========                                                           |  16%  |                                                                              |============                                                          |  17%  |                                                                              |============                                                          |  18%  |                                                                              |=============                                                         |  18%  |                                                                              |======================================================================| 100%
+✔ Tensor decomposition completed (K = 3)
+✔ Prepared WT adjacency matrix for KO simulation
+✔ Simulated knockout for SLC5A6
+✔ Manifold alignment completed (d = 2)
+✔ Differential regulation computed for SLC5A6
+✔ Finished scTenifoldKnk for SLC5A6
+Completed in 7.2 minutes
+Saved: scTenifoldKnk_result.rds
+DRGs: 1000 genes
+
+=== Top 20 DRGs (PC regression GRN) ===
+   1. SLC5A6        distance=0.0007  p=0.0000
+   2. GGH           distance=0.0000  p=0.0000
+   3. MYC           distance=0.0000  p=0.0000
+   4. ASCL2         distance=0.0000  p=0.0000
+   5. AHCY          distance=0.0000  p=0.0000
+   6. PABPC1        distance=0.0000  p=0.0000
+   7. LAPTM4B       distance=0.0000  p=0.0000
+   8. RPS21         distance=0.0000  p=0.0000
+   9. EEF1D         distance=0.0000  p=0.0000
+  10. ERGIC3        distance=0.0000  p=0.0002
+  11. RPL30         distance=0.0000  p=0.0002
+  12. RPS20         distance=0.0000  p=0.0002
+  13. C19orf33      distance=0.0000  p=0.0003
+  14. TSPAN1        distance=0.0000  p=0.0003
+  15. LYPLA1        distance=0.0000  p=0.0004
+  16. PSMA7         distance=0.0000  p=0.0005
+  17. RPL7          distance=0.0000  p=0.0009
+  18. EIF3H         distance=0.0000  p=0.0017
+  19. AGR3          distance=0.0000  p=0.0019
+  20. EIF3E         distance=0.0000  p=0.0023
+
+=== Comparison: PC regression vs Pearson co-expression ===
+PC regression DRGs: 1000 genes
+Pearson DRGs: 26 genes
+Top-20 overlap: 0/20 genes
+Overlapping genes: 
+Error: object 'rho' not found
+Execution halted

@@ -1,0 +1,2 @@
+tissue,n_eqtl_samples,n_gwas_samples,cis_h2,genetic_correlation,ncp,twas_power,bonferroni_threshold,z_twas_expected,p_twas_expected
+Literature estimate,318,200000,0.1,0.005,0.15874759132978566,8.337907908217979e-06,2.5e-06,0.3984314135830478,0.6903122059069418

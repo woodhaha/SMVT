@@ -1,0 +1,68 @@
+2026-06-24 00:36:20,917 [INFO] Loaded R1-R3: 84 compounds
+2026-06-24 00:36:20,967 [INFO] Loaded R4: 356 compounds
+2026-06-24 00:36:20,972 [INFO] Total merged: 440 compounds (84 R1-R3 + 356 R4)
+2026-06-24 00:36:20,981 [INFO] Hits identified: 174 total (38 L1-L3, 22 biotin-like)
+2026-06-24 00:36:21,873 [INFO] 
+Top enriched scaffolds:
+2026-06-24 00:36:21,874 [INFO]   O=C1CC(=O)NC(=O)N1                                           | hits= 8/  8 | enrich=1.00
+2026-06-24 00:36:21,874 [INFO]   c1ccc2[nH]ccc2c1                                             | hits= 3/  7 | enrich=0.43
+2026-06-24 00:36:21,875 [INFO]   c1ccc(Nc2ccccc2)cc1                                          | hits= 2/  9 | enrich=0.22
+2026-06-24 00:36:21,876 [INFO]   O=C1NC2CSCC2N1                                               | hits= 2/  4 | enrich=0.50
+2026-06-24 00:36:21,876 [INFO]   O=C1NC(=O)C(c2ccccc2)C(=O)N1                                 | hits= 2/  2 | enrich=1.00
+2026-06-24 00:36:21,876 [INFO]   O=C1CCC(c2ccccc2)C(=O)N1                                     | hits= 2/  2 | enrich=1.00
+2026-06-24 00:36:21,877 [INFO]   c1ccccc1                                                     | hits= 2/ 23 | enrich=0.09
+2026-06-24 00:36:21,877 [INFO]   O=C1NC2CS(=O)(=O)CC2N1                                       | hits= 1/  1 | enrich=1.00
+2026-06-24 00:36:21,878 [INFO]   O=C1NCCN1                                                    | hits= 1/  1 | enrich=1.00
+2026-06-24 00:36:21,878 [INFO]   O=C1NC2CS(=O)CC2N1                                           | hits= 1/  1 | enrich=1.00
+2026-06-24 00:36:21,893 [INFO] 
+Family-level statistics:
+2026-06-24 00:36:21,893 [INFO] Family                    |    N |  Mean ΔG |  Best ΔG |  Hits | Strong
+2026-06-24 00:36:21,894 [INFO] ---------------------------------------------------------------------------
+2026-06-24 00:36:21,894 [INFO]   Other                   |  367 |    -5.32 |    -8.34 |   140 |     36
+2026-06-24 00:36:21,895 [INFO]   Amino_acid              |   11 |    -6.15 |    -7.66 |     9 |      1
+2026-06-24 00:36:21,895 [INFO]   Biotin_analog           |    8 |    -6.84 |    -7.25 |     8 |      1
+2026-06-24 00:36:21,896 [INFO]   Fenamate                |    7 |    -6.35 |    -6.74 |     5 |      0
+2026-06-24 00:36:21,896 [INFO]   Carboxylic_acid         |   31 |    -4.06 |    -6.60 |    11 |      0
+2026-06-24 00:36:21,896 [INFO]   Profens                 |   11 |    -5.16 |    -6.39 |     1 |      0
+2026-06-24 00:36:21,896 [INFO]   Salicylate              |    1 |    -5.80 |    -5.80 |     0 |      0
+2026-06-24 00:36:21,897 [INFO]   NSAID                   |    2 |    -0.40 |    -5.66 |     0 |      0
+2026-06-24 00:36:21,898 [INFO]   Statin                  |    2 |     1.16 |     1.16 |     0 |      0
+2026-06-24 00:36:21,919 [INFO] 
+Saved screening_master_results.csv (440 compounds)
+2026-06-24 00:36:21,924 [INFO] Saved hit_summary.csv (174 hits)
+2026-06-24 00:36:21,924 [INFO] 
+============================================================
+2026-06-24 00:36:21,924 [INFO] TOP 30 HITS (ranked by affinity + novelty)
+2026-06-24 00:36:21,924 [INFO] ============================================================
+2026-06-24 00:36:21,925 [INFO]    1. NAFTAZONE                           | ΔG=-8.34 | Z=-2.02 | L1_Strong       | Other                | repo=4.5
+2026-06-24 00:36:21,925 [INFO]    2. PHENOBARBITAL                       | ΔG=-8.30 | Z=-1.99 | L2_Moderate     | Other                | repo=4.5
+2026-06-24 00:36:21,925 [INFO]    3. CYCLOBARBITAL                       | ΔG=-7.83 | Z=-1.65 | L2_Moderate     | Other                | repo=4.5
+2026-06-24 00:36:21,926 [INFO]    4. BUTALBITAL                          | ΔG=-7.73 | Z=-1.58 | L2_Moderate     | Other                | repo=4.5
+2026-06-24 00:36:21,926 [INFO]    5. APROBARBITAL                        | ΔG=-7.67 | Z=-1.54 | L2_Moderate     | Other                | repo=4.5
+2026-06-24 00:36:21,926 [INFO]    6. BUTABARBITAL                        | ΔG=-7.67 | Z=-1.54 | L2_Moderate     | Other                | repo=4.5
+2026-06-24 00:36:21,926 [INFO]    7. TASIMELTEON                         | ΔG=-7.66 | Z=-1.53 | L2_Moderate     | Other                | repo=4.5
+2026-06-24 00:36:21,928 [INFO]    8. PRIMIDONE                           | ΔG=-7.63 | Z=-1.51 | L2_Moderate     | Other                | repo=4.5
+2026-06-24 00:36:21,928 [INFO]    9. GLUTETHIMIDE                        | ΔG=-7.61 | Z=-1.50 | L3_Absolute     | Other                | repo=4.5
+2026-06-24 00:36:21,930 [INFO]   10. HYDROFLUMETHIAZIDE                  | ΔG=-7.59 | Z=-1.48 | L3_Absolute     | Other                | repo=4.5
+2026-06-24 00:36:21,930 [INFO]   11. AMOBARBITAL                         | ΔG=-7.58 | Z=-1.48 | L3_Absolute     | Other                | repo=4.5
+2026-06-24 00:36:21,931 [INFO]   12. ESKETAMINE                          | ΔG=-7.58 | Z=-1.48 | L3_Absolute     | Other                | repo=4.5
+2026-06-24 00:36:21,931 [INFO]   13. MEPHOBARBITAL                       | ΔG=-7.56 | Z=-1.46 | L3_Absolute     | Other                | repo=4.5
+2026-06-24 00:36:21,932 [INFO]   14. PENTOBARBITAL                       | ΔG=-7.49 | Z=-1.41 | L3_Absolute     | Other                | repo=4.5
+2026-06-24 00:36:21,932 [INFO]   15. TETRAHYDROZOLINE                    | ΔG=-7.47 | Z=-1.40 | L3_Absolute     | Other                | repo=4.5
+2026-06-24 00:36:21,932 [INFO]   16. MEPHENYTOIN                         | ΔG=-7.39 | Z=-1.34 | L3_Absolute     | Other                | repo=4.5
+2026-06-24 00:36:21,933 [INFO]   17. DEBRISOQUIN                         | ΔG=-7.38 | Z=-1.34 | L3_Absolute     | Other                | repo=4.5
+2026-06-24 00:36:21,933 [INFO]   18. DEXRAZOXANE                         | ΔG=-7.38 | Z=-1.33 | L3_Absolute     | Other                | repo=4.5
+2026-06-24 00:36:21,933 [INFO]   19. CENOBAMATE                          | ΔG=-7.37 | Z=-1.32 | L3_Absolute     | Other                | repo=4.5
+2026-06-24 00:36:21,934 [INFO]   20. METYRAPONE                          | ΔG=-7.36 | Z=-1.32 | L3_Absolute     | Other                | repo=4.5
+2026-06-24 00:36:21,934 [INFO]   21. HYDRALAZINE                         | ΔG=-7.34 | Z=-1.31 | L3_Absolute     | Other                | repo=4.5
+2026-06-24 00:36:21,934 [INFO]   22. PHENACEMIDE                         | ΔG=-7.29 | Z=-1.27 | L3_Absolute     | Other                | repo=4.5
+2026-06-24 00:36:21,934 [INFO]   23. SECOBARBITAL                        | ΔG=-7.24 | Z=-1.23 | L3_Absolute     | Other                | repo=4.5
+2026-06-24 00:36:21,935 [INFO]   24. CICLOPIROX                          | ΔG=-7.21 | Z=-1.21 | L3_Absolute     | Other                | repo=4.5
+2026-06-24 00:36:21,935 [INFO]   25. RUFINAMIDE                          | ΔG=-7.20 | Z=-1.20 | L3_Absolute     | Other                | repo=4.5
+2026-06-24 00:36:21,935 [INFO]   26. METHSUXIMIDE                        | ΔG=-7.19 | Z=-1.20 | L3_Absolute     | Other                | repo=4.5
+2026-06-24 00:36:21,936 [INFO]   27. PEMOLINE                            | ΔG=-7.13 | Z=-1.15 | L3_Absolute     | Other                | repo=4.5
+2026-06-24 00:36:21,936 [INFO]   28. LAMOTRIGINE                         | ΔG=-7.11 | Z=-1.14 | L3_Absolute     | Other                | repo=4.5
+2026-06-24 00:36:21,936 [INFO]   29. TIPIRACIL                           | ΔG=-7.08 | Z=-1.12 | L3_Absolute     | Other                | repo=4.5
+2026-06-24 00:36:21,936 [INFO]   30. BELINOSTAT                          | ΔG=-7.06 | Z=-1.11 | L3_Absolute     | Other                | repo=4.5
+2026-06-24 00:36:21,936 [INFO] 
+Analysis complete. Ready for report generation.

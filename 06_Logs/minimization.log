@@ -1,0 +1,6 @@
+SLC5A6 Energy Minimization Log
+Force field: Amber14SB + GBSA-OBC implicit solvent
+Initial energy: -39870.24594116211 kJ/mol
+After H-relax:  -51666.94873046875 kJ/mol
+Final energy:   -55275.22914123535 kJ/mol
+Total drop:     15404.983200073242 kJ/mol

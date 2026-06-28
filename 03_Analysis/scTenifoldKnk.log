@@ -1,0 +1,15 @@
+
+Attaching package: 'data.table'
+
+The following object is masked from 'package:base':
+
+    %notin%
+
+=== LOADING RDS ===
+Loaded: 28110 genes x 30000 cells
+Subset: 1501 genes x 2000 cells
+=== RUNNING scTenifoldKnk ===
+
+── scTenifoldKnk ───────────────────────────────────────────────────────────────
+ℹ Simulating SLC5A6 gene knockout
+✔ Count matrix quality control applied: retained 1501 genes and 205 cells

@@ -1,0 +1,2 @@
+position,ref_aa,var_aa,wildtype_aa,variant_aa,cancer_type,source,note,domain,esm_llr,esm_zscore,blosum62,blosum_zscore,pathogenicity_composite,pathogenicity_percentile
+123,R,L,Arg,Leu,Germline,ClinVar,Known pathogenic: biotin-responsive neurodegeneration,Transmembrane_helix_2,-4.3445,0.0,-2,0.0,nan,100.0

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForceField>
+  <!-- GAFF 2.11 template: LIG -->
+  <!-- SMILES: C1=CC=C2C(=C1)C=CC(=O)C2=NNC(=N)N -->
+  <!-- Generator: gen_gaff_v3.py (RDKit + MMFF94) -->
+  <!-- Charge model: MMFF94 -->
+  <Residues>
+    <Residue name="LIG">
+      <Atom name="C1" type="ca" charge="-0.150000"/>
+      <Atom name="C2" type="ca" charge="-0.150000"/>
+      <Atom name="C3" type="ca" charge="-0.150000"/>
+      <Atom name="C4" type="ca" charge="0.086200"/>
+      <Atom name="C5" type="ca" charge="0.028400"/>
+      <Atom name="C6" type="ca" charge="-0.150000"/>
+      <Atom name="C7" type="c2" charge="-0.178400"/>
+      <Atom name="C8" type="c2" charge="-0.135600"/>
+      <Atom name="C9" type="c" charge="0.555600"/>
+      <Atom name="O10" type="o" charge="-0.570000"/>
+      <Atom name="C11" type="c2" charge="0.363800"/>
+      <Atom name="N12" type="n2" charge="-0.492000"/>
+      <Atom name="N13" type="n2" charge="-0.408000"/>
+      <Atom name="C14" type="c2" charge="0.550000"/>
+      <Atom name="N15" type="n2" charge="-0.850000"/>
+      <Atom name="N16" type="n2" charge="-0.850000"/>
+      <Atom name="H17" type="ha" charge="0.150000"/>
+      <Atom name="H18" type="ha" charge="0.150000"/>
+      <Atom name="H19" type="ha" charge="0.150000"/>
+      <Atom name="H20" type="ha" charge="0.150000"/>
+      <Atom name="H21" type="ha" charge="0.150000"/>
+      <Atom name="H22" type="ha" charge="0.150000"/>
+      <Atom name="H23" type="hn" charge="0.400000"/>
+      <Atom name="H24" type="hn" charge="0.400000"/>
+      <Atom name="H25" type="hn" charge="0.400000"/>
+      <Atom name="H26" type="hn" charge="0.400000"/>
+      <Bond from="0" to="1"/>
+      <Bond from="1" to="2"/>
+      <Bond from="2" to="3"/>
+      <Bond from="3" to="4"/>
+      <Bond from="4" to="5"/>
+      <Bond from="4" to="6"/>
+      <Bond from="6" to="7"/>
+      <Bond from="7" to="8"/>
+      <Bond from="8" to="9"/>
+      <Bond from="8" to="10"/>
+      <Bond from="10" to="11"/>
+      <Bond from="11" to="12"/>
+      <Bond from="12" to="13"/>
+      <Bond from="13" to="14"/>
+      <Bond from="13" to="15"/>
+      <Bond from="5" to="0"/>
+      <Bond from="10" to="3"/>
+      <Bond from="0" to="16"/>
+      <Bond from="1" to="17"/>
+      <Bond from="2" to="18"/>
+      <Bond from="5" to="19"/>
+      <Bond from="6" to="20"/>
+      <Bond from="7" to="21"/>
+      <Bond from="12" to="22"/>
+      <Bond from="14" to="23"/>
+      <Bond from="15" to="24"/>
+      <Bond from="15" to="25"/>
+    </Residue>
+  </Residues>
+</ForceField>

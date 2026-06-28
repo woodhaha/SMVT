@@ -1,0 +1,4202 @@
+[
+  {
+    "cid": 4099,
+    "name": "5,5-diethyl-1-methyl-1,3-diazinane-2,4,6-trio",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C)CC",
+    "mw": 198.22,
+    "logp": 1.2
+  },
+  {
+    "cid": 12879876,
+    "name": "N-carbamoyl-3-phenylbutanamide",
+    "smiles": "CC(CC(=O)NC(=O)N)C1=CC=CC=C1",
+    "mw": 206.24,
+    "logp": 1.7
+  },
+  {
+    "cid": 49160,
+    "name": "5-but-1-enyl-5-propyl-1,3-diazinane-2,4,6-tri",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)C=CCC",
+    "mw": 224.26,
+    "logp": 1.6
+  },
+  {
+    "cid": 6434826,
+    "name": "5-ethyl-1-methyl-5-[(E)-pent-2-enyl]-1,3-diaz",
+    "smiles": "CCC=CCC1(C(=O)NC(=O)N(C1=O)C)CC",
+    "mw": 238.28,
+    "logp": 2
+  },
+  {
+    "cid": 49162,
+    "name": "5-but-2-enyl-5-propyl-1,3-diazinane-2,4,6-tri",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)CC=CC",
+    "mw": 224.26,
+    "logp": 1.7
+  },
+  {
+    "cid": 204813,
+    "name": "5-propan-2-yl-5-propyl-1,3-diazinane-2,4,6-tr",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)C(C)C",
+    "mw": 212.25,
+    "logp": 1.5
+  },
+  {
+    "cid": 90769421,
+    "name": "(1S,5R)-1-methyl-5-[4-(trifluoromethyl)phenyl",
+    "smiles": "CC12CC1(C(=O)NC2=O)C3=CC=C(C=C3)C(F)(F)F",
+    "mw": 269.22,
+    "logp": 1.9
+  },
+  {
+    "cid": 7036944,
+    "name": "(5S)-5-(cyclohexen-1-yl)-1,5-dimethyl-1,3-dia",
+    "smiles": "CC1(C(=O)NC(=O)N(C1=O)C)C2=CCCCC2",
+    "mw": 236.27,
+    "logp": 1.5
+  },
+  {
+    "cid": 14368,
+    "name": "5-[4-(dimethylamino)but-2-ynyl]-5-ethyl-1,3-d",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)CC#CCN(C)C",
+    "mw": 251.28,
+    "logp": 0.4
+  },
+  {
+    "cid": 13330471,
+    "name": "1,5-dimethyl-5-phenyl-1,3-diazinane-2,4,6-tri",
+    "smiles": "CC1(C(=O)NC(=O)N(C1=O)C)C2=CC=CC=C2",
+    "mw": 232.23,
+    "logp": 1.5
+  },
+  {
+    "cid": 47143,
+    "name": "1-butyl-5,5-diethyl-1,3-diazinane-2,4,6-trion",
+    "smiles": "CCCCN1C(=O)C(C(=O)NC1=O)(CC)CC",
+    "mw": 240.3,
+    "logp": 2.4
+  },
+  {
+    "cid": 13330474,
+    "name": "5-(cyclopenten-1-yl)-5-ethyl-1-methyl-1,3-dia",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C)C2=CCCC2",
+    "mw": 236.27,
+    "logp": 1.7
+  },
+  {
+    "cid": 3692590,
+    "name": "N-acetyl-3-oxo-2-phenylpentanamide",
+    "smiles": "CCC(=O)C(C1=CC=CC=C1)C(=O)NC(=O)C",
+    "mw": 233.26,
+    "logp": 1.3
+  },
+  {
+    "cid": 154314799,
+    "name": "5-propan-2-yl-5-prop-2-ynyl-1,3-diazinane-2,4",
+    "smiles": "CC(C)C1(C(=O)NC(=O)NC1=O)CC#C",
+    "mw": 208.21,
+    "logp": 0.6
+  },
+  {
+    "cid": 49202,
+    "name": "5-butyl-5-(3-methylbut-2-enyl)-1,3-diazinane-",
+    "smiles": "CCCCC1(C(=O)NC(=O)NC1=O)CC=C(C)C",
+    "mw": 252.31,
+    "logp": 2.9
+  },
+  {
+    "cid": 133171,
+    "name": "5-(4-aminobutyl)-5-phenyl-1,3-diazinane-2,4,6",
+    "smiles": "C1=CC=C(C=C1)C2(C(=O)NC(=O)NC2=O)CCCCN",
+    "mw": 275.3,
+    "logp": 0.7
+  },
+  {
+    "cid": 657460,
+    "name": "5-(3-phenylprop-2-enyl)-1,3-diazinane-2,4,6-t",
+    "smiles": "C1=CC=C(C=C1)C=CCC2C(=O)NC(=O)NC2=O",
+    "mw": 244.25,
+    "logp": 1.5
+  },
+  {
+    "cid": 6434868,
+    "name": "5-[(E)-pent-2-enyl]-5-propyl-1,3-diazinane-2,",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)CC=CCC",
+    "mw": 238.28,
+    "logp": 2.2
+  },
+  {
+    "cid": 49205,
+    "name": "5-but-2-en-2-yl-5-butyl-1,3-diazinane-2,4,6-t",
+    "smiles": "CCCCC1(C(=O)NC(=O)NC1=O)C(=CC)C",
+    "mw": 238.28,
+    "logp": 2.3
+  },
+  {
+    "cid": 112601143,
+    "name": "9-cyclohex-3-en-1-yl-7,9-diazaspiro[4.5]decan",
+    "smiles": "C1CCC2(C1)C(=O)NC(=O)N(C2=O)C3CCC=CC3",
+    "mw": 262.3,
+    "logp": 2
+  },
+  {
+    "cid": 112601144,
+    "name": "8-cyclohex-3-en-1-yl-6,8-diazaspiro[3.5]nonan",
+    "smiles": "C1CC2(C1)C(=O)NC(=O)N(C2=O)C3CCC=CC3",
+    "mw": 248.28,
+    "logp": 1.5
+  },
+  {
+    "cid": 13660215,
+    "name": "3-(4-aminophenyl)-3-methylpiperidine-2,6-dion",
+    "smiles": "CC1(CCC(=O)NC1=O)C2=CC=C(C=C2)N",
+    "mw": 218.25,
+    "logp": 0.5
+  },
+  {
+    "cid": 356411,
+    "name": "3-[[4-(trifluoromethyl)phenyl]methyl]piperidi",
+    "smiles": "C1CC(=O)NC(=O)C1CC2=CC=C(C=C2)C(F)(F)F",
+    "mw": 271.23,
+    "logp": 2.2
+  },
+  {
+    "cid": 356413,
+    "name": "3-[(4-iodophenyl)methyl]piperidine-2,6-dione",
+    "smiles": "C1CC(=O)NC(=O)C1CC2=CC=C(C=C2)I",
+    "mw": 329.13,
+    "logp": 2
+  },
+  {
+    "cid": 49214,
+    "name": "5-butyl-5-prop-1-enyl-1,3-diazinane-2,4,6-tri",
+    "smiles": "CCCCC1(C(=O)NC(=O)NC1=O)C=CC",
+    "mw": 224.26,
+    "logp": 1.9
+  },
+  {
+    "cid": 102473,
+    "name": "5-(cyclohexen-1-yl)-5-ethyl-1-methyl-1,3-diaz",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C)C2=CCCCC2",
+    "mw": 250.29,
+    "logp": 2.3
+  },
+  {
+    "cid": 120906,
+    "name": "4-butyl-4-methyl-1-(2-phenylethyl)piperidine-",
+    "smiles": "CCCCC1(CC(=O)N(C(=O)C1)CCC2=CC=CC=C2)C",
+    "mw": 287.4,
+    "logp": 3.9
+  },
+  {
+    "cid": 6950985,
+    "name": "(3R)-3-phenylpyrrolidine-2,5-dione",
+    "smiles": "C1C(C(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 175.18,
+    "logp": 0.7
+  },
+  {
+    "cid": 98380,
+    "name": "11-methyl-2,4-diazaspiro[5.5]undec-8-ene-1,3,",
+    "smiles": "CC1CC=CCC12C(=O)NC(=O)NC2=O",
+    "mw": 208.21,
+    "logp": 0.6
+  },
+  {
+    "cid": 14414,
+    "name": "1-[2-(diethylamino)ethyl]-5-ethyl-5-phenyl-1,",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)CCN(CC)CC)C2=CC=CC=C2",
+    "mw": 331.4,
+    "logp": 2.6
+  },
+  {
+    "cid": 8271,
+    "name": "5-ethyl-1-methyl-5-phenyl-1,3-diazinane-2,4,6",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C)C2=CC=CC=C2",
+    "mw": 246.26,
+    "logp": 1.8
+  },
+  {
+    "cid": 24834126,
+    "name": "5-cyclopent-2-en-1-yl-1-methyl-5-(2-methylpro",
+    "smiles": "CC(=C)CC1(C(=O)NC(=O)N(C1=O)C)C2CCC=C2",
+    "mw": 262.3,
+    "logp": 2.1
+  },
+  {
+    "cid": 24834128,
+    "name": "5-cyclopent-2-en-1-yl-1-methyl-5-propyl-1,3-d",
+    "smiles": "CCCC1(C(=O)NC(=O)N(C1=O)C)C2CCC=C2",
+    "mw": 250.29,
+    "logp": 2.2
+  },
+  {
+    "cid": 8274,
+    "name": "5-phenyl-5-prop-2-enyl-1,3-diazinane-2,4,6-tr",
+    "smiles": "C=CCC1(C(=O)NC(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 244.25,
+    "logp": 1.7
+  },
+  {
+    "cid": 3065939,
+    "name": "5-(1-phenylbut-3-enyl)-1,3-diazinane-2,4,6-tr",
+    "smiles": "C=CCC(C1C(=O)NC(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 258.27,
+    "logp": 1.7
+  },
+  {
+    "cid": 3065940,
+    "name": "5-(1,2-diphenylethyl)-1,3-diazinane-2,4,6-tri",
+    "smiles": "C1=CC=C(C=C1)CC(C2C(=O)NC(=O)NC2=O)C3=CC=CC=C3",
+    "mw": 308.3,
+    "logp": 2.6
+  },
+  {
+    "cid": 6434921,
+    "name": "5-[(Z)-pent-2-en-2-yl]-5-propyl-1,3-diazinane",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)C(=CCC)C",
+    "mw": 238.28,
+    "logp": 2.2
+  },
+  {
+    "cid": 6434923,
+    "name": "1-methyl-5-[(E)-pent-2-en-2-yl]-5-propyl-1,3-",
+    "smiles": "CCCC1(C(=O)NC(=O)N(C1=O)C)C(=CCC)C",
+    "mw": 252.31,
+    "logp": 2.9
+  },
+  {
+    "cid": 24834156,
+    "name": "5-ethyl-5-hex-1-ynyl-1,3-diazinane-2,4,6-trio",
+    "smiles": "CCCCC#CC1(C(=O)NC(=O)NC1=O)CC",
+    "mw": 236.27,
+    "logp": 1.9
+  },
+  {
+    "cid": 338030,
+    "name": "4,4-dimethylisoquinoline-1,3-dione",
+    "smiles": "CC1(C2=CC=CC=C2C(=O)NC1=O)C",
+    "mw": 189.21,
+    "logp": 1.6
+  },
+  {
+    "cid": 49265,
+    "name": "5-ethyl-5-hept-3-en-4-yl-1,3-diazinane-2,4,6-",
+    "smiles": "CCCC(=CCC)C1(C(=O)NC(=O)NC1=O)CC",
+    "mw": 252.31,
+    "logp": 2.7
+  },
+  {
+    "cid": 98419,
+    "name": "1-methyl-5-pent-2-en-3-yl-5-propyl-1,3-diazin",
+    "smiles": "CCCC1(C(=O)NC(=O)N(C1=O)C)C(=CC)CC",
+    "mw": 252.31,
+    "logp": 2.9
+  },
+  {
+    "cid": 15001718,
+    "name": "5-fluoro-5-phenyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "C1=CC=C(C=C1)C2(C(=O)NC(=O)NC2=O)F",
+    "mw": 222.17,
+    "logp": 1
+  },
+  {
+    "cid": 6434939,
+    "name": "5-ethyl-1-methyl-5-[(E)-pent-2-en-2-yl]-1,3-d",
+    "smiles": "CCC=C(C)C1(C(=O)NC(=O)N(C1=O)C)CC",
+    "mw": 238.28,
+    "logp": 2.4
+  },
+  {
+    "cid": 18362494,
+    "name": "N-(2,6-dioxopiperidin-1-yl)-2-phenylacetamide",
+    "smiles": "C1CC(=O)N(C(=O)C1)NC(=O)CC2=CC=CC=C2",
+    "mw": 246.26,
+    "logp": 0.6
+  },
+  {
+    "cid": 143091836,
+    "name": "(3R,5R)-3-[3-fluoro-5-(trifluoromethyl)phenyl",
+    "smiles": "CC1CC(C(=O)NC1=O)C2=CC(=CC(=C2)F)C(F)(F)F",
+    "mw": 289.22,
+    "logp": 2.6
+  },
+  {
+    "cid": 6434947,
+    "name": "5-[(E)-but-1-enyl]-5-butyl-1,3-diazinane-2,4,",
+    "smiles": "CCCCC1(C(=O)NC(=O)NC1=O)C=CCC",
+    "mw": 238.28,
+    "logp": 2.1
+  },
+  {
+    "cid": 24834179,
+    "name": "5-pentan-3-yl-5-propyl-1,3-diazinane-2,4,6-tr",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)C(CC)CC",
+    "mw": 240.3,
+    "logp": 2.7
+  },
+  {
+    "cid": 118259846,
+    "name": "8-tert-butyl-6-methyl-4a,8a-dihydro-1H-quinaz",
+    "smiles": "CC1=CC2C(C(=C1)C(C)(C)C)NC(=O)NC2=O",
+    "mw": 234.29,
+    "logp": 1.3
+  },
+  {
+    "cid": 177590406,
+    "name": "5-(cyclohexen-1-yl)-1,5-dimethyl-3-oxido-1,3-",
+    "smiles": "CC1(C(=O)[NH+](C(=O)N(C1=O)C)[O-])C2=CCCCC2",
+    "mw": 252.27,
+    "logp": 1.1
+  },
+  {
+    "cid": 854148,
+    "name": "(3S)-3-methyl-3-phenylpyrrolidine-2,5-dione",
+    "smiles": "CC1(CC(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 189.21,
+    "logp": 1
+  },
+  {
+    "cid": 49292,
+    "name": "5-hexyl-5-phenyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCCCCCC1(C(=O)NC(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 288.34,
+    "logp": 3.6
+  },
+  {
+    "cid": 526476,
+    "name": "5-(2-methylpropyl)-5-propyl-1,3-diazinane-2,4",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)CC(C)C",
+    "mw": 226.27,
+    "logp": 2
+  },
+  {
+    "cid": 49300,
+    "name": "5-methyl-5-(3-methylbutyl)-1,3-diazinane-2,4,",
+    "smiles": "CC(C)CCC1(C(=O)NC(=O)NC1=O)C",
+    "mw": 212.25,
+    "logp": 1.4
+  },
+  {
+    "cid": 6434967,
+    "name": "5-[(E)-but-1-enyl]-5-propyl-1,3-diazinane-2,4",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)C=CCC",
+    "mw": 224.26,
+    "logp": 1.6
+  },
+  {
+    "cid": 6445208,
+    "name": "(E)-N-carbamoyl-2-phenylbut-2-enamide",
+    "smiles": "CC=C(C1=CC=CC=C1)C(=O)NC(=O)N",
+    "mw": 204.22,
+    "logp": 1.8
+  },
+  {
+    "cid": 5185689,
+    "name": "5,5-diethyl-2-methoxy-2-methyl-1,3-diazinane-",
+    "smiles": "CCC1(C(=O)NC(NC1=O)(C)OC)CC",
+    "mw": 214.26,
+    "logp": 0.7
+  },
+  {
+    "cid": 85784731,
+    "name": "5-butan-2-yl-5-methyl-1,3-diazinane-2,4,6-tri",
+    "smiles": "CCC(C)C1(C(=O)NC(=O)NC1=O)C",
+    "mw": 198.22,
+    "logp": 1.1
+  },
+  {
+    "cid": 68927648,
+    "name": "4-[(4-fluorophenyl)methyl]piperidine-2,6-dion",
+    "smiles": "C1C(CC(=O)NC1=O)CC2=CC=C(C=C2)F",
+    "mw": 221.23,
+    "logp": 1.3
+  },
+  {
+    "cid": 67747,
+    "name": "1,5,5-triethyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)CC)CC",
+    "mw": 212.25,
+    "logp": 1.5
+  },
+  {
+    "cid": 64159910,
+    "name": "3-[[3-(trifluoromethyl)phenyl]methyl]piperidi",
+    "smiles": "C1CC(=O)NC(=O)C1CC2=CC(=CC=C2)C(F)(F)F",
+    "mw": 271.23,
+    "logp": 2.2
+  },
+  {
+    "cid": 39084,
+    "name": "5-ethyl-1-(methoxymethyl)-5-phenyl-1,3-diazin",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)COC)C2=CC=CC=C2",
+    "mw": 276.29,
+    "logp": 1.8
+  },
+  {
+    "cid": 49333,
+    "name": "5-(3-methylbut-2-enyl)-5-phenyl-1,3-diazinane",
+    "smiles": "CC(=CCC1(C(=O)NC(=O)NC1=O)C2=CC=CC=C2)C",
+    "mw": 272.3,
+    "logp": 2.5
+  },
+  {
+    "cid": 47285,
+    "name": "5-pent-2-enyl-5-propyl-1,3-diazinane-2,4,6-tr",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)CC=CCC",
+    "mw": 238.28,
+    "logp": 2.2
+  },
+  {
+    "cid": 69079227,
+    "name": "3-(4-fluorophenyl)-3-piperidin-4-ylpiperidine",
+    "smiles": "C1CNCCC1C2(CCC(=O)NC2=O)C3=CC=C(C=C3)F",
+    "mw": 290.33,
+    "logp": 1.3
+  },
+  {
+    "cid": 132264131,
+    "name": "N-acetyl-2-[2-(trifluoromethyl)phenyl]acetami",
+    "smiles": "CC(=O)NC(=O)CC1=CC=CC=C1C(F)(F)F",
+    "mw": 245.2,
+    "logp": 1.8
+  },
+  {
+    "cid": 129939659,
+    "name": "5-(2,2-dimethylpropyl)-1,3-diazinane-2,4,6-tr",
+    "smiles": "CC(C)(C)CC1C(=O)NC(=O)NC1=O",
+    "mw": 198.22,
+    "logp": 0.8
+  },
+  {
+    "cid": 3033297,
+    "name": "5-ethyl-5-phenyl-2-sulfanylidene-1,3-diazinan",
+    "smiles": "CCC1(C(=O)NC(=S)NC1=O)C2=CC=CC=C2",
+    "mw": 248.3,
+    "logp": 2.1
+  },
+  {
+    "cid": 13924562,
+    "name": "3-benzyl-3-chloropiperidine-2,6-dione",
+    "smiles": "C1CC(C(=O)NC1=O)(CC2=CC=CC=C2)Cl",
+    "mw": 237.68,
+    "logp": 1.8
+  },
+  {
+    "cid": 123693269,
+    "name": "N-[2-(4-fluorophenyl)acetyl]pentanamide",
+    "smiles": "CCCCC(=O)NC(=O)CC1=CC=C(C=C1)F",
+    "mw": 237.27,
+    "logp": 2.4
+  },
+  {
+    "cid": 5062871,
+    "name": "1-methyl-5-phenyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CN1C(=O)C(C(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 218.21,
+    "logp": 0.9
+  },
+  {
+    "cid": 15536345,
+    "name": "5-[(3-methylphenyl)methyl]-1,3-diazinane-2,4,",
+    "smiles": "CC1=CC(=CC=C1)CC2C(=O)NC(=O)NC2=O",
+    "mw": 232.23,
+    "logp": 1.2
+  },
+  {
+    "cid": 39130,
+    "name": "5-ethyl-1-(methoxymethyl)-3-methyl-5-phenyl-1",
+    "smiles": "CCC1(C(=O)N(C(=O)N(C1=O)COC)C)C2=CC=CC=C2",
+    "mw": 290.31,
+    "logp": 1.6
+  },
+  {
+    "cid": 15536346,
+    "name": "5-[(4-methylphenyl)methyl]-1,3-diazinane-2,4,",
+    "smiles": "CC1=CC=C(C=C1)CC2C(=O)NC(=O)NC2=O",
+    "mw": 232.23,
+    "logp": 1.2
+  },
+  {
+    "cid": 12312793,
+    "name": "5-ethyl-1-methyl-5-(1,1,2,2,2-pentadeuterioet",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C)CC",
+    "mw": 203.25,
+    "logp": 1.2
+  },
+  {
+    "cid": 49375,
+    "name": "5-(2-methylpropyl)-5-(2-phenylethyl)-1,3-diaz",
+    "smiles": "CC(C)CC1(C(=O)NC(=O)NC1=O)CCC2=CC=CC=C2",
+    "mw": 288.34,
+    "logp": 2.7
+  },
+  {
+    "cid": 92248293,
+    "name": "(11R)-11-methyl-2,4-diazaspiro[5.5]undec-9-en",
+    "smiles": "CC1C=CCCC12C(=O)NC(=O)NC2=O",
+    "mw": 208.21,
+    "logp": 0.5
+  },
+  {
+    "cid": 6451435,
+    "name": "(5S)-5-ethyl-1-methyl-5-phenyl-1,3-diazinane-",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C)C2=CC=CC=C2",
+    "mw": 246.26,
+    "logp": 1.8
+  },
+  {
+    "cid": 23273710,
+    "name": "5-methyl-5-propan-2-yl-1,3-diazinane-2,4,6-tr",
+    "smiles": "CC(C)C1(C(=O)NC(=O)NC1=O)C",
+    "mw": 184.19,
+    "logp": 0.5
+  },
+  {
+    "cid": 274674,
+    "name": "5-butyl-1-methyl-5-prop-1-en-2-yl-1,3-diazina",
+    "smiles": "CCCCC1(C(=O)NC(=O)N(C1=O)C)C(=C)C",
+    "mw": 238.28,
+    "logp": 2.8
+  },
+  {
+    "cid": 54558963,
+    "name": "(5S)-1-methyl-5-phenyl-5-propyl-1,3-diazinane",
+    "smiles": "CCCC1(C(=O)NC(=O)N(C1=O)C)C2=CC=CC=C2",
+    "mw": 260.29,
+    "logp": 2.4
+  },
+  {
+    "cid": 235764,
+    "name": "2-methyl-2-phenylbutanamide",
+    "smiles": "CCC(C)(C1=CC=CC=C1)C(=O)N",
+    "mw": 177.24,
+    "logp": 1.6
+  },
+  {
+    "cid": 141181172,
+    "name": "2-(4-fluorophenyl)-2-piperidin-4-ylpentanedia",
+    "smiles": "C1CNCCC1C(CCC(=O)N)(C2=CC=C(C=C2)F)C(=O)N",
+    "mw": 307.36,
+    "logp": 0.2
+  },
+  {
+    "cid": 2294,
+    "name": "5,5-diethyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)CC",
+    "mw": 184.19,
+    "logp": 0.6
+  },
+  {
+    "cid": 106098934,
+    "name": "3-(5,5-diethyl-2,4,6-trioxo-1,3-diazinan-1-yl",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C(C)(C)CC(=O)N)CC",
+    "mw": 283.32,
+    "logp": 0.6
+  },
+  {
+    "cid": 129749241,
+    "name": "5,5-diethyl-1-iodo-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)I)CC",
+    "mw": 310.09,
+    "logp": 1.3
+  },
+  {
+    "cid": 167264505,
+    "name": "(3S)-3-[4-[(E)-2-ethoxyethenyl]-2,6-difluorop",
+    "smiles": "CCOC=CC1=CC(=C(C(=C1)F)C2CCC(=O)NC2=O)F",
+    "mw": 295.28,
+    "logp": 2
+  },
+  {
+    "cid": 274690,
+    "name": "5-but-2-en-2-yl-5-propyl-1,3-diazinane-2,4,6-",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)C(=CC)C",
+    "mw": 224.26,
+    "logp": 1.8
+  },
+  {
+    "cid": 10176773,
+    "name": "(3S)-3-ethyl-3-phenylpiperidine-2,6-dione",
+    "smiles": "CCC1(CCC(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 217.26,
+    "logp": 1.9
+  },
+  {
+    "cid": 135565575,
+    "name": "5-ethyl-2-imino-5-phenyl-1,3-diazinane-4,6-di",
+    "smiles": "CCC1(C(=O)NC(=N)NC1=O)C2=CC=CC=C2",
+    "mw": 231.25,
+    "logp": 1.6
+  },
+  {
+    "cid": 102669,
+    "name": "3-[2-(diethylamino)ethyl]-3-phenylpiperidine-",
+    "smiles": "CCN(CC)CCC1(CCC(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 288.4,
+    "logp": 2.1
+  },
+  {
+    "cid": 3033365,
+    "name": "5-benzyl-5-ethyl-1-methyl-2-sulfanylidene-1,3",
+    "smiles": "CCC1(C(=O)NC(=S)N(C1=O)C)CC2=CC=CC=C2",
+    "mw": 276.36,
+    "logp": 2.3
+  },
+  {
+    "cid": 90679573,
+    "name": "5-(3,3-dimethylbutan-2-yl)-5-methyl-1,3-diazi",
+    "smiles": "CC(C1(C(=O)NC(=O)NC1=O)C)C(C)(C)C",
+    "mw": 226.27,
+    "logp": 1.7
+  },
+  {
+    "cid": 90679574,
+    "name": "5-(3,3-dimethylbutan-2-yl)-5-ethyl-1,3-diazin",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C(C)C(C)(C)C",
+    "mw": 240.3,
+    "logp": 2.2
+  },
+  {
+    "cid": 90679576,
+    "name": "5-(2,2-dimethylpropyl)-5-propyl-1,3-diazinane",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)CC(C)(C)C",
+    "mw": 240.3,
+    "logp": 2.4
+  },
+  {
+    "cid": 68163864,
+    "name": "1-(2-fluoro-4-methylphenyl)-3-azabicyclo[3.1.",
+    "smiles": "CC1=CC(=C(C=C1)C23CC2C(=O)NC3=O)F",
+    "mw": 219.21,
+    "logp": 1.1
+  },
+  {
+    "cid": 90679579,
+    "name": "5-(2,2-dimethylpropyl)-5-(2-methylpropyl)-1,3",
+    "smiles": "CC(C)CC1(C(=O)NC(=O)NC1=O)CC(C)(C)C",
+    "mw": 254.33,
+    "logp": 2.4
+  },
+  {
+    "cid": 805159,
+    "name": "5-phenyl-2-sulfanylidene-1,3-diazinane-4,6-di",
+    "smiles": "C1=CC=C(C=C1)C2C(=O)NC(=S)NC2=O",
+    "mw": 220.25,
+    "logp": 1.1
+  },
+  {
+    "cid": 364846,
+    "name": "N-acetyl-3-oxo-2-phenylbutanamide",
+    "smiles": "CC(=O)C(C1=CC=CC=C1)C(=O)NC(=O)C",
+    "mw": 219.24,
+    "logp": 0.9
+  },
+  {
+    "cid": 2724150,
+    "name": "5-ethyl-5-(4-methylphenyl)-2-sulfanylidene-1,",
+    "smiles": "CCC1(C(=O)NC(=S)NC1=O)C2=CC=C(C=C2)C",
+    "mw": 262.33,
+    "logp": 2.4
+  },
+  {
+    "cid": 6455,
+    "name": "5-ethyl-5-propan-2-yl-1,3-diazinane-2,4,6-tri",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C(C)C",
+    "mw": 198.22,
+    "logp": 1
+  },
+  {
+    "cid": 17938758,
+    "name": "1-(2-phenylacetyl)piperidine-2,6-dione",
+    "smiles": "C1CC(=O)N(C(=O)C1)C(=O)CC2=CC=CC=C2",
+    "mw": 231.25,
+    "logp": 0.9
+  },
+  {
+    "cid": 132342088,
+    "name": "4,4-dimethyl-5-phenylpiperidin-2-one",
+    "smiles": "CC1(CC(=O)NCC1C2=CC=CC=C2)C",
+    "mw": 203.28,
+    "logp": 2.2
+  },
+  {
+    "cid": 6473,
+    "name": "5-butyl-5-ethyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCCCC1(C(=O)NC(=O)NC1=O)CC",
+    "mw": 212.25,
+    "logp": 1.7
+  },
+  {
+    "cid": 130347339,
+    "name": "N-acetyl-5-methyl-2,6-dioxo-4-phenyl-4-(trifl",
+    "smiles": "CC1C(=O)NC(=O)C(C1(C2=CC=CC=C2)C(F)(F)F)C(=O)NC(=O)C",
+    "mw": 356.3,
+    "logp": 2.3
+  },
+  {
+    "cid": 133065041,
+    "name": "2-methyl-4-phenyl-2,7,9-triazaspiro[4.5]decan",
+    "smiles": "CN1CC(C2(C1)C(=O)NC(=O)NC2=O)C3=CC=CC=C3",
+    "mw": 273.29,
+    "logp": 0.3
+  },
+  {
+    "cid": 68743516,
+    "name": "5,5-bis(2-methylpropyl)-1,3-diazinane-2,4,6-t",
+    "smiles": "CC(C)CC1(C(=O)NC(=O)NC1=O)CC(C)C",
+    "mw": 240.3,
+    "logp": 2.2
+  },
+  {
+    "cid": 82127203,
+    "name": "3-(4-propan-2-ylphenyl)piperidin-2-one",
+    "smiles": "CC(C)C1=CC=C(C=C1)C2CCCNC2=O",
+    "mw": 217.31,
+    "logp": 2.8
+  },
+  {
+    "cid": 47463,
+    "name": "5-cyclopent-2-en-1-yl-1-methyl-5-prop-2-enyl-",
+    "smiles": "CN1C(=O)C(C(=O)NC1=O)(CC=C)C2CCC=C2",
+    "mw": 248.28,
+    "logp": 1.9
+  },
+  {
+    "cid": 2220392,
+    "name": "5-ethyl-5-(4-phenylphenyl)-1,3-diazinane-2,4,",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C2=CC=C(C=C2)C3=CC=CC=C3",
+    "mw": 308.3,
+    "logp": 3.1
+  },
+  {
+    "cid": 3043688,
+    "name": "5-bromo-3-ethyl-3-phenylpiperidine-2,6-dione",
+    "smiles": "CCC1(CC(C(=O)NC1=O)Br)C2=CC=CC=C2",
+    "mw": 296.16,
+    "logp": 2.8
+  },
+  {
+    "cid": 23423338,
+    "name": "5-benzyl-5-prop-2-enyl-1,3-diazinane-2,4,6-tr",
+    "smiles": "C=CCC1(C(=O)NC(=O)NC1=O)CC2=CC=CC=C2",
+    "mw": 258.27,
+    "logp": 1.9
+  },
+  {
+    "cid": 27002,
+    "name": "5-benzyl-1,3-dimethyl-1,3-diazinane-2,4,6-tri",
+    "smiles": "CN1C(=O)C(C(=O)N(C1=O)C)CC2=CC=CC=C2",
+    "mw": 246.26,
+    "logp": 1.2
+  },
+  {
+    "cid": 72060,
+    "name": "N-carbamoyl-2-phenylbutanamide",
+    "smiles": "CCC(C1=CC=CC=C1)C(=O)NC(=O)N",
+    "mw": 206.24,
+    "logp": 1.8
+  },
+  {
+    "cid": 129632643,
+    "name": "N,N'-dicarbamoyl-2-(1-phenylethyl)propanediam",
+    "smiles": "CC(C1=CC=CC=C1)C(C(=O)NC(=O)N)C(=O)NC(=O)N",
+    "mw": 292.29,
+    "logp": 0.8
+  },
+  {
+    "cid": 92248451,
+    "name": "(5S)-5-butyl-1-methyl-5-prop-1-en-2-yl-1,3-di",
+    "smiles": "CCCCC1(C(=O)NC(=O)N(C1=O)C)C(=C)C",
+    "mw": 238.28,
+    "logp": 2.8
+  },
+  {
+    "cid": 90509,
+    "name": "5,5-dimethyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CC1(C(=O)NC(=O)NC1=O)C",
+    "mw": 156.14,
+    "logp": -0.1
+  },
+  {
+    "cid": 112601494,
+    "name": "1-(dimethylamino)-5,5-diethyl-1,3-diazinane-2",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)N(C)C)CC",
+    "mw": 227.26,
+    "logp": 1.4
+  },
+  {
+    "cid": 23273879,
+    "name": "5-tert-butyl-5-methyl-1,3-diazinane-2,4,6-tri",
+    "smiles": "CC1(C(=O)NC(=O)NC1=O)C(C)(C)C",
+    "mw": 198.22,
+    "logp": 0.8
+  },
+  {
+    "cid": 260512,
+    "name": "N,2-dimethyl-2-phenylpropanamide",
+    "smiles": "CC(C)(C1=CC=CC=C1)C(=O)NC",
+    "mw": 177.24,
+    "logp": 2.1
+  },
+  {
+    "cid": 194982,
+    "name": "(5S)-1-methyl-5-pentyl-5-phenyl-1,3-diazinane",
+    "smiles": "CCCCCC1(C(=O)NC(=O)N(C1=O)C)C2=CC=CC=C2",
+    "mw": 288.34,
+    "logp": 3.5
+  },
+  {
+    "cid": 102371754,
+    "name": "1,3-dimethyl-5-(3-methyl-2-methylidenebut-3-e",
+    "smiles": "CC(=C)C(=C)CC1(C(=O)N(C(=O)N(C1=O)C)C)CC=C",
+    "mw": 276.33,
+    "logp": 2.9
+  },
+  {
+    "cid": 13586857,
+    "name": "3,3-dimethyl-2-phenylbutanamide",
+    "smiles": "CC(C)(C)C(C1=CC=CC=C1)C(=O)N",
+    "mw": 191.27,
+    "logp": 2.5
+  },
+  {
+    "cid": 3017130,
+    "name": "4-phenylpiperidine-4-carboxamide",
+    "smiles": "C1CNCCC1(C2=CC=CC=C2)C(=O)N",
+    "mw": 204.27,
+    "logp": 0.6
+  },
+  {
+    "cid": 2479,
+    "name": "5-butan-2-yl-5-ethyl-1,3-diazinane-2,4,6-trio",
+    "smiles": "CCC(C)C1(C(=O)NC(=O)NC1=O)CC",
+    "mw": 212.25,
+    "logp": 1.6
+  },
+  {
+    "cid": 100785,
+    "name": "5-ethyl-5-(4-methylphenyl)-1,3-diazinane-4,6-",
+    "smiles": "CCC1(C(=O)NCNC1=O)C2=CC=C(C=C2)C",
+    "mw": 232.28,
+    "logp": 1.3
+  },
+  {
+    "cid": 367024,
+    "name": "4-(4-fluorophenyl)-4-methyl-2,6-dioxopiperidi",
+    "smiles": "CC1(C(C(=O)NC(=O)C1C#N)C#N)C2=CC=C(C=C2)F",
+    "mw": 271.25,
+    "logp": 1.3
+  },
+  {
+    "cid": 176452015,
+    "name": "3-[4-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-",
+    "smiles": "B1(OC(C(O1)(C)C)(C)C)C2=CC=C(C=C2)C3CCC(=O)NC3=O",
+    "mw": 315.2,
+    "logp": 0
+  },
+  {
+    "cid": 18430385,
+    "name": "3-(4-fluorophenyl)-1-methylpiperidine-2,6-dio",
+    "smiles": "CN1C(=O)CCC(C1=O)C2=CC=C(C=C2)F",
+    "mw": 221.23,
+    "logp": 1.3
+  },
+  {
+    "cid": 71416255,
+    "name": "5-ethyl-5-pent-2-en-3-yl-1,3-diazinane-2,4-di",
+    "smiles": "CCC(=CC)C1(CNC(=O)NC1=O)CC",
+    "mw": 210.27,
+    "logp": 1.7
+  },
+  {
+    "cid": 129939903,
+    "name": "1,5-dimethyl-5-propyl-1,3-diazinane-2,4,6-tri",
+    "smiles": "CCCC1(C(=O)NC(=O)N(C1=O)C)C",
+    "mw": 198.22,
+    "logp": 1.3
+  },
+  {
+    "cid": 71416257,
+    "name": "5-pent-2-en-2-yl-5-propyl-1,3-diazinane-2,4-d",
+    "smiles": "CCCC1(CNC(=O)NC1=O)C(=CCC)C",
+    "mw": 224.3,
+    "logp": 2.2
+  },
+  {
+    "cid": 71416260,
+    "name": "5-ethyl-5-hept-3-en-4-yl-1,3-diazinane-2,4-di",
+    "smiles": "CCCC(=CCC)C1(CNC(=O)NC1=O)CC",
+    "mw": 238.33,
+    "logp": 2.7
+  },
+  {
+    "cid": 14594508,
+    "name": "5-methyl-5-(2-methylpropyl)-1,3-diazinane-2,4",
+    "smiles": "CC(C)CC1(C(=O)NC(=O)NC1=O)C",
+    "mw": 198.22,
+    "logp": 0.8
+  },
+  {
+    "cid": 207317,
+    "name": "1,3-bis(bromomethyl)-5-ethyl-5-phenyl-1,3-dia",
+    "smiles": "CCC1(C(=O)N(C(=O)N(C1=O)CBr)CBr)C2=CC=CC=C2",
+    "mw": 418.08,
+    "logp": 3.3
+  },
+  {
+    "cid": 152605141,
+    "name": "3-[2-(trifluoromethyl)phenyl]piperidine-2,6-d",
+    "smiles": "C1CC(=O)NC(=O)C1C2=CC=CC=C2C(F)(F)F",
+    "mw": 257.21,
+    "logp": 1.9
+  },
+  {
+    "cid": 6431192,
+    "name": "5-(cyclohepten-1-yl)-5-ethyl-1-methyl-1,3-dia",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C)C2=CCCCCC2",
+    "mw": 264.32,
+    "logp": 2.8
+  },
+  {
+    "cid": 156021210,
+    "name": "5-benzyl-5-(7,8-difluorooctyl)-1,3-diazinane-",
+    "smiles": "C1=CC=C(C=C1)CC2(C(=O)NC(=O)NC2=O)CCCCCCC(CF)F",
+    "mw": 366.4,
+    "logp": 4.1
+  },
+  {
+    "cid": 119267,
+    "name": "1-methyl-5-phenyl-5-propyl-1,3-diazinane-2,4,",
+    "smiles": "CCCC1(C(=O)NC(=O)N(C1=O)C)C2=CC=CC=C2",
+    "mw": 260.29,
+    "logp": 2.4
+  },
+  {
+    "cid": 23126504,
+    "name": "5-(2-phenylethyl)-1,3-diazinane-2,4,6-trione",
+    "smiles": "C1=CC=C(C=C1)CCC2C(=O)NC(=O)NC2=O",
+    "mw": 232.23,
+    "logp": 1.1
+  },
+  {
+    "cid": 10858987,
+    "name": "5-bromo-5-phenyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "C1=CC=C(C=C1)C2(C(=O)NC(=O)NC2=O)Br",
+    "mw": 283.08,
+    "logp": 1.4
+  },
+  {
+    "cid": 3779052,
+    "name": "4-(4-fluorophenyl)-2,6-dioxopiperidine-3,5-di",
+    "smiles": "C1=CC(=CC=C1C2C(C(=O)NC(=O)C2C#N)C#N)F",
+    "mw": 257.22,
+    "logp": 0.8
+  },
+  {
+    "cid": 57557488,
+    "name": "3-(3,4-difluorophenyl)-3-piperidin-4-ylpiperi",
+    "smiles": "C1CNCCC1C2(CCC(=O)NC2=O)C3=CC(=C(C=C3)F)F",
+    "mw": 308.32,
+    "logp": 1.4
+  },
+  {
+    "cid": 15639027,
+    "name": "3-(2,6-dioxo-3-phenylpiperidin-3-yl)propanoic",
+    "smiles": "C1CC(C(=O)NC1=O)(CCC(=O)O)C2=CC=CC=C2",
+    "mw": 261.27,
+    "logp": 0.9
+  },
+  {
+    "cid": 37365,
+    "name": "5-ethyl-5-(2-methylbutyl)-1,3-diazinane-2,4,6",
+    "smiles": "CCC(C)CC1(C(=O)NC(=O)NC1=O)CC",
+    "mw": 226.27,
+    "logp": 1.8
+  },
+  {
+    "cid": 94713,
+    "name": "2-methyl-2-phenylpropanamide",
+    "smiles": "CC(C)(C1=CC=CC=C1)C(=O)N",
+    "mw": 163.22,
+    "logp": 1.7
+  },
+  {
+    "cid": 283130,
+    "name": "9-methyl-2,4-diazaspiro[5.5]undec-9-ene-1,3,5",
+    "smiles": "CC1=CCC2(CC1)C(=O)NC(=O)NC2=O",
+    "mw": 208.21,
+    "logp": 0.1
+  },
+  {
+    "cid": 528891,
+    "name": "5-cyclohexa-1,3-dien-1-yl-5-ethyl-1,3-diazina",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C2=CC=CCC2",
+    "mw": 234.25,
+    "logp": 1.5
+  },
+  {
+    "cid": 283132,
+    "name": "2,4-diazaspiro[5.5]undec-9-ene-1,3,5-trione",
+    "smiles": "C1CC2(CC=C1)C(=O)NC(=O)NC2=O",
+    "mw": 194.19,
+    "logp": 0.2
+  },
+  {
+    "cid": 57557497,
+    "name": "3-(2,4-difluorophenyl)-3-piperidin-4-ylpiperi",
+    "smiles": "C1CNCCC1C2(CCC(=O)NC2=O)C3=C(C=C(C=C3)F)F",
+    "mw": 308.32,
+    "logp": 1.4
+  },
+  {
+    "cid": 90337787,
+    "name": "N-[2-(4-fluorophenyl)acetyl]-2,2-dimethylprop",
+    "smiles": "CC(C)(C)C(=O)NC(=O)CC1=CC=C(C=C1)F",
+    "mw": 237.27,
+    "logp": 2.4
+  },
+  {
+    "cid": 528900,
+    "name": "5-cyclohepta-1,3-dien-1-yl-5-ethyl-1,3-diazin",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C2=CC=CCCC2",
+    "mw": 248.28,
+    "logp": 2
+  },
+  {
+    "cid": 528901,
+    "name": "5-cyclohexa-1,3-dien-1-yl-5-methyl-1,3-diazin",
+    "smiles": "CC1(C(=O)NC(=O)NC1=O)C2=CC=CCC2",
+    "mw": 220.22,
+    "logp": 0.7
+  },
+  {
+    "cid": 14877193,
+    "name": "N-tert-butyl-2-phenylpropanamide",
+    "smiles": "CC(C1=CC=CC=C1)C(=O)NC(C)(C)C",
+    "mw": 205.3,
+    "logp": 2.7
+  },
+  {
+    "cid": 528907,
+    "name": "5-ethyl-5-penta-2,4-dien-2-yl-1,3-diazinane-2",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C(=CC=C)C",
+    "mw": 222.24,
+    "logp": 1.7
+  },
+  {
+    "cid": 778764,
+    "name": "N-ethyl-1-phenylcyclopentane-1-carboxamide",
+    "smiles": "CCNC(=O)C1(CCCC1)C2=CC=CC=C2",
+    "mw": 217.31,
+    "logp": 2.9
+  },
+  {
+    "cid": 909840,
+    "name": "5-[(E)-3-phenylprop-2-enyl]-1,3-diazinane-2,4",
+    "smiles": "C1=CC=C(C=C1)C=CCC2C(=O)NC(=O)NC2=O",
+    "mw": 244.25,
+    "logp": 1.5
+  },
+  {
+    "cid": 37405,
+    "name": "5-benzyl-5-ethyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)CC2=CC=CC=C2",
+    "mw": 246.26,
+    "logp": 1.8
+  },
+  {
+    "cid": 143307298,
+    "name": "1-[4-(1,1-difluoroprop-2-enyl)phenyl]-3-azabi",
+    "smiles": "C=CC(C1=CC=C(C=C1)C23CC2C(=O)NC3=O)(F)F",
+    "mw": 263.24,
+    "logp": 1.9
+  },
+  {
+    "cid": 203309,
+    "name": "3-methyl-3-phenylpiperidine-2,6-dione",
+    "smiles": "CC1(CCC(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 203.24,
+    "logp": 1.1
+  },
+  {
+    "cid": 203310,
+    "name": "3-ethyl-3-phenylpyridine-2,6-dione",
+    "smiles": "CCC1(C=CC(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 215.25,
+    "logp": 1.9
+  },
+  {
+    "cid": 12847,
+    "name": "5,5-diethyl-1,3-dimethyl-1,3-diazinane-2,4,6-",
+    "smiles": "CCC1(C(=O)N(C(=O)N(C1=O)C)C)CC",
+    "mw": 212.25,
+    "logp": 0.8
+  },
+  {
+    "cid": 21858864,
+    "name": "5-benzoyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "C1=CC=C(C=C1)C(=O)C2C(=O)NC(=O)NC2=O",
+    "mw": 232.19,
+    "logp": 0.4
+  },
+  {
+    "cid": 211505,
+    "name": "5-ethyl-1-methyl-5-propan-2-yl-1,3-diazinane-",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C)C(C)C",
+    "mw": 212.25,
+    "logp": 1.4
+  },
+  {
+    "cid": 213551,
+    "name": "(5-ethyl-2,6-dioxo-5-phenylpiperidin-3-yl) th",
+    "smiles": "CCC1(CC(C(=O)NC1=O)SC#N)C2=CC=CC=C2",
+    "mw": 274.34,
+    "logp": 2.6
+  },
+  {
+    "cid": 4454978,
+    "name": "1,3-diacetyl-5-ethyl-5-phenyl-1,3-diazinane-4",
+    "smiles": "CCC1(C(=O)N(CN(C1=O)C(=O)C)C(=O)C)C2=CC=CC=C2",
+    "mw": 302.32,
+    "logp": 1.2
+  },
+  {
+    "cid": 340546,
+    "name": "N-acetyl-2-phenylacetamide",
+    "smiles": "CC(=O)NC(=O)CC1=CC=CC=C1",
+    "mw": 177.2,
+    "logp": 0.9
+  },
+  {
+    "cid": 71459396,
+    "name": "5-benzyl-5-octyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCCCCCCCC1(C(=O)NC(=O)NC1=O)CC2=CC=CC=C2",
+    "mw": 330.4,
+    "logp": 4.8
+  },
+  {
+    "cid": 71459397,
+    "name": "5-benzyl-5-(8-methylnonyl)-1,3-diazinane-2,4,",
+    "smiles": "CC(C)CCCCCCCC1(C(=O)NC(=O)NC1=O)CC2=CC=CC=C2",
+    "mw": 358.5,
+    "logp": 5.6
+  },
+  {
+    "cid": 71459398,
+    "name": "5-benzyl-5-(8,8,8-trifluorooctyl)-1,3-diazina",
+    "smiles": "C1=CC=C(C=C1)CC2(C(=O)NC(=O)NC2=O)CCCCCCCC(F)(F)F",
+    "mw": 384.4,
+    "logp": 5
+  },
+  {
+    "cid": 140132937,
+    "name": "5-[(E)-2-methylhex-2-enyl]-5-prop-2-enyl-1,3-",
+    "smiles": "CCCC=C(C)CC1(C(=O)NC(=O)NC1=O)CC=C",
+    "mw": 264.32,
+    "logp": 2.9
+  },
+  {
+    "cid": 140132938,
+    "name": "5-[(E)-2-methylbut-2-enyl]-5-prop-2-enyl-1,3-",
+    "smiles": "CC=C(C)CC1(C(=O)NC(=O)NC1=O)CC=C",
+    "mw": 236.27,
+    "logp": 1.9
+  },
+  {
+    "cid": 27214,
+    "name": "5-tert-butyl-5-ethyl-1,3-diazinane-2,4,6-trio",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C(C)(C)C",
+    "mw": 212.25,
+    "logp": 1.4
+  },
+  {
+    "cid": 166947408,
+    "name": "3-(2,6-difluoro-4-methylphenyl)piperidine-2,6",
+    "smiles": "CC1=CC(=C(C(=C1)F)C2CCC(=O)NC2=O)F",
+    "mw": 239.22,
+    "logp": 1.6
+  },
+  {
+    "cid": 10443347,
+    "name": "3-benzyl-3-ethylpiperidin-2-one",
+    "smiles": "CCC1(CCCNC1=O)CC2=CC=CC=C2",
+    "mw": 217.31,
+    "logp": 2.7
+  },
+  {
+    "cid": 279125,
+    "name": "3,4-diphenylpiperidine-2,6-dione",
+    "smiles": "C1C(C(C(=O)NC1=O)C2=CC=CC=C2)C3=CC=CC=C3",
+    "mw": 265.31,
+    "logp": 2.4
+  },
+  {
+    "cid": 14531158,
+    "name": "3-benzylpiperidine-2,6-dione",
+    "smiles": "C1CC(=O)NC(=O)C1CC2=CC=CC=C2",
+    "mw": 203.24,
+    "logp": 1.3
+  },
+  {
+    "cid": 162351702,
+    "name": "3-(2-fluorophenyl)-5,5,6,6-tetramethylpiperid",
+    "smiles": "CC1(CC(C(=O)NC1(C)C)C2=CC=CC=C2F)C",
+    "mw": 249.32,
+    "logp": 3.2
+  },
+  {
+    "cid": 166947416,
+    "name": "2-[4-(2,6-dioxopiperidin-3-yl)-3-fluorophenyl",
+    "smiles": "C1CC(=O)NC(=O)C1C2=C(C=C(C=C2)CC=O)F",
+    "mw": 249.24,
+    "logp": 0.5
+  },
+  {
+    "cid": 14531161,
+    "name": "3-[(4-fluorophenyl)methyl]piperidine-2,6-dion",
+    "smiles": "C1CC(=O)NC(=O)C1CC2=CC=C(C=C2)F",
+    "mw": 221.23,
+    "logp": 1.4
+  },
+  {
+    "cid": 14531162,
+    "name": "3-[(4-phenylphenyl)methyl]piperidine-2,6-dion",
+    "smiles": "C1CC(=O)NC(=O)C1CC2=CC=C(C=C2)C3=CC=CC=C3",
+    "mw": 279.3,
+    "logp": 2.9
+  },
+  {
+    "cid": 14531163,
+    "name": "3-[(4-trimethylsilylphenyl)methyl]piperidine-",
+    "smiles": "C[Si](C)(C)C1=CC=C(C=C1)CC2CCC(=O)NC2=O",
+    "mw": 275.42,
+    "logp": 0
+  },
+  {
+    "cid": 23274077,
+    "name": "5,5-di(propan-2-yl)-1,3-diazinane-2,4,6-trion",
+    "smiles": "CC(C)C1(C(=O)NC(=O)NC1=O)C(C)C",
+    "mw": 212.25,
+    "logp": 1.6
+  },
+  {
+    "cid": 14531165,
+    "name": "3-benzyl-1-methylpiperidine-2,6-dione",
+    "smiles": "CN1C(=O)CCC(C1=O)CC2=CC=CC=C2",
+    "mw": 217.26,
+    "logp": 1.5
+  },
+  {
+    "cid": 116038240,
+    "name": "4-[(E)-pent-3-enyl]-2,4-diazaspiro[5.5]undeca",
+    "smiles": "CC=CCCN1C(=O)C2(CCCCC2)C(=O)NC1=O",
+    "mw": 264.32,
+    "logp": 2.3
+  },
+  {
+    "cid": 12897,
+    "name": "5-ethyl-1,3-dimethyl-5-phenyl-1,3-diazinane-2",
+    "smiles": "CCC1(C(=O)N(C(=O)N(C1=O)C)C)C2=CC=CC=C2",
+    "mw": 260.29,
+    "logp": 2
+  },
+  {
+    "cid": 23448169,
+    "name": "3-[(4-fluorophenyl)methyl]-3-methylpiperidin-",
+    "smiles": "CC1(CCCNC1=O)CC2=CC=C(C=C2)F",
+    "mw": 221.27,
+    "logp": 2.4
+  },
+  {
+    "cid": 3043946,
+    "name": "5-amino-3-ethyl-3-phenylpiperidine-2,6-dione",
+    "smiles": "CCC1(CC(C(=O)NC1=O)N)C2=CC=CC=C2",
+    "mw": 232.28,
+    "logp": 1.1
+  },
+  {
+    "cid": 45038190,
+    "name": "5-ethyl-5-(1,1,2,2,2-pentadeuterioethyl)-1,3-",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)CC",
+    "mw": 189.22,
+    "logp": 0.6
+  },
+  {
+    "cid": 5007983,
+    "name": "5,5-di(butan-2-yl)-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCC(C)C1(C(=O)NC(=O)NC1=O)C(C)CC",
+    "mw": 240.3,
+    "logp": 2.6
+  },
+  {
+    "cid": 66160,
+    "name": "5-methyl-5-phenyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CC1(C(=O)NC(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 218.21,
+    "logp": 1.1
+  },
+  {
+    "cid": 12249714,
+    "name": "5-(1,1,2,2,2-pentadeuterioethyl)-5-phenyl-1,3",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 237.27,
+    "logp": 1.5
+  },
+  {
+    "cid": 6425216,
+    "name": "6-amino-5-ethyl-5-phenylpyrimidine-2,4-dione",
+    "smiles": "CCC1(C(=NC(=O)NC1=O)N)C2=CC=CC=C2",
+    "mw": 231.25,
+    "logp": 0.4
+  },
+  {
+    "cid": 2179715,
+    "name": "5-benzhydryl-1,3-diazinane-2,4,6-trione",
+    "smiles": "C1=CC=C(C=C1)C(C2C(=O)NC(=O)NC2=O)C3=CC=CC=C3",
+    "mw": 294.3,
+    "logp": 2.3
+  },
+  {
+    "cid": 162351747,
+    "name": "3-(4-fluorophenyl)-5,5,6,6-tetramethylpiperid",
+    "smiles": "CC1(CC(C(=O)NC1(C)C)C2=CC=C(C=C2)F)C",
+    "mw": 249.32,
+    "logp": 3.2
+  },
+  {
+    "cid": 14926472,
+    "name": "1,3-dibromo-5,5-diethyl-1,3-diazinane-2,4,6-t",
+    "smiles": "CCC1(C(=O)N(C(=O)N(C1=O)Br)Br)CC",
+    "mw": 341.98,
+    "logp": 2.4
+  },
+  {
+    "cid": 12938,
+    "name": "1-benzoyl-5-ethyl-5-phenyl-1,3-diazinane-2,4,",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C(=O)C2=CC=CC=C2)C3=CC=CC=C3",
+    "mw": 336.3,
+    "logp": 3.3
+  },
+  {
+    "cid": 451210,
+    "name": "5,5-diethyl-(211C)1,3-diazinane-2,4,6-trione",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)CC",
+    "mw": 183.19,
+    "logp": 0.6
+  },
+  {
+    "cid": 451214,
+    "name": "5-(cyclohexen-1-yl)-5-methyl-1-(111C)methyl-1",
+    "smiles": "CC1(C(=O)NC(=O)N(C1=O)C)C2=CCCCC2",
+    "mw": 235.27,
+    "logp": 1.5
+  },
+  {
+    "cid": 4753,
+    "name": "N-carbamoyl-2-phenylacetamide",
+    "smiles": "C1=CC=C(C=C1)CC(=O)NC(=O)N",
+    "mw": 178.19,
+    "logp": 0.9
+  },
+  {
+    "cid": 23188,
+    "name": "5-ethyl-5-phenyl-1-(piperidin-1-ylmethyl)-1,3",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)CN2CCCCC2)C3=CC=CC=C3",
+    "mw": 329.4,
+    "logp": 2.8
+  },
+  {
+    "cid": 2843283,
+    "name": "3-benzyl-3-phenylpyrrolidine-2,5-dione",
+    "smiles": "C1C(=O)NC(=O)C1(CC2=CC=CC=C2)C3=CC=CC=C3",
+    "mw": 265.31,
+    "logp": 2.4
+  },
+  {
+    "cid": 23317139,
+    "name": "3,3-dimethyl-4-phenylpyrrolidine-2,5-dione",
+    "smiles": "CC1(C(C(=O)NC1=O)C2=CC=CC=C2)C",
+    "mw": 203.24,
+    "logp": 1.6
+  },
+  {
+    "cid": 410265,
+    "name": "5-methyl-5-pentan-3-yl-1,3-diazinane-2,4,6-tr",
+    "smiles": "CCC(CC)C1(C(=O)NC(=O)NC1=O)C",
+    "mw": 212.25,
+    "logp": 1.6
+  },
+  {
+    "cid": 4763,
+    "name": "5-ethyl-5-phenyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 232.23,
+    "logp": 1.5
+  },
+  {
+    "cid": 90127003,
+    "name": "(11E)-11-(aminomethylidene)-2,4-dimethyl-2,4-",
+    "smiles": "CN1C(=O)C2(C=CC=CC2=CN)C(=O)N(C1=O)C",
+    "mw": 247.25,
+    "logp": -0.2
+  },
+  {
+    "cid": 92162718,
+    "name": "(11S)-11-methyl-2,4-diazaspiro[5.5]undec-9-en",
+    "smiles": "CC1C=CCCC12C(=O)NC(=O)NC2=O",
+    "mw": 208.21,
+    "logp": 0.5
+  },
+  {
+    "cid": 129628837,
+    "name": "N,N'-dicarbamoyl-2,2-diethylpropanediamide",
+    "smiles": "CCC(CC)(C(=O)NC(=O)N)C(=O)NC(=O)N",
+    "mw": 244.25,
+    "logp": 0.2
+  },
+  {
+    "cid": 44384941,
+    "name": "5-hexyl-5-(4-phenylphenyl)-2-sulfanylidene-1,",
+    "smiles": "CCCCCCC1(C(=O)NC(=S)NC1=O)C2=CC=C(C=C2)C3=CC=CC=C3",
+    "mw": 380.5,
+    "logp": 5.9
+  },
+  {
+    "cid": 163611314,
+    "name": "3-(4-fluoro-2-methylphenyl)piperidine-2,6-dio",
+    "smiles": "CC1=C(C=CC(=C1)F)C2CCC(=O)NC2=O",
+    "mw": 221.23,
+    "logp": 1.5
+  },
+  {
+    "cid": 260790,
+    "name": "5-benzyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "C1=CC=C(C=C1)CC2C(=O)NC(=O)NC2=O",
+    "mw": 218.21,
+    "logp": 0.8
+  },
+  {
+    "cid": 135033533,
+    "name": "5-[(2-fluorophenyl)methyl]-1,3-diazinane-2,4,",
+    "smiles": "C1=CC=C(C(=C1)CC2C(=O)NC(=O)NC2=O)F",
+    "mw": 236.2,
+    "logp": 0.9
+  },
+  {
+    "cid": 170693,
+    "name": "5-(2-methylpropyl)-1,3-diazinane-2,4,6-trione",
+    "smiles": "CC(C)CC1C(=O)NC(=O)NC1=O",
+    "mw": 184.19,
+    "logp": 0.4
+  },
+  {
+    "cid": 277190,
+    "name": "5-butyl-5-methyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCCCC1(C(=O)NC(=O)NC1=O)C",
+    "mw": 198.22,
+    "logp": 1.1
+  },
+  {
+    "cid": 608964,
+    "name": "3-ethyl-1-methyl-3-phenylpiperidine-2,6-dione",
+    "smiles": "CCC1(CCC(=O)N(C1=O)C)C2=CC=CC=C2",
+    "mw": 231.29,
+    "logp": 1.9
+  },
+  {
+    "cid": 12368585,
+    "name": "5-(cyclohexen-1-yl)-1-ethyl-5-methyl-1,3-diaz",
+    "smiles": "CCN1C(=O)C(C(=O)NC1=O)(C)C2=CCCCC2",
+    "mw": 250.29,
+    "logp": 1.9
+  },
+  {
+    "cid": 12368586,
+    "name": "5-(cyclohexen-1-yl)-5-methyl-1-propyl-1,3-dia",
+    "smiles": "CCCN1C(=O)C(C(=O)NC1=O)(C)C2=CCCCC2",
+    "mw": 264.32,
+    "logp": 2.4
+  },
+  {
+    "cid": 160461,
+    "name": "1,5-dimethyl-5-(3-oxocyclohexen-1-yl)-1,3-dia",
+    "smiles": "CC1(C(=O)NC(=O)N(C1=O)C)C2=CC(=O)CCC2",
+    "mw": 250.25,
+    "logp": -0.1
+  },
+  {
+    "cid": 277206,
+    "name": "5-butyl-5-propyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCCCC1(C(=O)NC(=O)NC1=O)CCC",
+    "mw": 226.27,
+    "logp": 2.2
+  },
+  {
+    "cid": 33496,
+    "name": "5,5-dibenzyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "C1=CC=C(C=C1)CC2(C(=O)NC(=O)NC2=O)CC3=CC=CC=C3",
+    "mw": 308.3,
+    "logp": 2.6
+  },
+  {
+    "cid": 277208,
+    "name": "5-butan-2-yl-5-propyl-1,3-diazinane-2,4,6-tri",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)C(C)CC",
+    "mw": 226.27,
+    "logp": 2.2
+  },
+  {
+    "cid": 27360,
+    "name": "5,5-diethyl-1-pentyl-1,3-diazinane-2,4,6-trio",
+    "smiles": "CCCCCN1C(=O)C(C(=O)NC1=O)(CC)CC",
+    "mw": 254.33,
+    "logp": 2.9
+  },
+  {
+    "cid": 277221,
+    "name": "5-hept-3-en-4-yl-5-prop-2-enyl-1,3-diazinane-",
+    "smiles": "CCCC(=CCC)C1(C(=O)NC(=O)NC1=O)CC=C",
+    "mw": 264.32,
+    "logp": 2.9
+  },
+  {
+    "cid": 71357162,
+    "name": "5-(3,3-dimethylbutyl)-5-ethyl-1,3-diazinane-2",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)CCC(C)(C)C",
+    "mw": 240.3,
+    "logp": 2.4
+  },
+  {
+    "cid": 277227,
+    "name": "5,5-dibenzyl-1,3-dimethyl-1,3-diazinane-2,4,6",
+    "smiles": "CN1C(=O)C(C(=O)N(C1=O)C)(CC2=CC=CC=C2)CC3=CC=CC=C3",
+    "mw": 336.4,
+    "logp": 3
+  },
+  {
+    "cid": 129641200,
+    "name": "1-bromo-5,5-diethyl-1,3-diazinane-2,4,6-trion",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)Br)CC",
+    "mw": 263.09,
+    "logp": 1.5
+  },
+  {
+    "cid": 138388214,
+    "name": "5,5-diethyl-2-imino-1,3-diazinane-4,6-dione",
+    "smiles": "CCC1(C(=O)NC(=N)NC1=O)CC",
+    "mw": 183.21,
+    "logp": 0.7
+  },
+  {
+    "cid": 21535481,
+    "name": "7a-phenyl-3aH-isoindole-1,3-dione",
+    "smiles": "C1=CC=C(C=C1)C23C=CC=CC2C(=O)NC3=O",
+    "mw": 225.24,
+    "logp": 1.9
+  },
+  {
+    "cid": 92162824,
+    "name": "(5R)-5-butyl-1-methyl-5-prop-1-en-2-yl-1,3-di",
+    "smiles": "CCCCC1(C(=O)NC(=O)N(C1=O)C)C(=C)C",
+    "mw": 238.28,
+    "logp": 2.8
+  },
+  {
+    "cid": 14555916,
+    "name": "5-ethyl-2-hydroxy-5-phenyl-1,3-diazinane-4,6-",
+    "smiles": "CCC1(C(=O)NC(NC1=O)O)C2=CC=CC=C2",
+    "mw": 234.25,
+    "logp": 1
+  },
+  {
+    "cid": 9837324,
+    "name": "(3R)-3-ethyl-3-phenylpiperidine-2,6-dione",
+    "smiles": "CCC1(CCC(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 217.26,
+    "logp": 1.9
+  },
+  {
+    "cid": 420620,
+    "name": "5-(2-methylpropyl)-5-propan-2-yl-1,3-diazinan",
+    "smiles": "CC(C)CC1(C(=O)NC(=O)NC1=O)C(C)C",
+    "mw": 226.27,
+    "logp": 1.8
+  },
+  {
+    "cid": 82625292,
+    "name": "3-(2-bromophenyl)piperidine-2,6-dione",
+    "smiles": "C1CC(=O)NC(=O)C1C2=CC=CC=C2Br",
+    "mw": 268.11,
+    "logp": 1.7
+  },
+  {
+    "cid": 11746066,
+    "name": "4,4-diethylisoquinoline-1,3-dione",
+    "smiles": "CCC1(C2=CC=CC=C2C(=O)NC1=O)CC",
+    "mw": 217.26,
+    "logp": 2.3
+  },
+  {
+    "cid": 56951573,
+    "name": "3,5-diphenylpiperidine-2,6-dione",
+    "smiles": "C1C(C(=O)NC(=O)C1C2=CC=CC=C2)C3=CC=CC=C3",
+    "mw": 265.31,
+    "logp": 2.7
+  },
+  {
+    "cid": 10822423,
+    "name": "5-ethyl-5-(2-methylpropyl)-1,3-diazinane-2,4,",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)CC(C)C",
+    "mw": 212.25,
+    "logp": 1.2
+  },
+  {
+    "cid": 92162843,
+    "name": "(5R)-1-methyl-5-[(E)-pent-2-en-3-yl]-5-propyl",
+    "smiles": "CCCC1(C(=O)NC(=O)N(C1=O)C)C(=CC)CC",
+    "mw": 252.31,
+    "logp": 2.9
+  },
+  {
+    "cid": 92162844,
+    "name": "(5S)-1-methyl-5-[(E)-pent-2-en-3-yl]-5-propyl",
+    "smiles": "CCCC1(C(=O)NC(=O)N(C1=O)C)C(=CC)CC",
+    "mw": 252.31,
+    "logp": 2.9
+  },
+  {
+    "cid": 92154,
+    "name": "3-methyl-3-phenylpyrrolidine-2,5-dione",
+    "smiles": "CC1(CC(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 189.21,
+    "logp": 1
+  },
+  {
+    "cid": 420646,
+    "name": "1-methyl-5-pent-3-en-2-yl-5-propyl-1,3-diazin",
+    "smiles": "CCCC1(C(=O)NC(=O)N(C1=O)C)C(C)C=CC",
+    "mw": 252.31,
+    "logp": 3.1
+  },
+  {
+    "cid": 82158380,
+    "name": "3-(2-fluorophenyl)piperidine-2,6-dione",
+    "smiles": "C1CC(=O)NC(=O)C1C2=CC=CC=C2F",
+    "mw": 207.2,
+    "logp": 1.1
+  },
+  {
+    "cid": 4909,
+    "name": "5-ethyl-5-phenyl-1,3-diazinane-4,6-dione",
+    "smiles": "CCC1(C(=O)NCNC1=O)C2=CC=CC=C2",
+    "mw": 218.25,
+    "logp": 0.9
+  },
+  {
+    "cid": 201517,
+    "name": "6-ethyl-6-phenylpiperidin-2-one",
+    "smiles": "CCC1(CCCC(=O)N1)C2=CC=CC=C2",
+    "mw": 203.28,
+    "logp": 2.2
+  },
+  {
+    "cid": 27282224,
+    "name": "4-(3-fluorophenyl)piperidine-2,6-dione",
+    "smiles": "C1C(CC(=O)NC1=O)C2=CC(=CC=C2)F",
+    "mw": 207.2,
+    "logp": 0.8
+  },
+  {
+    "cid": 53842738,
+    "name": "5,5-ditert-butyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CC(C)(C)C1(C(=O)NC(=O)NC1=O)C(C)(C)C",
+    "mw": 240.3,
+    "logp": 2
+  },
+  {
+    "cid": 135060285,
+    "name": "8-ethenyl-10-methyl-2,4-diazaspiro[5.5]undec-",
+    "smiles": "CC1=CC2(CC(C1)C=C)C(=O)NC(=O)NC2=O",
+    "mw": 234.25,
+    "logp": 0.7
+  },
+  {
+    "cid": 3279694,
+    "name": "5-phenylpiperidin-2-one",
+    "smiles": "C1CC(=O)NCC1C2=CC=CC=C2",
+    "mw": 175.23,
+    "logp": 1.4
+  },
+  {
+    "cid": 416593,
+    "name": "5-phenyl-5-(2-piperidin-1-ylethyl)-1,3-diazin",
+    "smiles": "C1CCN(CC1)CCC2(C(=O)NC(=O)NC2=O)C3=CC=CC=C3",
+    "mw": 315.37,
+    "logp": 1.8
+  },
+  {
+    "cid": 113466193,
+    "name": "9-[(E)-pent-3-enyl]-7,9-diazaspiro[4.5]decane",
+    "smiles": "CC=CCCN1C(=O)C2(CCCC2)C(=O)NC1=O",
+    "mw": 250.29,
+    "logp": 1.8
+  },
+  {
+    "cid": 5475155,
+    "name": "5-[(E)-but-2-enyl]-5-butyl-1,3-diazinane-2,4,",
+    "smiles": "CCCCC1(C(=O)NC(=O)NC1=O)CC=CC",
+    "mw": 238.28,
+    "logp": 2.3
+  },
+  {
+    "cid": 6433620,
+    "name": "3-phenyl-3-[1-[(E)-3-phenylprop-2-enyl]piperi",
+    "smiles": "C1CN(CCC1C2(CCC(=O)NC2=O)C3=CC=CC=C3)CC=CC4=CC=CC=C4",
+    "mw": 388.5,
+    "logp": 3.8
+  },
+  {
+    "cid": 5475164,
+    "name": "1-methyl-5-[(E)-pent-3-en-2-yl]-5-propyl-1,3-",
+    "smiles": "CCCC1(C(=O)NC(=O)N(C1=O)C)C(C)C=CC",
+    "mw": 252.31,
+    "logp": 3.1
+  },
+  {
+    "cid": 5475175,
+    "name": "5-[(E)-but-2-enyl]-5-propyl-1,3-diazinane-2,4",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)CC=CC",
+    "mw": 224.26,
+    "logp": 1.7
+  },
+  {
+    "cid": 6931309,
+    "name": "(5R)-5-(cyclohexen-1-yl)-1,5-dimethyl-1,3-dia",
+    "smiles": "CC1(C(=O)NC(=O)N(C1=O)C)C2=CCCCC2",
+    "mw": 236.27,
+    "logp": 1.5
+  },
+  {
+    "cid": 163976047,
+    "name": "(3R)-3-(2,6-difluoro-4-propan-2-ylphenyl)pipe",
+    "smiles": "CC(C)C1=CC(=C(C(=C1)F)C2CCC(=O)NC2=O)F",
+    "mw": 267.27,
+    "logp": 2.3
+  },
+  {
+    "cid": 82125680,
+    "name": "3-(2-fluorophenyl)piperidin-2-one",
+    "smiles": "C1CC(C(=O)NC1)C2=CC=CC=C2F",
+    "mw": 193.22,
+    "logp": 1.8
+  },
+  {
+    "cid": 163976048,
+    "name": "(3S)-3-(2,6-difluoro-4-propan-2-ylphenyl)pipe",
+    "smiles": "CC(C)C1=CC(=C(C(=C1)F)C2CCC(=O)NC2=O)F",
+    "mw": 267.27,
+    "logp": 2.3
+  },
+  {
+    "cid": 21355387,
+    "name": "5-(2-fluorophenyl)-4-methyl-3H-pyridine-2,6-d",
+    "smiles": "CC1=C(C(=O)NC(=O)C1)C2=CC=CC=C2F",
+    "mw": 219.21,
+    "logp": 1.2
+  },
+  {
+    "cid": 12358524,
+    "name": "5-(cyclohexen-1-yl)-1-methyl-5-(trideuteriome",
+    "smiles": "CC1(C(=O)NC(=O)N(C1=O)C)C2=CCCCC2",
+    "mw": 239.29,
+    "logp": 1.5
+  },
+  {
+    "cid": 15532924,
+    "name": "5,5-di(cyclohexa-2,4-dien-1-yl)-1,3-dimethyl-",
+    "smiles": "CN1C(=O)C(C(=O)N(C1=O)C)(C2CC=CC=C2)C3CC=CC=C3",
+    "mw": 312.4,
+    "logp": 2.5
+  },
+  {
+    "cid": 152448,
+    "name": "N-(methylcarbamoyl)-2-phenylbutanamide",
+    "smiles": "CCC(C1=CC=CC=C1)C(=O)NC(=O)NC",
+    "mw": 220.27,
+    "logp": 2.2
+  },
+  {
+    "cid": 41857,
+    "name": "5-(2-methylpropyl)-5-phenyl-1,3-diazinane-2,4",
+    "smiles": "CC(C)CC1(C(=O)NC(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 260.29,
+    "logp": 2.3
+  },
+  {
+    "cid": 285569,
+    "name": "5-chloro-5-phenyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "C1=CC=C(C=C1)C2(C(=O)NC(=O)NC2=O)Cl",
+    "mw": 238.63,
+    "logp": 1.3
+  },
+  {
+    "cid": 41866,
+    "name": "5-phenyl-5-propyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 246.26,
+    "logp": 2
+  },
+  {
+    "cid": 17292,
+    "name": "5-ethyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCC1C(=O)NC(=O)NC1=O",
+    "mw": 156.14,
+    "logp": -0.3
+  },
+  {
+    "cid": 45038481,
+    "name": "5-butan-2-yl-5-(1,1,2,2,2-pentadeuterioethyl)",
+    "smiles": "CCC(C)C1(C(=O)NC(=O)NC1=O)CC",
+    "mw": 217.28,
+    "logp": 1.6
+  },
+  {
+    "cid": 58088338,
+    "name": "(1S,5S)-1-methyl-5-[4-(trifluoromethyl)phenyl",
+    "smiles": "CC12CC1(C(=O)NC2=O)C3=CC=C(C=C3)C(F)(F)F",
+    "mw": 269.22,
+    "logp": 1.9
+  },
+  {
+    "cid": 67259284,
+    "name": "5-[(E)-but-2-enyl]-1-methyl-5-prop-2-enyl-1,3",
+    "smiles": "CC=CCC1(C(=O)NC(=O)N(C1=O)C)CC=C",
+    "mw": 236.27,
+    "logp": 1.8
+  },
+  {
+    "cid": 67259285,
+    "name": "5-but-2-enyl-1-methyl-5-prop-2-enyl-1,3-diazi",
+    "smiles": "CC=CCC1(C(=O)NC(=O)N(C1=O)C)CC=C",
+    "mw": 236.27,
+    "logp": 1.8
+  },
+  {
+    "cid": 39833,
+    "name": "1-(butoxymethyl)-5-ethyl-5-phenyl-1,3-diazina",
+    "smiles": "CCCCOCN1C(=O)C(C(=O)NC1=O)(CC)C2=CC=CC=C2",
+    "mw": 318.4,
+    "logp": 3
+  },
+  {
+    "cid": 71314330,
+    "name": "5-butyl-5-(1,1,2,2,2-pentadeuterioethyl)-1,3-",
+    "smiles": "CCCCC1(C(=O)NC(=O)NC1=O)CC",
+    "mw": 217.28,
+    "logp": 1.7
+  },
+  {
+    "cid": 57459614,
+    "name": "4-phenyl-4-(trifluoromethyl)piperidine-2,6-di",
+    "smiles": "C1C(=O)NC(=O)CC1(C2=CC=CC=C2)C(F)(F)F",
+    "mw": 257.21,
+    "logp": 1.8
+  },
+  {
+    "cid": 240551,
+    "name": "5-(2-bromoethyl)-5-ethyl-1,3-diazinane-2,4,6-",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)CCBr",
+    "mw": 263.09,
+    "logp": 0.9
+  },
+  {
+    "cid": 56232,
+    "name": "5-(2-chlorophenyl)-5-ethyl-1,3-diazinane-2,4,",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C2=CC=CC=C2Cl",
+    "mw": 266.68,
+    "logp": 2.1
+  },
+  {
+    "cid": 91126699,
+    "name": "5-methyl-5-prop-2-ynyl-1,3-diazinane-2,4,6-tr",
+    "smiles": "CC1(C(=O)NC(=O)NC1=O)CC#C",
+    "mw": 180.16,
+    "logp": -0.2
+  },
+  {
+    "cid": 3050417,
+    "name": "5-phenyl-5-(piperidin-2-ylmethyl)-1,3-diazina",
+    "smiles": "C1CCNC(C1)CC2(C(=O)NC(=O)NC2=O)C3=CC=CC=C3",
+    "mw": 301.34,
+    "logp": 1.4
+  },
+  {
+    "cid": 20278194,
+    "name": "3-(4-fluorophenyl)-3-methylpyrrolidine-2,5-di",
+    "smiles": "CC1(CC(=O)NC1=O)C2=CC=C(C=C2)F",
+    "mw": 207.2,
+    "logp": 1.1
+  },
+  {
+    "cid": 20831155,
+    "name": "5-[(Z)-prop-1-enyl]-5-propyl-1,3-diazinane-2,",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)C=CC",
+    "mw": 210.23,
+    "logp": 1.4
+  },
+  {
+    "cid": 160692,
+    "name": "3,3-diphenylpyrrolidine-2,5-dione",
+    "smiles": "C1C(=O)NC(=O)C1(C2=CC=CC=C2)C3=CC=CC=C3",
+    "mw": 251.28,
+    "logp": 2.1
+  },
+  {
+    "cid": 20831158,
+    "name": "5-butyl-5-[(Z)-prop-1-enyl]-1,3-diazinane-2,4",
+    "smiles": "CCCCC1(C(=O)NC(=O)NC1=O)C=CC",
+    "mw": 224.26,
+    "logp": 1.9
+  },
+  {
+    "cid": 20831159,
+    "name": "5-[(Z)-but-2-en-2-yl]-5-propyl-1,3-diazinane-",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)C(=CC)C",
+    "mw": 224.26,
+    "logp": 1.8
+  },
+  {
+    "cid": 228281,
+    "name": "5-butan-2-yl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCC(C)C1C(=O)NC(=O)NC1=O",
+    "mw": 184.19,
+    "logp": 0.5
+  },
+  {
+    "cid": 20831162,
+    "name": "5-ethyl-5-[(Z)-pent-2-en-3-yl]-1,3-diazinane-",
+    "smiles": "CCC(=CC)C1(C(=O)NC(=O)NC1=O)CC",
+    "mw": 224.26,
+    "logp": 1.7
+  },
+  {
+    "cid": 20831163,
+    "name": "5-[(Z)-but-2-en-2-yl]-5-butyl-1,3-diazinane-2",
+    "smiles": "CCCCC1(C(=O)NC(=O)NC1=O)C(=CC)C",
+    "mw": 238.28,
+    "logp": 2.3
+  },
+  {
+    "cid": 20831165,
+    "name": "5-[(Z)-but-2-en-2-yl]-5-ethyl-1-methyl-1,3-di",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C)C(=CC)C",
+    "mw": 224.26,
+    "logp": 1.9
+  },
+  {
+    "cid": 101110725,
+    "name": "5-(cyclopenten-1-yl)-1-methyl-5-prop-2-enyl-1",
+    "smiles": "CN1C(=O)C(C(=O)NC1=O)(CC=C)C2=CCCC2",
+    "mw": 248.28,
+    "logp": 1.5
+  },
+  {
+    "cid": 52169,
+    "name": "1-benzyl-5-phenyl-5-prop-2-enyl-1,3-diazinane",
+    "smiles": "C=CCC1(C(=O)NC(=O)N(C1=O)CC2=CC=CC=C2)C3=CC=CC=C3",
+    "mw": 334.4,
+    "logp": 3.1
+  },
+  {
+    "cid": 56271,
+    "name": "5-(4-bromophenyl)-5-ethyl-1,3-diazinane-2,4,6",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C2=CC=C(C=C2)Br",
+    "mw": 311.13,
+    "logp": 2.2
+  },
+  {
+    "cid": 29010899,
+    "name": "5-[(2S)-butan-2-yl]-5-ethyl-1,3-diazinane-2,4",
+    "smiles": "CCC(C)C1(C(=O)NC(=O)NC1=O)CC",
+    "mw": 212.25,
+    "logp": 1.6
+  },
+  {
+    "cid": 13052894,
+    "name": "1-amino-3-ethyl-3-phenylpiperidine-2,6-dione",
+    "smiles": "CCC1(CCC(=O)N(C1=O)N)C2=CC=CC=C2",
+    "mw": 232.28,
+    "logp": 1.2
+  },
+  {
+    "cid": 56287,
+    "name": "5-(4-iodophenyl)-5-prop-2-enyl-1,3-diazinane-",
+    "smiles": "C=CCC1(C(=O)NC(=O)NC1=O)C2=CC=C(C=C2)I",
+    "mw": 370.14,
+    "logp": 2.1
+  },
+  {
+    "cid": 20823013,
+    "name": "5,5,6,6-tetramethyl-1,3-diazinane-2,4-dione",
+    "smiles": "CC1(C(=O)NC(=O)NC1(C)C)C",
+    "mw": 170.21,
+    "logp": 0.4
+  },
+  {
+    "cid": 213997,
+    "name": "[5-ethyl-2,4,6-trioxo-5-phenyl-3-(propanoylox",
+    "smiles": "CCC(=O)OCN1C(=O)C(C(=O)N(C1=O)COC(=O)CC)(CC)C2=CC=CC=C2",
+    "mw": 404.4,
+    "logp": 2.5
+  },
+  {
+    "cid": 90358768,
+    "name": "1,5-dimethyl-5-(3-methylbut-2-enyl)-1,3-diazi",
+    "smiles": "CC(=CCC1(C(=O)NC(=O)N(C1=O)C)C)C",
+    "mw": 224.26,
+    "logp": 1.8
+  },
+  {
+    "cid": 214001,
+    "name": "1,3-bis(butoxymethyl)-5-ethyl-5-phenyl-1,3-di",
+    "smiles": "CCCCOCN1C(=O)C(C(=O)N(C1=O)COCCCC)(CC)C2=CC=CC=C2",
+    "mw": 404.5,
+    "logp": 4
+  },
+  {
+    "cid": 112600049,
+    "name": "8-(cyclohex-3-en-1-ylmethyl)-6,8-diazaspiro[3",
+    "smiles": "C1CC2(C1)C(=O)NC(=O)N(C2=O)CC3CCC=CC3",
+    "mw": 262.3,
+    "logp": 1.7
+  },
+  {
+    "cid": 18009072,
+    "name": "2,2-diphenylpropanamide",
+    "smiles": "CC(C1=CC=CC=C1)(C2=CC=CC=C2)C(=O)N",
+    "mw": 225.28,
+    "logp": 2
+  },
+  {
+    "cid": 220148,
+    "name": "2-phenyl-N-(2-phenylacetyl)acetamide",
+    "smiles": "C1=CC=C(C=C1)CC(=O)NC(=O)CC2=CC=CC=C2",
+    "mw": 253.29,
+    "logp": 2.5
+  },
+  {
+    "cid": 56313,
+    "name": "5-(4-bromophenyl)-5-prop-2-enyl-1,3-diazinane",
+    "smiles": "C=CCC1(C(=O)NC(=O)NC1=O)C2=CC=C(C=C2)Br",
+    "mw": 323.14,
+    "logp": 2.2
+  },
+  {
+    "cid": 56314,
+    "name": "5-(2-chlorophenyl)-5-prop-2-enyl-1,3-diazinan",
+    "smiles": "C=CCC1(C(=O)NC(=O)NC1=O)C2=CC=CC=C2Cl",
+    "mw": 278.69,
+    "logp": 2.1
+  },
+  {
+    "cid": 56315,
+    "name": "5-(4-chlorophenyl)-5-prop-2-enyl-1,3-diazinan",
+    "smiles": "C=CCC1(C(=O)NC(=O)NC1=O)C2=CC=C(C=C2)Cl",
+    "mw": 278.69,
+    "logp": 2.1
+  },
+  {
+    "cid": 228364,
+    "name": "2-benzyl-N-carbamoylbutanamide",
+    "smiles": "CCC(CC1=CC=CC=C1)C(=O)NC(=O)N",
+    "mw": 220.27,
+    "logp": 2.1
+  },
+  {
+    "cid": 85857292,
+    "name": "5-(2,2-dimethylpropyl)-5-methyl-1,3-diazinane",
+    "smiles": "CC1(C(=O)NC(=O)NC1=O)CC(C)(C)C",
+    "mw": 212.25,
+    "logp": 1.2
+  },
+  {
+    "cid": 171369492,
+    "name": "(3S)-3-(4-fluorophenyl)piperidine-3-carboxami",
+    "smiles": "C1CC(CNC1)(C2=CC=C(C=C2)F)C(=O)N",
+    "mw": 222.26,
+    "logp": 0.8
+  },
+  {
+    "cid": 48149,
+    "name": "5-(3-methylbut-2-enyl)-5-propyl-1,3-diazinane",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)CC=C(C)C",
+    "mw": 238.28,
+    "logp": 2.3
+  },
+  {
+    "cid": 48151,
+    "name": "5-pent-2-en-2-yl-5-propyl-1,3-diazinane-2,4,6",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)C(=CCC)C",
+    "mw": 238.28,
+    "logp": 2.2
+  },
+  {
+    "cid": 92267544,
+    "name": "5-[(2S)-butan-2-yl]-5-propyl-1,3-diazinane-2,",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)C(C)CC",
+    "mw": 226.27,
+    "logp": 2.2
+  },
+  {
+    "cid": 48157,
+    "name": "1-methyl-5-pent-2-en-2-yl-5-propyl-1,3-diazin",
+    "smiles": "CCCC1(C(=O)NC(=O)N(C1=O)C)C(=CCC)C",
+    "mw": 252.31,
+    "logp": 2.9
+  },
+  {
+    "cid": 44149789,
+    "name": "6-amino-5,5-diethyl-1,3-diazinane-2,4-dione",
+    "smiles": "CCC1(C(NC(=O)NC1=O)N)CC",
+    "mw": 185.22,
+    "logp": -0.3
+  },
+  {
+    "cid": 48165,
+    "name": "5-pentyl-5-phenyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCCCCC1(C(=O)NC(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 274.31,
+    "logp": 3.1
+  },
+  {
+    "cid": 16770092,
+    "name": "2-methyl-2-phenyl-1-piperazin-1-ylpropan-1-on",
+    "smiles": "CC(C)(C1=CC=CC=C1)C(=O)N2CCNCC2",
+    "mw": 232.32,
+    "logp": 1.6
+  },
+  {
+    "cid": 48173,
+    "name": "5-prop-1-enyl-5-propyl-1,3-diazinane-2,4,6-tr",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)C=CC",
+    "mw": 210.23,
+    "logp": 1.4
+  },
+  {
+    "cid": 3728438,
+    "name": "3-methyl-4-phenylpyrrolidine-2,5-dione",
+    "smiles": "CC1C(C(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 189.21,
+    "logp": 1.2
+  },
+  {
+    "cid": 23611,
+    "name": "2-ethyl-2-phenylpropanediamide",
+    "smiles": "CCC(C1=CC=CC=C1)(C(=O)N)C(=O)N",
+    "mw": 206.24,
+    "logp": 0.1
+  },
+  {
+    "cid": 11265090,
+    "name": "5-(3-phenylpropyl)-1,3-diazinane-2,4,6-trione",
+    "smiles": "C1=CC=C(C=C1)CCCC2C(=O)NC(=O)NC2=O",
+    "mw": 246.26,
+    "logp": 1.6
+  },
+  {
+    "cid": 3034182,
+    "name": "5,5-diethyl-6-sulfanylidene-1,3-diazinane-2,4",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=S)CC",
+    "mw": 200.26,
+    "logp": 1.5
+  },
+  {
+    "cid": 101452,
+    "name": "4-phenylpiperidine-2,6-dione",
+    "smiles": "C1C(CC(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 189.21,
+    "logp": 0.7
+  },
+  {
+    "cid": 300115,
+    "name": "1,3-dichloro-5-ethyl-5-phenyl-1,3-diazinane-2",
+    "smiles": "CCC1(C(=O)N(C(=O)N(C1=O)Cl)Cl)C2=CC=CC=C2",
+    "mw": 301.12,
+    "logp": 2.9
+  },
+  {
+    "cid": 14611542,
+    "name": "5-tert-butyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CC(C)(C)C1C(=O)NC(=O)NC1=O",
+    "mw": 184.19,
+    "logp": 0.3
+  },
+  {
+    "cid": 153818198,
+    "name": "5,5-diacetyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CC(=O)C1(C(=O)NC(=O)NC1=O)C(=O)C",
+    "mw": 212.16,
+    "logp": -1.5
+  },
+  {
+    "cid": 166945880,
+    "name": "2-[4-[(3R)-2,6-dioxopiperidin-3-yl]-3,5-diflu",
+    "smiles": "C1CC(=O)NC(=O)C1C2=C(C=C(C=C2F)CC=O)F",
+    "mw": 267.23,
+    "logp": 0.6
+  },
+  {
+    "cid": 9907289,
+    "name": "1,3-bis(methoxymethyl)-5,5-diphenyl-1,3-diazi",
+    "smiles": "COCN1C(=O)C(C(=O)N(C1=O)COC)(C2=CC=CC=C2)C3=CC=CC=C3",
+    "mw": 368.4,
+    "logp": 2.3
+  },
+  {
+    "cid": 257128,
+    "name": "5-(2-bromoethyl)-5-methyl-1,3-diazinane-2,4,6",
+    "smiles": "CC1(C(=O)NC(=O)NC1=O)CCBr",
+    "mw": 249.06,
+    "logp": 0.2
+  },
+  {
+    "cid": 212074,
+    "name": "5-ethyl-5-[(4-trimethylsilylphenyl)methyl]-1,",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)CC2=CC=C(C=C2)[Si](C)(C)C",
+    "mw": 318.44,
+    "logp": 0
+  },
+  {
+    "cid": 9569388,
+    "name": "1-[(5,5-diethyl-2,4,6-trioxo-1,3-diazinan-1-y",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)[Sn](C)(C)N2C(=O)C(C(=O)NC2=O)(CC)CC)CC",
+    "mw": 515.1,
+    "logp": 0
+  },
+  {
+    "cid": 246894,
+    "name": "N-tert-butyl-2-phenylacetamide",
+    "smiles": "CC(C)(C)NC(=O)CC1=CC=CC=C1",
+    "mw": 191.27,
+    "logp": 2.1
+  },
+  {
+    "cid": 49802350,
+    "name": "4-[(E)-5-(2-methylphenyl)-4-oxopent-2-enyl]pi",
+    "smiles": "CC1=CC=CC=C1CC(=O)C=CCC2CC(=O)NC(=O)C2",
+    "mw": 285.34,
+    "logp": 1.6
+  },
+  {
+    "cid": 68430960,
+    "name": "1-methyl-5-[4-(trifluoromethyl)phenyl]-3-azab",
+    "smiles": "CC12CC1(C(=O)NC2=O)C3=CC=C(C=C3)C(F)(F)F",
+    "mw": 269.22,
+    "logp": 1.9
+  },
+  {
+    "cid": 49802353,
+    "name": "4-[(E)-5-(2-methylphenyl)-4-oxohex-2-enyl]pip",
+    "smiles": "CC1=CC=CC=C1C(C)C(=O)C=CCC2CC(=O)NC(=O)C2",
+    "mw": 299.4,
+    "logp": 2.2
+  },
+  {
+    "cid": 92288125,
+    "name": "(11S)-11-methyl-2,4-diazaspiro[5.5]undec-8-en",
+    "smiles": "CC1CC=CCC12C(=O)NC(=O)NC2=O",
+    "mw": 208.21,
+    "logp": 0.6
+  },
+  {
+    "cid": 33920,
+    "name": "[3-(acetyloxymethyl)-5-ethyl-2,4,6-trioxo-5-p",
+    "smiles": "CCC1(C(=O)N(C(=O)N(C1=O)COC(=O)C)COC(=O)C)C2=CC=CC=C2",
+    "mw": 376.4,
+    "logp": 1.6
+  },
+  {
+    "cid": 257156,
+    "name": "7,9-diazaspiro[4.5]decane-6,8,10-trione",
+    "smiles": "C1CCC2(C1)C(=O)NC(=O)NC2=O",
+    "mw": 182.18,
+    "logp": 0.3
+  },
+  {
+    "cid": 33925,
+    "name": "5-ethyl-1,3-bis(methoxymethyl)-5-phenyl-1,3-d",
+    "smiles": "CCC1(C(=O)N(C(=O)N(C1=O)COC)COC)C2=CC=CC=C2",
+    "mw": 320.34,
+    "logp": 1.5
+  },
+  {
+    "cid": 33926,
+    "name": "1,3-bis(ethoxymethyl)-5-ethyl-5-phenyl-1,3-di",
+    "smiles": "CCC1(C(=O)N(C(=O)N(C1=O)COCC)COCC)C2=CC=CC=C2",
+    "mw": 348.4,
+    "logp": 2.2
+  },
+  {
+    "cid": 13692036,
+    "name": "6,8-diazaspiro[3.5]nonane-5,7,9-trione",
+    "smiles": "C1CC2(C1)C(=O)NC(=O)NC2=O",
+    "mw": 168.15,
+    "logp": -0.3
+  },
+  {
+    "cid": 90358929,
+    "name": "5-(cyclohexen-1-yl)-1,5-dimethyl-1,3-diazinan",
+    "smiles": "CC1(CN(C(=O)NC1=O)C)C2=CCCCC2",
+    "mw": 222.28,
+    "logp": 1.2
+  },
+  {
+    "cid": 87491729,
+    "name": "5,5-bis(prop-2-ynyl)-1,3-diazinane-2,4,6-trio",
+    "smiles": "C#CCC1(C(=O)NC(=O)NC1=O)CC#C",
+    "mw": 204.18,
+    "logp": 0
+  },
+  {
+    "cid": 143619222,
+    "name": "5-(1-methylcyclopropyl)-1,3-diazinane-2,4,6-t",
+    "smiles": "CC1(CC1)C2C(=O)NC(=O)NC2=O",
+    "mw": 182.18,
+    "logp": 0.4
+  },
+  {
+    "cid": 12790938,
+    "name": "spiro[2,3-dihydro-1H-naphthalene-4,3'-piperid",
+    "smiles": "C1CC2=CC=CC=C2C3(C1)CCC(=O)NC3=O",
+    "mw": 229.27,
+    "logp": 1.8
+  },
+  {
+    "cid": 122707107,
+    "name": "2-(5-ethyl-2,4,6-trioxo-1,3-diazinan-5-yl)eth",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)CC[Se]C#N",
+    "mw": 288.17,
+    "logp": 0
+  },
+  {
+    "cid": 201891,
+    "name": "5-ethyl-5-phenyl-1,3-thiazinane-2,4-dione",
+    "smiles": "CCC1(CSC(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 235.3,
+    "logp": 2.4
+  },
+  {
+    "cid": 162946217,
+    "name": "(5R)-1,5-dimethyl-5-(3-oxocyclohexen-1-yl)-1,",
+    "smiles": "CC1(C(=O)NC(=O)N(C1=O)C)C2=CC(=O)CCC2",
+    "mw": 250.25,
+    "logp": -0.1
+  },
+  {
+    "cid": 19627,
+    "name": "5-(4-fluorophenyl)-5-prop-2-enyl-1,3-diazinan",
+    "smiles": "C=CCC1(C(=O)NC(=O)NC1=O)C2=CC=C(C=C2)F",
+    "mw": 262.24,
+    "logp": 1.6
+  },
+  {
+    "cid": 129778859,
+    "name": "5-phenyl-1,3-diazinane-4,6-dione",
+    "smiles": "C1NC(=O)C(C(=O)N1)C2=CC=CC=C2",
+    "mw": 190.2,
+    "logp": 0.6
+  },
+  {
+    "cid": 257205,
+    "name": "5-(2,2-dimethylpropyl)-5-ethyl-1,3-diazinane-",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)CC(C)(C)C",
+    "mw": 226.27,
+    "logp": 1.8
+  },
+  {
+    "cid": 13690040,
+    "name": "(3S)-3-phenyl-3-piperidin-4-ylpiperidine-2,6-",
+    "smiles": "C1CNCCC1C2(CCC(=O)NC2=O)C3=CC=CC=C3",
+    "mw": 272.34,
+    "logp": 1.3
+  },
+  {
+    "cid": 740539,
+    "name": "1,5-dihydro-3-benzazepine-2,4-dione",
+    "smiles": "C1C2=CC=CC=C2CC(=O)NC1=O",
+    "mw": 175.18,
+    "logp": 0.6
+  },
+  {
+    "cid": 69287108,
+    "name": "5-(2-aminopropan-2-yl)-5-methyl-1,3-diazinane",
+    "smiles": "CC1(C(=O)NC(=O)NC1=O)C(C)(C)N",
+    "mw": 199.21,
+    "logp": -0.5
+  },
+  {
+    "cid": 113652938,
+    "name": "3-[(2,6-difluorophenyl)methyl]piperidine-2,6-",
+    "smiles": "C1CC(=O)NC(=O)C1CC2=C(C=CC=C2F)F",
+    "mw": 239.22,
+    "logp": 1.5
+  },
+  {
+    "cid": 3065040,
+    "name": "5-ethyl-1-methyl-5-phenyl-3-prop-2-enyl-1,3-d",
+    "smiles": "CCC1(C(=O)N(C(=O)N(C1=O)CC=C)C)C2=CC=CC=C2",
+    "mw": 286.33,
+    "logp": 2.3
+  },
+  {
+    "cid": 69287128,
+    "name": "5-(2-aminoethyl)-5-methyl-1,3-diazinane-2,4,6",
+    "smiles": "CC1(C(=O)NC(=O)NC1=O)CCN",
+    "mw": 185.18,
+    "logp": -1.5
+  },
+  {
+    "cid": 3065048,
+    "name": "3-ethyl-3-phenyl-1-prop-2-enylpiperidine-2,6-",
+    "smiles": "CCC1(CCC(=O)N(C1=O)CC=C)C2=CC=CC=C2",
+    "mw": 257.33,
+    "logp": 2.6
+  },
+  {
+    "cid": 59512024,
+    "name": "(5S)-1-[4-(trifluoromethyl)phenyl]-3-azabicyc",
+    "smiles": "C1C2C1(C(=O)NC2=O)C3=CC=C(C=C3)C(F)(F)F",
+    "mw": 255.19,
+    "logp": 1.5
+  },
+  {
+    "cid": 12954845,
+    "name": "1,3-dimethyl-5-(3-phenylpropyl)-1,3-diazinane",
+    "smiles": "CN1C(=O)C(C(=O)N(C1=O)C)CCCC2=CC=CC=C2",
+    "mw": 274.31,
+    "logp": 2.1
+  },
+  {
+    "cid": 89447670,
+    "name": "5,5-diethyl-2-methylidene-1,3-diazinane-4,6-d",
+    "smiles": "CCC1(C(=O)NC(=C)NC1=O)CC",
+    "mw": 182.22,
+    "logp": 1
+  },
+  {
+    "cid": 145921276,
+    "name": "5,5-diethyl-6-imino-1,3-diazinane-2,4-dione",
+    "smiles": "CCC1(C(=N)NC(=O)NC1=O)CC",
+    "mw": 183.21,
+    "logp": 0.7
+  },
+  {
+    "cid": 142593,
+    "name": "3-ethyl-3-phenylazetidine-2,4-dione",
+    "smiles": "CCC1(C(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 189.21,
+    "logp": 1.9
+  },
+  {
+    "cid": 257287,
+    "name": "5-(aminomethyl)-5-ethyl-1,3-diazinane-2,4,6-t",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)CN",
+    "mw": 185.18,
+    "logp": -0.9
+  },
+  {
+    "cid": 181512,
+    "name": "(5R)-1-methyl-5-phenyl-5-propyl-1,3-diazinane",
+    "smiles": "CCCC1(C(=O)NC(=O)N(C1=O)C)C2=CC=CC=C2",
+    "mw": 260.29,
+    "logp": 2.4
+  },
+  {
+    "cid": 257292,
+    "name": "5-(2-aminoethyl)-5-ethyl-1,3-diazinane-2,4,6-",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)CCN",
+    "mw": 199.21,
+    "logp": -0.8
+  },
+  {
+    "cid": 3503374,
+    "name": "5-benzyl-2-sulfanylidene-1,3-diazinane-4,6-di",
+    "smiles": "C1=CC=C(C=C1)CC2C(=O)NC(=S)NC2=O",
+    "mw": 234.28,
+    "logp": 1.4
+  },
+  {
+    "cid": 257296,
+    "name": "5-ethyl-5-[2-(methylamino)ethyl]-1,3-diazinan",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)CCNC",
+    "mw": 213.23,
+    "logp": -0.3
+  },
+  {
+    "cid": 48402,
+    "name": "5-(2-cyclohexylideneethyl)-5-ethyl-1-methyl-1",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C)CC=C2CCCCC2",
+    "mw": 278.35,
+    "logp": 2.8
+  },
+  {
+    "cid": 48404,
+    "name": "5-(2-cyclohexylideneethyl)-5-phenyl-1,3-diazi",
+    "smiles": "C1CCC(=CCC2(C(=O)NC(=O)NC2=O)C3=CC=CC=C3)CC1",
+    "mw": 312.4,
+    "logp": 2.9
+  },
+  {
+    "cid": 5354772,
+    "name": "5-[(E)-pent-2-en-2-yl]-5-propyl-1,3-diazinane",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)C(=CCC)C",
+    "mw": 238.28,
+    "logp": 2.2
+  },
+  {
+    "cid": 48406,
+    "name": "5-cyclopent-2-en-1-yl-5-ethyl-1-methyl-1,3-di",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C)C2CCC=C2",
+    "mw": 236.27,
+    "logp": 1.7
+  },
+  {
+    "cid": 48409,
+    "name": "5-cyclopent-2-en-1-yl-1-methyl-5-(2-methylpro",
+    "smiles": "CC(C)CC1(C(=O)NC(=O)N(C1=O)C)C2CCC=C2",
+    "mw": 264.32,
+    "logp": 2.1
+  },
+  {
+    "cid": 48413,
+    "name": "5-cyclopent-2-en-1-yl-1-methyl-5-prop-1-en-2-",
+    "smiles": "CC(=C)C1(C(=O)NC(=O)N(C1=O)C)C2CCC=C2",
+    "mw": 248.28,
+    "logp": 1.8
+  },
+  {
+    "cid": 5352736,
+    "name": "5-ethyl-5-[(2E)-penta-2,4-dien-2-yl]-1,3-diaz",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C(=CC=C)C",
+    "mw": 222.24,
+    "logp": 1.7
+  },
+  {
+    "cid": 89447712,
+    "name": "5-ethyl-5-(3-fluoropropyl)-1,3-diazinane-2,4,",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)CCCF",
+    "mw": 216.21,
+    "logp": 0.8
+  },
+  {
+    "cid": 236832,
+    "name": "4-methyl-2,6-dioxo-4-phenylpiperidine-3,5-dic",
+    "smiles": "CC1(C(C(=O)NC(=O)C1C#N)C#N)C2=CC=CC=C2",
+    "mw": 253.26,
+    "logp": 1.2
+  },
+  {
+    "cid": 48419,
+    "name": "5-(2-cyclopentylethyl)-5-(2-phenylethyl)-1,3-",
+    "smiles": "C1CCC(C1)CCC2(C(=O)NC(=O)NC2=O)CCC3=CC=CC=C3",
+    "mw": 328.4,
+    "logp": 4.1
+  },
+  {
+    "cid": 144553252,
+    "name": "5-ethyl-5-(2-methylbutan-2-yl)-1,3-diazinane-",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C(C)(C)CC",
+    "mw": 226.27,
+    "logp": 1.9
+  },
+  {
+    "cid": 257317,
+    "name": "5-ethyl-5-(2-phenylpropyl)-1,3-diazinane-2,4,",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)CC(C)C2=CC=CC=C2",
+    "mw": 274.31,
+    "logp": 2.2
+  },
+  {
+    "cid": 56613,
+    "name": "5-(3-chlorophenyl)-5-prop-2-enyl-1,3-diazinan",
+    "smiles": "C=CCC1(C(=O)NC(=O)NC1=O)C2=CC(=CC=C2)Cl",
+    "mw": 278.69,
+    "logp": 2.1
+  },
+  {
+    "cid": 11820329,
+    "name": "4-(4-fluorophenyl)piperidine-2,6-dione",
+    "smiles": "C1C(CC(=O)NC1=O)C2=CC=C(C=C2)F",
+    "mw": 207.2,
+    "logp": 0.8
+  },
+  {
+    "cid": 48429,
+    "name": "5,5-diethyl-1-(2-methylbutan-2-yl)-1,3-diazin",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C(C)(C)CC)CC",
+    "mw": 254.33,
+    "logp": 2.7
+  },
+  {
+    "cid": 48430,
+    "name": "1-(2,2-dimethylpropyl)-5,5-diethyl-1,3-diazin",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)CC(C)(C)C)CC",
+    "mw": 254.33,
+    "logp": 2.9
+  },
+  {
+    "cid": 144553266,
+    "name": "5-ethyl-5-[(E)-hex-3-en-3-yl]-1,3-diazinane-2",
+    "smiles": "CCC=C(CC)C1(C(=O)NC(=O)NC1=O)CC",
+    "mw": 238.28,
+    "logp": 2.1
+  },
+  {
+    "cid": 48435,
+    "name": "5,5-diethyl-1-(3-methylbutyl)-1,3-diazinane-2",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)CCC(C)C)CC",
+    "mw": 254.33,
+    "logp": 2.8
+  },
+  {
+    "cid": 92247352,
+    "name": "(11R)-11-methyl-2,4-diazaspiro[5.5]undec-8-en",
+    "smiles": "CC1CC=CCC12C(=O)NC(=O)NC2=O",
+    "mw": 208.21,
+    "logp": 0.6
+  },
+  {
+    "cid": 12305722,
+    "name": "5-(1,1,2,2,2-pentadeuterioethyl)-5-phenyl-1,3",
+    "smiles": "CCC1(C(=O)NCNC1=O)C2=CC=CC=C2",
+    "mw": 223.28,
+    "logp": 0.9
+  },
+  {
+    "cid": 48443,
+    "name": "5,5-diethyl-1-(2-methylbutyl)-1,3-diazinane-2",
+    "smiles": "CCC(C)CN1C(=O)C(C(=O)NC1=O)(CC)CC",
+    "mw": 254.33,
+    "logp": 2.8
+  },
+  {
+    "cid": 48444,
+    "name": "5,5-diethyl-1-(2-phenylethyl)-1,3-diazinane-2",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)CCC2=CC=CC=C2)CC",
+    "mw": 288.34,
+    "logp": 3.1
+  },
+  {
+    "cid": 19817787,
+    "name": "4-phenylpiperidin-2-one",
+    "smiles": "C1CNC(=O)CC1C2=CC=CC=C2",
+    "mw": 175.23,
+    "logp": 1.4
+  },
+  {
+    "cid": 150846,
+    "name": "1-phenyl-3-azabicyclo[3.1.0]hexane-2,4-dione",
+    "smiles": "C1C2C1(C(=O)NC2=O)C3=CC=CC=C3",
+    "mw": 187.19,
+    "logp": 0.6
+  },
+  {
+    "cid": 99647,
+    "name": "4-ethyl-4-phenylpiperidine-2,6-dione",
+    "smiles": "CCC1(CC(=O)NC(=O)C1)C2=CC=CC=C2",
+    "mw": 217.26,
+    "logp": 1.8
+  },
+  {
+    "cid": 48447,
+    "name": "5-methyl-5-(4-methylpentan-2-yl)-1,3-diazinan",
+    "smiles": "CC(C)CC(C)C1(C(=O)NC(=O)NC1=O)C",
+    "mw": 226.27,
+    "logp": 1.9
+  },
+  {
+    "cid": 167009603,
+    "name": "3-(2-fluoro-4-methylphenyl)piperidine-2,6-dio",
+    "smiles": "CC1=CC(=C(C=C1)C2CCC(=O)NC2=O)F",
+    "mw": 221.23,
+    "logp": 1.5
+  },
+  {
+    "cid": 22621508,
+    "name": "4-methyl-2,6-dioxo-4-[3-(trifluoromethyl)phen",
+    "smiles": "CC1(C(C(=O)NC(=O)C1C#N)C#N)C2=CC(=CC=C2)C(F)(F)F",
+    "mw": 321.25,
+    "logp": 2.1
+  },
+  {
+    "cid": 22621516,
+    "name": "4-(2-fluorophenyl)-2,6-dioxopiperidine-3,5-di",
+    "smiles": "C1=CC=C(C(=C1)C2C(C(=O)NC(=O)C2C#N)C#N)F",
+    "mw": 257.22,
+    "logp": 0.8
+  },
+  {
+    "cid": 54598991,
+    "name": "5-[(Z)-hept-3-en-4-yl]-5-prop-2-enyl-1,3-diaz",
+    "smiles": "CCCC(=CCC)C1(C(=O)NC(=O)NC1=O)CC=C",
+    "mw": 264.32,
+    "logp": 2.9
+  },
+  {
+    "cid": 48467,
+    "name": "5-ethyl-5-(3-methylbutan-2-yl)-1,3-diazinane-",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C(C)C(C)C",
+    "mw": 226.27,
+    "logp": 1.8
+  },
+  {
+    "cid": 48469,
+    "name": "5-ethyl-5-(2-methylbut-3-yn-2-yl)-1,3-diazina",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C(C)(C)C#C",
+    "mw": 222.24,
+    "logp": 1
+  },
+  {
+    "cid": 3087701,
+    "name": "3-(4-propan-2-ylphenyl)pyrrolidine-2,5-dione",
+    "smiles": "CC(C)C1=CC=C(C=C1)C2CC(=O)NC2=O",
+    "mw": 217.26,
+    "logp": 1.8
+  },
+  {
+    "cid": 44385624,
+    "name": "5-hexyl-5-(4-phenylphenyl)-1,3-diazinane-2,4,",
+    "smiles": "CCCCCCC1(C(=O)NC(=O)NC1=O)C2=CC=C(C=C2)C3=CC=CC=C3",
+    "mw": 364.4,
+    "logp": 5.3
+  },
+  {
+    "cid": 126725465,
+    "name": "2,4-dimethyl-11-methylidene-2,4-diazaspiro[5.",
+    "smiles": "CN1C(=O)C2(C=CC=CC2=C)C(=O)N(C1=O)C",
+    "mw": 232.23,
+    "logp": 0.8
+  },
+  {
+    "cid": 72133980,
+    "name": "1-(2-methylpropanoyl)-4-phenylpiperidine-4-ca",
+    "smiles": "CC(C)C(=O)N1CCC(CC1)(C2=CC=CC=C2)C(=O)N",
+    "mw": 274.36,
+    "logp": 1.6
+  },
+  {
+    "cid": 161232221,
+    "name": "5-((214C)cyclohexen-1-yl)-1,5-dimethyl-1,3-di",
+    "smiles": "CC1(C(=O)NC(=O)N(C1=O)C)C2=CCCCC2",
+    "mw": 238.26,
+    "logp": 1.5
+  },
+  {
+    "cid": 13296990,
+    "name": "5-benzyl-1-methyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CN1C(=O)C(C(=O)NC1=O)CC2=CC=CC=C2",
+    "mw": 232.23,
+    "logp": 1.2
+  },
+  {
+    "cid": 2803040,
+    "name": "5-(2-phenylpropylidene)-1,3-diazinane-2,4,6-t",
+    "smiles": "CC(C=C1C(=O)NC(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 244.25,
+    "logp": 1.6
+  },
+  {
+    "cid": 22621537,
+    "name": "4-(2-fluorophenyl)-4-methyl-2,6-dioxopiperidi",
+    "smiles": "CC1(C(C(=O)NC(=O)C1C#N)C#N)C2=CC=CC=C2F",
+    "mw": 271.25,
+    "logp": 1.3
+  },
+  {
+    "cid": 22621538,
+    "name": "2,6-dioxo-4-phenyl-4-(trifluoromethyl)piperid",
+    "smiles": "C1=CC=C(C=C1)C2(C(C(=O)NC(=O)C2C#N)C#N)C(F)(F)F",
+    "mw": 307.23,
+    "logp": 1.8
+  },
+  {
+    "cid": 40463715,
+    "name": "5-[(2R)-butan-2-yl]-5-ethyl-1,3-diazinane-2,4",
+    "smiles": "CCC(C)C1(C(=O)NC(=O)NC1=O)CC",
+    "mw": 212.25,
+    "logp": 1.6
+  },
+  {
+    "cid": 15105380,
+    "name": "1,3-dichloro-5,5-diethyl-1,3-diazinane-2,4,6-",
+    "smiles": "CCC1(C(=O)N(C(=O)N(C1=O)Cl)Cl)CC",
+    "mw": 253.08,
+    "logp": 2.1
+  },
+  {
+    "cid": 92523879,
+    "name": "5-ethyl-5-[(Z)-hept-3-en-4-yl]-1,3-diazinane-",
+    "smiles": "CCCC(=CCC)C1(C(=O)NC(=O)NC1=O)CC",
+    "mw": 252.31,
+    "logp": 2.7
+  },
+  {
+    "cid": 92523880,
+    "name": "(5R)-1-methyl-5-[(Z)-pent-2-en-3-yl]-5-propyl",
+    "smiles": "CCCC1(C(=O)NC(=O)N(C1=O)C)C(=CC)CC",
+    "mw": 252.31,
+    "logp": 2.9
+  },
+  {
+    "cid": 92523881,
+    "name": "(5S)-1-methyl-5-[(Z)-pent-2-en-3-yl]-5-propyl",
+    "smiles": "CCCC1(C(=O)NC(=O)N(C1=O)C)C(=CC)CC",
+    "mw": 252.31,
+    "logp": 2.9
+  },
+  {
+    "cid": 166948203,
+    "name": "4-[4-(2,6-dioxopiperidin-3-yl)-3,5-difluoroph",
+    "smiles": "C1CC(=O)NC(=O)C1C2=C(C=C(C=C2F)CCCC=O)F",
+    "mw": 295.28,
+    "logp": 1.3
+  },
+  {
+    "cid": 140166509,
+    "name": "7a-methyl-7-phenyl-3aH-isoindole-1,3-dione",
+    "smiles": "CC12C(C=CC=C1C3=CC=CC=C3)C(=O)NC2=O",
+    "mw": 239.27,
+    "logp": 1.9
+  },
+  {
+    "cid": 13450610,
+    "name": "2-phenylpentanediamide",
+    "smiles": "C1=CC=C(C=C1)C(CCC(=O)N)C(=O)N",
+    "mw": 206.24,
+    "logp": 0
+  },
+  {
+    "cid": 139060595,
+    "name": "(5S)-5-ethyl-1-methyl-5-phenyl-2-sulfanyliden",
+    "smiles": "CCC1(C(=O)NC(=S)N(C1=O)C)C2=CC=CC=C2",
+    "mw": 262.33,
+    "logp": 2.4
+  },
+  {
+    "cid": 64157049,
+    "name": "3-[(2-fluorophenyl)methyl]piperidine-2,6-dion",
+    "smiles": "C1CC(=O)NC(=O)C1CC2=CC=CC=C2F",
+    "mw": 221.23,
+    "logp": 1.4
+  },
+  {
+    "cid": 58822018,
+    "name": "1-butyl-3-phenylpiperidine-2,6-dione",
+    "smiles": "CCCCN1C(=O)CCC(C1=O)C2=CC=CC=C2",
+    "mw": 245.32,
+    "logp": 2.4
+  },
+  {
+    "cid": 23424388,
+    "name": "5-[(E)-but-2-enyl]-1,5-dimethyl-1,3-diazinane",
+    "smiles": "CC=CCC1(C(=O)NC(=O)N(C1=O)C)C",
+    "mw": 210.23,
+    "logp": 1.2
+  },
+  {
+    "cid": 90359183,
+    "name": "5-cyclohex-2-en-1-yl-1,5-dimethyl-1,3-diazina",
+    "smiles": "CC1(C(=O)NC(=O)N(C1=O)C)C2CCCC=C2",
+    "mw": 236.27,
+    "logp": 1.4
+  },
+  {
+    "cid": 206224,
+    "name": "1-(butoxymethyl)-5-ethyl-3-methyl-5-phenyl-1,",
+    "smiles": "CCCCOCN1C(=O)C(C(=O)N(C1=O)C)(CC)C2=CC=CC=C2",
+    "mw": 332.4,
+    "logp": 2.8
+  },
+  {
+    "cid": 46481,
+    "name": "5,5-diethyl-1-propyl-1,3-diazinane-2,4,6-trio",
+    "smiles": "CCCN1C(=O)C(C(=O)NC1=O)(CC)CC",
+    "mw": 226.27,
+    "logp": 2
+  },
+  {
+    "cid": 46484,
+    "name": "5,5-diphenyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "C1=CC=C(C=C1)C2(C(=O)NC(=O)NC2=O)C3=CC=CC=C3",
+    "mw": 280.28,
+    "logp": 2.2
+  },
+  {
+    "cid": 126725531,
+    "name": "1',3'-dimethyl-6-methylidenespiro[1,2,7,8a-te",
+    "smiles": "CN1C(=O)C2(CC(=C)C=C3C2CCC=C3)C(=O)N(C1=O)C",
+    "mw": 286.33,
+    "logp": 1.3
+  },
+  {
+    "cid": 11789726,
+    "name": "3-phenylpiperidin-2-one",
+    "smiles": "C1CC(C(=O)NC1)C2=CC=CC=C2",
+    "mw": 175.23,
+    "logp": 1.7
+  },
+  {
+    "cid": 3487,
+    "name": "3-ethyl-3-phenylpiperidine-2,6-dione",
+    "smiles": "CCC1(CCC(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 217.26,
+    "logp": 1.9
+  },
+  {
+    "cid": 89171364,
+    "name": "8-ethyl-4a,8a-dihydro-1H-quinazoline-2,4-dion",
+    "smiles": "CCC1=CC=CC2C1NC(=O)NC2=O",
+    "mw": 192.21,
+    "logp": 0.5
+  },
+  {
+    "cid": 71076,
+    "name": "5-ethyl-5-(4-fluorobutyl)-1,3-diazinane-2,4,6",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)CCCCF",
+    "mw": 230.24,
+    "logp": 1.2
+  },
+  {
+    "cid": 46502,
+    "name": "5-ethyl-1-methyl-5-pent-2-enyl-1,3-diazinane-",
+    "smiles": "CCC=CCC1(C(=O)NC(=O)N(C1=O)C)CC",
+    "mw": 238.28,
+    "logp": 2
+  },
+  {
+    "cid": 3050921,
+    "name": "11-ethyl-2,4-diazaspiro[5.5]undec-8-ene-1,3,5",
+    "smiles": "CCC1CC=CCC12C(=O)NC(=O)NC2=O",
+    "mw": 222.24,
+    "logp": 1.2
+  },
+  {
+    "cid": 46508,
+    "name": "5-ethyl-5-(2-phenylethyl)-1,3-diazinane-2,4,6",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)CCC2=CC=CC=C2",
+    "mw": 260.29,
+    "logp": 2.1
+  },
+  {
+    "cid": 46516,
+    "name": "5-ethyl-5-propyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)CC",
+    "mw": 198.22,
+    "logp": 1.2
+  },
+  {
+    "cid": 9924023,
+    "name": "1,3-dimethoxy-5,5-diphenyl-1,3-diazinane-2,4,",
+    "smiles": "CON1C(=O)C(C(=O)N(C1=O)OC)(C2=CC=CC=C2)C3=CC=CC=C3",
+    "mw": 340.3,
+    "logp": 2.5
+  },
+  {
+    "cid": 75192,
+    "name": "5,5-dipropyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)CCC",
+    "mw": 212.25,
+    "logp": 1.7
+  },
+  {
+    "cid": 19707324,
+    "name": "8-fluoro-10b-methyl-1,2,4,6-tetrahydrobenzo[f",
+    "smiles": "CC12CCC(=O)NC1=CCC3=C2C=CC(=C3)F",
+    "mw": 231.26,
+    "logp": 2.4
+  },
+  {
+    "cid": 48575,
+    "name": "5-benzyl-5-butyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCCCC1(C(=O)NC(=O)NC1=O)CC2=CC=CC=C2",
+    "mw": 274.31,
+    "logp": 2.6
+  },
+  {
+    "cid": 626114,
+    "name": "5-ethyl-1-(methylsulfanylmethyl)-5-phenyl-1,3",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)CSC)C2=CC=CC=C2",
+    "mw": 292.36,
+    "logp": 2.6
+  },
+  {
+    "cid": 54384066,
+    "name": "4-(4-fluorophenyl)piperidine-4-carboxamide",
+    "smiles": "C1CNCCC1(C2=CC=C(C=C2)F)C(=O)N",
+    "mw": 222.26,
+    "logp": 0.8
+  },
+  {
+    "cid": 304581,
+    "name": "1-(bromomethyl)-5-ethyl-3-methyl-5-phenyl-1,3",
+    "smiles": "CCC1(C(=O)N(C(=O)N(C1=O)CBr)C)C2=CC=CC=C2",
+    "mw": 339.18,
+    "logp": 2.5
+  },
+  {
+    "cid": 48582,
+    "name": "5-benzyl-5-prop-1-en-2-yl-1,3-diazinane-2,4,6",
+    "smiles": "CC(=C)C1(C(=O)NC(=O)NC1=O)CC2=CC=CC=C2",
+    "mw": 258.27,
+    "logp": 2.1
+  },
+  {
+    "cid": 304583,
+    "name": "1-benzyl-5-ethyl-5-phenyl-1,3-diazinane-2,4,6",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)CC2=CC=CC=C2)C3=CC=CC=C3",
+    "mw": 322.4,
+    "logp": 3.3
+  },
+  {
+    "cid": 48583,
+    "name": "5-benzyl-5-(3-methylbut-2-enyl)-1,3-diazinane",
+    "smiles": "CC(=CCC1(C(=O)NC(=O)NC1=O)CC2=CC=CC=C2)C",
+    "mw": 286.33,
+    "logp": 2.6
+  },
+  {
+    "cid": 166067656,
+    "name": "2-[4-(2,6-dioxopiperidin-3-yl)-3,5-difluoroph",
+    "smiles": "C1CC(=O)NC(=O)C1C2=C(C=C(C=C2F)CC=O)F",
+    "mw": 267.23,
+    "logp": 0.6
+  },
+  {
+    "cid": 28108,
+    "name": "5-ethyl-5-phenyl-1,3-bis(prop-2-enyl)-1,3-dia",
+    "smiles": "CCC1(C(=O)N(C(=O)N(C1=O)CC=C)CC=C)C2=CC=CC=C2",
+    "mw": 312.4,
+    "logp": 2.9
+  },
+  {
+    "cid": 48597,
+    "name": "1-(2-bromo-2-ethylbutanoyl)-5-ethyl-5-phenyl-",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C(=O)C(CC)(CC)Br)C2=CC=CC=C2",
+    "mw": 409.3,
+    "logp": 4.1
+  },
+  {
+    "cid": 95705,
+    "name": "5-ethyl-5-methyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C",
+    "mw": 170.17,
+    "logp": 0
+  },
+  {
+    "cid": 3030506,
+    "name": "4-benzylpiperidine-2,6-dione",
+    "smiles": "C1C(CC(=O)NC1=O)CC2=CC=CC=C2",
+    "mw": 203.24,
+    "logp": 1.2
+  },
+  {
+    "cid": 90988016,
+    "name": "5-(2-prop-1-en-2-ylpenta-2,4-dienyl)-1,3-diaz",
+    "smiles": "CC(=C)C(=CC=C)CC1CNC(=O)NC1=O",
+    "mw": 220.27,
+    "logp": 2.3
+  },
+  {
+    "cid": 21323254,
+    "name": "4a-(4-fluorophenyl)-4,5,6,7-tetrahydroisoquin",
+    "smiles": "C1CC=C2C(=O)NC(=O)CC2(C1)C3=CC=C(C=C3)F",
+    "mw": 259.27,
+    "logp": 2.5
+  },
+  {
+    "cid": 26109,
+    "name": "5-butyl-5-phenyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCCCC1(C(=O)NC(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 260.29,
+    "logp": 2.6
+  },
+  {
+    "cid": 16217597,
+    "name": "5-ethyl-5-(2,3,4,5,6-pentadeuteriophenyl)-1,3",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 237.27,
+    "logp": 1.5
+  },
+  {
+    "cid": 92163586,
+    "name": "(5R)-5-[(E)-but-2-en-2-yl]-5-ethyl-1-methyl-1",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C)C(=CC)C",
+    "mw": 224.26,
+    "logp": 1.9
+  },
+  {
+    "cid": 92163587,
+    "name": "(5S)-5-[(E)-but-2-en-2-yl]-5-ethyl-1-methyl-1",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C)C(=CC)C",
+    "mw": 224.26,
+    "logp": 1.9
+  },
+  {
+    "cid": 265733,
+    "name": "5,5-diphenyl-1,3-diazinane-2,4-dione",
+    "smiles": "C1C(C(=O)NC(=O)N1)(C2=CC=CC=C2)C3=CC=CC=C3",
+    "mw": 266.29,
+    "logp": 2
+  },
+  {
+    "cid": 17928,
+    "name": "spiro[2,3-dihydronaphthalene-4,3'-piperidine]",
+    "smiles": "C1CC2(CCC(=O)NC2=O)C3=CC=CC=C3C1=O",
+    "mw": 243.26,
+    "logp": 0.7
+  },
+  {
+    "cid": 68748812,
+    "name": "(1S,5R)-1-[4-(trifluoromethyl)phenyl]-3-azabi",
+    "smiles": "C1C2C1(C(=O)NC2=O)C3=CC=C(C=C3)C(F)(F)F",
+    "mw": 255.19,
+    "logp": 1.5
+  },
+  {
+    "cid": 3091986,
+    "name": "5-(4-methyl-3-oxo-1-phenylpentyl)-1,3-diazina",
+    "smiles": "CC(C)C(=O)CC(C1C(=O)NC(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 302.32,
+    "logp": 1.3
+  },
+  {
+    "cid": 60364306,
+    "name": "2-methyl-2-phenyl-N-propan-2-ylpropanamide",
+    "smiles": "CC(C)NC(=O)C(C)(C)C1=CC=CC=C1",
+    "mw": 205.3,
+    "logp": 2.9
+  },
+  {
+    "cid": 123303446,
+    "name": "5-ethyl-5-(4-fluorobutan-2-yl)-1,3-diazinane-",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C(C)CCF",
+    "mw": 230.24,
+    "logp": 1.1
+  },
+  {
+    "cid": 92524055,
+    "name": "(5R)-5-[(Z)-but-2-en-2-yl]-5-ethyl-1-methyl-1",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C)C(=CC)C",
+    "mw": 224.26,
+    "logp": 1.9
+  },
+  {
+    "cid": 3608,
+    "name": "5-(cyclohexen-1-yl)-1,5-dimethyl-1,3-diazinan",
+    "smiles": "CC1(C(=O)NC(=O)N(C1=O)C)C2=CCCCC2",
+    "mw": 236.27,
+    "logp": 1.5
+  },
+  {
+    "cid": 92524056,
+    "name": "(5S)-5-[(Z)-but-2-en-2-yl]-5-ethyl-1-methyl-1",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C)C(=CC)C",
+    "mw": 224.26,
+    "logp": 1.9
+  },
+  {
+    "cid": 92524057,
+    "name": "5-[(Z)-but-2-enyl]-5-butyl-1,3-diazinane-2,4,",
+    "smiles": "CCCCC1(C(=O)NC(=O)NC1=O)CC=CC",
+    "mw": 238.28,
+    "logp": 2.3
+  },
+  {
+    "cid": 5381659,
+    "name": "5-[(E)-prop-1-enyl]-5-propyl-1,3-diazinane-2,",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)C=CC",
+    "mw": 210.23,
+    "logp": 1.4
+  },
+  {
+    "cid": 224791,
+    "name": "2,6-dioxo-4-phenylpiperidine-3-carbonitrile",
+    "smiles": "C1C(C(C(=O)NC1=O)C#N)C2=CC=CC=C2",
+    "mw": 214.22,
+    "logp": 0.7
+  },
+  {
+    "cid": 28200,
+    "name": "5-benzyl-5-propan-2-yl-1,3-diazinane-2,4,6-tr",
+    "smiles": "CC(C)C1(C(=O)NC(=O)NC1=O)CC2=CC=CC=C2",
+    "mw": 260.29,
+    "logp": 2
+  },
+  {
+    "cid": 28201,
+    "name": "5,5-dibutyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCCCC1(C(=O)NC(=O)NC1=O)CCCC",
+    "mw": 240.3,
+    "logp": 2.7
+  },
+  {
+    "cid": 129633834,
+    "name": "5-(cyclohexen-1-ylmethyl)-1-methyl-1,3-diazin",
+    "smiles": "CN1C(=O)C(C(=O)NC1=O)CC2=CCCCC2",
+    "mw": 236.27,
+    "logp": 1.1
+  },
+  {
+    "cid": 5381675,
+    "name": "5-butyl-5-[(E)-prop-1-enyl]-1,3-diazinane-2,4",
+    "smiles": "CCCCC1(C(=O)NC(=O)NC1=O)C=CC",
+    "mw": 224.26,
+    "logp": 1.9
+  },
+  {
+    "cid": 5381676,
+    "name": "5-[(E)-but-2-en-2-yl]-5-propyl-1,3-diazinane-",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)C(=CC)C",
+    "mw": 224.26,
+    "logp": 1.8
+  },
+  {
+    "cid": 3024426,
+    "name": "5-ethyl-5-(2-methylpentan-3-yl)-1,3-diazinane",
+    "smiles": "CCC(C(C)C)C1(C(=O)NC(=O)NC1=O)CC",
+    "mw": 240.3,
+    "logp": 2.4
+  },
+  {
+    "cid": 89646,
+    "name": "5-phenyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "C1=CC=C(C=C1)C2C(=O)NC(=O)NC2=O",
+    "mw": 204.18,
+    "logp": 0.5
+  },
+  {
+    "cid": 11972139,
+    "name": "6-amino-5,5-diethyl-3-methyl-1,3-diazinane-2,",
+    "smiles": "CCC1(C(NC(=O)N(C1=O)C)N)CC",
+    "mw": 199.25,
+    "logp": -0.1
+  },
+  {
+    "cid": 2831921,
+    "name": "5-ethyl-5-phenacyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)CC(=O)C2=CC=CC=C2",
+    "mw": 274.27,
+    "logp": 0.9
+  },
+  {
+    "cid": 92163626,
+    "name": "5-[(2R)-butan-2-yl]-5-propyl-1,3-diazinane-2,",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)C(C)CC",
+    "mw": 226.27,
+    "logp": 2.2
+  },
+  {
+    "cid": 237110,
+    "name": "N-(hydroxycarbamoyl)-2-phenylbutanamide",
+    "smiles": "CCC(C1=CC=CC=C1)C(=O)NC(=O)NO",
+    "mw": 222.24,
+    "logp": 1.7
+  },
+  {
+    "cid": 9784,
+    "name": "5-(3-chlorophenyl)-5-ethyl-1,3-diazinane-2,4,",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C2=CC(=CC=C2)Cl",
+    "mw": 266.68,
+    "logp": 2.1
+  },
+  {
+    "cid": 568890,
+    "name": "3-phenylpyrrolidine-2,5-dione",
+    "smiles": "C1C(C(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 175.18,
+    "logp": 0.7
+  },
+  {
+    "cid": 3014207,
+    "name": "3-ethyl-3-phenylpyrrolidine-2,5-dione",
+    "smiles": "CCC1(CC(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 203.24,
+    "logp": 1.4
+  },
+  {
+    "cid": 74051140,
+    "name": "5-but-2-enyl-1,5-dimethyl-1,3-diazinane-2,4,6",
+    "smiles": "CC=CCC1(C(=O)NC(=O)N(C1=O)C)C",
+    "mw": 210.23,
+    "logp": 1.2
+  },
+  {
+    "cid": 14399048,
+    "name": "1-amino-3-ethyl-3-(4-fluorophenyl)piperidine-",
+    "smiles": "CCC1(CCC(=O)N(C1=O)N)C2=CC=C(C=C2)F",
+    "mw": 250.27,
+    "logp": 1.3
+  },
+  {
+    "cid": 548425,
+    "name": "5-ethyl-1,3-bis(methylsulfanylmethyl)-5-pheny",
+    "smiles": "CCC1(C(=O)N(C(=O)N(C1=O)CSC)CSC)C2=CC=CC=C2",
+    "mw": 352.5,
+    "logp": 3.1
+  },
+  {
+    "cid": 85837386,
+    "name": "5-methyl-5-propyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)C",
+    "mw": 184.19,
+    "logp": 0.6
+  },
+  {
+    "cid": 48723,
+    "name": "5-ethyl-5-(2-ethylbutyl)-1,3-diazinane-2,4,6-",
+    "smiles": "CCC(CC)CC1(C(=O)NC(=O)NC1=O)CC",
+    "mw": 240.3,
+    "logp": 2.3
+  },
+  {
+    "cid": 603734,
+    "name": "5,5-diethyl-1-(2-methylpropyl)-1,3-diazinane-",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)CC(C)C)CC",
+    "mw": 240.3,
+    "logp": 2.5
+  },
+  {
+    "cid": 48733,
+    "name": "5-ethyl-5-pent-2-en-3-yl-1,3-diazinane-2,4,6-",
+    "smiles": "CCC(=CC)C1(C(=O)NC(=O)NC1=O)CC",
+    "mw": 224.26,
+    "logp": 1.7
+  },
+  {
+    "cid": 48736,
+    "name": "5-ethyl-5-pentan-3-yl-1,3-diazinane-2,4,6-tri",
+    "smiles": "CCC(CC)C1(C(=O)NC(=O)NC1=O)CC",
+    "mw": 226.27,
+    "logp": 2.2
+  },
+  {
+    "cid": 25022050,
+    "name": "3-ethyl-4-phenylpyrrole-2,5-dione",
+    "smiles": "CCC1=C(C(=O)NC1=O)C2=CC=CC=C2",
+    "mw": 201.22,
+    "logp": 1.7
+  },
+  {
+    "cid": 70790757,
+    "name": "1-[4-(1,1-difluoroethyl)phenyl]-3-azabicyclo[",
+    "smiles": "CC(C1=CC=C(C=C1)C23CC2C(=O)NC3=O)(F)F",
+    "mw": 251.23,
+    "logp": 1.5
+  },
+  {
+    "cid": 22240873,
+    "name": "4-(3-fluorophenyl)piperidine-4-carboxamide",
+    "smiles": "C1CNCCC1(C2=CC(=CC=C2)F)C(=O)N",
+    "mw": 222.26,
+    "logp": 0.8
+  },
+  {
+    "cid": 23279213,
+    "name": "1,3-dimethyl-5-(2-phenylethyl)-1,3-diazinane-",
+    "smiles": "CN1C(=O)C(C(=O)N(C1=O)C)CCC2=CC=CC=C2",
+    "mw": 260.29,
+    "logp": 1.6
+  },
+  {
+    "cid": 95854,
+    "name": "4-methyl-4-phenylpiperidine-2,6-dione",
+    "smiles": "CC1(CC(=O)NC(=O)C1)C2=CC=CC=C2",
+    "mw": 203.24,
+    "logp": 1.3
+  },
+  {
+    "cid": 573040,
+    "name": "5-[(4-fluorophenyl)methyl]-1,3-diazinane-2,4,",
+    "smiles": "C1=CC(=CC=C1CC2C(=O)NC(=O)NC2=O)F",
+    "mw": 236.2,
+    "logp": 0.9
+  },
+  {
+    "cid": 417393,
+    "name": "N,N-dimethyl-4-phenylpiperidine-4-carboxamide",
+    "smiles": "CN(C)C(=O)C1(CCNCC1)C2=CC=CC=C2",
+    "mw": 232.32,
+    "logp": 1.2
+  },
+  {
+    "cid": 12158587,
+    "name": "1,3-diacetyl-5,5-diethyl-1,3-diazinane-2,4,6-",
+    "smiles": "CCC1(C(=O)N(C(=O)N(C1=O)C(=O)C)C(=O)C)CC",
+    "mw": 268.27,
+    "logp": 0.4
+  },
+  {
+    "cid": 176438910,
+    "name": "(2S)-N-tert-butyl-3,3-difluoro-2-methyl-2-phe",
+    "smiles": "CC(C)(C)NC(=O)C(C)(C1=CC=CC=C1)C(F)F",
+    "mw": 255.3,
+    "logp": 3.4
+  },
+  {
+    "cid": 176438913,
+    "name": "(2S)-N-tert-butyl-3,3-difluoro-2-(4-fluorophe",
+    "smiles": "CC(C)(C)NC(=O)C(C)(C1=CC=C(C=C1)F)C(F)F",
+    "mw": 273.29,
+    "logp": 3.5
+  },
+  {
+    "cid": 48771,
+    "name": "5-ethyl-5-prop-1-en-2-yl-1,3-diazinane-2,4,6-",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C(=C)C",
+    "mw": 196.2,
+    "logp": 1
+  },
+  {
+    "cid": 156515972,
+    "name": "3-(3-fluoro-4-propan-2-ylphenyl)piperidine-2,",
+    "smiles": "CC(C)C1=C(C=C(C=C1)C2CCC(=O)NC2=O)F",
+    "mw": 249.28,
+    "logp": 2.2
+  },
+  {
+    "cid": 272005,
+    "name": "5,5-bis(2-iodoethyl)-1,3-diazinane-2,4,6-trio",
+    "smiles": "C(CI)C1(C(=O)NC(=O)NC1=O)CCI",
+    "mw": 435.99,
+    "logp": 2.2
+  },
+  {
+    "cid": 69813897,
+    "name": "2-phenyl-2-piperidin-4-ylacetamide",
+    "smiles": "C1CNCCC1C(C2=CC=CC=C2)C(=O)N",
+    "mw": 218.29,
+    "logp": 1.1
+  },
+  {
+    "cid": 176438923,
+    "name": "(2S)-N-tert-butyl-2-(difluoromethyl)-2-phenyl",
+    "smiles": "CCC(C1=CC=CC=C1)(C(F)F)C(=O)NC(C)(C)C",
+    "mw": 269.33,
+    "logp": 3.7
+  },
+  {
+    "cid": 525964,
+    "name": "5-(cyclohexen-1-yl)-1,3,5-trimethyl-1,3-diazi",
+    "smiles": "CC1(C(=O)N(C(=O)N(C1=O)C)C)C2=CCCCC2",
+    "mw": 250.29,
+    "logp": 1.7
+  },
+  {
+    "cid": 48781,
+    "name": "5-ethyl-5-(2-methoxyethyl)-1,3-diazinane-2,4,",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)CCOC",
+    "mw": 214.22,
+    "logp": 0
+  },
+  {
+    "cid": 10059406,
+    "name": "5-(cyclohexen-1-yl)-5-methyl-1,3-diazinane-2,",
+    "smiles": "CC1(C(=O)NC(=O)NC1=O)C2=CCCCC2",
+    "mw": 222.24,
+    "logp": 1.4
+  },
+  {
+    "cid": 4576911,
+    "name": "5-(4-methylphenyl)-1,3-diazinane-2,4,6-trione",
+    "smiles": "CC1=CC=C(C=C1)C2C(=O)NC(=O)NC2=O",
+    "mw": 218.21,
+    "logp": 0.9
+  },
+  {
+    "cid": 40592,
+    "name": "5-methyl-5-pentan-2-yl-1,3-diazinane-2,4,6-tr",
+    "smiles": "CCCC(C)C1(C(=O)NC(=O)NC1=O)C",
+    "mw": 212.25,
+    "logp": 1.6
+  },
+  {
+    "cid": 321165,
+    "name": "3,3-diphenylpiperidin-2-one",
+    "smiles": "C1CC(C(=O)NC1)(C2=CC=CC=C2)C3=CC=CC=C3",
+    "mw": 251.32,
+    "logp": 3.1
+  },
+  {
+    "cid": 134489743,
+    "name": "N-[2-(4-fluorophenyl)acetyl]-2-methylpropanam",
+    "smiles": "CC(C)C(=O)NC(=O)CC1=CC=C(C=C1)F",
+    "mw": 223.24,
+    "logp": 2.1
+  },
+  {
+    "cid": 9879,
+    "name": "5-(4-chlorophenyl)-5-ethyl-1,3-diazinane-2,4,",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C2=CC=C(C=C2)Cl",
+    "mw": 266.68,
+    "logp": 2.1
+  },
+  {
+    "cid": 70074008,
+    "name": "2-methyl-2-phenylbutanediamide",
+    "smiles": "CC(CC(=O)N)(C1=CC=CC=C1)C(=O)N",
+    "mw": 206.24,
+    "logp": 0
+  },
+  {
+    "cid": 71440026,
+    "name": "5-ethyl-5-(trimethylsilylmethyl)-1,3-diazinan",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C[Si](C)(C)C",
+    "mw": 242.35,
+    "logp": 0
+  },
+  {
+    "cid": 59496091,
+    "name": "(1R,5R)-1-methyl-5-[4-(trifluoromethyl)phenyl",
+    "smiles": "CC12CC1(C(=O)NC2=O)C3=CC=C(C=C3)C(F)(F)F",
+    "mw": 269.22,
+    "logp": 1.9
+  },
+  {
+    "cid": 48801,
+    "name": "5-ethyl-1-methyl-5-pent-2-en-2-yl-1,3-diazina",
+    "smiles": "CCC=C(C)C1(C(=O)NC(=O)N(C1=O)C)CC",
+    "mw": 238.28,
+    "logp": 2.4
+  },
+  {
+    "cid": 48802,
+    "name": "5-ethyl-1-methyl-5-(3-methylbut-2-enyl)-1,3-d",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C)CC=C(C)C",
+    "mw": 238.28,
+    "logp": 2.2
+  },
+  {
+    "cid": 14833315,
+    "name": "5-pentan-3-yl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCC(CC)C1C(=O)NC(=O)NC1=O",
+    "mw": 198.22,
+    "logp": 1.1
+  },
+  {
+    "cid": 48804,
+    "name": "5-but-2-en-2-yl-5-ethyl-1-methyl-1,3-diazinan",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C)C(=CC)C",
+    "mw": 224.26,
+    "logp": 1.9
+  },
+  {
+    "cid": 214697,
+    "name": "(2,4,6-trioxo-5-phenyl-5-propyl-1,3-diazinan-",
+    "smiles": "CCCC(=O)ON1C(=O)C(C(=O)NC1=O)(CCC)C2=CC=CC=C2",
+    "mw": 332.4,
+    "logp": 3.3
+  },
+  {
+    "cid": 214698,
+    "name": "2-(2,4,6-trioxo-5-phenyl-5-propyl-1,3-diazina",
+    "smiles": "CCCC1(C(=O)NC(=O)N(C1=O)CC(=O)O)C2=CC=CC=C2",
+    "mw": 304.3,
+    "logp": 2
+  },
+  {
+    "cid": 331436,
+    "name": "4-(2-methylphenyl)-2,6-dioxopiperidine-3,5-di",
+    "smiles": "CC1=CC=CC=C1C2C(C(=O)NC(=O)C2C#N)C#N",
+    "mw": 253.26,
+    "logp": 1.1
+  },
+  {
+    "cid": 48815,
+    "name": "5-ethyl-5-naphthalen-1-yl-1,3-diazinane-2,4,6",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C2=CC=CC3=CC=CC=C32",
+    "mw": 282.29,
+    "logp": 2.7
+  },
+  {
+    "cid": 331440,
+    "name": "4-(4-methylphenyl)-2,6-dioxopiperidine-3,5-di",
+    "smiles": "CC1=CC=C(C=C1)C2C(C(=O)NC(=O)C2C#N)C#N",
+    "mw": 253.26,
+    "logp": 1.1
+  },
+  {
+    "cid": 48821,
+    "name": "5-benzyl-5-propyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)CC2=CC=CC=C2",
+    "mw": 260.29,
+    "logp": 2.1
+  },
+  {
+    "cid": 85686,
+    "name": "3-phenylpiperidine-2,6-dione",
+    "smiles": "C1CC(=O)NC(=O)C1C2=CC=CC=C2",
+    "mw": 189.21,
+    "logp": 1
+  },
+  {
+    "cid": 3043001,
+    "name": "1-methyl-4-phenylpiperidine-2,6-dione",
+    "smiles": "CN1C(=O)CC(CC1=O)C2=CC=CC=C2",
+    "mw": 203.24,
+    "logp": 0.9
+  },
+  {
+    "cid": 3043002,
+    "name": "1-ethyl-4-phenylpiperidine-2,6-dione",
+    "smiles": "CCN1C(=O)CC(CC1=O)C2=CC=CC=C2",
+    "mw": 217.26,
+    "logp": 1.3
+  },
+  {
+    "cid": 18109,
+    "name": "2-methyl-2-phenyl-4-piperidin-1-ylbutanamide",
+    "smiles": "CC(CCN1CCCCC1)(C2=CC=CC=C2)C(=O)N",
+    "mw": 260.37,
+    "logp": 2.4
+  },
+  {
+    "cid": 18110,
+    "name": "2-ethyl-2-phenyl-4-piperidin-1-ylbutanamide",
+    "smiles": "CCC(CCN1CCCCC1)(C2=CC=CC=C2)C(=O)N",
+    "mw": 274.4,
+    "logp": 2.7
+  },
+  {
+    "cid": 163360447,
+    "name": "5-(2-methylpropyl)-5-(1,1,2,3,3-pentadeuterio",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)CC(C)C",
+    "mw": 231.3,
+    "logp": 2
+  },
+  {
+    "cid": 12719813,
+    "name": "1-[4-(trifluoromethyl)phenyl]-3-azabicyclo[3.",
+    "smiles": "C1C2C1(C(=O)NC2=O)C3=CC=C(C=C3)C(F)(F)F",
+    "mw": 255.19,
+    "logp": 1.5
+  },
+  {
+    "cid": 12719814,
+    "name": "(1R,5S)-1-[4-(trifluoromethyl)phenyl]-3-azabi",
+    "smiles": "C1C2C1(C(=O)NC2=O)C3=CC=C(C=C3)C(F)(F)F",
+    "mw": 255.19,
+    "logp": 1.5
+  },
+  {
+    "cid": 15857352,
+    "name": "5-amino-5-phenyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "C1=CC=C(C=C1)C2(C(=O)NC(=O)NC2=O)N",
+    "mw": 219.2,
+    "logp": -0.3
+  },
+  {
+    "cid": 12719819,
+    "name": "1-(3-fluorophenyl)-3-azabicyclo[3.1.0]hexane-",
+    "smiles": "C1C2C1(C(=O)NC2=O)C3=CC(=CC=C3)F",
+    "mw": 205.18,
+    "logp": 0.7
+  },
+  {
+    "cid": 101650143,
+    "name": "5-(cyclohexen-1-yl)-1-methyl-5-prop-2-enyl-1,",
+    "smiles": "CN1C(=O)C(C(=O)NC1=O)(CC=C)C2=CCCCC2",
+    "mw": 262.3,
+    "logp": 2.1
+  },
+  {
+    "cid": 129730274,
+    "name": "3-ethyl-3-phenylpiperidin-2-one",
+    "smiles": "CCC1(CCCNC1=O)C2=CC=CC=C2",
+    "mw": 203.28,
+    "logp": 2.4
+  },
+  {
+    "cid": 5381859,
+    "name": "5-ethyl-5-[(E)-pent-2-en-3-yl]-1,3-diazinane-",
+    "smiles": "CCC(=CC)C1(C(=O)NC(=O)NC1=O)CC",
+    "mw": 224.26,
+    "logp": 1.7
+  },
+  {
+    "cid": 70418146,
+    "name": "3-(2-ethylphenyl)piperidine-2,6-dione",
+    "smiles": "CCC1=CC=CC=C1C2CCC(=O)NC2=O",
+    "mw": 217.26,
+    "logp": 1.8
+  },
+  {
+    "cid": 5381861,
+    "name": "5-[(E)-but-2-en-2-yl]-5-butyl-1,3-diazinane-2",
+    "smiles": "CCCCC1(C(=O)NC(=O)NC1=O)C(=CC)C",
+    "mw": 238.28,
+    "logp": 2.3
+  },
+  {
+    "cid": 5381866,
+    "name": "5-ethyl-5-[(E)-hept-3-en-4-yl]-1,3-diazinane-",
+    "smiles": "CCCC(=CCC)C1(C(=O)NC(=O)NC1=O)CC",
+    "mw": 252.31,
+    "logp": 2.7
+  },
+  {
+    "cid": 5381868,
+    "name": "5-[(E)-hept-3-en-4-yl]-5-prop-2-enyl-1,3-diaz",
+    "smiles": "CCCC(=CCC)C1(C(=O)NC(=O)NC1=O)CC=C",
+    "mw": 264.32,
+    "logp": 2.9
+  },
+  {
+    "cid": 54611701,
+    "name": "5-[(Z)-but-2-enyl]-5-propyl-1,3-diazinane-2,4",
+    "smiles": "CCCC1(C(=O)NC(=O)NC1=O)CC=CC",
+    "mw": 224.26,
+    "logp": 1.7
+  },
+  {
+    "cid": 98045,
+    "name": "5-methyl-5-phenylpiperidin-2-one",
+    "smiles": "CC1(CCC(=O)NC1)C2=CC=CC=C2",
+    "mw": 189.25,
+    "logp": 1.9
+  },
+  {
+    "cid": 5381887,
+    "name": "5-[(E)-but-2-en-2-yl]-5-ethyl-1-methyl-1,3-di",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C)C(=CC)C",
+    "mw": 224.26,
+    "logp": 1.9
+  },
+  {
+    "cid": 5381893,
+    "name": "1-methyl-5-[(E)-pent-2-en-3-yl]-5-propyl-1,3-",
+    "smiles": "CCCC1(C(=O)NC(=O)N(C1=O)C)C(=CC)CC",
+    "mw": 252.31,
+    "logp": 2.9
+  },
+  {
+    "cid": 138460937,
+    "name": "3-fluoro-3-phenylpiperidine-2,6-dione",
+    "smiles": "C1CC(C(=O)NC1=O)(C2=CC=CC=C2)F",
+    "mw": 207.2,
+    "logp": 1.4
+  },
+  {
+    "cid": 107851533,
+    "name": "8-[2-(cyclohexen-1-yl)ethyl]-6,8-diazaspiro[3",
+    "smiles": "C1CCC(=CC1)CCN2C(=O)C3(CCC3)C(=O)NC2=O",
+    "mw": 276.33,
+    "logp": 2
+  },
+  {
+    "cid": 69867285,
+    "name": "5,5-diacetyl-1,3-diazinane-2,4-dione",
+    "smiles": "CC(=O)C1(CNC(=O)NC1=O)C(=O)C",
+    "mw": 198.18,
+    "logp": -1.4
+  },
+  {
+    "cid": 156012339,
+    "name": "5-benzyl-5-(8,9-difluorononyl)-1,3-diazinane-",
+    "smiles": "C1=CC=C(C=C1)CC2(C(=O)NC(=O)NC2=O)CCCCCCCC(CF)F",
+    "mw": 380.4,
+    "logp": 4.6
+  },
+  {
+    "cid": 148639540,
+    "name": "3-[3-(2-fluorophenyl)-2-oxopropyl]piperidine-",
+    "smiles": "C1CC(=O)NC(=O)C1CC(=O)CC2=CC=CC=C2F",
+    "mw": 263.26,
+    "logp": 0.7
+  },
+  {
+    "cid": 104245,
+    "name": "5-ethyl-5-(4-methylphenyl)-1,3-diazinane-2,4,",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C2=CC=C(C=C2)C",
+    "mw": 246.26,
+    "logp": 1.8
+  },
+  {
+    "cid": 358198,
+    "name": "5-(2-hydroxyethyl)-5-phenyl-1,3-diazinane-2,4",
+    "smiles": "C1=CC=C(C=C1)C2(C(=O)NC(=O)NC2=O)CCO",
+    "mw": 248.23,
+    "logp": 0.2
+  },
+  {
+    "cid": 274245,
+    "name": "11-methyl-2,4-diazaspiro[5.5]undec-9-ene-1,3,",
+    "smiles": "CC1C=CCCC12C(=O)NC(=O)NC2=O",
+    "mw": 208.21,
+    "logp": 0.5
+  },
+  {
+    "cid": 214856,
+    "name": "5,5-diethyl-1-(1-phenylpropan-2-yl)-1,3-diazi",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C(C)CC2=CC=CC=C2)CC",
+    "mw": 302.37,
+    "logp": 3.9
+  },
+  {
+    "cid": 214857,
+    "name": "1-(1-phenylpropan-2-yl)-5,5-bis(prop-2-enyl)-",
+    "smiles": "CC(CC1=CC=CC=C1)N2C(=O)C(C(=O)NC2=O)(CC=C)CC=C",
+    "mw": 326.4,
+    "logp": 3.9
+  },
+  {
+    "cid": 42630984,
+    "name": "3-(2-methylphenyl)pyrrolidine-2,5-dione",
+    "smiles": "CC1=CC=CC=C1C2CC(=O)NC2=O",
+    "mw": 189.21,
+    "logp": 1
+  },
+  {
+    "cid": 120657,
+    "name": "5-ethyl-5-(4-fluorophenyl)-1,3-diazinane-2,4,",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)C2=CC=C(C=C2)F",
+    "mw": 250.23,
+    "logp": 1.6
+  },
+  {
+    "cid": 163739483,
+    "name": "(3R)-3-[4-[(E)-2-ethoxyethenyl]-2,6-difluorop",
+    "smiles": "CCOC=CC1=CC(=C(C(=C1)F)C2CCC(=O)NC2=O)F",
+    "mw": 295.28,
+    "logp": 2
+  },
+  {
+    "cid": 12457828,
+    "name": "5,5-diethyl-1-methoxy-1,3-diazinane-2,4,6-tri",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)OC)CC",
+    "mw": 214.22,
+    "logp": 1.2
+  },
+  {
+    "cid": 370539,
+    "name": "2-methyl-2-phenyl-5,7-diazaspiro[2.5]octane-4",
+    "smiles": "CC1(CC12C(=O)NC(=O)NC2=O)C3=CC=CC=C3",
+    "mw": 244.25,
+    "logp": 1.1
+  },
+  {
+    "cid": 667501,
+    "name": "(5R)-5-ethyl-1-methyl-5-phenyl-1,3-diazinane-",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C)C2=CC=CC=C2",
+    "mw": 246.26,
+    "logp": 1.8
+  },
+  {
+    "cid": 245620,
+    "name": "2-amino-5-ethyl-4,6-dioxo-5-phenylpyrimidine-",
+    "smiles": "CCC1(C(=O)N=C(N(C1=O)C#N)N)C2=CC=CC=C2",
+    "mw": 256.26,
+    "logp": 1.7
+  },
+  {
+    "cid": 86120308,
+    "name": "5-cyclohex-3-en-1-yl-1,5-dimethyl-1,3-diazina",
+    "smiles": "CC1(C(=O)NC(=O)N(C1=O)C)C2CCC=CC2",
+    "mw": 236.27,
+    "logp": 1.4
+  },
+  {
+    "cid": 102240116,
+    "name": "1-methyl-5-[(Z)-pent-2-en-2-yl]-5-propyl-1,3-",
+    "smiles": "CCCC1(C(=O)NC(=O)N(C1=O)C)C(=CCC)C",
+    "mw": 252.31,
+    "logp": 2.9
+  },
+  {
+    "cid": 667509,
+    "name": "5,5-diethyl-2-sulfanylidene-1,3-diazinane-4,6",
+    "smiles": "CCC1(C(=O)NC(=S)NC1=O)CC",
+    "mw": 200.26,
+    "logp": 1.5
+  },
+  {
+    "cid": 20340,
+    "name": "1,5-dimethyl-5-propan-2-yl-1,3-diazinane-2,4,",
+    "smiles": "CC(C)C1(C(=O)NC(=O)N(C1=O)C)C",
+    "mw": 198.22,
+    "logp": 1
+  },
+  {
+    "cid": 162742133,
+    "name": "3-(2-fluorophenyl)-3-methylpiperidine-2,6-dio",
+    "smiles": "CC1(CCC(=O)NC1=O)C2=CC=CC=C2F",
+    "mw": 221.23,
+    "logp": 1.5
+  },
+  {
+    "cid": 3045246,
+    "name": "5-ethyl-5-[4-(4-fluorophenyl)-4-oxobutyl]-1,3",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)CCCC(=O)C2=CC=C(C=C2)F",
+    "mw": 320.31,
+    "logp": 1.7
+  },
+  {
+    "cid": 143783813,
+    "name": "(1R)-1-methyl-5-[4-(trifluoromethyl)phenyl]-3",
+    "smiles": "CC12CC1(C(=O)NC2=O)C3=CC=C(C=C3)C(F)(F)F",
+    "mw": 269.22,
+    "logp": 1.9
+  },
+  {
+    "cid": 13547400,
+    "name": "5-ethyl-5-(2,2,2-trifluoroethyl)-1,3-diazinan",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)CC(F)(F)F",
+    "mw": 238.16,
+    "logp": 1.2
+  },
+  {
+    "cid": 115947401,
+    "name": "9-(cyclohex-3-en-1-ylmethyl)-7,9-diazaspiro[4",
+    "smiles": "C1CCC2(C1)C(=O)NC(=O)N(C2=O)CC3CCC=CC3",
+    "mw": 276.33,
+    "logp": 2.2
+  },
+  {
+    "cid": 4638603,
+    "name": "5-benzyl-5-fluoro-1,3-diazinane-2,4,6-trione",
+    "smiles": "C1=CC=C(C=C1)CC2(C(=O)NC(=O)NC2=O)F",
+    "mw": 236.2,
+    "logp": 1.1
+  },
+  {
+    "cid": 115947403,
+    "name": "1-(cyclohex-3-en-1-ylmethyl)-5,5-diethyl-1,3-",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)CC2CCC=CC2)CC",
+    "mw": 278.35,
+    "logp": 2.4
+  },
+  {
+    "cid": 103466897,
+    "name": "1-(2,2-dimethylbutyl)-5,5-diethyl-1,3-diazina",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)CC(C)(C)CC)CC",
+    "mw": 268.35,
+    "logp": 3.2
+  },
+  {
+    "cid": 43155349,
+    "name": "3-methyl-3-(4-propan-2-ylphenyl)pyrrolidine-2",
+    "smiles": "CC(C)C1=CC=C(C=C1)C2(CC(=O)NC2=O)C",
+    "mw": 231.29,
+    "logp": 2.1
+  },
+  {
+    "cid": 26520,
+    "name": "5-ethyl-5-phenyl-1-prop-2-enyl-1,3-diazinane-",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)CC=C)C2=CC=CC=C2",
+    "mw": 272.3,
+    "logp": 2.5
+  },
+  {
+    "cid": 3069865,
+    "name": "5-ethyl-5-phenyl-1-propan-2-yl-1,3-diazinane-",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C(C)C)C2=CC=CC=C2",
+    "mw": 274.31,
+    "logp": 2.6
+  },
+  {
+    "cid": 139210666,
+    "name": "4-(4-fluorophenyl)-2,6-dioxopiperidine-3-carb",
+    "smiles": "C1C(C(C(=O)NC1=O)C#N)C2=CC=C(C=C2)F",
+    "mw": 232.21,
+    "logp": 0.8
+  },
+  {
+    "cid": 15706029,
+    "name": "5-(cyclohexen-1-yl)-1-methyl-1,3-diazinane-2,",
+    "smiles": "CN1C(=O)C(C(=O)NC1=O)C2=CCCCC2",
+    "mw": 222.24,
+    "logp": 0.8
+  },
+  {
+    "cid": 6068,
+    "name": "4-ethyl-3-methyl-3-phenylpyrrolidine-2,5-dion",
+    "smiles": "CCC1C(=O)NC(=O)C1(C)C2=CC=CC=C2",
+    "mw": 217.26,
+    "logp": 1.9
+  },
+  {
+    "cid": 6436790,
+    "name": "1-methyl-5-[(Z)-pent-2-en-3-yl]-5-propyl-1,3-",
+    "smiles": "CCCC1(C(=O)NC(=O)N(C1=O)C)C(=CC)CC",
+    "mw": 252.31,
+    "logp": 2.9
+  },
+  {
+    "cid": 100280,
+    "name": "5-(2-hydroxypropyl)-5-phenyl-1,3-diazinane-2,",
+    "smiles": "CC(CC1(C(=O)NC(=O)NC1=O)C2=CC=CC=C2)O",
+    "mw": 262.26,
+    "logp": 0.7
+  },
+  {
+    "cid": 217018,
+    "name": "1,3,5-triethyl-5-phenyl-1,3-diazinane-2,4,6-t",
+    "smiles": "CCC1(C(=O)N(C(=O)N(C1=O)CC)CC)C2=CC=CC=C2",
+    "mw": 288.34,
+    "logp": 2.3
+  },
+  {
+    "cid": 227260,
+    "name": "2-ethyl-2-phenylthiomorpholine-3,5-dione",
+    "smiles": "CCC1(C(=O)NC(=O)CS1)C2=CC=CC=C2",
+    "mw": 235.3,
+    "logp": 2.2
+  },
+  {
+    "cid": 132284348,
+    "name": "1-acetyl-N-methyl-4-phenylpiperidine-4-carbox",
+    "smiles": "CC(=O)N1CCC(CC1)(C2=CC=CC=C2)C(=O)NC",
+    "mw": 260.33,
+    "logp": 1
+  },
+  {
+    "cid": 4257727,
+    "name": "5,5-diphenyl-2-sulfanylidene-1,3-diazinane-4,",
+    "smiles": "C1=CC=C(C=C1)C2(C(=O)NC(=S)NC2=O)C3=CC=CC=C3",
+    "mw": 296.3,
+    "logp": 2.8
+  },
+  {
+    "cid": 139460543,
+    "name": "5-(2-methylbutan-2-yl)-1,3-diazinane-2,4,6-tr",
+    "smiles": "CCC(C)(C)C1C(=O)NC(=O)NC1=O",
+    "mw": 198.22,
+    "logp": 0.8
+  },
+  {
+    "cid": 43155395,
+    "name": "3-methyl-3-(4-methylphenyl)pyrrolidine-2,5-di",
+    "smiles": "CC1=CC=C(C=C1)C2(CC(=O)NC2=O)C",
+    "mw": 203.24,
+    "logp": 1.4
+  },
+  {
+    "cid": 174022,
+    "name": "5-butyl-1-methyl-5-phenyl-1,3-diazinane-2,4,6",
+    "smiles": "CCCCC1(C(=O)NC(=O)N(C1=O)C)C2=CC=CC=C2",
+    "mw": 274.31,
+    "logp": 2.9
+  },
+  {
+    "cid": 1999,
+    "name": "N-(acetylcarbamoyl)-2-phenylbutanamide",
+    "smiles": "CCC(C1=CC=CC=C1)C(=O)NC(=O)NC(=O)C",
+    "mw": 248.28,
+    "logp": 2.6
+  },
+  {
+    "cid": 81873,
+    "name": "1,3-dimethyl-5-phenyl-1,3-diazinane-2,4,6-tri",
+    "smiles": "CN1C(=O)C(C(=O)N(C1=O)C)C2=CC=CC=C2",
+    "mw": 232.23,
+    "logp": 0.9
+  },
+  {
+    "cid": 17858514,
+    "name": "1-(dimethoxymethyl)-5,5-diphenyl-1,3-diazinan",
+    "smiles": "COC(N1C(=O)C(C(=O)NC1=O)(C2=CC=CC=C2)C3=CC=CC=C3)OC",
+    "mw": 354.4,
+    "logp": 2.5
+  },
+  {
+    "cid": 64159698,
+    "name": "3-[(3-fluorophenyl)methyl]piperidine-2,6-dion",
+    "smiles": "C1CC(=O)NC(=O)C1CC2=CC(=CC=C2)F",
+    "mw": 221.23,
+    "logp": 1.4
+  },
+  {
+    "cid": 23631833,
+    "name": "8-ethenyl-10-methyl-2,4-diazaspiro[5.5]undec-",
+    "smiles": "CC1=CC(CC2(C1)C(=O)NC(=O)NC2=O)C=C",
+    "mw": 234.25,
+    "logp": 0.7
+  },
+  {
+    "cid": 90339299,
+    "name": "N-acetyl-2-(4-fluorophenyl)acetamide",
+    "smiles": "CC(=O)NC(=O)CC1=CC=C(C=C1)F",
+    "mw": 195.19,
+    "logp": 1.1
+  },
+  {
+    "cid": 36836,
+    "name": "1-(2-phenylethyl)-5,5-bis(prop-2-enyl)-1,3-di",
+    "smiles": "C=CCC1(C(=O)NC(=O)N(C1=O)CCC2=CC=CC=C2)CC=C",
+    "mw": 312.4,
+    "logp": 3.5
+  },
+  {
+    "cid": 231397,
+    "name": "5-ethyl-1,5-dimethyl-1,3-diazinane-2,4,6-trio",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C)C",
+    "mw": 184.19,
+    "logp": 0.8
+  },
+  {
+    "cid": 239592,
+    "name": "5,5-diethyl-1,3-diazinane-2,4-dione",
+    "smiles": "CCC1(CNC(=O)NC1=O)CC",
+    "mw": 170.21,
+    "logp": 0.5
+  },
+  {
+    "cid": 49130,
+    "name": "5-but-1-enyl-5-butyl-1,3-diazinane-2,4,6-trio",
+    "smiles": "CCCCC1(C(=O)NC(=O)NC1=O)C=CCC",
+    "mw": 238.28,
+    "logp": 2.1
+  },
+  {
+    "cid": 49132,
+    "name": "5-but-2-enyl-5-butyl-1,3-diazinane-2,4,6-trio",
+    "smiles": "CCCCC1(C(=O)NC(=O)NC1=O)CC=CC",
+    "mw": 238.28,
+    "logp": 2.3
+  },
+  {
+    "cid": 71462894,
+    "name": "5-benzyl-5-nonyl-1,3-diazinane-2,4,6-trione",
+    "smiles": "CCCCCCCCCC1(C(=O)NC(=O)NC1=O)CC2=CC=CC=C2",
+    "mw": 344.4,
+    "logp": 5.3
+  },
+  {
+    "cid": 12773359,
+    "name": "5,5-diethyl-1,3-dihydroxy-1,3-diazinane-2,4,6",
+    "smiles": "CCC1(C(=O)N(C(=O)N(C1=O)O)O)CC",
+    "mw": 216.19,
+    "logp": -0.1
+  },
+  {
+    "cid": 10774517,
+    "name": "3-benzyl-3-methylpiperidin-2-one",
+    "smiles": "CC1(CCCNC1=O)CC2=CC=CC=C2",
+    "mw": 203.28,
+    "logp": 2.3
+  },
+  {
+    "cid": 15917050,
+    "name": "5-ethyl-5-prop-2-ynyl-1,3-diazinane-2,4,6-tri",
+    "smiles": "CCC1(C(=O)NC(=O)NC1=O)CC#C",
+    "mw": 194.19,
+    "logp": 0.4
+  },
+  {
+    "cid": 3026941,
+    "name": "1-tert-butyl-5,5-diethyl-1,3-diazinane-2,4,6-",
+    "smiles": "CCC1(C(=O)NC(=O)N(C1=O)C(C)(C)C)CC",
+    "mw": 240.3,
+    "logp": 2.1
+  }
+]

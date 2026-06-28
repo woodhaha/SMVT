@@ -1,0 +1,23 @@
+name,drugbank_id,best_affinity,all_affinities,type
+Diclofenac,DB00586,-7.15,"[-7.15, -6.969, -5.447, -5.405, -5.114]",NSAID_inhibitor
+Biotin,DB00121,-6.762,"[-6.762, -6.557, -6.429, -6.193, -5.389]",substrate
+Aspirin,DB00945,-6.676,"[-6.676, -6.578, -6.431, -6.356, -6.142]",FDA_drug
+Pantothenic_Acid,DB01783,-6.283,"[-6.283, -6.139, -5.876, -5.801, -5.79]",substrate
+Fluoxetine,DB00472,-6.133,"[-6.133, -5.79, -4.651, -4.176, -4.111]",FDA_drug
+Metronidazole,DB00916,-5.767,"[-5.767, -5.757, -5.623, -5.532, -5.356]",FDA_drug
+Ascorbic_Acid,DB00126,-5.523,"[-5.523, -5.517, -5.38, -5.252, -5.245]",FDA_drug
+Ketoprofen,DB01009,-5.411,"[-5.411, -4.603, -4.453, -4.371, -4.257]",NSAID_inhibitor
+Lipoic_Acid,DB00166,-5.391,"[-5.391, -5.25, -4.845, -4.574, -4.23]",substrate
+Metformin,DB00331,-5.387,"[-5.387, -5.22, -5.036, -4.631, -4.619]",FDA_drug
+Ibuprofen,DB01050,-5.308,"[-5.308, -5.032, -4.831, 3.034, 44.73]",NSAID_inhibitor
+Furosemide,DB00695,-5.097,"[-5.097, -4.964, -4.073, -3.823, -2.633]",FDA_drug
+Gabapentin_enacarbil,DB08848,-4.965,"[-4.965, -4.939, -4.917, -4.846]",substrate
+Flurbiprofen,DB00712,-4.591,"[-4.591, -2.973, -1.897, -0.9171, 2.545]",NSAID_inhibitor
+Sertraline,DB01104,-4.248,"[-4.248, -3.104, -2.163, -1.973, -1.796]",FDA_drug
+Thiamine,DB00152,-4.02,"[-4.02, -3.639, -3.56, -3.047, -2.931]",FDA_drug
+Omeprazole,DB00338,-3.187,"[-3.187, -2.354, -0.6499, -0.5707, -0.3809]",FDA_drug
+Warfarin,DB00682,-2.575,"[-2.575, -2.564, -2.396]",FDA_drug
+Indomethacin,DB00328,-1.12,"[-1.12, 0.5249, 0.7425, 1.625, 2.535]",NSAID_inhibitor
+Riboflavin,DB00140,-0.01013,"[-0.01013, 0.3508, 0.6539, 0.9407, 1.055]",FDA_drug
+Simvastatin,DB00641,1.155,"[1.155, 2.263, 3.393, 10.06]",FDA_drug
+Folic_Acid,DB00158,3.064,"[3.064, 3.227, 3.653, 4.598, 5.331]",FDA_drug

@@ -1,0 +1,5 @@
+position,ref_aa,var_aa,cancer_type,source,note
+123,R,L,Germline,ClinVar,Known pathogenic: biotin-responsive neurodegeneration
+189,V,C,Germline,Literature,Literature-reported Y189C (seq has V189)
+317,A,R,Germline,Literature,Literature-reported G317R (seq has A317)
+489,N,F,Germline,Literature,Literature-reported S489F (seq has N489)

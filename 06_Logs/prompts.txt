@@ -1,0 +1,15 @@
+下载目标蛋白SLC5A6 从PDB下载晶体结构，去除水分子和杂原子，加氢原子，分配电荷，能量最小化
+结构找到了。PDB 实验结构不存在（SLC5A6 是膜蛋白，结晶困难），但 AlphaFold 预测结构可用。
+下载 PDB + 等 rdkit 装完
+PDB 下载成功（v6, pLDDT=79.4, 51% 高置信度）
+AlphaFold 结构本身不含水和杂原子，所以 4824 个原子全部保留。检查 rdkit 是否就绪：
+conda 在装 rdkit + openbabel（可并行完成加氢、电荷、最小化），等待中.
+openbabel 装好了。现在跑完整流程——加氢 → 电荷 → 能量最小化：
+UFF 参数文件完整（278 行），现在就跑 UFF 最小化：
+UFF 最小化正在跑（~10,000 原子）
+
+pathlinkR 
+
+https://mp.weixin.qq.com/s/g-GG9L8H11-NKZ9IlhNsVQ 虚拟敲除 
+
+https://mp.weixin.qq.com/s/35MTFUeiaROjHK463zcjuQ

@@ -1,0 +1,51 @@
+bit,importance,n_active,top_compounds,mean_affinity,hit_enrichment
+1274,0.030584992855788907,6,"Ursodeoxycholic_Acid, Simvastatin, Pravastatin, Retinoic_Acid, Cholic_Acid, Deoxycholic_Acid",3.850683333333333,0.0
+739,0.027454180972442097,10,"Fluoxetine, Lisinopril, Valproic_Acid, Riboflavin, Montelukast, Ursodeoxycholic_Acid, Folic_Acid, Methotrexate",0.720727,0.0
+1162,0.02271177471379119,6,"Gabapentin_enacarbil, Montelukast, Ursodeoxycholic_Acid, Retinoic_Acid, Cholic_Acid, Deoxycholic_Acid",2.7403999999999997,0.0
+1060,0.020951848669874283,9,"Gabapentin_enacarbil, Riboflavin, Montelukast, Ursodeoxycholic_Acid, Simvastatin, Pravastatin, Retinoic_Acid, Cholic_Acid",2.0845855555555555,0.0
+1057,0.019720846556973662,49,"Desthiobiotin, Aspirin, Meclofenamic_Acid, Gemfibrozil, Biotin_Methyl_Ester, Pantothenic_Acid, Fluoxetine, Tolfenamic_Acid",-2.7278840816326535,0.08163265306122448
+1457,0.019157912237817164,6,"Thiamine, Simvastatin, Pravastatin, Folic_Acid, Methotrexate, Zafirlukast",3.8716666666666666,0.0
+1697,0.014271200222507401,7,"Probenecid, Furosemide, Bezafibrate, Indomethacin, Folic_Acid, Methotrexate, Zafirlukast",1.6335714285714285,0.0
+486,0.013110535350063271,8,"Hippuric_Acid, Isoniazid, Ascorbic_Acid, Piroxicam, Bezafibrate, Folic_Acid, Methotrexate, Zafirlukast",0.38275000000000015,0.0
+1292,0.013037168755905914,5,"Ursodeoxycholic_Acid, Simvastatin, Pravastatin, Cholic_Acid, Deoxycholic_Acid",3.4186199999999998,0.0
+1665,0.013017794356782091,6,"Hippuric_Acid, Fluoxetine, Bezafibrate, Folic_Acid, Methotrexate, Zafirlukast",1.8395,0.0
+1722,0.012391273109334163,16,"Meclofenamic_Acid, Gemfibrozil, Tolfenamic_Acid, Mefenamic_Acid, Metronidazole, Pyridoxine, Flurbiprofen, Thiamine",-1.381295,0.125
+1385,0.012225264666624271,12,"Hippuric_Acid, Fenbufen, Probenecid, Isoniazid, Benzoic_Acid, Ketoprofen, Furosemide, Bezafibrate",-1.5107499999999998,0.0
+1476,0.011885724360553435,6,"Hydrochlorothiazide, Probenecid, Furosemide, Acetazolamide, Celecoxib, Zafirlukast",-0.31016666666666737,0.0
+1257,0.009085160676199773,9,"Ketoprofen, Naproxen, Ibuprofen, Flurbiprofen, Riboflavin, Montelukast, Ursodeoxycholic_Acid, Cholic_Acid",-0.5867477777777779,0.0
+295,0.008979324687705828,3,"Simvastatin, Pravastatin, Zafirlukast",5.956333333333333,0.0
+1096,0.008627756594964314,4,"Ascorbic_Acid, Methotrexate, Cholic_Acid, Deoxycholic_Acid",3.6557500000000003,0.0
+1325,0.008397814272401815,9,"Tranexamic_Acid, Captopril, Lisinopril, Lipoic_Acid, Ciprofibrate, Sertraline, Ursodeoxycholic_Acid, Cholic_Acid",-2.006322222222223,0.0
+1951,0.008094750082195663,4,"Probenecid, Ursodeoxycholic_Acid, Cholic_Acid, Deoxycholic_Acid",2.1902749999999997,0.0
+1013,0.007945139122877353,6,"Meclofenamic_Acid, Gemfibrozil, Flurbiprofen, Ursodeoxycholic_Acid, Cholic_Acid, Zafirlukast",0.8793499999999993,0.3333333333333333
+1160,0.007900181949333101,5,"Oxaprozin, Flurbiprofen, Sulindac, Celecoxib, Zafirlukast",1.9900599999999997,0.2
+590,0.007798808514675182,3,"Ursodeoxycholic_Acid, Cholic_Acid, Deoxycholic_Acid",4.921366666666667,0.0
+1267,0.0077939032999527775,12,"Biotin_Sulfone, Homobiotin, Desthiobiotin, Biotin_Sulfoxide, Biotin, Biotin_Methyl_Ester, Azelaic_Acid, Sebacic_Acid",-6.378666666666667,0.4166666666666667
+775,0.007382577494607127,3,"Ursodeoxycholic_Acid, Cholic_Acid, Deoxycholic_Acid",4.921366666666667,0.0
+955,0.00734998917539487,6,"Ibuprofen, Ursodeoxycholic_Acid, Folic_Acid, Methotrexate, Cholic_Acid, Deoxycholic_Acid",3.1395166666666667,0.0
+392,0.006913771476513131,11,"Gemfibrozil, Pantothenic_Acid, Hydrochlorothiazide, Ciprofibrate, Furosemide, Gabapentin_enacarbil, Bezafibrate, Montelukast",-1.5607000000000004,0.09090909090909091
+849,0.006796253818518583,6,"Acetaminophen, Acetazolamide, Riboflavin, Ursodeoxycholic_Acid, Cholic_Acid, Deoxycholic_Acid",0.6454949999999999,0.0
+875,0.006235540976763087,20,"5-Hydroxytryptophan, Flufenamic_Acid, Niflumic_Acid, Meclofenamic_Acid, Gemfibrozil, Oxaprozin, Levodopa, Hydrochlorothiazide",-3.1729265,0.3
+1693,0.006107699510742882,4,"Fenbufen, Ursodeoxycholic_Acid, Cholic_Acid, Deoxycholic_Acid",2.139275,0.0
+1991,0.005926291483848964,9,"Flufenamic_Acid, Niflumic_Acid, Aspirin, Meclofenamic_Acid, Tolfenamic_Acid, Mefenamic_Acid, Salicylic_Acid, Tiaprofenic_Acid",-3.8262222222222224,0.4444444444444444
+519,0.0058679419812692896,3,"Ursodeoxycholic_Acid, Cholic_Acid, Deoxycholic_Acid",4.921366666666667,0.0
+896,0.005724638793138146,4,"Flurbiprofen, Sulindac, Celecoxib, Zafirlukast",4.120575,0.0
+80,0.005273507509979976,55,"5-Hydroxytryptophan, Biotin_Sulfone, Diclofenac, Homobiotin, Desthiobiotin, L-Tryptophan, Biotin_Sulfoxide, Biotin",-4.283460000000001,0.21818181818181817
+1,0.004960257795635817,25,"5-Hydroxytryptophan, L-Tryptophan, L-Phenylalanine, Levodopa, Pantothenic_Acid, L-Tyrosine, Fluoxetine, Captopril",-3.2959040000000006,0.12
+697,0.004895359116434409,3,"Simvastatin, Pravastatin, Folic_Acid",1.7976666666666665,0.0
+1171,0.004891306729417789,16,"5-Hydroxytryptophan, L-Tryptophan, L-Phenylalanine, Levodopa, L-Tyrosine, Hydrochlorothiazide, Tranexamic_Acid, Isoniazid",-2.5995,0.1875
+378,0.004799457815605588,17,"Niflumic_Acid, Oxaprozin, Isoniazid, Metronidazole, Pyridoxine, Allopurinol, Caffeine, Nicotinic_Acid",-2.754765882352941,0.11764705882352941
+1349,0.004748177978762776,8,"5-Hydroxytryptophan, Diclofenac, L-Tryptophan, Pyridoxine, Thiamine, Montelukast, Sulindac, Retinoic_Acid",-2.982675,0.375
+680,0.004740840142859475,4,"Omeprazole, Simvastatin, Pravastatin, Zafirlukast",3.6704999999999997,0.0
+1152,0.0047203288667495525,25,"Diclofenac, Flufenamic_Acid, Niflumic_Acid, Meclofenamic_Acid, Hippuric_Acid, Biotin_Methyl_Ester, Pantothenic_Acid, Fluoxetine",-3.6445956,0.16
+1110,0.004693929127708112,14,"Biotin_Sulfone, Homobiotin, Desthiobiotin, Biotin_Sulfoxide, Biotin, Norbiotin, Gemfibrozil, Azelaic_Acid",-6.335571428571429,0.5
+87,0.0045447179399723606,4,"Gemfibrozil, Simvastatin, Pravastatin, Folic_Acid",-0.28525,0.25
+1737,0.0045037543259887685,29,"Biotin_Sulfone, Diclofenac, Homobiotin, Desthiobiotin, Biotin_Sulfoxide, Biotin, Norbiotin, Oxaprozin",-3.66573448275862,0.27586206896551724
+1050,0.00436959390105247,3,"Ursodeoxycholic_Acid, Cholic_Acid, Deoxycholic_Acid",4.921366666666667,0.0
+562,0.004301677069922591,3,"Ursodeoxycholic_Acid, Cholic_Acid, Deoxycholic_Acid",4.921366666666667,0.0
+1391,0.0042595416548424315,9,"Gemfibrozil, Tolfenamic_Acid, Mefenamic_Acid, Nicotinic_Acid, Omeprazole, Riboflavin, Sulindac, Simvastatin",-2.65487,0.1111111111111111
+1199,0.004188687645284972,27,"Diclofenac, L-Tryptophan, Flufenamic_Acid, L-Phenylalanine, Niflumic_Acid, Aspirin, Meclofenamic_Acid, Oxaprozin",-4.706470370370369,0.2962962962962963
+1911,0.004163109848510562,16,"Biotin_Sulfone, Homobiotin, Desthiobiotin, Biotin_Sulfoxide, Biotin, Norbiotin, Gemfibrozil, Biotin_Methyl_Ester",-6.212375,0.4375
+398,0.0041341896319043855,6,"Biotin_Sulfone, Homobiotin, Biotin_Sulfoxide, Biotin, Norbiotin, Biotin_Methyl_Ester",-6.832333333333334,0.8333333333333334
+8,0.004107134967543981,4,"Bezafibrate, Ursodeoxycholic_Acid, Cholic_Acid, Deoxycholic_Acid",3.374525,0.0
+1287,0.004103197171450016,21,"Biotin_Sulfone, Homobiotin, Desthiobiotin, Biotin_Sulfoxide, Biotin, Norbiotin, Oxaprozin, Azelaic_Acid",-3.598090476190477,0.3333333333333333

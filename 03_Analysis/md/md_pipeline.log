@@ -1,0 +1,44 @@
+2026-06-24 02:44:25,871 [INFO] Phase B: 10 compounds | Platform: OpenCL | Default: 10ns
+2026-06-24 02:44:25,872 [INFO] ==================================================
+[NAFTAZONE] 2ns MD
+==================================================
+2026-06-24 02:44:30,572 [INFO]   Protein prepared
+2026-06-24 02:44:30,575 [INFO]   Vina pose: 19 atoms
+2026-06-24 02:44:30,716 [INFO]   Parameterizing ligand with OpenFF Sage (Gasteiger charges)...
+2026-06-24 02:44:31,396 [INFO] Attempting to up-convert vdW section from 0.3 to 0.4
+2026-06-24 02:44:31,398 [INFO] Successfully up-converted vdW section from 0.3 to 0.4. `method="cutoff"` is now split into `periodic_method="cutoff"` and `nonperiodic_method="no-cutoff"`.
+2026-06-24 02:44:31,439 [INFO] Attempting to up-convert Electrostatics section from 0.3 to 0.4
+2026-06-24 02:44:31,440 [INFO] Successfully up-converted Electrostatics section from 0.3 to 0.4. `method="PME"` is now split into `periodic_potential="Ewald3D-ConductingBoundary"`, `nonperiodic_potential="Coulomb"`, and `exception_potential="Coulomb"`.
+2026-06-24 02:44:31,461 [INFO]   Building system...
+2026-06-24 02:44:33,026 [INFO] Requested to generate parameters for residue <Residue 635 (UNL) of chain 1>
+2026-06-24 02:44:33,084 [INFO] Generating a residue template for [H][N]=[C]([N]([H])[H])[N]([H])[N]=[C]1[C](=[O])[C]([H])=[C]([H])[c]2[c]([H])[c]([H])[c]([H])[c]([H])[c]21 using openff-2.1.0
+2026-06-24 02:44:33,822 [INFO] Preset charges applied to atom index 0
+2026-06-24 02:44:33,822 [INFO] Preset charges applied to atom index 1
+2026-06-24 02:44:33,822 [INFO] Preset charges applied to atom index 2
+2026-06-24 02:44:33,822 [INFO] Preset charges applied to atom index 3
+2026-06-24 02:44:33,822 [INFO] Preset charges applied to atom index 4
+2026-06-24 02:44:33,822 [INFO] Preset charges applied to atom index 5
+2026-06-24 02:44:33,822 [INFO] Preset charges applied to atom index 6
+2026-06-24 02:44:33,822 [INFO] Preset charges applied to atom index 7
+2026-06-24 02:44:33,822 [INFO] Preset charges applied to atom index 8
+2026-06-24 02:44:33,822 [INFO] Preset charges applied to atom index 9
+2026-06-24 02:44:33,822 [INFO] Preset charges applied to atom index 10
+2026-06-24 02:44:33,822 [INFO] Preset charges applied to atom index 11
+2026-06-24 02:44:33,822 [INFO] Preset charges applied to atom index 12
+2026-06-24 02:44:33,822 [INFO] Preset charges applied to atom index 13
+2026-06-24 02:44:33,825 [INFO] Preset charges applied to atom index 14
+2026-06-24 02:44:33,825 [INFO] Preset charges applied to atom index 15
+2026-06-24 02:44:33,825 [INFO] Preset charges applied to atom index 16
+2026-06-24 02:44:33,825 [INFO] Preset charges applied to atom index 17
+2026-06-24 02:44:33,825 [INFO] Preset charges applied to atom index 18
+2026-06-24 02:44:33,825 [INFO] Preset charges applied to atom index 19
+2026-06-24 02:44:33,825 [INFO] Preset charges applied to atom index 20
+2026-06-24 02:44:33,825 [INFO] Preset charges applied to atom index 21
+2026-06-24 02:44:33,825 [INFO] Preset charges applied to atom index 22
+2026-06-24 02:44:33,825 [INFO] Preset charges applied to atom index 23
+2026-06-24 02:44:33,825 [INFO] Preset charges applied to atom index 24
+2026-06-24 02:44:33,825 [INFO] Preset charges applied to atom index 25
+2026-06-24 02:45:48,934 [INFO]   System: 214173 particles
+2026-06-24 02:45:55,469 [INFO]   Minimizing (5000 steps)...
+2026-06-24 02:47:42,600 [INFO]   NVT equil (50K→300K heating)...
+2026-06-24 03:06:38,181 [INFO]   NPT equil (100ps)...
