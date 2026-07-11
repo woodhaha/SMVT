@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.12)  24 JUN 2026 06:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.12)  11 JUL 2026 12:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -499,96 +499,268 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2026/
 texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] [2
 
-] [3]
-Overfull \hbox (0.16594pt too wide) in paragraph at lines 173--174
+]
+<figures/Fig1_SMVT_TCGA_pan_cancer.pdf, id=136, 602.27512pt x 653.17714pt>
+File: figures/Fig1_SMVT_TCGA_pan_cancer.pdf Graphic file (type pdf)
+<use figures/Fig1_SMVT_TCGA_pan_cancer.pdf>
+Package pdftex.def Info: figures/Fig1_SMVT_TCGA_pan_cancer.pdf  used on input l
+ine 98.
+(pdftex.def)             Requested size: 455.24411pt x 493.73874pt.
+ [3] [4 <./figures/Fig1_SMVT_TCGA_pan_cancer.pdf>]
+<figures/Fig3_SMVT_mutation_landscape.pdf, id=306, 512.32214pt x 462.18295pt>
+File: figures/Fig3_SMVT_mutation_landscape.pdf Graphic file (type pdf)
+<use figures/Fig3_SMVT_mutation_landscape.pdf>
+Package pdftex.def Info: figures/Fig3_SMVT_mutation_landscape.pdf  used on inpu
+t line 152.
+(pdftex.def)             Requested size: 455.24411pt x 410.69272pt.
+ [5]
+<figures/Fig4_SMVT_mutation_vs_expression.pdf, id=314, 495.99113pt x 234.62744p
+t>
+File: figures/Fig4_SMVT_mutation_vs_expression.pdf Graphic file (type pdf)
+<use figures/Fig4_SMVT_mutation_vs_expression.pdf>
+Package pdftex.def Info: figures/Fig4_SMVT_mutation_vs_expression.pdf  used on 
+input line 159.
+(pdftex.def)             Requested size: 455.24411pt x 215.35864pt.
+ [6 <./figures/Fig3_SMVT_mutation_landscape.pdf>]
+Overfull \hbox (0.16594pt too wide) in paragraph at lines 194--195
 \T1/cmr/m/n/10.95 ported by ex-per-i-men-tal ev-i-dence, while the SLC-family c
 o-expression clus-ter (SLC5A3, SLC23A1,
  []
 
-[4]
-Overfull \hbox (2.81247pt too wide) in paragraph at lines 189--190
+<figures/Fig5_SMVT_STRING_network.pdf, id=431, 639.98013pt x 546.67023pt>
+File: figures/Fig5_SMVT_STRING_network.pdf Graphic file (type pdf)
+<use figures/Fig5_SMVT_STRING_network.pdf>
+Package pdftex.def Info: figures/Fig5_SMVT_STRING_network.pdf  used on input li
+ne 198.
+(pdftex.def)             Requested size: 455.24411pt x 388.87262pt.
+[7 <./figures/Fig4_SMVT_mutation_vs_expression.pdf>]
+<figures/Fig6_SMVT_STRING_evidence_heatmap.pdf, id=552, 436.22406pt x 269.55626
+pt>
+File: figures/Fig6_SMVT_STRING_evidence_heatmap.pdf Graphic file (type pdf)
+<use figures/Fig6_SMVT_STRING_evidence_heatmap.pdf>
+Package pdftex.def Info: figures/Fig6_SMVT_STRING_evidence_heatmap.pdf  used on
+ input line 205.
+(pdftex.def)             Requested size: 455.24411pt x 281.31079pt.
+ [8 <./figures/Fig5_SMVT_STRING_network.pdf>] [9 <./figures/Fig6_SMVT_STRING_ev
+idence_heatmap.pdf>]
+Overfull \hbox (2.81247pt too wide) in paragraph at lines 261--262
 \T1/cmr/m/n/10.95 cam-paign against the AlphaFold-predicted SMVT struc-ture (AF
 -Q9Y289-F1). A pharmacophore-
  []
 
-[5]
-Overfull \hbox (6.54065pt too wide) in paragraph at lines 227--228
+[10] [11]
+<figures/Fig7_SMVT_virtual_screening.pdf, id=880, 1001.74814pt x 728.39001pt>
+File: figures/Fig7_SMVT_virtual_screening.pdf Graphic file (type pdf)
+<use figures/Fig7_SMVT_virtual_screening.pdf>
+Package pdftex.def Info: figures/Fig7_SMVT_virtual_screening.pdf  used on input
+ line 301.
+(pdftex.def)             Requested size: 455.24411pt x 331.01785pt.
+<figures/Fig8_SMVT_barbiturate_pharmacophore.pdf, id=881, 857.12218pt x 582.404
+62pt>
+File: figures/Fig8_SMVT_barbiturate_pharmacophore.pdf Graphic file (type pdf)
+<use figures/Fig8_SMVT_barbiturate_pharmacophore.pdf>
+Package pdftex.def Info: figures/Fig8_SMVT_barbiturate_pharmacophore.pdf  used 
+on input line 308.
+(pdftex.def)             Requested size: 455.24411pt x 309.33948pt.
+ [12 <./figures/Fig7_SMVT_virtual_screening.pdf>] [13 <./figures/Fig8_SMVT_barb
+iturate_pharmacophore.pdf>]
+Overfull \hbox (6.54065pt too wide) in paragraph at lines 344--345
 \T1/cmr/m/n/10.95 SLC5A6 overexpression---driven by bi-otin de-ple-tion and HLC
 S-mediated chro-matin derepression---
  []
 
-[6]
-Overfull \hbox (11.3236pt too wide) in paragraph at lines 265--266
+<figures/Fig2_SMVT_mechanism.pdf, id=1125, 719.5201pt x 268.15814pt>
+File: figures/Fig2_SMVT_mechanism.pdf Graphic file (type pdf)
+<use figures/Fig2_SMVT_mechanism.pdf>
+Package pdftex.def Info: figures/Fig2_SMVT_mechanism.pdf  used on input line 34
+8.
+(pdftex.def)             Requested size: 455.24411pt x 169.66885pt.
+[14 <./figures/Fig2_SMVT_mechanism.pdf>] [15]
+Overfull \hbox (11.3236pt too wide) in paragraph at lines 389--390
 \T1/cmr/m/n/10.95 Mis-sense mu-ta-tion pathogenic-ity was pre-dicted us-ing ESM
 -1v (face-book/esm2_t12_35M_UR50D)
  []
 
-[7]
-Overfull \hbox (42.20674pt too wide) in paragraph at lines 286--287
+[16]
+Overfull \hbox (42.20674pt too wide) in paragraph at lines 410--411
 \T1/cmr/m/n/10.95 predicted SMVT struc-ture (AF-Q9Y289-F1, chain A), pre-pared 
 with PDB-Fixer (miss-ing atoms/hydrogens
  []
 
 
-Overfull \hbox (41.6695pt too wide) in paragraph at lines 288--289
+Overfull \hbox (41.6695pt too wide) in paragraph at lines 412--413
 []\T1/cmr/m/n/10.95 Docking val-i-da-tion: the nat-u-ral sub-strate bi-otin re-
 docked at $\OMS/cmsy/m/n/10.95 ^^@$\T1/cmr/m/n/10.95 6.76 kcal/mol (pi-lot, exh
 austiveness$\OT1/cmr/m/n/10.95 =$\T1/cmr/m/n/10.95 8)
  []
 
-[8]
-Overfull \hbox (11.34947pt too wide) in paragraph at lines 313--314
+[17]
+Overfull \hbox (11.34947pt too wide) in paragraph at lines 445--446
 \T1/cmr/m/n/10.95 ([][]$\T1/cmtt/m/n/10.95 https : / / portal . gdc . cancer . 
 gov$[][]\T1/cmr/m/n/10.95 ), gno-mAD ([][]$\T1/cmtt/m/n/10.95 https : / / gnoma
 d . broadinstitute . org$[][]\T1/cmr/m/n/10.95 ), STRING
  []
 
 
-Overfull \hbox (9.0722pt too wide) in paragraph at lines 313--314
+Overfull \hbox (9.0722pt too wide) in paragraph at lines 445--446
 \T1/cmr/m/n/10.95 ([][]$\T1/cmtt/m/n/10.95 https : / / string-[]db . org$[][]\T
 1/cmr/m/n/10.95 ), ChEMBL ([][]$\T1/cmtt/m/n/10.95 https : / / www . ebi . ac .
  uk / chembl$[][]\T1/cmr/m/n/10.95 ), and Al-phaFold ([][]$\T1/cmtt/m/n/10.95 h
 ttps :
  []
 
-[9{c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-[10
 
-] [11] (./SMVT_manuscript.aux)
+Overfull \hbox (16.48245pt too wide) in paragraph at lines 451--452
+\T1/cmr/m/n/10.95 Z.H. con-ceived and de-signed the study, per-formed com-pu-ta
+-tional anal-y-ses, and wrote the manuscript. 
+ []
+
+[18{c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+[19
+
+]
+Overfull \hbox (11.71782pt too wide) in paragraph at lines 495--496
+\T1/cmr/m/n/10.95 (REF), Hy-dro-mor-phone, Gabapentin Enacar-bil, Naf-ta-zone. 
+(b) Group 2---Esketamine, Furosemide,
+ []
+
+[20]
+<figures/FigS1_SMVT_survival_KM.pdf, id=1319, 712.63615pt x 565.05978pt>
+File: figures/FigS1_SMVT_survival_KM.pdf Graphic file (type pdf)
+<use figures/FigS1_SMVT_survival_KM.pdf>
+Package pdftex.def Info: figures/FigS1_SMVT_survival_KM.pdf  used on input line
+ 516.
+(pdftex.def)             Requested size: 455.24411pt x 360.97311pt.
+<figures/FigS2_SMVT_survival_forest.pdf, id=1320, 568.11906pt x 351.342pt>
+File: figures/FigS2_SMVT_survival_forest.pdf Graphic file (type pdf)
+<use figures/FigS2_SMVT_survival_forest.pdf>
+Package pdftex.def Info: figures/FigS2_SMVT_survival_forest.pdf  used on input 
+line 523.
+(pdftex.def)             Requested size: 455.24411pt x 281.54575pt.
+ [21
+
+ <./figures/FigS1_SMVT_survival_KM.pdf>]
+<figures/FigS3_SMVT_family_SAR.pdf, id=1417, 712.66814pt x 351.41405pt>
+File: figures/FigS3_SMVT_family_SAR.pdf Graphic file (type pdf)
+<use figures/FigS3_SMVT_family_SAR.pdf>
+Package pdftex.def Info: figures/FigS3_SMVT_family_SAR.pdf  used on input line 
+530.
+(pdftex.def)             Requested size: 455.24411pt x 224.4806pt.
+<figures/FigS4_SMVT_GO_enrichment.pdf, id=1418, 578.16pt x 361.35pt>
+File: figures/FigS4_SMVT_GO_enrichment.pdf Graphic file (type pdf)
+<use figures/FigS4_SMVT_GO_enrichment.pdf>
+Package pdftex.def Info: figures/FigS4_SMVT_GO_enrichment.pdf  used on input li
+ne 537.
+(pdftex.def)             Requested size: 455.24411pt x 284.52603pt.
+ [22 <./figures/FigS2_SMVT_survival_forest.pdf> <./figures/FigS3_SMVT_family_SA
+R.pdf>]
+<figures/FigS5_SMVT_KEGG_Reactome.pdf, id=1584, 733.9229pt x 766.15286pt>
+File: figures/FigS5_SMVT_KEGG_Reactome.pdf Graphic file (type pdf)
+<use figures/FigS5_SMVT_KEGG_Reactome.pdf>
+Package pdftex.def Info: figures/FigS5_SMVT_KEGG_Reactome.pdf  used on input li
+ne 544.
+(pdftex.def)             Requested size: 455.24411pt x 475.24367pt.
+ [23 <./figures/FigS4_SMVT_GO_enrichment.pdf>]
+<figures/FigS6_per_residue_decomp.pdf, id=1596, 1004.16402pt x 445.90588pt>
+File: figures/FigS6_per_residue_decomp.pdf Graphic file (type pdf)
+<use figures/FigS6_per_residue_decomp.pdf>
+Package pdftex.def Info: figures/FigS6_per_residue_decomp.pdf  used on input li
+ne 551.
+(pdftex.def)             Requested size: 455.24411pt x 202.15266pt.
+ [24 <./figures/FigS5_SMVT_KEGG_Reactome.pdf>]
+<figures/FigS7_hbond_occupancy.pdf, id=1788, 859.77087pt x 372.19049pt>
+File: figures/FigS7_hbond_occupancy.pdf Graphic file (type pdf)
+<use figures/FigS7_hbond_occupancy.pdf>
+Package pdftex.def Info: figures/FigS7_hbond_occupancy.pdf  used on input line 
+558.
+(pdftex.def)             Requested size: 455.24411pt x 197.0726pt.
+<figures/FigS8_contact_heatmap.pdf, id=1789, 927.74356pt x 426.68712pt>
+File: figures/FigS8_contact_heatmap.pdf Graphic file (type pdf)
+<use figures/FigS8_contact_heatmap.pdf>
+Package pdftex.def Info: figures/FigS8_contact_heatmap.pdf  used on input line 
+565.
+(pdftex.def)             Requested size: 455.24411pt x 209.378pt.
+ [25 <./figures/FigS6_per_residue_decomp.pdf> <./figures/FigS7_hbond_occupancy.
+pdf>]
+<figures/FigS9_binding_modes.pdf, id=1996, 640.74753pt x 394.23286pt>
+File: figures/FigS9_binding_modes.pdf Graphic file (type pdf)
+<use figures/FigS9_binding_modes.pdf>
+Package pdftex.def Info: figures/FigS9_binding_modes.pdf  used on input line 57
+2.
+(pdftex.def)             Requested size: 455.24411pt x 280.10579pt.
+<figures/FigS10_pc12_fel.pdf, id=1997, 1453.83104pt x 731.13103pt>
+File: figures/FigS10_pc12_fel.pdf Graphic file (type pdf)
+<use figures/FigS10_pc12_fel.pdf>
+Package pdftex.def Info: figures/FigS10_pc12_fel.pdf  used on input line 579.
+(pdftex.def)             Requested size: 455.24411pt x 228.93529pt.
+
+[26 <./figures/FigS8_contact_heatmap.pdf> <./figures/FigS9_binding_modes.pdf>]
+<figures/FigS11_dccm.pdf, id=2189, 989.97601pt x 853.51605pt>
+File: figures/FigS11_dccm.pdf Graphic file (type pdf)
+<use figures/FigS11_dccm.pdf>
+Package pdftex.def Info: figures/FigS11_dccm.pdf  used on input line 586.
+(pdftex.def)             Requested size: 455.24411pt x 392.49191pt.
+<figures/FigS12_cross_structure_docking.pdf, id=2190, 1017.81886pt x 442.05101p
+t>
+File: figures/FigS12_cross_structure_docking.pdf Graphic file (type pdf)
+<use figures/FigS12_cross_structure_docking.pdf>
+Package pdftex.def Info: figures/FigS12_cross_structure_docking.pdf  used on in
+put line 593.
+(pdftex.def)             Requested size: 455.24411pt x 197.71373pt.
+
+[27 <./figures/FigS10_pc12_fel.pdf> <./figures/FigS11_dccm.pdf>]
+<figures/FigS13_gb_model_comparison.pdf, id=2408, 1006.61655pt x 394.23384pt>
+File: figures/FigS13_gb_model_comparison.pdf Graphic file (type pdf)
+<use figures/FigS13_gb_model_comparison.pdf>
+Package pdftex.def Info: figures/FigS13_gb_model_comparison.pdf  used on input 
+line 600.
+(pdftex.def)             Requested size: 455.24411pt x 178.29387pt.
+<figures/FigS14_gb_vs_pb.pdf, id=2409, 1006.61655pt x 394.31404pt>
+File: figures/FigS14_gb_vs_pb.pdf Graphic file (type pdf)
+<use figures/FigS14_gb_vs_pb.pdf>
+Package pdftex.def Info: figures/FigS14_gb_vs_pb.pdf  used on input line 607.
+(pdftex.def)             Requested size: 455.24411pt x 178.33015pt.
+ [28 <./figures/FigS12_cross_structure_docking.pdf> <./figures/FigS13_gb_model_
+comparison.pdf> <./figures/FigS14_gb_vs_pb.pdf>] [29] (./SMVT_manuscript.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `SMVT_manuscript.out' has not changed.
-(rerunfilecheck)             Checksum: B3E401436A627F8A9CC7A8295FD10538;4227.
+(rerunfilecheck)             Checksum: 296B41456500C503ADD0D2BF38E8928B;5381.
  ) 
 Here is how much of TeX's memory you used:
- 12625 strings out of 467525
- 195554 string characters out of 5423209
- 615515 words of memory out of 5000000
- 41304 multiletter control sequences out of 15000+600000
- 646703 words of font info for 91 fonts, out of 8000000 for 9000
+ 12879 strings out of 1467525
+ 203861 string characters out of 5423209
+ 618297 words of memory out of 5000000
+ 41502 multiletter control sequences out of 15000+600000
+ 650880 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,79p,1390b,570s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,79p,1432b,568s stack positions out of 10000i,1000n,20000p,2000000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/tex
-live/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2026/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2026/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2026/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb
-><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texli
-ve/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2026/te
-xmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2026/texmf-dist/f
-onts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2026/texmf-dist/fonts/type1
-/public/cm-super/sfrm1000.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm
--super/sfrm1095.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfr
-m1200.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-<c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on SMVT_manuscript.pdf (11 pages, 333079 bytes).
+live/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2026/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2026/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2026/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+<c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texliv
+e/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2026/tex
+mf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2026/texmf-dist/fo
+nts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2026/texmf-dist/fonts/type1/
+public/cm-super/sfbx1200.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-
+super/sfbx1440.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx
+1728.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><
+c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive
+/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2026/texm
+f-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2026/texmf-dist/fon
+ts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2026/texmf-dist/fonts/type1/p
+ublic/cm-super/sfti1095.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-s
+uper/sftt1095.pfb>
+Output written on SMVT_manuscript.pdf (29 pages, 1412448 bytes).
 PDF statistics:
- 296 PDF objects out of 1000 (max. 8388607)
- 245 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2910 PDF objects out of 2984 (max. 8388607)
+ 648 compressed objects within 7 object streams
+ 110 named destinations out of 1000 (max. 500000)
+ 295 words of extra memory for PDF output out of 10000 (max. 10000000)
 
