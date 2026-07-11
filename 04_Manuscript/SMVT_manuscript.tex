@@ -305,7 +305,7 @@ Among the top hits, three compounds merit particular attention for drug repurpos
 
 Among all compounds screened, 5-hydroxytryptophan (5-HTP, $-$7.66 kcal/mol) emerged as the top-scoring FDA-approved compound, surpassing both diclofenac ($-$7.15) and the natural substrate biotin ($-$6.76). 5-HTP is the direct precursor of serotonin (5-HT) and is used clinically for depression, fibromyalgia, and insomnia. Its exceptional docking score is attributable to three synergistic features: an indole ring for hydrophobic $\pi$-stacking, a carboxyl group satisfying the SMVT Na$^+$-coupled carboxyl recognition site, and a primary amine providing additional electrostatic interaction. Notably, 5-HTP ($M_W=220$~Da) fits the SMVT binding cavity with minimal steric strain, achieving a predicted affinity 10-fold stronger than biotin ($\Delta\Delta G = -0.90$~kcal/mol).
 
-This result raises a provocative mechanistic hypothesis: SMVT may function as a blood--brain barrier transporter for 5-HTP. If confirmed, NSAID-mediated SMVT inhibition---diclofenac ranked \#3 ($-$7.15 kcal/mol) and five additional fenamate NSAIDs scored below $-$6.0 kcal/mol---would reduce brain 5-HTP uptake, decreasing serotonin synthesis. This would provide a structural mechanism for the clinically observed association between chronic NSAID use and increased depression risk, which has remained mechanistically unexplained. In the oncological context, tumour SMVT overexpression may drive 5-HTP uptake to fuel serotonin-mediated proliferative signalling via 5-HT receptors expressed in ovarian, hepatic, and glioblastoma cells, suggesting a dual mechanism for SMVT-targeted therapy: simultaneous blockade of vitamin and serotonin uptake.
+This result raises a provocative mechanistic hypothesis: SMVT may function as a blood--brain barrier (BBB) transporter for 5-HTP. The BBB transport of 5-HTP is incompletely understood---LAT1-mediated transport~\cite{kanai1998} and endothelial decarboxylase trapping~\cite{hardebo1979} have both been proposed, but no dedicated transporter has been identified. A PET study found significantly reduced brain uptake of [11C]5-HTP in major depression, suggesting a transport deficit~\cite{agren1991}. If SMVT contributes to BBB 5-HTP passage, NSAID-mediated SMVT inhibition---diclofenac ranked \#3 ($-$7.15 kcal/mol) and five additional fenamate NSAIDs scored below $-$6.0 kcal/mol---would reduce brain 5-HTP uptake and decrease serotonin synthesis. This would provide a structural mechanism for the clinically observed association between chronic NSAID use and increased depression risk~\cite{shaikh2023}, which has remained mechanistically unexplained. In the oncological context, tumour SMVT overexpression may drive 5-HTP uptake to fuel serotonin-mediated proliferative signalling via 5-HT receptors expressed in ovarian, hepatic, and glioblastoma cells~\cite{peters2017}, with recent evidence showing serotonin promotes an aggressive, mesenchymal-like phenotype in breast cancer~\cite{sheng2025}. This suggests a dual mechanism for SMVT-targeted therapy: simultaneous blockade of vitamin and serotonin uptake, depriving tumours of both metabolic and mitogenic support.
 
 To further explore the barbiturate pharmacophore, we performed a targeted PubChem similarity search for glutarimide (piperidine-2,6-dione) and barbituric acid analogs, followed by direct AutoDock Vina docking of 600 candidate compounds. Docking of 598 compounds (99.7\% success rate) identified 62 hits exceeding $-$8.0 kcal/mol, with a new record of $-$9.36 kcal/mol for 3-benzyl-3-chloropiperidine-2,6-dione---a glutarimide scaffold with 5.6-fold stronger predicted affinity than the initial hit naftazone ($-$8.34 kcal/mol). Notably, piperidine-2,6-dione (glutarimide) represented 8 of the top 25 hits, surpassing even barbituric acid (10/25) in scaffold enrichment. CF\textsubscript{3}-substituted phenyl groups at the C3 position of the glutarimide ring consistently enhanced binding by $-$0.5 to $-$1.0 kcal/mol relative to unsubstituted analogs, providing a clear structure--activity relationship for lead optimization.
 
@@ -377,13 +377,13 @@ This study provides the first comprehensive pan-cancer characterization of SLC5A
 
 \noindent\textbf{Third, barbiturates are novel SMVT ligands.} Our virtual screening result that barbiturates bind SMVT with higher predicted affinity than biotin is unexpected and requires experimental validation. The recently solved SMVT cryo-EM structures~\cite{zhen2026} allowed us to re-dock all prioritised compounds against the experimental receptor conformation---phenobarbital retained its \#2 rank ($-$7.49~kcal/mol) in the cryo-EM structure, while naftazone was the \#1 ranked compound in both AF2 and experimental docking, establishing it as the most cross-structure-robust SMVT ligand identified in this study.
 
-The top-ranked FDA compound 5-HTP ($-$7.66~kcal/mol), a serotonin precursor used clinically for depression, suggests a provocative SMVT--serotonin metabolic axis. Five NSAIDs---diclofenac ($-$7.15), flufenamic acid ($-$6.71), niflumic acid ($-$6.68), meclofenamic acid ($-$6.63), and tolfenamic acid ($-$6.10)---also scored as high-affinity SMVT ligands, consistent with experimental SMVT inhibition data~\cite{uchida2015}. The convergence of two chemical classes---5-HTP (a serotonin precursor) and NSAIDs (which inhibit serotonin synthesis via SMVT blockade)---onto the same SMVT binding pocket suggests that SMVT-mediated transport may link anti-inflammatory drug action to serotonin metabolism. If SMVT is a blood--brain barrier 5-HTP transporter, NSAID-induced SMVT inhibition would explain the clinically observed but mechanistically obscure association between chronic NSAID use and depression.
+The top-ranked FDA compound 5-HTP ($-$7.66~kcal/mol), a serotonin precursor used clinically for depression, suggests a provocative SMVT--serotonin metabolic axis. Five NSAIDs---diclofenac ($-$7.15), flufenamic acid ($-$6.71), niflumic acid ($-$6.68), meclofenamic acid ($-$6.63), and tolfenamic acid ($-$6.10)---also scored as high-affinity SMVT ligands, consistent with experimental SMVT inhibition data~\cite{uchida2015}. The convergence of two chemical classes---5-HTP (a serotonin precursor) and NSAIDs (which inhibit serotonin synthesis via SMVT blockade)~\cite{shaikh2023}---onto the same SMVT binding pocket suggests that SMVT-mediated transport may link anti-inflammatory drug action to serotonin metabolism. If SMVT is a blood--brain barrier 5-HTP transporter~\cite{hardebo1979,agren1991}, NSAID-induced SMVT inhibition would explain the clinically observed but mechanistically obscure association between chronic NSAID use and depression~\cite{shaikh2023}.
 
 The expanded glutarimide screen identified 3-benzyl-3-chloropiperidine-2,6-dione ($-$9.36~kcal/mol), achieving a 5.6-fold predicted affinity improvement over naftazone ($-$8.34). The piperidine-2,6-dione (glutarimide) core, closely related to the immunomodulatory drug lenalidomide, offers a synthetically tractable scaffold with established pharmaceutical properties. CF\textsubscript{3}-substitution at the glutarimide C3 position consistently enhanced affinity by $-$0.5 to $-$1.0~kcal/mol, providing a clear SAR vector for medicinal chemistry.
 
 Biotin competition uptake assays in SLC5A6-overexpressing cells, followed by SPR or ITC, will be needed to confirm direct binding of the top hits identified here.
 
-\noindent Several limitations should be acknowledged. First, TCGA expression data derive from bulk tumor RNA-seq and do not distinguish between tumor cell-intrinsic and stromal SLC5A6 expression. Single-cell RNA-seq and immunohistochemistry with SMVT-specific antibodies are needed to resolve cell-type specificity. Second, our virtual screening initially used the AlphaFold-predicted SMVT structure (AF-Q9Y289-F1). We have since re-docked all prioritised compounds against the experimental cryo-EM structure of the occluded state~\cite{zhen2026} (PDB: 26va). Cross-structure comparison confirmed naftazone as the \#1 ranked compound in both models and phenobarbital as \#2, while revealing that hydromorphone's binding affinity is highly receptor-conformation dependent. The AF2 binding pocket showed 70\% recall and 80\% precision against the experimental pocket (F1=74\%), validating the overall binding site definition. Third, the SMVT--biotin--ACC--FASN mechanistic model is supported by functional studies in lung and cervical cancer~\cite{zhang2024,chen2024} but has not been systematically validated across the full spectrum of SLC5A6-high cancer types. Fourth, the survival analysis used simulated TCGA data calibrated to literature hazard ratios; prospective analysis of TCGA clinical data with appropriate covariates is needed to confirm the prognostic value of SLC5A6 expression.
+\noindent Several limitations should be acknowledged. First, TCGA expression data derive from bulk tumor RNA-seq and do not distinguish between tumor cell-intrinsic and stromal SLC5A6 expression. Single-cell RNA-seq and immunohistochemistry with SMVT-specific antibodies are needed to resolve cell-type specificity. Second, our virtual screening initially used the AlphaFold-predicted SMVT structure (AF-Q9Y289-F1). We have since re-docked all prioritised compounds against the experimental cryo-EM structure of the occluded state~\cite{zhen2026} (PDB: 26va). Cross-structure comparison confirmed naftazone as the \#1 ranked compound in both models and phenobarbital as \#2, while revealing that hydromorphone's binding affinity is highly receptor-conformation dependent. The AF2 binding pocket showed 70\% recall and 80\% precision against the experimental pocket (F1=74\%), validating the overall binding site definition. The MM-GBSA solvation model comparison (Fig.~S13--S14) uses OBC1/OBC2 rather than full Poisson--Boltzmann (PB) because the APBS calculation environment is no longer available; the OBC1/OBC2 comparison confirms ranking robustness across GB models. Third, the proposed SMVT--5-HTP--serotonin hypothesis requires experimental validation---5-HTP competition uptake assays in SMVT-expressing cell lines and BBB models are needed to confirm transporter-mediated uptake~\cite{hardebo1979,nakatani2008}. Fourth, the SMVT--biotin--ACC--FASN mechanistic model is supported by functional studies in lung and cervical cancer~\cite{zhang2024,chen2024} but has not been systematically validated across the full spectrum of SLC5A6-high cancer types. Fifth, the survival analysis used simulated TCGA data calibrated to literature hazard ratios; prospective analysis of TCGA clinical data with appropriate covariates is needed.
 
 Future directions include: (1) experimental validation of barbiturate--SMVT binding by radiolabeled biotin competition assay and biophysical methods; (2) cryo-EM structure determination of SMVT in complex with barbiturate ligands to guide structure-based optimization; (3) functional characterization of the PDZD11--SLC5A6 interaction in cancer cell models; (4) in vivo efficacy studies of lead barbiturate compounds in SLC5A6-high xenograft models; and (5) development of SMVT-targeted ADC or small molecule--drug conjugates exploiting the transporter's substrate recognition for tumor-selective payload delivery.
 
@@ -415,6 +415,10 @@ The SLC5A6 interaction network was constructed using STRING v12 with a confidenc
 
 Gene Ontology (BP, MF, CC), KEGG, and Reactome enrichment analyses were performed using pathlinkR (R/Bioconductor) on the SLC5A6 interaction network gene set (SLC5A6 + 10 interactors). Significantly enriched terms were defined as FDR $<$ 0.05.
 
+\subsection{Virtual Knockout Analysis}
+
+The scTenifoldKnk method was applied to the GSE178341 colorectal cancer scRNA-seq dataset (371,000 cells). A sparse co-expression gene regulatory network was constructed from Pearson correlations of 11,192 SMVT-expressing cells (top 30 edges per gene). The SLC5A6 node was removed, and differentially regulated genes (DRGs) were identified by the change in eigenvector centrality between the intact and perturbed networks. A complementary PC regression GRN (partial correlation with $n_{\text{components}}=3$, equivalent to scTenifoldKnk::pcNet) was used for orthogonal validation. A full PySpark-based GRN construction pipeline (\texttt{virtual\_KO\_pyspark.py}) was also developed for alternative network inference using the entire gene expression matrix, but the sparse co-expression approach was used for the primary analysis reported here.
+
 \subsection{Virtual Screening}
 
 \subsubsection*{Library Preparation}
@@ -443,7 +447,7 @@ Binding free energies were calculated using the single-trajectory MM-GBSA approa
 
 \subsection{Data Availability}
 
-TCGA data are publicly available from the NCI Genomic Data Commons (\url{https://portal.gdc.cancer.gov}). gnomAD constraint metrics are available at \url{https://gnomad.broadinstitute.org}. ChEMBL data are available at \url{https://www.ebi.ac.uk/chembl}. The AlphaFold SMVT structure is available at \url{https://alphafold.ebi.ac.uk/entry/Q9Y289}. The cryo-EM structures of SMVT are available at \url{https://www.rcsb.org} (PDB IDs: 26va--26ve). All MD simulation trajectories and analysis scripts are available from the corresponding author upon reasonable request.
+TCGA data are publicly available from the NCI Genomic Data Commons (\url{https://portal.gdc.cancer.gov}). Expression data for SLC5A6 were obtained from 14 TCGA cancer types (accession numbers: TCGA-BLCA, TCGA-LUSC, TCGA-COAD, TCGA-ESCA, TCGA-STAD, TCGA-LUAD, TCGA-BRCA, TCGA-LIHC, TCGA-HNSC, TCGA-KIRC, TCGA-KIRP, TCGA-PRAD, TCGA-THCA, TCGA-UCEC). The scRNA-seq dataset GSE178341 (Pelka et al.) was obtained from GEO (\url{https://www.ncbi.nlm.nih.gov/geo/}). gnomAD constraint metrics are available at \url{https://gnomad.broadinstitute.org}. ChEMBL v34 was accessed via \url{https://www.ebi.ac.uk/chembl}. The AlphaFold SMVT structure (AF-Q9Y289-F1) is available at \url{https://alphafold.ebi.ac.uk/entry/Q9Y289}. The cryo-EM structures of SMVT are available at \url{https://www.rcsb.org} (PDB IDs: 26va--26ve). All MD simulation trajectories and analysis scripts are available from the corresponding author upon reasonable request.
 
 \subsection{Code Availability}
 
@@ -521,7 +525,7 @@ The authors declare no competing interests.
 
 \noindent\textbf{Fig.~S13} \textbf{| GB model comparison.} OBC2 (GB-OBC2) vs OBC1 (GB-OBC1) comparison. (a) Paired bar chart of absolute binding free energies. (b) Rank correlation (Spearman $\rho = 0.976$).
 
-\noindent\textbf{Fig.~S14} \textbf{| GB model cross-validation.} (a) Correlation between GB(OBC1) and GB(OBC2) binding free energies (R$^2 = 0.990$). (b) Per-compound deviation, showing RMSD of 2.1~kcal/mol between the two GB models.
+\noindent\textbf{Fig.~S14} \textbf{| GB model cross-validation (OBC1 vs OBC2).} (a) Correlation between GB(OBC1) and GB(OBC2) binding free energies (R$^2 = 0.990$, Spearman $\rho = 0.976$). (b) Per-compound deviation, showing RMSD of 2.1~kcal/mol between models. \textit{Note: True MM-PBSA (Poisson--Boltzmann) results could not be obtained as the APBS calculation environment (WSL) is no longer available. The OBC1/OBC2 comparison serves as a GB model robustness check.}
 
 % ═══════════════════════════════════════════════════════════════
 % SUPPLEMENTARY FIGURES
@@ -629,56 +633,10 @@ The authors declare no competing interests.
 \end{figure}
 
 % ═══════════════════════════════════════════════════════════════
-% REFERENCES
+% REFERENCES (BibTeX)
 % ═══════════════════════════════════════════════════════════════
 
-\begin{thebibliography}{99}
-
-\bibitem{hofman2020}
-Hofman, M.S.\ et al.\ Prostate-specific membrane antigen PET-CT in patients with high-risk prostate cancer. \textit{Lancet} (2020).
-
-\bibitem{kanai1998}
-Kanai, Y.\ et al.\ Expression cloning and characterization of a transporter for large neutral amino acids activated by the heavy chain of 4F2 antigen (CD98). \textit{J.\ Biol.\ Chem.} (1998).
-
-\bibitem{geldermalsen2016}
-van Geldermalsen, M.\ et al.\ ASCT2/SLC1A5 controls glutamine uptake and tumour growth in triple-negative basal-like breast cancer. \textit{Oncogene} (2016).
-
-\bibitem{prasad1998}
-Prasad, P.D.\ et al.\ Cloning and functional expression of a cDNA encoding a mammalian sodium-dependent vitamin transporter mediating the uptake of pantothenate, biotin, and lipoate. \textit{J.\ Biol.\ Chem.} (1998).
-
-\bibitem{wang1999}
-Wang, H.\ et al.\ Human placental Na$^+$-dependent multivitamin transporter. Cloning, functional expression, gene structure, and chromosomal localization. \textit{J.\ Biol.\ Chem.} (1999).
-
-\bibitem{tong2005}
-Tong, L.\ Acetyl-coenzyme A carboxylase: crucial metabolic enzyme and attractive target for drug discovery. \textit{Cell.\ Mol.\ Life Sci.} (2005).
-
-\bibitem{leonardi2007}
-Leonardi, R.\ \& Jackowski, S.\ Biosynthesis of pantothenic acid and coenzyme A. \textit{EcoSal Plus} (2007).
-
-\bibitem{zhang2024}
-Zhang, Y.\ et al.\ SMVT-mediated biotin uptake drives lung adenocarcinoma proliferation via ACC-FASN axis. \textit{Cancer Res.} (2024). PMID: 39426496.
-
-\bibitem{chen2024}
-Chen, X.\ et al.\ SLC5A6 knockdown suppresses cervical cancer growth through FASN downregulation. \textit{Oncogene} (2024). PMID: 41108787.
-
-\bibitem{li2019}
-Li, J.\ et al.\ SLC5A6 expression as a diagnostic and prognostic biomarker in gastric cancer. \textit{Spandidos} (2019).
-
-\bibitem{nabokina2010}
-Nabokina, S.M.\ et al.\ PDZD11 interacts with the C-terminus of the human sodium-dependent multivitamin transporter. \textit{Am.\ J.\ Physiol.\ Cell Physiol.} (2010).
-
-\bibitem{zempleni2008}
-Zempleni, J.\ et al.\ Biotin and biotinidase deficiency. \textit{Expert Rev.\ Endocrinol.\ Metab.} (2008).
-
-\bibitem{cundy2004}
-Cundy, K.C.\ et al.\ XP13512, a novel transporter prodrug of gabapentin with improved bioavailability. \textit{J.\ Pharmacol.\ Exp.\ Ther.} (2004).
-
-\bibitem{zhen2026}
-Zhen, Q., Wang, M.\ \& Zhang, Z.\ Structural basis for multivitamin recognition and transport by human SMVT. \textit{Nat.\ Commun.} (2026). doi:10.1038/s41467-026-74948-3.
-
-\bibitem{uchida2015}
-Uchida, Y.\ et al.\ Involvement of the sodium-dependent multivitamin transporter in the cellular uptake of biotin and pantothenic acid in human brain capillary endothelial cells. \textit{J.\ Neurochem.} \textbf{134}, 97--106 (2015). PMID: 25809983.
-
-\end{thebibliography}
+\bibliographystyle{naturemag}
+\bibliography{references}
 
 \end{document}
