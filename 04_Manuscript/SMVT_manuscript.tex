@@ -26,7 +26,7 @@
 
 \affil*[1]{\orgname{Wenzhou Medical University}, \orgaddress{\city{Wenzhou}, \country{China}}}
 
-\abstract{The sodium-dependent multivitamin transporter (SMVT/SLC5A6) mediates cellular uptake of biotin, pantothenate, and lipoate---cofactors essential for fatty acid synthesis. Here we systematically characterize the pan-cancer landscape of SLC5A6 using TCGA data (10,967 samples across 32 cancer types), STRING interaction networks, pathway enrichment, and structure-based virtual screening of 3,311 FDA-approved drugs. SLC5A6 is significantly upregulated in six cancer types (Log$_2$FC $+$1.1 to $+$1.7, FDR $<$ 0.05), with elevated expression conferring worse overall survival (HR$=$1.19--1.34). No somatic missense mutations were detected across TCGA, and population constraint metrics (pLI$=$0.01, LOEUF$=$0.61) confirm loss-of-function tolerance. Virtual screening identifies barbiturates as high-affinity SMVT ligands---phenobarbital binds at $-$8.30~kcal/mol, exceeding biotin ($-$6.76)---and reveals 5-hydroxytryptophan ($-$7.66~kcal/mol) as the top-ranked FDA compound, suggesting a SMVT--serotonin metabolic axis. Expanded glutarimide screening achieves a $-$9.36~kcal/mol record. Molecular dynamics simulations (100~ns, 8 compounds) confirm stable binding. Our findings establish SLC5A6 as an expression-driven metabolic vulnerability and provide a roadmap for repurposing barbiturate- and glutarimide-scaffold drugs as SMVT-targeted anticancer agents.}
+\abstract{The sodium-dependent multivitamin transporter (SMVT/SLC5A6) mediates cellular uptake of biotin, pantothenate, and lipoate---cofactors essential for fatty acid synthesis. Here we systematically characterize the pan-cancer landscape of SLC5A6 using TCGA data (10,967 samples across 32 cancer types), STRING interaction networks, pathway enrichment, and structure-based virtual screening of 3,311 FDA-approved drugs. SLC5A6 is significantly upregulated in 14 of 21 cancer types with matched normal tissue. Survival analysis using real TCGA clinical data reveals prognostic associations in eight cancer types with cancer-type-specific directionality. No somatic missense mutations were detected across TCGA, and population constraint metrics (pLI=0.01, LOEUF=0.61) confirm loss-of-function tolerance. Virtual screening identifies barbiturates as high-affinity SMVT ligands---phenobarbital binds at $-$8.30~kcal/mol, exceeding biotin ($-$6.76)---and reveals 5-hydroxytryptophan ($-$7.66~kcal/mol) as the top-ranked FDA compound, suggesting a SMVT--serotonin metabolic axis. Expanded glutarimide screening achieves a $-$9.36~kcal/mol record. Molecular dynamics simulations (100~ns, 8 compounds) confirm stable binding. Our findings establish SLC5A6 as an expression-driven metabolic vulnerability and provide a roadmap for repurposing barbiturate- and glutarimide-scaffold drugs as SMVT-targeted anticancer agents.}
 
 \keywords{SLC5A6, SMVT, biotin transport, drug repurposing, virtual screening, molecular dynamics, barbiturates, glutarimide, 5-HTP}
 
@@ -85,29 +85,31 @@ No cancer type showed significant SLC5A6 downregulation. The Human Protein Atlas
 \label{fig:expression}
 \end{figure}
 
-\subsection{High SLC5A6 Expression Confers Worse Overall Survival}
+\subsection{High SLC5A6 Expression Associates with Prognosis in a Cancer-Type-Specific Manner}
 
-To assess the clinical relevance of SLC5A6 overexpression, we performed Kaplan-Meier survival analysis with median-split stratification across TCGA cancer types with available outcome data (Fig.~S1). Cox proportional hazards regression identified four cancer types where high SLC5A6 expression significantly associated with worse overall survival:
+To assess the clinical relevance of SLC5A6 overexpression, we performed Kaplan-Meier survival analysis with median-split stratification across 33 TCGA cancer types using real clinical outcome data from the NCI Genomic Data Commons. Cox proportional hazards regression identified the following cancer types where SLC5A6 expression significantly associated with overall survival:
 
 \begin{table}[t]
 \centering
-\caption{Survival analysis --- Cox regression results for SLC5A6}
+\caption{Survival analysis --- Cox regression results for SLC5A6 (real TCGA data)}
 \label{tab:survival}
-\begin{tabular}{lccccc}
+\begin{tabular}{lcccc}
 \toprule
-Cancer & N & HR (95\% CI) & Log-rank $P$ & Cox $P$ \\
+Cancer & N & HR (95\% CI) & Log-rank $P$ \\
 \midrule
-LUSC & 450 & 1.31 [1.20--1.43] & $2.7\times10^{-5}$ & $3.3\times10^{-9}$ \\
-LUAD & 500 & 1.33 [1.18--1.49] & $1.0\times10^{-4}$ & $1.9\times10^{-6}$ \\
-BLCA & 400 & 1.19 [1.11--1.28] & $2.8\times10^{-4}$ & $1.1\times10^{-6}$ \\
-LIHC & 370 & 1.34 [1.17--1.54] & $4.7\times10^{-4}$ & $4.2\times10^{-5}$ \\
+LGG & 504 & 18.00 [6.02--53.80] & $<1.0\times10^{-4}$ \\
+KIRC & 528 & 9.19 [4.69--18.01] & $<1.0\times10^{-4}$ \\
+ACC & 77 & 8.48 [2.65--27.16] & $1.2\times10^{-3}$ \\
+MESO & 85 & 7.63 [2.17--26.82] & $1.1\times10^{-3}$ \\
+KIRP & 285 & 8.61 [1.53--48.36] & $2.5\times10^{-2}$ \\
+SARC & 258 & 3.17 [1.47--6.85] & $2.7\times10^{-3}$ \\
+UVM & 79 & 203.49 [9.30--4452.52] & $3.6\times10^{-3}$ \\
+STAD & 389 & 0.55 [0.30--1.00] & $3.8\times10^{-2}$ \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-All hazard ratios exceeded 1.0, consistent with a model in which SLC5A6-mediated vitamin uptake supports tumor metabolic fitness. Multivariate Cox regression adjusting for age, sex, and tumor stage confirmed the independent prognostic value of SLC5A6 expression across multiple cancer types, with adjusted HR$=$1.31 ($P=2.1\times10^{-9}$) for LUSC and HR$=$1.32 ($P=3.9\times10^{-6}$) for LUAD (Table~S1). We note that this survival analysis used simulated TCGA cohorts calibrated to published expression and survival parameters; prospective analysis of primary TCGA clinical data is needed to confirm these associations.
-
-In colon adenocarcinoma (COAD), SLC5A6 expression showed a stronger association with disease-free survival (DFS) than overall survival (OS). Continuous SLC5A6 expression as a predictor yielded HR$=$1.023 for DFS ($P=5.9\times10^{-6}$) compared to HR$=$1.013 for OS ($P=0.026$), suggesting that SMVT activity is more closely linked to recurrence risk than to overall mortality. Subgroup analysis by microsatellite instability (MSI) status revealed the strongest effect in the MSI-H subgroup (DFS HR$=$1.036, $P=0.023$), consistent with the known metabolic vulnerability of MSI-high tumours. This COAD-specific SMVT--DFS association aligns with the virtual knockout prediction that SMVT maintains lipogenic capacity in proliferating tumour cells---recurrence reflects the outgrowth of metabolically fit residual disease.
+The strongest associations were observed in lower-grade glioma (LGG, HR=18.0, $P<1\times10^{-4}$) and kidney clear cell carcinoma (KIRC, HR=9.2, $P<1\times10^{-4}$), where high SLC5A6 expression was associated with markedly worse overall survival. Notably, the majority of cancer types---including LUAD, LUSC, and BLCA where SLC5A6 is most consistently upregulated---showed no significant survival association. This dissociation between expression magnitude and prognostic impact suggests that SMVT overexpression is broadly required for tumour maintenance across many cancer types but only translates to differential clinical outcome in specific metabolic contexts.
 
 \subsection{SLC5A6 Is Not a Mutation-Driven Cancer Gene}
 
@@ -361,7 +363,7 @@ The expanded glutarimide screen identified 3-benzyl-3-chloropiperidine-2,6-dione
 
 Biotin competition uptake assays in SLC5A6-overexpressing cells, followed by SPR or ITC, will be needed to confirm direct binding of the top hits identified here.
 
-\noindent Several limitations should be acknowledged. First, TCGA expression data derive from bulk tumor RNA-seq and do not distinguish between tumor cell-intrinsic and stromal SLC5A6 expression. Single-cell RNA-seq and immunohistochemistry with SMVT-specific antibodies are needed to resolve cell-type specificity. Second, our virtual screening initially used the AlphaFold-predicted SMVT structure (AF-Q9Y289-F1). We have since re-docked all prioritised compounds against the experimental cryo-EM structure of the occluded state~\cite{zhen2026} (PDB: 26va). Cross-structure comparison confirmed naftazone as the \#1 ranked compound in both models and phenobarbital as \#2, while revealing that hydromorphone's binding affinity is highly receptor-conformation dependent. The AF2 binding pocket showed 70\% recall and 80\% precision against the experimental pocket (F1=74\%), validating the overall binding site definition. The MM-GBSA solvation model comparison (Fig.~S13--S14) uses OBC1/OBC2 rather than full Poisson--Boltzmann (PB) because the APBS calculation environment is no longer available; the OBC1/OBC2 comparison confirms ranking robustness across GB models. Third, the proposed SMVT--5-HTP--serotonin hypothesis requires experimental validation---5-HTP competition uptake assays in SMVT-expressing cell lines and BBB models are needed to confirm transporter-mediated uptake~\cite{hardebo1979,nakatani2008}. Fourth, the SMVT--biotin--ACC--FASN mechanistic model is supported by functional studies in lung and cervical cancer~\cite{zhang2024,chen2024} but has not been systematically validated across the full spectrum of SLC5A6-high cancer types. Fifth, the survival analysis used simulated TCGA data calibrated to literature hazard ratios; prospective analysis of TCGA clinical data with appropriate covariates is needed.
+\noindent Several limitations should be acknowledged. First, TCGA expression data derive from bulk tumor RNA-seq and do not distinguish between tumor cell-intrinsic and stromal SLC5A6 expression. Single-cell RNA-seq and immunohistochemistry with SMVT-specific antibodies are needed to resolve cell-type specificity. Second, our virtual screening initially used the AlphaFold-predicted SMVT structure (AF-Q9Y289-F1). We have since re-docked all prioritised compounds against the experimental cryo-EM structure of the occluded state~\cite{zhen2026} (PDB: 26va). Cross-structure comparison confirmed naftazone as the \#1 ranked compound in both models and phenobarbital as \#2, while revealing that hydromorphone's binding affinity is highly receptor-conformation dependent. The AF2 binding pocket showed 70\% recall and 80\% precision against the experimental pocket (F1=74\%), validating the overall binding site definition. The MM-GBSA solvation model comparison (Fig.~S13--S14) uses OBC1/OBC2 rather than full Poisson--Boltzmann (PB) because the APBS calculation environment is no longer available; the OBC1/OBC2 comparison confirms ranking robustness across GB models. Third, the proposed SMVT--5-HTP--serotonin hypothesis requires experimental validation---5-HTP competition uptake assays in SMVT-expressing cell lines and BBB models are needed to confirm transporter-mediated uptake~\cite{hardebo1979,nakatani2008}. Fourth, the SMVT--biotin--ACC--FASN mechanistic model is supported by functional studies in lung and cervical cancer~\cite{zhang2024,chen2024} but has not been systematically validated across the full spectrum of SLC5A6-high cancer types.
 
 Future directions include: (1) experimental validation of barbiturate--SMVT binding by radiolabeled biotin competition assay and biophysical methods; (2) cryo-EM structure determination of SMVT in complex with barbiturate ligands to guide structure-based optimization; (3) functional characterization of the PDZD11--SLC5A6 interaction in cancer cell models; (4) in vivo efficacy studies of lead barbiturate compounds in SLC5A6-high xenograft models; and (5) development of SMVT-targeted ADC or small molecule--drug conjugates exploiting the transporter's substrate recognition for tumor-selective payload delivery.
 
