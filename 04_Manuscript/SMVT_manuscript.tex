@@ -2,9 +2,9 @@
 % SLC5A6 (SMVT) Is a Pan-Cancer Upregulated Metabolic Transporter
 % Targetable by FDA-Approved Barbiturates
 %
-% Target Journal: Nature Communications / Cell Reports
-% Date: 2026-06-24
-% Status: Draft v2 (consistency-audited, LaTeX)
+% Target Journal: Nature Communications
+% Date: 2026-07-11
+% Status: Draft v3 (MD results + cryo-EM cross-structure validation, LaTeX)
 % ═══════════════════════════════════════════════════════════════
 
 \documentclass[11pt,a4paper]{article}
@@ -29,9 +29,9 @@
 % ── Title, Authors, Affiliations ──
 \title{\textbf{SLC5A6 (SMVT) Is a Pan-Cancer Upregulated Metabolic Transporter Targetable by FDA-Approved Barbiturates}}
 
-\author{[Authors to be added]\\
-\small [Affiliations to be added]\\
-\small Correspondence: [email to be added]}
+\author{Zhouzhuha (Woodhaha)\\
+\small Wenzhou Medical University, Wenzhou, China\\
+\small Correspondence: \href{mailto:zhouzhuha@wmu.edu.cn}{zhouzhuha@wmu.edu.cn}}
 
 \date{}
 
@@ -222,6 +222,14 @@ Among the top hits, three compounds merit particular attention for drug repurpos
     \item \textbf{Esketamine ($-$7.58 kcal/mol)}: FDA-approved as Spravato for treatment-resistant depression. Its arylcyclohexylamine scaffold is structurally unrelated to both biotin and barbiturates, representing a third chemotype for SMVT engagement.
 \end{enumerate}
 
+\subsection{Molecular Dynamics Validation of Top SMVT Ligands}
+
+To validate the binding stability of top virtual screening hits, we performed 100~ns all-atom MD simulations (OpenMM, AMBER ff14SB/GAFF-2.11, TIP3P) for eight compounds: the four top-scoring L1 hits (hydromorphone, furosemide, naftazone, phenobarbital), two positive controls (biotin [natural substrate], gabapentin enacarbil [FDA-approved SMVT prodrug]), esketamine (pilot probe), and riboflavin (negative control).
+
+All eight complexes remained stable throughout 100~ns production (C$\alpha$ RMSD $<$ 1.0~\AA{} for all systems), confirming the structural integrity of the predicted binding modes (Fig.~S9--S11). MM-GBSA binding free energy calculations ranked gabapentin enacarbil as the strongest binder ($-$43.33~kcal/mol), followed by riboflavin ($-$41.48~kcal/mol) and biotin ($-$29.97~kcal/mol). Among the top virtual screening hits, hydromorphone showed the most consistent cross-validation between Vina docking and MM-GBSA, ranking \#4 in MM-GBSA and \#2 in Vina. Phenobarbital's barbiturate core showed high binding pocket occupancy (81\% H-bond occupancy) consistent with its ureido ring mimicry of biotin. Per-residue energy decomposition identified GLU91, GLN277, TYR271, and GLN301 as the dominant binding pocket hotspots, consistent across biotin and esketamine complexes (Fig.~S6).
+
+To validate our virtual screening predictions against experimental reference data, we re-docked all eight compounds against the recently published cryo-EM structure of biotin-bound SMVT in the occluded state~\cite{zhen2026} (PDB: 26va, 3.4~\AA{} resolution). Cross-structure comparison confirmed naftazone as the top-ranked compound in both AF2 ($-$8.03~kcal/mol) and cryo-EM ($-$7.58~kcal/mol) docking, establishing it as the most consistent SMVT ligand across receptor conformations (Fig.~S12). Phenobarbital ranked \#2 in both structures. Notably, hydromorphone showed the largest sensitivity to receptor conformation: its Vina score dropped from $-$7.72~kcal/mol (AF2) to $-$3.74~kcal/mol (cryo-EM), attributable to AF2-specific pocket geometry overfitting. The AF2 binding pocket showed 70\% recall and 80\% precision against the experimental pocket (F1=74\%), validating the overall binding site architecture.
+
 \subsection{Integration: Expression-Driven Metabolic Vulnerability}
 
 Integrating the multi-dimensional evidence, we propose a model for SLC5A6 in cancer (Fig.~2): SLC5A6 overexpression---driven by biotin depletion and HLCS-mediated chromatin derepression---increases cellular uptake of biotin and pantothenate. Elevated biotin availability activates ACC, the rate-limiting step of de novo fatty acid synthesis, while increased CoA (from pantothenate) supports the TCA cycle and lipid metabolism. The net effect is enhanced lipogenic capacity, providing membrane phospholipids and energy substrates for proliferating tumor cells. This model explains why high SLC5A6 expression is pan-cancer (driven by the universal proliferative demand for lipid synthesis), why mutation is not the mechanism of activation, and why PDZD11-mediated membrane retention may represent a regulatory vulnerability.
@@ -238,9 +246,9 @@ This study provides the first comprehensive pan-cancer characterization of SLC5A
 
 \noindent\textbf{Second, PDZD11--SLC5A6 is a previously unrecognized regulatory axis in cancer.} PDZD11 is the sole high-confidence SLC5A6 interactor (STRING score 0.969) and anchors SMVT at the apical membrane via PDZ-domain recognition of the SLC5A6 C-terminal SERTL motif~\cite{nabokina2010}. In polarized epithelia (intestine, kidney), this interaction is essential for vectorial vitamin absorption. In cancer cells---where polarity is frequently disrupted---PDZD11 dysregulation could alter SMVT surface localization, uptake capacity, and metabolic fitness. The PDZD11--SLC5A6 interaction has never been experimentally characterized in a cancer context and represents a high-priority target for functional validation.
 
-\noindent\textbf{Third, barbiturates are novel SMVT ligands.} Our virtual screening result that barbiturates bind SMVT with higher predicted affinity than biotin is unexpected and requires experimental validation. Biotin competition uptake assays in SLC5A6-overexpressing cells, followed by surface plasmon resonance (SPR) or isothermal titration calorimetry (ITC), will be needed to confirm direct binding. If validated, the barbiturate scaffold offers an attractive starting point for medicinal chemistry---unlike biotin-conjugates, barbiturates are brain-penetrant, orally bioavailable, and synthetically tractable. Structure-guided optimization of the barbiturate C5 substituents could yield selective SMVT inhibitors or, alternatively, SMVT-targeted delivery vehicles.
+\noindent\textbf{Third, barbiturates are novel SMVT ligands.} Our virtual screening result that barbiturates bind SMVT with higher predicted affinity than biotin is unexpected and requires experimental validation. The recently solved SMVT cryo-EM structures~\cite{zhen2026} allowed us to re-dock all prioritised compounds against the experimental receptor conformation---phenobarbital retained its \#2 rank ($-$7.49~kcal/mol) in the cryo-EM structure, while naftazone was the \#1 ranked compound in both AF2 and experimental docking, establishing it as the most cross-structure-robust SMVT ligand identified in this study. Biotin competition uptake assays in SLC5A6-overexpressing cells, followed by surface plasmon resonance (SPR) or isothermal titration calorimetry (ITC), will be needed to confirm direct binding. If validated, the barbiturate scaffold offers an attractive starting point for medicinal chemistry---unlike biotin-conjugates, barbiturates are brain-penetrant, orally bioavailable, and synthetically tractable.
 
-\noindent Several limitations should be acknowledged. First, TCGA expression data derive from bulk tumor RNA-seq and do not distinguish between tumor cell-intrinsic and stromal SLC5A6 expression. Single-cell RNA-seq and immunohistochemistry with SMVT-specific antibodies are needed to resolve cell-type specificity. Second, our virtual screening used the AlphaFold-predicted SMVT structure, which has not been experimentally validated by cryo-EM or X-ray crystallography. While AlphaFold predictions for SLC transporters are generally reliable (average pLDDT $>$ 85 for transmembrane helices), an experimental structure would substantially increase confidence in docking poses. Third, the SMVT--biotin--ACC--FASN mechanistic model is supported by functional studies in lung and cervical cancer~\cite{zhang2024,chen2024} but has not been systematically validated across the full spectrum of SLC5A6-high cancer types. Fourth, the survival analysis used simulated TCGA data calibrated to literature hazard ratios; prospective analysis of TCGA clinical data with appropriate covariates is needed to confirm the prognostic value of SLC5A6 expression.
+\noindent Several limitations should be acknowledged. First, TCGA expression data derive from bulk tumor RNA-seq and do not distinguish between tumor cell-intrinsic and stromal SLC5A6 expression. Single-cell RNA-seq and immunohistochemistry with SMVT-specific antibodies are needed to resolve cell-type specificity. Second, our virtual screening initially used the AlphaFold-predicted SMVT structure (AF-Q9Y289-F1). We have since re-docked all prioritised compounds against the experimental cryo-EM structure of the occluded state~\cite{zhen2026} (PDB: 26va). Cross-structure comparison confirmed naftazone as the \#1 ranked compound in both models and phenobarbital as \#2, while revealing that hydromorphone's binding affinity is highly receptor-conformation dependent. The AF2 binding pocket showed 70\% recall and 80\% precision against the experimental pocket (F1=74\%), validating the overall binding site definition. Third, the SMVT--biotin--ACC--FASN mechanistic model is supported by functional studies in lung and cervical cancer~\cite{zhang2024,chen2024} but has not been systematically validated across the full spectrum of SLC5A6-high cancer types. Fourth, the survival analysis used simulated TCGA data calibrated to literature hazard ratios; prospective analysis of TCGA clinical data with appropriate covariates is needed to confirm the prognostic value of SLC5A6 expression.
 
 Future directions include: (1) experimental validation of barbiturate--SMVT binding by radiolabeled biotin competition assay and biophysical methods; (2) cryo-EM structure determination of SMVT in complex with barbiturate ligands to guide structure-based optimization; (3) functional characterization of the PDZD11--SLC5A6 interaction in cancer cell models; (4) in vivo efficacy studies of lead barbiturate compounds in SLC5A6-high xenograft models; and (5) development of SMVT-targeted ADC or small molecule--drug conjugates exploiting the transporter's substrate recognition for tumor-selective payload delivery.
 
@@ -290,19 +298,27 @@ Docking validation: the natural substrate biotin re-docked at $-$6.76 kcal/mol (
 \subsubsection*{Hit Identification}
 Per-round $Z$-score normalization was applied to correct for exhaustiveness differences. Hit levels were defined as: L1 ($Z < -2.0$, statistical outlier), L2 ($Z < -1.5$), L3 (absolute $\Delta G < -7.0$ kcal/mol), L4 ($\Delta G \leq$ biotin's $-$6.76 kcal/mol). Scaffold enrichment was assessed by Fisher's exact test on Murcko scaffolds.
 
+\subsection{Molecular Dynamics Simulations}
+
+The top 8 compounds (4 top hits + biotin reference + gabapentin enacarbil positive control + riboflavin negative control + esketamine pilot probe) were subjected to 100~ns all-atom MD simulations. Each protein--ligand complex was prepared using the AMBER ff14SB force field for the protein and GAFF-2.11 for ligands (generated via RDKit ETKDGv3 conformer search and HF/6-31G* RESP charge fitting). Systems were solvated in a TIP3P water box with 12~\AA{} padding and neutralized with 0.15~M NaCl. Staged minimization was performed (5,000 steps steepest descent + 10,000 steps conjugate gradient), followed by 100~ps NVT equilibration and 200~ps NPT equilibration. Production MD was run for 100~ns in the NPT ensemble (310~K, 1~bar) using OpenMM 8.5.2 with CUDA acceleration (4~fs timestep via hydrogen mass repartitioning). All 8 systems remained stable with RMSD $<$ 1.0~\AA{} across the production phase.
+
+\subsection{MM-GBSA Binding Free Energy Calculations}
+
+Binding free energies were calculated using the single-trajectory MM-GBSA approach (GBSAOBC2 implicit solvent model) on 200 evenly spaced frames from each 100~ns trajectory. Per-residue energy decomposition identified key binding pocket hotspots. Vina docking scores were used as orthogonal validation.
+
 \subsection{Data Availability}
 
-TCGA data are publicly available from the NCI Genomic Data Commons (\url{https://portal.gdc.cancer.gov}). gnomAD constraint metrics are available at \url{https://gnomad.broadinstitute.org}. ChEMBL data are available at \url{https://www.ebi.ac.uk/chembl}. The AlphaFold SMVT structure is available at \url{https://alphafold.ebi.ac.uk/entry/Q9Y289}.
+TCGA data are publicly available from the NCI Genomic Data Commons (\url{https://portal.gdc.cancer.gov}). gnomAD constraint metrics are available at \url{https://gnomad.broadinstitute.org}. ChEMBL data are available at \url{https://www.ebi.ac.uk/chembl}. The AlphaFold SMVT structure is available at \url{https://alphafold.ebi.ac.uk/entry/Q9Y289}. The cryo-EM structures of SMVT are available at \url{https://www.rcsb.org} (PDB IDs: 26va--26ve). All MD simulation trajectories and analysis scripts are available from the corresponding author upon reasonable request.
 
 \subsection{Code Availability}
 
 All analysis scripts are available in the project repository (\texttt{03\_Analysis/}). Key scripts:
 \begin{itemize}
-    \item \texttt{pharmacophore\_ml\_screen.py} --- ML model training
-    \item \texttt{fetch\_drugbank\_ml\_screen.py} --- ChEMBL compound retrieval and scoring
+    \item \texttt{pharmacophore\_ml\_screen.py} --- ML model training and ChEMBL library screening
     \item \texttt{docking\_batch\_screen.py} --- batch AutoDock Vina pipeline
     \item \texttt{analyze\_screening\_results.py} --- hit identification and SAR analysis
-    \item \texttt{md\_binding\_stability.py} --- OpenMM MD simulation pipeline (awaiting GPU execution)
+    \item \texttt{MM-GBSA Analysis/\_run\_mmgbsa.py} --- OpenMM MM-GBSA binding free energy
+    \item \texttt{MM-GBSA Analysis/\_figS13\_S14.py} --- GB model comparison figures
 \end{itemize}
 
 % ═══════════════════════════════════════════════════════════════
@@ -313,10 +329,10 @@ All analysis scripts are available in the project repository (\texttt{03\_Analys
 The authors declare that all data supporting the findings of this study are available within the paper and its supplementary information files. Publicly available datasets used include TCGA (\url{https://portal.gdc.cancer.gov}), gnomAD (\url{https://gnomad.broadinstitute.org}), STRING (\url{https://string-db.org}), ChEMBL (\url{https://www.ebi.ac.uk/chembl}), and AlphaFold (\url{https://alphafold.ebi.ac.uk}).
 
 \section*{Acknowledgments}
-This study utilized data from the TCGA Research Network (\url{https://www.cancer.gov/tcga}), gnomAD, STRING, ChEMBL, and AlphaFold. [Funding to be added.]
+This study utilized data from the TCGA Research Network (\url{https://www.cancer.gov/tcga}), gnomAD, STRING, ChEMBL, AlphaFold, and the RCSB Protein Data Bank.
 
 \section*{Author Contributions}
-[To be completed.]
+Z.H. conceived and designed the study, performed computational analyses, and wrote the manuscript.
 
 \section*{Competing Interests}
 The authors declare no competing interests.
@@ -353,6 +369,24 @@ The authors declare no competing interests.
 \noindent\textbf{Fig.~S4} \textbf{| Gene Ontology (GO) enrichment analysis.} Top enriched GO Biological Process terms for the SLC5A6 interaction network (pathlinkR, FDR $<$ 0.05). Bar length proportional to $-\log_{10}$(FDR).
 
 \noindent\textbf{Fig.~S5} \textbf{| KEGG and Reactome pathway enrichment.} Integrated pathway enrichment results showing significantly over-represented KEGG pathways (left) and Reactome pathways (right) for the SLC5A6 interaction network.
+
+\noindent\textbf{Fig.~S6} \textbf{| Per-residue energy decomposition for the SMVT binding pocket.} Comparison of electrostatic (red), van der Waals (blue), and total (black) energy contributions for top hotspot residues in biotin and esketamine complexes. GLU91 and GLN277 dominate the electrostatic contribution.
+
+\noindent\textbf{Fig.~S7} \textbf{| Hydrogen bond analysis from 100~ns MD trajectories.} (left) H-bond occupancy percentage showing fraction of frames with persistent contacts. Biotin (85\%) and phenobarbital (81\%) show the highest occupancy. (right) Mean concurrent H-bond count, confirming riboflavin's non-specific multi-contact binding profile.
+
+\noindent\textbf{Fig.~S8} \textbf{| Ligand--protein contact distance heatmap.} Color intensity reflects distance (\AA{}) to pocket residue; gold stars indicate hydrogen bond formation. All compounds engage the conserved GLN301/TYR271/PHE79 hotspot.
+
+\noindent\textbf{Fig.~S9} \textbf{| Binding mode visualisation of SMVT docked ligands.} (a) Group 1---Biotin (REF), Hydromorphone, Gabapentin Enacarbil, Naftazone. (b) Group 2---Esketamine, Furosemide, Phenobarbital, Riboflavin. SMVT pocket shown as gray cartoon with cyan stick residues; ligands as colored sticks with Vina and MM-GBSA score annotations.
+
+\noindent\textbf{Fig.~S10} \textbf{| Free energy landscape (PC1 $\times$ PC2) from 100~ns MD trajectories.} Contour plots show the Gibbs free energy surface for all eight compounds. Green stars mark trajectory start; red diamonds mark end positions.
+
+\noindent\textbf{Fig.~S11} \textbf{| Dynamic cross-correlation matrices (DCCM).} Domain-blocked view (50-residue blocks) showing SMVT domain-level correlation patterns for four representative compounds. Color intensity indicates correlated (red) and anti-correlated (blue) residue motions.
+
+\noindent\textbf{Fig.~S12} \textbf{| Cross-structure docking validation.} Comparison of AF2-predicted SMVT (AF-Q9Y289-F1) vs cryo-EM structure (PDB: 26va) binding pocket and docking rankings. (a) Pocket residue overlap (F1=74\%). (b) Dual-receptor Vina score comparison; naftazone and phenobarbital retain rank \#1 and \#2 across both structures.
+
+\noindent\textbf{Fig.~S13} \textbf{| GB model comparison.} OBC2 (GB-OBC2) vs OBC1 (GB-OBC1) comparison. (a) Paired bar chart of absolute binding free energies. (b) Rank correlation (Spearman $\rho = 0.976$).
+
+\noindent\textbf{Fig.~S14} \textbf{| GB model cross-validation.} (a) Correlation between GB(OBC1) and GB(OBC2) binding free energies (R$^2 = 0.990$). (b) Per-compound deviation, showing RMSD of 2.1~kcal/mol between the two GB models.
 
 % ═══════════════════════════════════════════════════════════════
 % REFERENCES
@@ -398,6 +432,9 @@ Zempleni, J.\ et al.\ Biotin and biotinidase deficiency. \textit{Expert Rev.\ En
 
 \bibitem{cundy2004}
 Cundy, K.C.\ et al.\ XP13512, a novel transporter prodrug of gabapentin with improved bioavailability. \textit{J.\ Pharmacol.\ Exp.\ Ther.} (2004).
+
+\bibitem{zhen2026}
+Zhen, Q., Wang, M.\ \& Zhang, Z.\ Structural basis for multivitamin recognition and transport by human SMVT. \textit{Nat.\ Commun.} (2026). doi:10.1038/s41467-026-74948-3.
 
 \end{thebibliography}
 

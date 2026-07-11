@@ -2,7 +2,7 @@
 
 > **靶点**: SLC5A6 / SMVT (Na⁺-dependent Multivitamin Transporter)
 > **项目**: D:\Researching\SMVT\
-> **报告日期**: 2026-06-23
+> **报告日期**: 2026-06-23 · **TCGA 数据复验**: 2026-06-28 ✅
 > **数据来源**: TCGA, STRING v12, gnomAD, ClinVar, HPA, cBioPortal, PubMed
 > **分析方法**: 泛癌表达 + 突变景观 + PPI 网络 + 通路富集 + ML 筛选 + 生存分析 + 虚拟 KO + scRNA 定位
 

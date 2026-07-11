@@ -4,8 +4,8 @@ import os, sys, subprocess, pandas as pd
 from rdkit import Chem
 from rdkit.Chem import AllChem
 
-os.chdir("D:/Researching/SMVT")
-vina_bin = "C:/Users/woodh/bin/vina"
+os.chdir(os.path.join(os.path.dirname(__file__), ".."))
+vina_bin = "os.environ.get("VINA_BIN", "vina")"
 mk_prep_rec = "C:/anaconda3/Scripts/mk_prepare_receptor.exe"
 mk_prep_lig = "C:/anaconda3/Scripts/mk_prepare_ligand.exe"
 obabel_bin = "C:/anaconda3/Scripts/obabel"

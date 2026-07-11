@@ -6,7 +6,7 @@ import pandas as pd, numpy as np, matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt, matplotlib.patches as mpatches
 from matplotlib.patches import FancyBboxPatch
-import os; os.chdir("D:/Researching/SMVT")
+import os; os.chdir(os.path.join(os.path.dirname(__file__), ".."))
 
 plt.rcParams.update({
     'font.family': 'sans-serif', 'font.size': 9,

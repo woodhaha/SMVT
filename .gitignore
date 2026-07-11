@@ -17,6 +17,33 @@ Thumbs.db
 # Large data files (re-downloadable from GEO/public DBs)
 02_Data/**/*.h5
 03_Analysis/outputs/*.rds
+02_Data/**/*.csv.gz
+02_Data/**/*.tsv
+
+# Large trajectories and binary outputs
+*.dcd
+*.xtc
+*.trr
+*.npz
+*.npy
+*.pdbqt
+SMVT.rar
+
+# Per-compound MD CSVs (regenerable from trajectories)
+MM-GBSA Analysis/**/*_100ns*.csv
+SMVT-MD-Analysis/**/*_100ns*.csv
+SMVT_MD/**/*.csv
+
+# Generated structure copies
+MM-GBSA Analysis/**/*_complex.pdb
+MM-GBSA Analysis/**/*_receptor.pdb
+MM-GBSA Analysis/**/*_ligand.pdb
+MM-GBSA Analysis/**/*_docked.pdb
+MM-GBSA Analysis/**/*_docked_pose.pdb
+MM-GBSA Analysis/**/*_centroid.pdb
+
+# ChimeraX session files
+SMVT-MD-Analysis/chimerax/
 
 # Claude / OMC operational files
 .claude/

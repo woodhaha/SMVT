@@ -26,7 +26,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch
 
-os.chdir("D:/Researching/SMVT")
+os.chdir(os.path.join(os.path.dirname(__file__), ".."))
 out_dir = "03_Analysis/outputs"
 os.makedirs(out_dir, exist_ok=True)
 fig_dir = "04_Manuscript/figures"

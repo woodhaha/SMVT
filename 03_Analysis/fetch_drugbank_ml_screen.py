@@ -15,7 +15,7 @@ from rdkit import Chem, DataStructs
 from rdkit.Chem import AllChem, Descriptors, rdFingerprintGenerator
 from rdkit.Chem.Scaffolds import MurckoScaffold
 
-os.chdir("D:/Researching/SMVT")
+os.chdir(os.path.join(os.path.dirname(__file__), ".."))
 os.makedirs("03_Analysis/outputs", exist_ok=True)
 os.makedirs("03_Analysis/models", exist_ok=True)
 

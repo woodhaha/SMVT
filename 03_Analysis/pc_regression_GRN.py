@@ -4,7 +4,7 @@ import h5py, numpy as np, pandas as pd
 from scipy import sparse, stats
 from sklearn.decomposition import PCA
 import warnings; warnings.filterwarnings('ignore')
-import os; os.chdir("D:/Researching/SMVT")
+import os; os.chdir(os.path.join(os.path.dirname(__file__), ".."))
 
 print("="*60)
 print("PC Regression GRN — scTenifoldKnk-equivalent validation")

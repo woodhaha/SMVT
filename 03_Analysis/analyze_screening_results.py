@@ -27,7 +27,7 @@ from rdkit.Chem.Scaffolds import MurckoScaffold
 from rdkit.Chem.Draw import IPythonConsole
 from collections import Counter
 
-os.chdir("D:/Researching/SMVT")
+os.chdir(os.path.join(os.path.dirname(__file__), ".."))
 os.makedirs("03_Analysis/outputs", exist_ok=True)
 os.makedirs("04_Manuscript/figures", exist_ok=True)
 

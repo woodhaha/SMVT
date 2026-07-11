@@ -10,7 +10,7 @@ from matplotlib.patches import FancyBboxPatch, FancyArrowPatch, Arc, Polygon
 import numpy as np
 import os
 
-os.chdir("D:/Researching/SMVT")
+os.chdir(os.path.join(os.path.dirname(__file__), ".."))
 os.makedirs("03_Analysis/figures", exist_ok=True)
 
 plt.rcParams.update({'font.family': 'sans-serif', 'font.size': 9,

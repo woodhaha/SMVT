@@ -19,7 +19,7 @@ import pandas as pd
 import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-os.chdir("D:/Researching/SMVT")
+os.chdir(os.path.join(os.path.dirname(__file__), ".."))
 os.makedirs("03_Analysis/outputs", exist_ok=True)
 os.makedirs("03_Analysis/models", exist_ok=True)
 

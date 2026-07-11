@@ -13,7 +13,7 @@ from rdkit import Chem, DataStructs
 from rdkit.Chem import AllChem, Descriptors, rdFingerprintGenerator
 from openbabel import pybel
 
-os.chdir("D:/Researching/SMVT")
+os.chdir(os.path.join(os.path.dirname(__file__), ".."))
 os.makedirs("03_Analysis/outputs", exist_ok=True)
 os.makedirs("03_Analysis/docking", exist_ok=True)
 
@@ -24,7 +24,7 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-VINA_BIN = "C:/Users/woodh/bin/vina"
+VINA_BIN = "os.environ.get("VINA_BIN", "vina")"
 RECEPTOR = "03_Analysis/docking/SMVT_receptor.pdbqt"
 DOCK_DIR = "03_Analysis/docking"
 CKPT = "03_Analysis/docking/pathc_checkpoint.json"

@@ -32,7 +32,7 @@ from sklearn.model_selection import cross_val_score, LeaveOneOut, StratifiedKFol
 from sklearn.metrics import r2_score, mean_absolute_error, matthews_corrcoef, roc_auc_score
 from sklearn.preprocessing import StandardScaler
 
-os.chdir("D:/Researching/SMVT")
+os.chdir(os.path.join(os.path.dirname(__file__), ".."))
 os.makedirs("03_Analysis/models", exist_ok=True)
 
 # ═══ Logging ═══

@@ -5,11 +5,11 @@ warnings.filterwarnings("ignore")
 import pandas as pd
 # NB: OpenBabel used via subprocess (CLI), not pybel, to avoid hangs on Windows
 
-os.chdir("D:/Researching/SMVT")
+os.chdir(os.path.join(os.path.dirname(__file__), ".."))
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger(__name__)
 
-VINA = "C:/Users/woodh/bin/vina"
+VINA = "os.environ.get("VINA_BIN", "vina")"
 RECEPTOR = "03_Analysis/docking/SMVT_receptor.pdbqt"
 DOCK_DIR = "03_Analysis/docking"
 os.makedirs(DOCK_DIR, exist_ok=True)

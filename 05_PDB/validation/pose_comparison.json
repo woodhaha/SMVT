@@ -1,0 +1,58 @@
+{
+  "BIOTIN": {
+    "n_atoms": 18,
+    "d_pocket_min": 1.96,
+    "rmsd_to_biotin": 4.56,
+    "center_dist_to_biotin": 0.38,
+    "in_binding_pocket": 1
+  },
+  "ESKETAMINE": {
+    "n_atoms": 17,
+    "d_pocket_min": 2.45,
+    "rmsd_to_biotin": 4.97,
+    "center_dist_to_biotin": 0.27,
+    "in_binding_pocket": 1
+  },
+  "FUROSEMIDE": {
+    "n_atoms": 25,
+    "d_pocket_min": 2.42,
+    "rmsd_to_biotin": 4.09,
+    "center_dist_to_biotin": 0.78,
+    "in_binding_pocket": 1
+  },
+  "GABAPENTIN_ENACARBIL": {
+    "n_atoms": 25,
+    "d_pocket_min": 3.06,
+    "rmsd_to_biotin": 5.03,
+    "center_dist_to_biotin": 1.28,
+    "in_binding_pocket": 1
+  },
+  "HYDROMORPHONE": {
+    "n_atoms": 23,
+    "d_pocket_min": 2.51,
+    "rmsd_to_biotin": 4.61,
+    "center_dist_to_biotin": 0.77,
+    "in_binding_pocket": 1
+  },
+  "NAFTAZONE": {
+    "n_atoms": 20,
+    "d_pocket_min": 2.24,
+    "rmsd_to_biotin": 2.38,
+    "center_dist_to_biotin": 1.32,
+    "in_binding_pocket": 1
+  },
+  "PHENOBARBITAL": {
+    "n_atoms": 19,
+    "d_pocket_min": 2.13,
+    "rmsd_to_biotin": 4.64,
+    "center_dist_to_biotin": 0.89,
+    "in_binding_pocket": 1
+  },
+  "RIBOFLAVIN": {
+    "n_atoms": 32,
+    "d_pocket_min": 1.64,
+    "rmsd_to_biotin": 5.59,
+    "center_dist_to_biotin": 0.47,
+    "in_binding_pocket": 1
+  }
+}

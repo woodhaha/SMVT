@@ -35,7 +35,7 @@ from rdkit.Chem.Scaffolds import MurckoScaffold
 from rdkit.Chem.Draw import rdMolDraw2D
 import matplotlib.patches as mpatches
 
-os.chdir("D:/Researching/SMVT")
+os.chdir(os.path.join(os.path.dirname(__file__), ".."))
 out_dir = "04_Manuscript/figures"
 os.makedirs(out_dir, exist_ok=True)
 

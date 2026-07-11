@@ -25,7 +25,7 @@ from rdkit import Chem
 from rdkit.Chem import AllChem
 
 # ═══ Configuration ═══
-VINA_BIN = "C:/Users/woodh/bin/vina"
+VINA_BIN = "os.environ.get("VINA_BIN", "vina")"
 MK_PREP_LIG = "C:/anaconda3/Scripts/mk_prepare_ligand.exe"
 
 RECEPTOR_PDBQT = "03_Analysis/docking/SMVT_receptor.pdbqt"
@@ -167,7 +167,7 @@ def save_checkpoint(checkpoint):
 
 def main():
     """Main entry point — guarded for Windows multiprocessing compatibility."""
-    os.chdir("D:/Researching/SMVT")
+    os.chdir(os.path.join(os.path.dirname(__file__), ".."))
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--test", type=int, default=0)

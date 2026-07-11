@@ -20,11 +20,11 @@ from rdkit import Chem
 from rdkit.Chem import AllChem
 
 # ═══ Config ═══
-PROJECT_DIR = "D:/Researching/SMVT"
-MD_DIR = f"{PROJECT_DIR}/03_Analysis/md"
-RECEPTOR_PDB = f"{PROJECT_DIR}/02_Data/raw/AF-Q9Y289-F1.pdb"
-DOCKING_DIR = f"{PROJECT_DIR}/03_Analysis/docking"
-CHECKPOINT = f"{MD_DIR}/md_checkpoint.json"
+PROJECT_DIR = os.path.join(os.path.dirname(__file__), "..")
+MD_DIR = os.path.join(PROJECT_DIR, "03_Analysis", "md")
+RECEPTOR_PDB = os.path.join(PROJECT_DIR, "02_Data", "raw", "AF-Q9Y289-F1.pdb")
+DOCKING_DIR = os.path.join(PROJECT_DIR, "03_Analysis", "docking")
+CHECKPOINT = os.path.join(MD_DIR, "md_checkpoint.json")
 
 # MD parameters
 TEMP = 300 * unit.kelvin

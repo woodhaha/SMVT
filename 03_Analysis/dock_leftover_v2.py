@@ -6,11 +6,11 @@ import pandas as pd
 from rdkit import Chem
 from rdkit.Chem import AllChem
 
-os.chdir("D:/Researching/SMVT")
+os.chdir(os.path.join(os.path.dirname(__file__), ".."))
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger(__name__)
 
-VINA = "C:/Users/woodh/bin/vina"
+VINA = "os.environ.get("VINA_BIN", "vina")"
 RECEPTOR = "03_Analysis/docking/SMVT_receptor.pdbqt"
 DOCK_DIR = "03_Analysis/docking"
 os.makedirs(DOCK_DIR, exist_ok=True)

@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt, matplotlib.patches as mpatches
 
 plt.rcParams.update({'font.family':'sans-serif','font.size':9,'axes.titlesize':11,
     'axes.labelsize':9,'figure.dpi':150,'savefig.dpi':300,'savefig.bbox':'tight'})
-import os; os.chdir("D:/Researching/SMVT")
+import os; os.chdir(os.path.join(os.path.dirname(__file__), ".."))
 
 drg = pd.read_csv("03_Analysis/outputs/scTenifoldKnk_DRGs.csv")
 drg = drg[drg['gene'] != 'SLC5A6'].head(20)

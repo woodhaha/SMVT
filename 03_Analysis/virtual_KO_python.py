@@ -17,7 +17,7 @@ import gzip
 import sys
 import os
 
-os.chdir("D:/Researching/SMVT")
+os.chdir(os.path.join(os.path.dirname(__file__), ".."))
 print("=" * 60)
 print("SMVT Virtual KO — Python Pipeline")
 print("=" * 60)

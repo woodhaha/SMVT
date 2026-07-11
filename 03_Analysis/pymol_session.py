@@ -3,7 +3,7 @@ Convert top-hit docked PDBQT → PDB for PyMOL, then generate .pml script.
 """
 import os, glob
 
-os.chdir("D:/Researching/SMVT")
+os.chdir(os.path.join(os.path.dirname(__file__), ".."))
 os.makedirs("03_Analysis/pymol", exist_ok=True)
 
 TOP_HITS = {

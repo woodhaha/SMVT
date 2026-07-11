@@ -3,7 +3,7 @@ SMVT Docking — Render publication panels via PyMOL Python API.
 Run: python render_export.py
 """
 import os, sys
-os.chdir("D:/Researching/SMVT/03_Analysis/pymol")
+os.chdir(os.path.join(os.path.dirname(__file__), "..", ".."))
 os.makedirs("exports", exist_ok=True)
 
 # Launch PyMOL in headless mode (no GUI, faster rendering)

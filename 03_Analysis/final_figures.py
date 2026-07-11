@@ -4,7 +4,7 @@ import pandas as pd, numpy as np, matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt, matplotlib.patches as mpatches
 from matplotlib.gridspec import GridSpec
-import os; os.chdir("D:/Researching/SMVT")
+import os; os.chdir(os.path.join(os.path.dirname(__file__), ".."))
 
 plt.rcParams.update({'font.family':'sans-serif','font.size':9,'axes.titlesize':11,
     'axes.labelsize':9,'figure.dpi':150,'savefig.dpi':300,'savefig.bbox':'tight'})

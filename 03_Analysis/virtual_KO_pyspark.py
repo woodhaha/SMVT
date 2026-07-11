@@ -4,7 +4,7 @@ SMVT Virtual KO — PySpark Distributed
 Full GSE178341 (371K cells) → co-expression GRN → SLC5A6 KO → DRGs
 """
 import os, sys
-os.chdir("D:/Researching/SMVT")
+os.chdir(os.path.join(os.path.dirname(__file__), ".."))
 
 from pyspark.sql import SparkSession
 from pyspark.sql import functions as F

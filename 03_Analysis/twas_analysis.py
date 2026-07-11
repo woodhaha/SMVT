@@ -5,7 +5,7 @@ import numpy as np, pandas as pd
 from scipy import stats
 import warnings; warnings.filterwarnings('ignore')
 
-os.chdir("D:/Researching/SMVT")
+os.chdir(os.path.join(os.path.dirname(__file__), ".."))
 os.makedirs("03_Analysis/twas", exist_ok=True)
 
 print("="*60)
