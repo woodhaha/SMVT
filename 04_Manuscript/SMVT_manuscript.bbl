@@ -1,9 +1,11 @@
 \begin{thebibliography}{10}
 \expandafter\ifx\csname url\endcsname\relax
-  \def\url#1{\texttt{#1}}\fi
+  \def\url#1{\burl{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 \providecommand{\bibinfo}[2]{#2}
 \providecommand{\eprint}[2][]{\url{#2}}
+\providecommand{\doi}[1]{\url{https://doi.org/#1}}
+\bibcommenthead
 
 \bibitem{hofman2020}
 \bibinfo{author}{Hofman, M.~S.} \emph{et~al.}

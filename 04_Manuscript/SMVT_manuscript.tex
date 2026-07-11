@@ -4,57 +4,35 @@
 %
 % Target Journal: Nature Communications
 % Date: 2026-07-11
-% Status: Draft v4 — submission-ready with 5-HTP, COAD, sn-jnl template
-%
-% NOTE: For final submission to Nature Communications, download the
-% official sn-jnl template: https://www.nature.com/ncomms/submission
-% or install via: tlmgr install sn-jnl
-% Then change documentclass to: \documentclass[sn-pi-coll]{sn-jnl}
+% Status: Draft v5 — sn-jnl template, submission-ready
 % ═══════════════════════════════════════════════════════════════
 
-\documentclass[11pt,a4paper]{article}
+\documentclass[pdflatex,sn-nature]{sn-jnl}
 
-% ── Packages ──
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{amsmath,amssymb}
-\usepackage{graphicx}
-\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
-\usepackage{booktabs}
-\usepackage{multirow}
-\usepackage{cite}
-\usepackage{caption}
-\usepackage{subcaption}
-\usepackage[margin=2.5cm]{geometry}
-\usepackage{float}
-\usepackage{textcomp}
-\usepackage{gensymb}
-\usepackage{lineno}
-\usepackage{setspace}
+% ── Additional Packages ──
+\usepackage{graphicx}%
+\usepackage{booktabs}%
+\usepackage{multirow}%
+\usepackage{xcolor}%
+\usepackage{float}%
+\usepackage{setspace}%
 \onehalfspacing
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
 
 % ── Title, Authors, Affiliations ──
-\title{\textbf{SLC5A6 (SMVT) Is a Pan-Cancer Upregulated Metabolic Transporter Targetable by FDA-Approved Barbiturates}}
+\title[SMVT]{SLC5A6 (SMVT) Is a Pan-Cancer Upregulated Metabolic Transporter Targetable by FDA-Approved Barbiturates}
 
-\author{Zhouzhuha (Woodhaha)\\
-\small Wenzhou Medical University, Wenzhou, China\\
-\small Correspondence: \href{mailto:zhouzhuha@wmu.edu.cn}{zhouzhuha@wmu.edu.cn}}
+\author*[1]{\fnm{Zhouzhuha} \sur{(Woodhaha)}}\email{zhouzhuha@wmu.edu.cn}
 
-\date{}
+\affil*[1]{\orgname{Wenzhou Medical University}, \orgaddress{\city{Wenzhou}, \country{China}}}
+
+\abstract{The sodium-dependent multivitamin transporter (SMVT/SLC5A6) mediates cellular uptake of biotin, pantothenate, and lipoate---cofactors essential for fatty acid synthesis. Here we systematically characterize the pan-cancer landscape of SLC5A6 using TCGA data (10,967 samples across 32 cancer types), STRING interaction networks, pathway enrichment, and structure-based virtual screening of 3,311 FDA-approved drugs. SLC5A6 is significantly upregulated in six cancer types (Log$_2$FC $+$1.1 to $+$1.7, FDR $<$ 0.05), with elevated expression conferring worse overall survival (HR$=$1.19--1.34). No somatic missense mutations were detected across TCGA, and population constraint metrics (pLI$=$0.01, LOEUF$=$0.61) confirm loss-of-function tolerance. Virtual screening identifies barbiturates as high-affinity SMVT ligands---phenobarbital binds at $-$8.30~kcal/mol, exceeding biotin ($-$6.76)---and reveals 5-hydroxytryptophan ($-$7.66~kcal/mol) as the top-ranked FDA compound, suggesting a SMVT--serotonin metabolic axis. Expanded glutarimide screening achieves a $-$9.36~kcal/mol record. Molecular dynamics simulations (100~ns, 8 compounds) confirm stable binding. Our findings establish SLC5A6 as an expression-driven metabolic vulnerability and provide a roadmap for repurposing barbiturate- and glutarimide-scaffold drugs as SMVT-targeted anticancer agents.}
+
+\keywords{SLC5A6, SMVT, biotin transport, drug repurposing, virtual screening, molecular dynamics, barbiturates, glutarimide, 5-HTP}
 
 \begin{document}
+
 \maketitle
-
-% ═══════════════════════════════════════════════════════════════
-% ABSTRACT
-% ═══════════════════════════════════════════════════════════════
-
-\begin{abstract}
-\noindent
-The sodium-dependent multivitamin transporter (SMVT/SLC5A6) mediates cellular uptake of biotin, pantothenate, and lipoate---cofactors essential for fatty acid synthesis. Here we systematically characterize the pan-cancer landscape of SLC5A6 using TCGA data (10,967 samples across 32 cancer types), STRING interaction networks, pathway enrichment, and structure-based virtual screening of 3,311 FDA-approved drugs. SLC5A6 is significantly upregulated in six cancer types (Log$_2$FC $+$1.1 to $+$1.7, FDR $<$ 0.05), with elevated expression conferring worse overall survival in lung squamous (HR$=$1.31, $P=2.7\times 10^{-5}$), lung adeno (HR$=$1.33, $P=1.0\times 10^{-4}$), bladder (HR$=$1.19, $P=2.8\times 10^{-4}$), and liver cancers (HR$=$1.34, $P=4.7\times 10^{-4}$). In contrast, no somatic missense mutations were detected across TCGA, and population constraint metrics (pLI$=$0.01, LOEUF$=$0.61) confirm complete loss-of-function tolerance. Virtual screening of 3,311 FDA-approved drugs identifies barbiturates as a novel class of high-affinity SMVT ligands---phenobarbital binds at $-$8.30 kcal/mol, exceeding the natural substrate biotin ($-$6.76)---and reveals 5-hydroxytryptophan (5-HTP, $-$7.66 kcal/mol) as the top-ranked compound, suggesting a previously unrecognized SMVT--serotonin metabolic axis. Expanded glutarimide screening achieves sub-$-$9.0 kcal/mol affinity ($-$9.36 kcal/mol record). Molecular dynamics simulations (100~ns, 8 compounds) confirm stable binding (RMSD $<$ 1.0~\AA{}). Our findings establish SLC5A6 as an expression-driven metabolic vulnerability and provide a pharmacological roadmap for repurposing barbiturate- and glutarimide-scaffold drugs as SMVT-targeted anticancer agents.
-\end{abstract}
-
-\clearpage
 
 % ═══════════════════════════════════════════════════════════════
 % INTRODUCTION
@@ -80,7 +58,7 @@ Here, we present a comprehensive multi-dimensional analysis of SLC5A6 across the
 
 We analyzed SLC5A6 mRNA expression in 14 TCGA cancer types with paired tumor-normal samples (Fig.~1). SLC5A6 was significantly overexpressed in tumor versus matched normal tissue in six cancer types (Kruskal-Wallis with Dunn post-hoc test, FDR $<$ 0.05):
 
-\begin{table}[H]
+\begin{table}[t]
 \centering
 \caption{Pan-cancer SLC5A6 differential expression in TCGA}
 \label{tab:expression}
@@ -100,7 +78,7 @@ Lung Adenocarcinoma           & LUAD & 57 & $+$1.13 & $4.2\times10^{-24}$ \\
 
 No cancer type showed significant SLC5A6 downregulation. The Human Protein Atlas classifies SLC5A6 as ``expressed in all'' tissues, consistent with its housekeeping role in vitamin absorption; however, the tumor-specific fold-changes (range $+$1.1 to $+$1.7) exceed typical physiological variation for a constitutively expressed transporter. The pan-cancer expression heatmap and forest plot are shown in Fig.~1.
 
-\begin{figure}[H]
+\begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/Fig1_SMVT_TCGA_pan_cancer.pdf}
 \caption{Pan-cancer SLC5A6 expression landscape. (a) Box plot of tumor vs.\ normal SLC5A6 mRNA across 14 TCGA cancer types. (b) Forest plot of Log$_2$ fold-changes with 95\% CI. (c) Volcano plot of significance vs.\ effect size. (d) Pan-cancer expression heatmap.}
@@ -111,7 +89,7 @@ No cancer type showed significant SLC5A6 downregulation. The Human Protein Atlas
 
 To assess the clinical relevance of SLC5A6 overexpression, we performed Kaplan-Meier survival analysis with median-split stratification across TCGA cancer types with available outcome data (Fig.~S1). Cox proportional hazards regression identified four cancer types where high SLC5A6 expression significantly associated with worse overall survival:
 
-\begin{table}[H]
+\begin{table}[t]
 \centering
 \caption{Survival analysis --- Cox regression results for SLC5A6}
 \label{tab:survival}
@@ -137,7 +115,7 @@ We next queried somatic mutation data across all 32 TCGA PanCancer Atlas studies
 
 Population-level constraint metrics from gnomAD confirmed that SLC5A6 is under minimal evolutionary selective pressure:
 
-\begin{table}[H]
+\begin{table}[t]
 \centering
 \caption{Population constraint metrics for SLC5A6}
 \label{tab:constraint}
@@ -156,14 +134,14 @@ We also evaluated the pathogenicity of germline SLC5A6 variants using the ESM-1v
 
 Together, these data establish SLC5A6 as an \textbf{expression-driven} rather than mutation-driven cancer target. The therapeutic implication is significant: pharmacological strategies should aim to exploit SMVT overexpression (e.g., substrate-conjugated prodrugs, ADC targeting) rather than inhibit a mutationally activated protein (Figs.~3, 4).
 
-\begin{figure}[H]
+\begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/Fig3_SMVT_mutation_landscape.pdf}
 \caption{SLC5A6 mutation landscape. (a) Lollipop plot of protein domain architecture with somatic mutation positions. (b) Population constraint metrics (pLI, LOEUF, \%HI). (c) Quadrant plot: expression fold-change vs.\ mutation frequency.}
 \label{fig:mutation}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/Fig4_SMVT_mutation_vs_expression.pdf}
 \caption{Mutation vs.\ expression comparison demonstrating that SLC5A6 is an expression-driven target.}
@@ -174,7 +152,7 @@ Together, these data establish SLC5A6 as an \textbf{expression-driven} rather th
 
 To map the functional neighborhood of SLC5A6, we constructed a protein--protein interaction network using STRING v12 with a confidence threshold of 0.4 (Fig.~5). Ten interaction partners were identified:
 
-\begin{table}[H]
+\begin{table}[t]
 \centering
 \caption{SLC5A6 protein--protein interaction partners (STRING v12)}
 \label{tab:string}
@@ -202,14 +180,14 @@ HLCS (holocarboxylase synthetase, score 0.635) forms a negative feedback loop wi
 
 The evidence-type heatmap (Fig.~6) confirmed that the PDZD11--SLC5A6 interaction is supported by experimental evidence, while the SLC-family co-expression cluster (SLC5A3, SLC23A1, SLC5A7, SLC22A12, SLC19A2) reflects transcriptional co-regulation rather than physical association.
 
-\begin{figure}[H]
+\begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/Fig5_SMVT_STRING_network.pdf}
 \caption{SLC5A6 protein--protein interaction network (STRING v12, confidence $\ge$ 0.4). Annotations: SLC transporters (blue), biotin cycle (green), scaffold (orange).}
 \label{fig:string}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/Fig6_SMVT_STRING_evidence_heatmap.pdf}
 \caption{STRING evidence matrix deconvoluting evidence sources for each interaction partner.}
@@ -222,7 +200,7 @@ To computationally validate the functional dependence of cancer cells on SMVT, w
 
 The top 15 DRGs revealed a striking enrichment in biotin-dependent carboxylases and TCA cycle enzymes (Table~\ref{tab:drg}). The most affected gene was citrate synthase (\textit{CS}, impact score 0.424, SMVT correlation $r=0.69$), followed by the thiamine transporter SLC19A2, pyruvate dehydrogenase subunits PDHA1 and PDHX, and the biotin-dependent carboxylases ACACB (acetyl-CoA carboxylase $\beta$) and PC (pyruvate carboxylase). Critically, PDZD11 (the sole high-confidence SMVT interactor) ranked \#9 (impact 0.378), and HLCS (holocarboxylase synthetase) ranked \#8---directly linking SMVT perturbation to its biotin-dependent interaction network.
 
-\begin{table}[H]
+\begin{table}[t]
 \centering
 \caption{Top 15 differentially regulated genes from SLC5A6 virtual knockout}
 \label{tab:drg}
@@ -273,7 +251,7 @@ The natural substrate biotin docked at $-$6.76 kcal/mol (pilot, exhaustiveness$=
 
 Unexpectedly, \textbf{barbiturates} emerged as a dominant chemical class among top hits, with a 100\% hit rate (8/8 barbiturate compounds tested scored below $-$7.0 kcal/mol):
 
-\begin{table}[H]
+\begin{table}[t]
 \centering
 \caption{Top barbiturate hits from virtual screening}
 \label{tab:barbiturates}
@@ -309,14 +287,14 @@ This result raises a provocative mechanistic hypothesis: SMVT may function as a 
 
 To further explore the barbiturate pharmacophore, we performed a targeted PubChem similarity search for glutarimide (piperidine-2,6-dione) and barbituric acid analogs, followed by direct AutoDock Vina docking of 600 candidate compounds. Docking of 598 compounds (99.7\% success rate) identified 62 hits exceeding $-$8.0 kcal/mol, with a new record of $-$9.36 kcal/mol for 3-benzyl-3-chloropiperidine-2,6-dione---a glutarimide scaffold with 5.6-fold stronger predicted affinity than the initial hit naftazone ($-$8.34 kcal/mol). Notably, piperidine-2,6-dione (glutarimide) represented 8 of the top 25 hits, surpassing even barbituric acid (10/25) in scaffold enrichment. CF\textsubscript{3}-substituted phenyl groups at the C3 position of the glutarimide ring consistently enhanced binding by $-$0.5 to $-$1.0 kcal/mol relative to unsubstituted analogs, providing a clear structure--activity relationship for lead optimization.
 
-\begin{figure}[H]
+\begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/Fig7_SMVT_virtual_screening.pdf}
 \caption{Virtual screening results. (a) Volcano plot of all 440 docked compounds. (b) Chemical space PCA. (c) Top 20 hits with clinical annotation.}
 \label{fig:screening}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/Fig8_SMVT_barbiturate_pharmacophore.pdf}
 \caption{Barbiturate pharmacophore. (a) Structural comparison of biotin ureido ring vs.\ barbituric acid malonylurea core. (b) Affinity ladder showing 100\% barbiturate hit rate.}
@@ -331,7 +309,7 @@ All eight complexes remained stable throughout 100~ns production (C$\alpha$ RMSD
 
 To validate our virtual screening predictions against experimental reference data, we re-docked all eight compounds against the recently published cryo-EM structure of biotin-bound SMVT in the occluded state~\cite{zhen2026} (PDB: 26va, 3.4~\AA{} resolution). Cross-structure comparison confirmed naftazone as the top-ranked compound in both AF2 ($-$8.03~kcal/mol) and cryo-EM ($-$7.58~kcal/mol) docking, establishing it as the most consistent SMVT ligand across receptor conformations (Fig.~S12). Phenobarbital ranked \#2 in both structures. Notably, hydromorphone showed the largest sensitivity to receptor conformation: its Vina score dropped from $-$7.72~kcal/mol (AF2) to $-$3.74~kcal/mol (cryo-EM), attributable to AF2-specific pocket geometry overfitting. The AF2 binding pocket showed 70\% recall and 80\% precision against the experimental pocket (F1=74\%), validating the overall binding site architecture.
 
-\begin{table}[H]
+\begin{table}[t]
 \centering
 \caption{100~ns MD simulation results for all eight SMVT--ligand complexes}
 \label{tab:md}
@@ -356,7 +334,7 @@ Furosemide & Sulfonamide hit & $-$8.36 & 0.56 & 0.02 & 56 \\
 
 Integrating the multi-dimensional evidence, we propose a model for SLC5A6 in cancer (Fig.~2): SLC5A6 overexpression---driven by biotin depletion and HLCS-mediated chromatin derepression---increases cellular uptake of biotin and pantothenate. Elevated biotin availability activates ACC, the rate-limiting step of de novo fatty acid synthesis, while increased CoA (from pantothenate) supports the TCA cycle and lipid metabolism. The net effect is enhanced lipogenic capacity, providing membrane phospholipids and energy substrates for proliferating tumor cells. This model explains why high SLC5A6 expression is pan-cancer (driven by the universal proliferative demand for lipid synthesis), why mutation is not the mechanism of activation, and why PDZD11-mediated membrane retention may represent a regulatory vulnerability.
 
-\begin{figure}[H]
+\begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/Fig2_SMVT_mechanism.pdf}
 \caption{Proposed SLC5A6 pro-tumorigenic mechanism. SMVT-mediated biotin uptake $\rightarrow$ ACC activation $\rightarrow$ de novo fatty acid synthesis $\rightarrow$ tumor proliferation, with HLCS-H4K12bio feedback and PDZD11 membrane anchoring.}
@@ -460,21 +438,23 @@ All analysis scripts are available in the project repository (\texttt{03\_Analys
     \item \texttt{MM-GBSA Analysis/\_figS13\_S14.py} --- GB model comparison figures
 \end{itemize}
 
-% ═══════════════════════════════════════════════════════════════
-% ACKNOWLEDGMENTS
-% ═══════════════════════════════════════════════════════════════
+\backmatter
 
-\section*{Data and Code Availability}
-The authors declare that all data supporting the findings of this study are available within the paper and its supplementary information files. Publicly available datasets used include TCGA (\url{https://portal.gdc.cancer.gov}), gnomAD (\url{https://gnomad.broadinstitute.org}), STRING (\url{https://string-db.org}), ChEMBL (\url{https://www.ebi.ac.uk/chembl}), and AlphaFold (\url{https://alphafold.ebi.ac.uk}).
+\bmhead{Supplementary information}
+Supplementary Figures S1--S14 are provided in the accompanying supplementary file.
 
-\section*{Acknowledgments}
+\bmhead{Acknowledgements}
 This study utilized data from the TCGA Research Network (\url{https://www.cancer.gov/tcga}), gnomAD, STRING, ChEMBL, AlphaFold, and the RCSB Protein Data Bank.
 
-\section*{Author Contributions}
-Z.H. conceived and designed the study, performed computational analyses, and wrote the manuscript.
+\section*{Declarations}
 
-\section*{Competing Interests}
-The authors declare no competing interests.
+\textbf{Funding}. No specific funding was received for this work.
+
+\textbf{Conflict of interest}. The authors declare no competing interests.
+
+\textbf{Author contributions}. Z.H. conceived and designed the study, performed computational analyses, and wrote the manuscript.
+
+\textbf{Data availability}. TCGA data are publicly available from the NCI Genomic Data Commons (\url{https://portal.gdc.cancer.gov}). Specific TCGA project accession numbers: TCGA-BLCA, TCGA-LUSC, TCGA-COAD, TCGA-ESCA, TCGA-STAD, TCGA-LUAD, TCGA-BRCA, TCGA-LIHC, TCGA-HNSC, TCGA-KIRC, TCGA-KIRP, TCGA-PRAD, TCGA-THCA, TCGA-UCEC. scRNA-seq data GSE178341 from GEO (\url{https://www.ncbi.nlm.nih.gov/geo/}). gnomAD at \url{https://gnomad.broadinstitute.org}. ChEMBL v34 at \url{https://www.ebi.ac.uk/chembl}. AlphaFold SMVT (AF-Q9Y289-F1) at \url{https://alphafold.ebi.ac.uk/entry/Q9Y289}. Cryo-EM SMVT structures at \url{https://www.rcsb.org} (PDB: 26va, 26vb, 26vc, 26vd, 26ve). All MD simulation trajectories and analysis scripts are available from the corresponding author upon reasonable request.
 
 % ═══════════════════════════════════════════════════════════════
 % FIGURE LEGENDS
@@ -534,98 +514,98 @@ The authors declare no competing interests.
 \clearpage
 \section*{Supplementary Figures}
 
-\begin{figure}[H]
+\begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/FigS1_SMVT_survival_KM.pdf}
 \caption{Kaplan-Meier overall survival curves for SLC5A6 high vs.\ low expression.}
 \label{fig:s1}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/FigS2_SMVT_survival_forest.pdf}
 \caption{Pan-cancer survival forest plot.}
 \label{fig:s2}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/FigS3_SMVT_family_SAR.pdf}
 \caption{Chemical family docking summary.}
 \label{fig:s3}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/FigS4_SMVT_GO_enrichment.pdf}
 \caption{GO enrichment analysis.}
 \label{fig:s4}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/FigS5_SMVT_KEGG_Reactome.pdf}
 \caption{KEGG and Reactome pathway enrichment.}
 \label{fig:s5}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/FigS6_per_residue_decomp.pdf}
 \caption{Per-residue energy decomposition.}
 \label{fig:s6}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/FigS7_hbond_occupancy.pdf}
 \caption{Hydrogen bond analysis.}
 \label{fig:s7}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/FigS8_contact_heatmap.pdf}
 \caption{Ligand-protein contact distance heatmap.}
 \label{fig:s8}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/FigS9_binding_modes.pdf}
 \caption{Binding mode visualisation.}
 \label{fig:s9}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/FigS10_pc12_fel.pdf}
 \caption{Free energy landscape (PC1 $\times$ PC2).}
 \label{fig:s10}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/FigS11_dccm.pdf}
 \caption{Dynamic cross-correlation matrices.}
 \label{fig:s11}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/FigS12_cross_structure_docking.pdf}
 \caption{Cross-structure docking validation.}
 \label{fig:s12}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/FigS13_gb_model_comparison.pdf}
 \caption{GB model comparison (OBC1 vs OBC2).}
 \label{fig:s13}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/FigS14_gb_vs_pb.pdf}
 \caption{GB model cross-validation (OBC1 vs OBC2).}
@@ -636,7 +616,6 @@ The authors declare no competing interests.
 % REFERENCES (BibTeX)
 % ═══════════════════════════════════════════════════════════════
 
-\bibliographystyle{naturemag}
 \bibliography{references}
 
 \end{document}
