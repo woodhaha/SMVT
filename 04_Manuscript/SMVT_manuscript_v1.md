@@ -1,8 +1,8 @@
 # SLC5A6 (SMVT) Is a Pan-Cancer Upregulated Metabolic Transporter Targetable by FDA-Approved Barbiturates
 
 **Target Journal**: Nature Communications  
-**Date**: 2026-07-10  
-**Status**: Submission-ready  
+**Date**: 2026-07-11  
+**Status**: Final — 31pp, 22 figures, 14 tables, 15 references  
 
 ---
 

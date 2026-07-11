@@ -65,6 +65,11 @@ MM-GBSA Analysis_Report.md
 SMVT-MD-Analysis/
 SMVT_MD/
 
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+
 # Claude / OMC operational files
 .claude/
 .omc/*
