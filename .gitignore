@@ -69,6 +69,8 @@ SMVT_MD/
 *.aux
 *.log
 *.out
+*.bbl
+*.blg
 
 # Claude / OMC operational files
 .claude/
