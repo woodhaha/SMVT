@@ -1,0 +1,43 @@
+# ChimeraX script: SMVT binding mode visualization
+# Load receptor
+open D:/Researching/SMVT/MM-GBSA Analysis/BIOTIN_receptor.pdb
+
+# Hide solvent
+~select solvent
+~show sel
+sel delete
+
+# Color receptor by chain
+color #1 lightgray
+
+# Load pocket residues
+select /A:75-80,84-88,99-106,156,259-271,277,297-305,366,423-432,527-531
+
+# Show pocket as surface
+surface #1 /A:75-80,84-88,99-106,156,259-271,277,297-305,366,423-432,527-531
+transparency #1 50
+
+# Remove the MM-GBSA minimized ligand from receptor model
+# (it may be in the receptor PDB as HETATM)
+
+# Load docked poses
+open D:/Researching/SMVT/MM-GBSA Analysis/HYDROMORPHONE_docked.pdb
+open D:/Researching/SMVT/MM-GBSA Analysis/BIOTIN_docked.pdb
+open D:/Researching/SMVT/MM-GBSA Analysis/GABAPENTIN_ENACARBIL_docked.pdb
+open D:/Researching/SMVT/MM-GBSA Analysis/NAFTAZONE_docked.pdb
+
+# Color by compound
+color #2 #9b59b6  # Hydromorphone - purple
+color #3 #3498db  # Biotin - blue
+color #4 #2ecc71  # Gabapentin - green
+color #5 #e67e22  # Nafazone - orange
+
+# Style
+style #2-5 stick
+width #2-5 0.3
+
+# View
+view
+
+# Save image
+save D:/Researching/SMVT/MM-GBSA Analysis/ALL_binding_mode.png width 1600 height 1200

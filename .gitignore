@@ -45,6 +45,26 @@ MM-GBSA Analysis/**/*_centroid.pdb
 # ChimeraX session files
 SMVT-MD-Analysis/chimerax/
 
+# MM-GBSA regenerable data (from MD trajectories + scripts)
+MM-GBSA Analysis/*.json
+MM-GBSA Analysis/ALL_*.png
+MM-GBSA Analysis/ALL_*.pdf
+MM-GBSA Analysis/SMVT_prepared.pdb
+MM-GBSA Analysis/AF-Q9Y289-F1.pdb
+MM-GBSA Analysis/*_vina_log.txt
+MM-GBSA Analysis/*.pse
+MM-GBSA Analysis/[A-Z]*/
+MM-GBSA Analysis/ligands/
+MM-GBSA Analysis/SMVT\ MM-GBSA\ Analysis.md
+MM-GBSA Analysis_Report.md
+
+# Literature PDFs (regenerable from DOI)
+01_Literature/*.pdf
+
+# Large MD analysis output dirs
+SMVT-MD-Analysis/
+SMVT_MD/
+
 # Claude / OMC operational files
 .claude/
 .omc/*
