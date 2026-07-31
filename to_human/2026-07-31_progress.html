@@ -74,12 +74,26 @@ Vina (−8.36) vs MM-GBSA (+6.4 排斥) vs MD 接触率最低 (56%) — 三方�
 71 个 ESM-2 突变映射到 cryo-EM SMVT (26va)：95% 最致病变异距 biotin 位点 >10Å，致病性与位点距离无相关 (rho=0.05)。结构学证据支持 SMVT 为表达驱动而非突变驱动。
 </div>
 
+<h2>最新进展（深夜轮次）</h2>
+<div class="card">
+<b>7. 5-HTP 假说计算验证（新发现）</b><br>
+5-HTP docked pose 与 biotin pose 几乎完全重叠（质心位移 0.37Å）——证明 5-HTP 结合在 biotin 同一底物识别位点，为"SMVT 转运 5-HTP"假说提供首个计算支持。新增 FigS15。
+</div>
+<div class="card">
+<b>8. Fig2 用旧 DE 数据修复</b><br>
+Fig2 面板 a/d 硬编码旧 log2FC（+1.1~+1.7, ESCA）→ 改为新数据（+0.44~+0.62, READ 替代 ESCA）。主图 Fig1-4 现全部基于同一套可复现 DE 数据。
+</div>
+<div class="card">
+<b>9. 完整性闭环</b><br>
+稿件最终扫描确认无残留旧数字。Fig1/2/3/4 + Table 1/2 + FigS1/S2/S15 全部基于同一套可复现数据。18 个 commit。
+</div>
+
 <h2>总结</h2>
 <div class="card">
 <b>稿件一致性审计 + 新发现全部完成</b><br>
-- 11 个 commit，稿件编译干净<br>
+- 18 个 commit，稿件编译干净<br>
 - 核心数字全部验证：DE、mutation、survival、对接分、MD、MM-GBSA、ML<br>
-- 新增投稿价值：ESM-2 致病性、Furosemide 方法学 caveat、passenger 结构证据、Vina↔MD 验证<br>
+- 新增投稿价值（6 项）：ESM-2 致病性、Furosemide caveat、passenger 结构证据、Vina↔MD 验证、5-HTP 位点验证、FigS1/S2 生存一致性<br>
 - <b>投稿就绪度显著提升</b>：无不可复现数字，全部图表数据一致
 </div>
 
