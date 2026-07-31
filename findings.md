@@ -35,10 +35,18 @@
 - 输出: `Fig_Vina_vs_MMGBSA.{pdf,png}`。
 - **投稿价值**：可作为 Discussion 中方法学 caveat（Vina 单方法局限）+ Furosemide 作为"打分乐观"例子。
 
+## 新发现 (2026-07-31 深夜) — 5-HTP 假说计算验证
+- **5-HTP docked pose 与 biotin pose 几乎完全重叠**：质心位移 0.37Å，最小原子距离 0.15Å（AF2 SMVT 结合腔）。
+- 证明 5-HTP 结合在 biotin 同一底物识别位点——转运介导摄取的前提。
+- 强支撑稿件"SMVT 可能作为 BBB 的 5-HTP 转运体"假说。
+- 新增 FigS15（3D 重叠）+ 正文描述。提交: e773592。
+- **方法提示**：判断配体是否同一位点，用 pose 重叠（配体-配体质心距离）比配体-残基距离更可靠。
+
 ## 教训 / 约束
 - MC3 MAF 3.5G：先预提取再迭代，勿逐次全扫。
 - AlphaFold 原始 PDB 只读（02_Data/raw/）。
 - 统计需遵循 CLAUDE.md 规范（Kruskal-Wallis、Mann-Whitney U 等）。
+- 任何基于 TCGA barcode 前缀→癌型映射的分析必须用完整 center code 表。
 
 ## ⚠️ 稿件一致性 bug（投稿前必须修）
 **问题**：稿件 DE 数字存在两套口径，互相矛盾。

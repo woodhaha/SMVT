@@ -42,17 +42,17 @@ plt.rcParams.update({
 OUTDIR = Path(__file__).parent
 
 # ═══ 数据 ═══
-# TCGA Tumor vs Normal (TissGDB)
+# TCGA Tumor vs Normal (recomputed, Mann-Whitney U + BH-FDR)
 cancers = ['Lung\nAdeno.\n(LUAD)', 'Lung\nSCC\n(LUSC)',
            'Colon\nAdeno.\n(COAD)', 'Bladder\n(BLCA)',
-           'Gastric\n(STAD)', 'Esophageal\n(ESCA)']
+           'Gastric\n(STAD)', 'Rectal\nAdeno.\n(READ)']
 
-tumor_mean   = np.array([1.29, 1.96, 2.78, 2.23, 1.96, 2.11])
-normal_mean  = np.array([0.16, 0.28, 1.27, 0.52, 0.52, 0.63])
-log2fc       = np.array([1.13, 1.68, 1.51, 1.71, 1.44, 1.48])
-neg_log10_p  = np.array([25.05, 19.89, 11.68, 7.62, 8.33, 3.73])  # -log10(p)
-p_values      = np.array([8.99e-26, 1.29e-20, 2.09e-12, 2.40e-8, 4.68e-9, 1.87e-4])
-fdr          = np.array([4.20e-24, 1.64e-19, 4.87e-11, 1.84e-6, 2.77e-7, 5.01e-3])
+tumor_mean   = np.array([2.22, 2.40, 2.66, 2.44, 2.38, 2.70])
+normal_mean  = np.array([1.78, 1.83, 2.20, 1.91, 1.87, 2.09])
+log2fc       = np.array([0.44, 0.57, 0.46, 0.53, 0.51, 0.62])
+neg_log10_p  = np.array([29.37, 28.76, 20.94, 9.34, 17.71, 5.30])  # -log10(p)
+p_values      = np.array([4.24e-30, 1.65e-29, 1.15e-21, 1.32e-10, 1.93e-18, 5.05e-7])
+fdr          = np.array([8.90e-29, 1.74e-28, 8.06e-21, 4.60e-10, 1.02e-17, 1.18e-6])
 
 # Expression data (simulated from reported means/significance)
 # For box plots we simulate realistic distributions
@@ -145,8 +145,7 @@ ax_b.set_yticks(y_pos)
 ax_b.set_yticklabels([c.replace('\n', ' ') for c in cancers], fontsize=6.5)
 ax_b.set_xlabel('log2(Fold Change) Tumor vs Normal', fontsize=7.5)
 ax_b.axvline(x=0, color='black', linewidth=0.5, linestyle='-')
-ax_b.axvline(x=1, color='grey', linewidth=0.3, linestyle='--', alpha=0.5)
-ax_b.set_xlim(0, 2.2)
+ax_b.set_xlim(0, 0.8)
 
 # Annotate direction
 ax_b.text(0.98, 0.02, 'Tumor ↑', transform=ax_b.transAxes, fontsize=6,
@@ -171,12 +170,12 @@ for i in range(6):
                   color=C_PANEL)
 
 ax_c.axhline(y=-np.log10(0.05), color='grey', linewidth=0.4, linestyle='--', alpha=0.5)
-ax_c.text(1.95, -np.log10(0.05) + 0.3, 'P = 0.05', fontsize=5.5, color='grey', ha='right')
+ax_c.text(0.75, -np.log10(0.05) + 0.3, 'P = 0.05', fontsize=5.5, color='grey', ha='right')
 ax_c.axhline(y=-np.log10(0.01), color='grey', linewidth=0.3, linestyle=':', alpha=0.4)
 
 ax_c.set_xlabel('log2(Fold Change)', fontsize=8)
 ax_c.set_ylabel('−log10(P-value)', fontsize=8)
-ax_c.set_xlim(0.9, 2.0)
+ax_c.set_xlim(0.3, 0.75)
 
 ax_c.text(-0.08, 1.02, 'c', transform=ax_c.transAxes, fontsize=11, fontweight='bold', va='bottom')
 
@@ -184,7 +183,7 @@ ax_c.text(-0.08, 1.02, 'c', transform=ax_c.transAxes, fontsize=11, fontweight='b
 ax_d = fig.add_axes([0.56, 0.06, 0.38, 0.42])
 
 # Build a mini heatmap
-cancer_short = ['LUAD', 'LUSC', 'COAD', 'BLCA', 'STAD', 'ESCA']
+cancer_short = ['LUAD', 'LUSC', 'COAD', 'BLCA', 'STAD', 'READ']
 metrics = ['Tumor\nMean', 'Normal\nMean', 'Log2FC', '−log10\n(P)']
 data_matrix = np.column_stack([tumor_mean, normal_mean, log2fc, neg_log10_p])
 # Normalize columns separately for heatmap
