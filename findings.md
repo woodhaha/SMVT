@@ -35,6 +35,12 @@
 - 输出: `Fig_Vina_vs_MMGBSA.{pdf,png}`。
 - **投稿价值**：可作为 Discussion 中方法学 caveat（Vina 单方法局限）+ Furosemide 作为"打分乐观"例子。
 
+## 稿件一致性补全 (2026-07-31 深夜)
+- **Fig2 面板 a/d 用旧 DE 硬编码**（log2FC +1.1~+1.7, ESCA）→ 改为新 DE 数据（+0.44~+0.62, READ 替代 ESCA），轴范围重调，倍数 1.2-1.3x。提交: edab741。
+- **Fig1 注意**：visualize_tcga_nature.py 也生成一个 Fig1 到 03_Analysis/ 根目录（不同布局），但稿件用的 Fig1 是 fig_pancan_de.py 生成（04_Manuscript/figures/），两者不同文件，无冲突。
+- Fig5/6（STRING 网络）是独立网络分析，不受 DE 影响，内容正确。
+- **最终扫描**：稿件无残留旧数字（+1.7, 141, 六癌型等全部清除）。
+
 ## 新发现 (2026-07-31 深夜) — 5-HTP 假说计算验证
 - **5-HTP docked pose 与 biotin pose 几乎完全重叠**：质心位移 0.37Å，最小原子距离 0.15Å（AF2 SMVT 结合腔）。
 - 证明 5-HTP 结合在 biotin 同一底物识别位点——转运介导摄取的前提。
