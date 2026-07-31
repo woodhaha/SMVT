@@ -35,6 +35,12 @@
 - 输出: `Fig_Vina_vs_MMGBSA.{pdf,png}`。
 - **投稿价值**：可作为 Discussion 中方法学 caveat（Vina 单方法局限）+ Furosemide 作为"打分乐观"例子。
 
+## 5-HTP-SMVT 实验方案 + 理化预验证 (2026-07-31)
+- 写 3 阶段实验方案：体外摄取 (H1) → BBB 模型 (H3 转运) → 体内 (H3 整体)，含对照与 Go/No-Go。
+- **计算预验证**：5-HTP 具 SMVT 底物识别特征（COOH + MW 220 近生物素 244 + logP 0.83 vs 0.80 + HBD/HBA 4/3）。Tanimoto: 5-HTP vs 底物 0.09-0.11 = 底物彼此相似度 → SMVT 识别特征非结构。Trp vs 5-HTP 0.675 → 需区分 SMVT/LAT1。
+- 存档: `05_Experimental/5HTP_SMVT_validation_plan.md`。提交: 81ed0cd。
+- **投稿价值**：稿件 Limitations 已声明需摄取实验，此方案即对应；预验证为 H1 提供计算支撑。
+
 ## NSAID-SMVT DDI 文献挖掘 (2026-07-31)
 - **Uchida 2015** (J Neurochem, DOI 10.1111/jnc.13092): SMVT 介导 BBB 88.7% 生物素/98.6% 泛酸摄取；**6 NSAID 直接抑制** (indomethacin, ketoprofen, diclofenac, ibuprofen, phenylbutazone, flurbiprofen)。
 - **修正稿件 DOI 错误** (uchida2015: 13089→13092)。
