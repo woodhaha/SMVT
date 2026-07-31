@@ -20,6 +20,14 @@
 - **附带修正**：正文"<2% all"说法不准确——实际 ESCA 5.9%、UCEC 3.3%、SKCM 3.2%、LUSC 3.0%、STAD 2.9% 超 2%（高突变癌型基线）。已改为准确表述（仍 passenger：多数 <2%、无 hotspot、突变率随基线 TMB）。
 - **教训**：任何基于 TCGA barcode 前缀→癌型映射的分析都必须用完整 center code 表，否则漏样本。
 
+## 新发现 (2026-07-31) — HPA 蛋白水平验证：SLC5A6 肾癌不利预后标志物
+- **动机**：稿件生存段是 RNA 层，缺蛋白层正交验证。审稿人可质疑"RNA 不等于蛋白"。
+- **HPA 证据**（WebSearch + API）：SLC5A6 蛋白证据水平 = "Evidence at protein level"，定位质膜（MCF7 IF 验证）——支撑 surface drug target。**HPA 明确列为肾癌（renal cancer）不利预后标志物**（IHC 病理数据，独立于 TCGA RNA）。
+- **与稿件吻合**：KIRC 正是稿件 8 个显著癌型之一（HR=9.2）。RNA 层信号获蛋白层独立印证。
+- **注意**：HPA 抗体 HPA036958 备注"staining not fully consistent with RNA"→ 部分肿瘤 IHC 弱/阴性，与 14/21 上调幅度有张力。稿件措辞用"corroborates"而非"validates"，如实反映。
+- 已加入稿件 122 行生存段 + 新引用 uhlens2015（DOI 10.1126/science.1260419 已 CrossRef 验证）。
+- **教训**：外部蛋白数据库（HPA）是 RNA 层结论的低成本正交验证，尤其当生存/表达发现与已知蛋白标志物吻合时。
+
 ## 新发现 (2026-07-31) — SMVT 结合特异性：5-HTP 远强于 SSRI 抗抑郁药
 - **动机**：稿件血清素轴假说会被审稿人挑战"SMVT 是否非特异转运任意脂溶性胺"。现用同一 docking 轮数据回答。
 - **同轮可比数据**（R1-R3 hand_picked）：5-HTP −7.66 vs Fluoxetine −6.13 vs Sertraline −4.25 kcal/mol。

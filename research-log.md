@@ -29,6 +29,11 @@
 - 提交: 6b2d02a, 564257e。
 - FigS3 验证：数据源（84 化合物 docking_expanded_results.csv）未变，图正确。
 
+## 2026-07-31 (深夜) — HPA 蛋白验证：SLC5A6 肾癌不利预后标志物
+- HPA API + WebSearch 确认：SLC5A6 蛋白水平证据 + 质膜定位（surface drug target 支撑）。
+- **HPA 明确列 SLC5A6 为肾癌不利预后标志物**——独立于 TCGA 的蛋白层验证，与稿件 KIRC HR=9.2 吻合。
+- 已加入稿件 122 行生存段 + uhlens2015 引用（DOI 验证）。编译后台进行。
+
 ## 2026-07-31 (深夜) — SMVT 结合特异性：5-HTP vs SSRI 对照
 - 云端 GPU 未就绪，5-HTP MD 等待中 → 转做零 GPU 的稿件补强。
 - 发现稿件血清素轴假说缺 SSRI 对照组，审稿人会问"SMVT 是否非特异"。
