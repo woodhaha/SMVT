@@ -21,6 +21,14 @@
 - 输出: `md_vina_correlation.csv` + `Fig_MD_vs_Vina_correlation.{pdf,png}`。
 - **投稿价值**：ρ=−0.83 可加入 Discussion 作计算验证（Vina 打分 → MD 稳定性 → 对接可信度）。
 
+## 新发现 (2026-07-31) — Furosemide 三方法矛盾（投稿 caveat）
+- **Vina vs MM-GBSA**（n=7 排除 Furosemide）: Pearson r=−0.808, p=0.028 — 强一致性。
+- **Furosemide 例外**：Vina −8.36（强结合）但 MM-GBSA **+6.40 kcal/mol（正排斥）**，MD 接触率最低（56%）。
+- **三重证据链**：Vina 高分 ≠ 稳定结合。Furosemide 的 Vina 打分可能过度乐观（结合模式与预测不符）。
+- MM-GBSA 数字全部吻合稿件（gabapentin −43.33 / riboflavin −41.48 / biotin −29.97 / hydromorphone −29.89 #4）。
+- 输出: `Fig_Vina_vs_MMGBSA.{pdf,png}`。
+- **投稿价值**：可作为 Discussion 中方法学 caveat（Vina 单方法局限）+ Furosemide 作为"打分乐观"例子。
+
 ## 教训 / 约束
 - MC3 MAF 3.5G：先预提取再迭代，勿逐次全扫。
 - AlphaFold 原始 PDB 只读（02_Data/raw/）。
