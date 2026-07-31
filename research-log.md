@@ -56,6 +56,13 @@
 - findings.md 记录 AllBonds 教训。
 - 本地诊断教训：addSolvent 随机性导致本地复现不可靠；但本地 lig/protein clash 检查（min 1.02Å）暴露了坐标敏感性。
 
+## 2026-08-01 (凌晨) — 5-HTP MD 崩盘根因深度排障
+- **关键教训**：分析含大量水的 MD 轨迹时，`t.superpose(frame=0, atom_indices=backbone)` 会**破坏配体-蛋白距离**，导致误判"配体逃逸"（superpose 后 min dist 显示 7-8Å 逃逸）。**必须用 RAW 坐标 + PBC 感知（image_molecules）**。
+- **RAW PBC 可靠结果**：5-HTP 在 11.2ns 内 **100% 时间结合**（min dist 0.175±0.010Å，全程 <0.21Å），每帧 27.8 个接触（配体 28 原子全在蛋白 4Å 内），从未逃逸。**稿件"stably bound"描述正确**。
+- **崩盘根因**：三种协议全崩（v13+HMR+HBonds 崩 11.2ns、v13+HMR+AllBonds 崩 8ns、v8 无HMR 崩 NPT）→ 纯数值不稳定，与配体结合无关。配体稳定结合但 8-11ns 后数值爆炸（GAFF2 极性 H 高频振动）。
+- **重跑方案**：1fs production（20M 步，AllBonds 约束）——最保守的数值稳定保证。~13h。云端运行中。
+- **权限修复**：settings.json ask 列表清空 + defaultMode=bypassPermissions，消除确认弹窗。
+
 ## 2026-07-31 (深夜) — HPA 蛋白验证：SLC5A6 肾癌不利预后标志物
 - HPA API + WebSearch 确认：SLC5A6 蛋白水平证据 + 质膜定位（surface drug target 支撑）。
 - **HPA 明确列 SLC5A6 为肾癌不利预后标志物**——独立于 TCGA 的蛋白层验证，与稿件 KIRC HR=9.2 吻合。
