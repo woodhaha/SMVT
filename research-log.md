@@ -70,6 +70,14 @@
 - 投稿包核对：40 页稿件 + 24 图 + 双封面信（NC/CR）+ 实验方案，全部就绪。
 - 唯一待办：用户决策投稿期刊（NC vs Cell Reports）。
 
+## 2026-08-01 — 模拟堂会审 3 轮（重大修改）
+- **Round 1**：3 审稿人（方法学/结构/转化）全部 Major Revision。共识问题：核黄素阴性对照失败、生存无 FDR、5-HTP top FDA 矛盾、11.2ns 误导、MD 无脂双层/Na⁺、passenger 无选择检验、假说过度推断。
+- **Round 1 修改**：FDR 校正生存（8→6 癌型 + q 值）、5-HTP 诚实化（top aromatic-amino-acid）、FigS1/S2/S16 用真实数据重生成、negative control caveat、MD 局限声明、passenger 降级、glutarimide 烷化剂警示。
+- **Round 2 复审**：R1→Minor、R2→Major（第2轮）、R3→Accept(minor)。残留：摘要/legend top-FDA 遗留、MD confirm 过度、羧基 not-essential 矛盾、KO 非正交、标题过度声称。
+- **Round 2 修改**：标题→"Predicted Ligands"、摘要/正文 establish→identify/propose、confirm→support、羧基声称软化、KO 改内部一致性、Na⁺ 断行修复。commit a229996。
+- **Round 3**：Reviewer 2 最终复审中（门槛最高）。
+- **教训**：模拟会审能有效暴露投稿硬伤（FDR 缺失、标题过度、legacy 图数据错），比人工自查更全面。FigS1/S2 曾被 generate_manuscript_figures.py 用旧 LUSC/LUAD 数据 + 合成曲线污染——审稿人抓不到但会审抓到。
+
 ## 2026-07-31 (深夜) — HPA 蛋白验证：SLC5A6 肾癌不利预后标志物
 - HPA API + WebSearch 确认：SLC5A6 蛋白水平证据 + 质膜定位（surface drug target 支撑）。
 - **HPA 明确列 SLC5A6 为肾癌不利预后标志物**——独立于 TCGA 的蛋白层验证，与稿件 KIRC HR=9.2 吻合。

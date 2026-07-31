@@ -57,6 +57,14 @@
 - **稿件整合**：正文 MD 段 + FigS15 caption 加入 5-HTP MD 证据（(a) docking overlap + (b) RMSD 面板）。编译干净。
 - **科学意义**：5-HTP 从 docking-only 升级为 docking + MD 双重验证，强化"血清素轴假说"——5-HTP 稳定占据 biotin 底物位点，是转运介导摄取的前提。
 
+## 堂会审 (2026-08-01) — 3 轮模拟审稿暴露的投稿硬伤
+- **生存分析缺 FDR 校正**：33 癌型 log-rank 未多重校正。BH-FDR 后 8→6 癌型显著（KIRP q=0.068、STAD q=0.19 落选）。**教训：任何 30+ 组比较必须 FDR**。
+- **"5-HTP top FDA compound" 事实矛盾**：hydromorphone/furosemide/naftazone/phenobarbital 分数更高且是 FDA 药；naftazone 实际非 FDA（欧洲药）。已改为"top-ranking aromatic-amino-acid candidate"。
+- **FigS1/S2 数据污染**：generate_manuscript_figures.py 用旧 LUSC/LUAD/BLCA/LIHC 癌型 + 合成曲线（np.random），与稿件正文矛盾。用真实数据重生成。
+- **核黄素阴性对照矛盾**：Vina −0.01 但 MM-GBSA #2（−41.5）、80% 接触 —— 单轨迹 MM-GBSA 是 rank-only。
+- **MD 无脂双层/Na⁺**：膜转运蛋白水盒模拟的物理局限，Methods+Limitations 声明。
+- **教训**：纯计算论文审稿核心是"声称 vs 证据"差距。多审稿人共识的批评最可信（FDR、negative control、标题过度）。
+
 ## 新发现 (2026-07-31) — ESM-2 650M 交叉验证：passenger 结论对模型规模稳健
 - **动机**：passenger 结论只依赖单一模型（ESM-2 35M），审稿人可质疑方法稳健性。
 - **交叉验证**：用 20× 更大的 esm2_t33_650M_UR50D（HF 缓存，零下载）重算全部 87 变异。
