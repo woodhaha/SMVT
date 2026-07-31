@@ -119,7 +119,7 @@ STAD & 389 & 0.55 [0.30--1.00] & $3.8\times10^{-2}$ \\
 \end{tabular}
 \end{table}
 
-The strongest associations were observed in lower-grade glioma (LGG, HR=18.0, $P<1\times10^{-4}$) and kidney clear cell carcinoma (KIRC, HR=9.2, $P<1\times10^{-4}$), where high SLC5A6 expression was associated with markedly worse overall survival. Notably, the majority of cancer types---including LUAD, LUSC, and BLCA where SLC5A6 is most consistently upregulated---showed no significant survival association. This dissociation between expression magnitude and prognostic impact suggests that SMVT overexpression is broadly required for tumour maintenance across many cancer types but only translates to differential clinical outcome in specific metabolic contexts.
+The strongest associations were observed in lower-grade glioma (LGG, HR=18.0, $P<1\times10^{-4}$) and kidney clear cell carcinoma (KIRC, HR=9.2, $P<1\times10^{-4}$), where high SLC5A6 expression was associated with markedly worse overall survival. Notably, the majority of cancer types---including LUAD, LUSC, and BLCA where SLC5A6 is most consistently upregulated---showed no significant survival association. Strikingly, this dissociation was systematic rather than random: hazard ratio was significantly negatively correlated with baseline SLC5A6 expression across the 33 cancer types (Spearman $\rho=-0.60$, $P<0.001$), and cancer types with significant survival associations had significantly lower median SLC5A6 expression than those without (median log$_2$ expression 2.11 vs.\ 2.36, Mann--Whitney $P=0.04$, Fig.~S16). This pattern suggests that in cancer types where SMVT is basally low-expressed, tumours that acquire SLC5A6 elevation represent a distinct metabolic subclass with heightened dependence on biotin/pantothenate-driven lipogenesis---and consequently worse outcome. In contrast, in LUAD/LUSC/BLCA where SMVT is already ubiquitously overexpressed, its expression loses discriminating power for prognosis. Thus SMVT's prognostic value reflects metabolic-specialization, not expression magnitude per se.
 
 \subsection{SLC5A6 Is Not a Mutation-Driven Cancer Gene}
 
@@ -523,6 +523,8 @@ This study utilized data from the TCGA Research Network (\url{https://www.cancer
 
 \noindent\textbf{Fig.~S15} \textbf{| 5-HTP engages the biotin substrate site in SMVT.} Superposition of docked poses of 5-hydroxytryptophan (5-HTP, red) and biotin (green) in the SMVT binding cavity (AlphaFold AF-Q9Y289-F1). The two ligands occupy essentially the same position (center-of-mass displacement 0.37~\AA{}, minimum inter-ligand atom distance 0.15~\AA{}), demonstrating that the top-scoring FDA compound 5-HTP engages the same substrate-recognition site as the natural ligand biotin.
 
+\noindent\textbf{Fig.~S16} \textbf{| SLC5A6 survival association is strongest in low-baseline-expression cancer types.} (a) Scatter plot of Cox hazard ratio (log scale) versus median SLC5A6 tumour expression across 33 cancer types. Hazard ratio correlates negatively with expression (Spearman $\rho=-0.60$, $P<0.001$); cancer types with significant survival associations (red) cluster at lower baseline expression. (b) Box plot comparing median SLC5A6 expression in the eight cancer types with significant survival associations versus the 25 without (Mann--Whitney $P=0.04$).
+
 % ═══════════════════════════════════════════════════════════════
 % SUPPLEMENTARY FIGURES
 % ═══════════════════════════════════════════════════════════════
@@ -633,6 +635,13 @@ This study utilized data from the TCGA Research Network (\url{https://www.cancer
 \includegraphics[width=\textwidth]{figures/FigS15_5HTP_biotin_overlap.pdf}
 \caption{5-HTP engages the biotin substrate site in SMVT. Docked poses of 5-HTP (red) and biotin (green) overlap in the SMVT binding cavity.}
 \label{fig:s15}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/FigS16_survival_vs_expression.pdf}
+\caption{SLC5A6 survival association is strongest in low-baseline-expression cancer types.}
+\label{fig:s16}
 \end{figure}
 
 % ═══════════════════════════════════════════════════════════════
