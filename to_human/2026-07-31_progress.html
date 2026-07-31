@@ -156,6 +156,27 @@ Fig2 面板 a/d 硬编码旧 log2FC（+1.1~+1.7, ESCA）→ 改为新数据（+0
 - <b>投稿就绪度显著提升</b>：无不可复现数字，全部图表数据一致
 </div>
 
+<h2>最新进展（5-HTP MD 验证 — 深夜/凌晨）</h2>
+<div class="card">
+<b>16. 5-HTP MD 动态验证：9 化合物中最稳定</b><br>
+- 崩盘前 11.2ns 轨迹分析（PBC 修正后）：Cα RMSD 0.49±0.11Å（9 化合物中最低，其余 0.53–0.70Å）<br>
+- 接触占用率 99.5%，配体 COM 漂移 0.22Å，100% 帧结合 biotin 位点<br>
+- <b>5-HTP 从 docking-only 升级为 docking + MD 双重验证</b>，支撑血清素轴假说<br>
+- 稿件 FigS15 升级双面板（docking overlap + RMSD 曲线），编译干净
+</div>
+<div class="card">
+<b>17. SSRI 特异性对照 + HPA 蛋白验证</b><br>
+- 5-HTP (−7.66) >> Fluoxetine (−6.13) > Sertraline (−4.25) — SMVT 偏好血清素前体而非 SERT 抑制剂本身<br>
+- HPA 蛋白水平确认 SLC5A6 为肾癌不利预后标志物（独立于 TCGA RNA 的正交验证，与 KIRC HR=9.2 吻合）<br>
+- 两项均加入稿件
+</div>
+<div class="card">
+<b>18. MD 数值稳定性修复（AllBonds）</b><br>
+- 崩盘根因：<code>app.HBonds</code> 不约束配体极性 H（吲哚 NH/酚 OH/羧基 OH/氨基 NH₂）→ 高频振动数值不稳定<br>
+- 修复：改用 <code>app.AllBonds</code> 约束所有重原子-H 键<br>
+- <b>完整 20ns 重跑进行中</b>（云端 weste，~6 ns/hr，预计 01:10 完成）
+</div>
+
 <h2>待决策 / 下一步</h2>
 <div class="card">
 - <b>可选深化</b>：NSAID-SMVT DDI 文献挖掘、5-HTP 假说实验设计、cryo-EM re-dock 完整列表<br>
