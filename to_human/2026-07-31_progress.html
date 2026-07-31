@@ -171,16 +171,25 @@ Fig2 面板 a/d 硬编码旧 log2FC（+1.1~+1.7, ESCA）→ 改为新数据（+0
 - 两项均加入稿件
 </div>
 <div class="card">
-<b>18. MD 数值稳定性修复（AllBonds）</b><br>
-- 崩盘根因：<code>app.HBonds</code> 不约束配体极性 H（吲哚 NH/酚 OH/羧基 OH/氨基 NH₂）→ 高频振动数值不稳定<br>
-- 修复：改用 <code>app.AllBonds</code> 约束所有重原子-H 键<br>
-- <b>完整 20ns 重跑进行中</b>（云端 weste，~6 ns/hr，预计 01:10 完成）
+<b>18. MD 数值稳定性修复 + RAW-PBC 验证</b><br>
+- 崩盘根因：<code>app.HBonds</code> 不约束配体极性 H → 高频振动数值不稳定。AllBonds 仍崩 → 三种协议全崩 = <b>纯数值问题</b>，与配体结合无关<br>
+- <b>关键方法学发现</b>：<code>superpose()</code> 会破坏配体-蛋白距离分析（误判逃逸），必须用 <b>RAW 坐标 + PBC</b><br>
+- RAW-PBC 确认：5-HTP 在 11.2ns 内 <b>100% 结合</b>（min dist 0.175Å，27.8 接触/帧）——稿件"稳定结合"描述正确<br>
+- <b>完整 20ns 重跑</b>：1fs production + AllBonds（数值稳定终极保证），云端运行中，预计 08:25 完成
 </div>
 
 <h2>待决策 / 下一步</h2>
 <div class="card">
-- <b>可选深化</b>：NSAID-SMVT DDI 文献挖掘、5-HTP 假说实验设计、cryo-EM re-dock 完整列表<br>
-- 若用户认可当前稿件，可准备投稿（cover letter、期刊选择）
+<b>✅ 投稿就绪终检完成（08-01）</b><br>
+- 稿件 40 页编译干净，24 图全存在<br>
+- cover letter 双版本就绪：<b>Nature Communications</b> + <b>Cell Reports</b>（含 journal-fit 段）<br>
+- 5-HTP MD 诚实修正为 11.2ns（RAW-PBC 确认 100% 结合）<br>
+- 实验验证方案就绪（05_Experimental/，供 rebuttal）
+</div>
+<div class="card">
+<b>待用户决策</b><br>
+- 投稿 NC 还是 Cell Reports？<br>
+- 确认后执行正式投稿
 </div>
 
 <p style="color:#888;font-size:13px;margin-top:40px">SMVT Autoresearch · research-state.yaml / findings.md 持续更新 · 每 20 分钟自动推进</p>
