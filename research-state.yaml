@@ -32,3 +32,13 @@ current_focus: 投稿就绪 — 稿件 40 页 + 24 图全在 + cover letter 更�
 - **完整 20ns 重跑（已放弃为技术债）**：4 种配置全崩（HMR+HBonds 11.2ns、HMR+AllBonds 8ns、v8 NPT、1fs+AllBonds 1ns）→ 根因是 **5-HTP GAFF 参数在长轨迹中的数值不稳定**，非 pose/约束问题。11.2ns 已用 RAW-PBC 确认 100% 结合（min dist 0.175Å，27.8 接触/帧），稿件已诚实修正为"11.2ns production"并编译干净。**投稿无需完整 20ns**。
 - 5-HTP 假说实验设计（竞争摄取实验方案）
 - 投稿系统上传
+
+## 服务器状态（2026-08-01）
+- **weste 已关机**（约 05:35，SSH shutdown）。数据已全部同步本地（8 化合物 + 5-HTP 11.2ns + 1fs 存档）。
+- 5-HTP MD 云端 GPU 总耗时 ~4 小时（4fs 20min + 2fs HBonds 1h33m + 2fs AllBonds 1h28m + v8 15min + 1fs 27min）。
+- 重新开机：AutoDL 控制台一键启动，端口/文件保留。
+
+## 投稿包（就绪）
+- 稿件 PDF 40 页 + 24 图全存在，编译干净
+- cover_letter.md（NC）+ cover_letter_CellReports.md（CR，含 journal-fit 段）
+- 实验验证方案 05_Experimental/5HTP_SMVT_validation_plan.md（供 rebuttal）

@@ -65,6 +65,11 @@
 - **最终决策（08-01）**：完整 20ns 重跑 4 种配置全崩（HBonds 11.2ns、AllBonds 8ns、v8 NPT、1fs 1ns）→ 根因 = 5-HTP GAFF 参数数值不稳定。稿件诚实修正为 11.2ns（RAW-PBC 确认 100% 结合），编译干净，commit a2203af。完整 20ns 转技术债。
 - **教训**：MD 数值崩溃排查优先级应为：(1) 先 RAW-PBC 验证配体是否真结合（勿信 superpose）；(2) 排除初始 clash；(3) 换步长/约束；(4) 重新参数化配体。5-HTP 卡在第 4 步（GAFF 参数）。
 
+## 2026-08-01 — weste 关机 + 投稿包终检
+- weste 服务器 05:35 关机（SSH shutdown），数据全部同步本地。5-HTP MD GPU 总耗时 ~4h。
+- 投稿包核对：40 页稿件 + 24 图 + 双封面信（NC/CR）+ 实验方案，全部就绪。
+- 唯一待办：用户决策投稿期刊（NC vs Cell Reports）。
+
 ## 2026-07-31 (深夜) — HPA 蛋白验证：SLC5A6 肾癌不利预后标志物
 - HPA API + WebSearch 确认：SLC5A6 蛋白水平证据 + 质膜定位（surface drug target 支撑）。
 - **HPA 明确列 SLC5A6 为肾癌不利预后标志物**——独立于 TCGA 的蛋白层验证，与稿件 KIRC HR=9.2 吻合。
