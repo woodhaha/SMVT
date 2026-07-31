@@ -35,6 +35,14 @@
 - 输出: `Fig_Vina_vs_MMGBSA.{pdf,png}`。
 - **投稿价值**：可作为 Discussion 中方法学 caveat（Vina 单方法局限）+ Furosemide 作为"打分乐观"例子。
 
+## ⚠️ 参考文献三层审计完成 (2026-07-31) — 22 个引用全部验证
+- **Layer 1 (DOI)**: CrossRef 验证全部 22 个 DOI 有效且标题匹配（上轮）。
+- **Layer 2 (PMID↔DOI)**: PubMed E-utilities 交叉验证，**修正 7 个错误 PMID**（hofman2020, geldermalsen2016, wang1999, zempleni2008, hardebo1979, shaikh2023, sheng2025, cundy2004）。全部 22 个现 PMID↔DOI 一致，0 mismatch。
+- **Layer 3 (声称匹配)**: 6 个关键引用标题与正文声称一致。
+- 补充缺失卷/页：hofman2020 (395:1208-1216), leonardi2007/zhen2026 (article number)。
+- **结论**: 稿件引用全部真实、可查、一致。提交: 97fff83 (DOI层), d0eb89f (PMID层)。
+- **教训**: 引用必须三层验证——DOI 有效不代表 PMID 也对。
+
 ## ⚠️ 参考文献全面审计 (2026-07-31) — 修复 6 处错误/编造引用
 - **批量 CrossRef 验证 22 个 DOI**，发现 6 处错误：
   1. `zhang2024` **编造**（"SMVT-ACC-FASN lung" Cancer Res, DOI 404, PMID 指向 Foxd3 论文）→ `zheng2025` (Cell Signal, 真实)
