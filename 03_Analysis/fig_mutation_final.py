@@ -41,6 +41,12 @@ code_map = {'BR':'BRCA','AP':'BRCA','BH':'BRCA','AA':'COAD','D5':'COAD','AD':'CO
     'DF':'UCEC','EO':'UCEC','AJ':'UCEC',
     'A4':'KIRP','DJ':'THCA','EI':'READ','GU':'BLCA',
     'EK':'CESC','LP':'CESC','ND':'UCS','US':'PAAD','VQ':'STAD',
+    # TCGA center codes (samples present in MC3 SLC5A6)
+    '12':'LUAD','17':'LUAD','A6':'LUAD','E2':'LUAD',
+    '23':'OV','27':'GBM','29':'CESC','E9':'CESC',
+    '33':'LUSC','BT':'LUSC','CQ':'LUSC',
+    '94':'COAD','CD':'COAD','CN':'BLCA',
+    'AB':'STAD','EM':'STAD','FI':'SKCM','IB':'STAD',
 }
 
 samples = {'BRCA':1092,'LUAD':585,'LUSC':504,'BLCA':412,'COAD':458,'LIHC':373,'STAD':443,
@@ -55,20 +61,25 @@ df = pd.read_csv(MAF, sep='\t', dtype=str)
 df['Cancer'] = df['Tumor_Sample_Barcode'].apply(mc)
 df = df[df['Cancer']!='OTHER']
 
-# Per-cancer mutation rate
+# Per-cancer mutation rate (unique patients / standard TCGA N) — corrected
 cancer_order = ['UCEC','ESCA','SKCM','LUSC','LUAD','BRCA','STAD','GBM','PAAD',
     'COAD','SARC','BLCA','HNSC','LIHC','CESC','PRAD','OV','KIRP','KIRC','LAML']
+# standard TCGA pan-cancer sample counts (patient-level)
+samples_std = {'BRCA':1092,'LUAD':585,'LUSC':504,'BLCA':412,'COAD':458,'LIHC':373,'STAD':443,
+               'HNSC':528,'KIRC':537,'ESCA':185,'SARC':261,'LGG':530,'PAAD':185,'CESC':307,
+               'UCEC':548,'OV':419,'KIRP':291,'SKCM':470,'GBM':153,'PRAD':500,'LAML':173}
 mut_rates = {}
 for c in cancer_order:
-    n = samples.get(c, 100)
-    m = len(df[df['Cancer']==c])
+    n = samples_std.get(c, 100)
+    m = df[df['Cancer']==c]['Tumor_Sample_Barcode'].str[:12].nunique() if len(df[df['Cancer']==c]) else 0
     mut_rates[c] = m/n*100
 
-# Classify mutation types
+# Classify mutation types (aligned with Results text: 96 missense, 12 truncating incl 11 nonsense+1 FSD, 5 splice)
 df['Class'] = 'Silent/Other'
-df.loc[df['Variant_Classification'].isin(['Missense_Mutation','In_Frame_Del']), 'Class'] = 'Missense'
+df.loc[df['Variant_Classification']=='Missense_Mutation', 'Class'] = 'Missense'
 df.loc[df['Variant_Classification'].isin(['Nonsense_Mutation','Frame_Shift_Del']), 'Class'] = 'Truncating'
 df.loc[df['Variant_Classification']=='Splice_Site', 'Class'] = 'Splice'
+df.loc[df['Variant_Classification']=='In_Frame_Del', 'Class'] = 'In-frame'
 
 fig = plt.figure(figsize=(14, 8))
 gs = gridspec.GridSpec(2, 2, width_ratios=[1, 0.6], height_ratios=[0.4, 0.6], hspace=0.3, wspace=0.25)

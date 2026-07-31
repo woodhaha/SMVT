@@ -21,3 +21,10 @@
 - 突变致病性 (ESM-1v/αMissense) — 稿件已提方法但输出未整合?
 - MD↔对接 ΔG 一致性 (Furosemide 偏差)
 - 泛癌生存合成进叙事
+
+## 2026-07-31 (晚) — FigS1/S2 生存图一致性修复
+- 发现 FigS1（4 癌型 LUSC/LUAD/BLCA/LIHC）和 FigS2（10 癌型）用的是旧 cBioPortal 数据，与 Table 2（8 癌型 LGG/KIRC/ACC/MESO/KIRP/SARC/UVM/STAD）矛盾。
+- 从 `pancan_survival.csv`（已验证匹配 Table 2）重生成：FigS1 = 8 面板复合 KM + HR/P 标注；FigS2 = 8 癌型 forest plot（log scale）。
+- caption 更新 4/10 → 8 癌型。编译干净。
+- 提交: 6b2d02a, 564257e。
+- FigS3 验证：数据源（84 化合物 docking_expanded_results.csv）未变，图正确。

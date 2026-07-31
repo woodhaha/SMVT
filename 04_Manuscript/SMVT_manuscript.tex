@@ -123,7 +123,7 @@ The strongest associations were observed in lower-grade glioma (LGG, HR=18.0, $P
 
 \subsection{SLC5A6 Is Not a Mutation-Driven Cancer Gene}
 
-We next queried somatic mutation data across 33 TCGA cancer types using the NCI GDC MC3 MAF collection~\cite{ellrott2018} (10,967 samples). \textbf{Only 193 SLC5A6 mutations were identified across the entire TCGA cohort (167 unique patients, mutational burden 1.5\% of samples)}, of which 114 were non-silent (96 missense, 11 nonsense, 5 splice-site, 2 frameshift/in-frame). Missense substitutions therefore account for 84.2\% of non-silent variants, with no nonsense/frameshift hotspot. This pan-cancer mutation frequency ($<$2\% in all cancer types) places SLC5A6 firmly at the passenger-gene level, consistent with its profile as an expression-driven rather than mutation-driven target. No recurrent hotspot mutations were identified; the most frequent alteration, V120I, was observed in only 5 patients.
+We next queried somatic mutation data across 33 TCGA cancer types using the NCI GDC MC3 MAF collection~\cite{ellrott2018} (10,967 samples). \textbf{Only 193 SLC5A6 mutations were identified across the entire TCGA cohort (167 unique patients, mutational burden 1.5\% of samples)}, of which 114 were non-silent (96 missense, 11 nonsense, 5 splice-site, 2 frameshift/in-frame). Missense substitutions therefore account for 84.2\% of non-silent variants, with no nonsense/frameshift hotspot. Mutation frequency was below 2\% in the majority of cancer types (12 of 18 analyzable), with the highest rates in esophageal carcinoma (6.0\%), uterine corpus endometrial carcinoma (3.3\%), melanoma (3.2\%), lung squamous carcinoma (3.0\%), and stomach adenocarcinoma (2.9\%)---elevated rates consistent with the high baseline mutational burden of these cancer types rather than evidence of positive selection. This low overall mutation frequency places SLC5A6 firmly at the passenger-gene level, consistent with its profile as an expression-driven rather than mutation-driven target. No recurrent hotspot mutations were identified; the most frequent alteration, V120I, was observed in only 5 patients.
 
 Population-level constraint metrics from gnomAD confirmed that SLC5A6 is under minimal evolutionary selective pressure:
 
@@ -149,7 +149,7 @@ Together, these data establish SLC5A6 as an \textbf{expression-driven} rather th
 \begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/Fig3_SMVT_mutation_landscape.pdf}
-\caption{SLC5A6 mutation landscape. (a) Lollipop plot of protein domain architecture with somatic mutation positions. (b) Population constraint metrics (pLI, LOEUF, \%HI). (c) Quadrant plot: expression fold-change vs.\ mutation frequency.}
+\caption{SLC5A6 mutation landscape. (a) Somatic mutation frequency per cancer type. (b) Mutation type distribution. (c) Lollipop plot of mutation positions along the protein.}
 \label{fig:mutation}
 \end{figure}
 
@@ -481,9 +481,9 @@ This study utilized data from the TCGA Research Network (\url{https://www.cancer
 
 \noindent\textbf{Fig.~2} \textbf{| SLC5A6 pro-tumorigenic mechanism.} Schematic of the SMVT--biotin--ACC--FASN axis: SLC5A6-mediated biotin uptake $\rightarrow$ ACC activation $\rightarrow$ de novo fatty acid synthesis $\rightarrow$ tumor proliferation. HLCS-H4K12bio negative feedback loop and PDZD11 membrane anchoring are depicted.
 
-\noindent\textbf{Fig.~3} \textbf{| SLC5A6 mutation landscape.} (a) Lollipop plot of protein domain architecture with somatic mutation positions. (b) Population constraint metrics (pLI, LOEUF, \%HI) compared to classic oncogenes and tumor suppressors. (c) Quadrant plot: expression fold-change vs.\ mutation frequency across cancer types.
+\noindent\textbf{Fig.~3} \textbf{| SLC5A6 mutation landscape.} (a) Somatic mutation frequency per cancer type (MC3, unique patients / TCGA N), showing rates below 2\% in most cancer types with higher rates in high-mutational-burden cancer types. Dashed line marks the 2\% passenger threshold. (b) Mutation type distribution (96 missense, 12 truncating, 5 splice-site, 1 in-frame, 79 silent/other). (c) Lollipop plot of mutation positions along the 635-aa protein, with no recurrent hotspots (most frequent: V120I in 5 patients).
 
-\noindent\textbf{Fig.~4} \textbf{| Mutation vs.\ expression comparison.} Side-by-side analysis demonstrating that SLC5A6 is an expression-driven (not mutation-driven) target.
+\noindent\textbf{Fig.~4} \textbf{| Mutation vs.\ expression comparison.} (a) Somatic mutation frequency per cancer type (MC3, unique patients), showing low rates that track baseline tumor mutational burden rather than positive selection. (b) Pan-cancer expression log$_2$ fold-change (recomputed, Mann--Whitney U + BH-FDR), demonstrating that SLC5A6 is an expression-driven (not mutation-driven) target.
 
 \noindent\textbf{Fig.~5} \textbf{| SLC5A6 protein--protein interaction network.} Hub-and-spoke STRING network (confidence $\ge$ 0.4, max 10 interactors). Node size proportional to interaction confidence; edge color indicates evidence type. Annotations: SLC transporter module (blue), biotin cycle module (green), scaffold (orange).
 
