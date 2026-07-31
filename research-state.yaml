@@ -6,16 +6,22 @@ status: active
 # SMVT: Na+-dependent multivitamin transporter (SLC5A6). 泛癌表达/突变景观 + 结构药理学 + MD。
 # 8 compounds 100ns MD 全部完成 (2026-07-04)。现处稿件 figure 精修阶段。
 
-current_focus: manuscript figure rework (Fig1 pan-cancer DE + Fig3 mutation landscape)
+current_focus: 投稿就绪 — 稿件一致性审计 + 6 项新发现 + 投稿材料完成
 
 ## 已完成 (2026-07-31)
-- Fig1 (pan-cancer DE) + Fig3 (mutation landscape) 精修
-- 稿件一致性审计：DE (Table1 6→14癌型, log2FC, 统计方法) + mutation (141→193/114) + 全部数字核对
-- MD↔Vina 相关性: Spearman ρ=-0.83 (p=0.01) — ΔG 强→MD 稳定
-- ESM-2 致病性: 86 MC3 missense, uniform distribution (passenger), R123L control top 24%
-- LaTeX 修复 (amsmath), 编译干净
+- Fig1/Fig3/Fig4 精修 + Fig2 DE 更新 + FigS1/S2 生存图重生成
+- 稿件一致性审计：DE (14/21 癌型) + mutation (193/114/167) + survival (8 癌型) + 全部数字核对
+- MC3 barcode code_map 补全（18 个中心代码，修复 22 突变丢失）
+- 新发现 6 项：ESM-2 致病性、Furosemide caveat、passenger 结构证据、Vina↔MD ρ=-0.83、5-HTP 位点重叠、FigS1/S2 一致性
+- NSAID-SMVT DDI 文献挖掘（Uchida 2015 DOI 修正 + 综述存档）
+- Nature Communications cover letter
+- 稿件完整编译：23 图全存在，0 错误
 
-## 进行中 / 候选
-- H3: 泛癌生存综合 — KM/forest 图已出，未整合进稿件叙事（需要 review）
-- H2: NSAID-SMVT DDI — 5 NSAIDs 命中，稿件已提 5-HTP serotonin 假说
-- H1: 突变致病性 — ESM-2 完成，可进一步结构映射到 cryo-EM/AlphaFold
+## 投稿就绪度：高
+- 所有主图/补充图/表格数据一致，可复现
+- 期刊政策确认：Nature Comms / Cell Reports 均不在不奖励目录
+
+## 可选下一步
+- 5-HTP 的 MD 稳定性验证（需 AutoDL 长算力）
+- 5-HTP 假说实验设计（竞争摄取实验方案）
+- 投稿系统上传
