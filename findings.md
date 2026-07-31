@@ -42,6 +42,14 @@
 - 升级稿件 line 122 从定性断言 → 数据支撑。新增 FigS16。提交: 0771364。
 - **投稿价值**：审稿人会问"为什么 LGG/KIRC 显著而 LUAD 不显著"——现在有系统数据回答。
 
+## ⚠️ 参考文献四层审计完成 (2026-07-31)
+- **Layer 1 (DOI)**: CrossRef 全部有效 + 标题匹配（修复 6 处：2 编造 + 4 错配）。
+- **Layer 2 (PMID↔DOI)**: PubMed 交叉验证，修复 7 个错误 PMID（0 不一致）。
+- **Layer 3 (标题匹配)**: 6 个关键引用标题与正文声称一致。
+- **Layer 4 (声称 vs 内容)**: 正文机制声称逐一核对论文内容——kanai1998=LAT1 ✓, prasad1998/wang1999=SMVT 克隆 ✓, hofman2020=proPSMA ✓, geldermalsen2016=ASCT2 ✓, zempleni2008=组蛋白生物素化转录抑制 ✓, uchida2015=NSAID 抑制 ✓。
+- **摘要数字 vs 数据**: 全部一致（10,967/33/14-21/8 癌型/1.5%/pLI/LOEUF/全部对接分）。
+- **结论**: 引用真实性、一致性、声称匹配度全部验证通过。投稿引用层无风险。
+
 ## ⚠️ 参考文献三层审计完成 (2026-07-31) — 22 个引用全部验证
 - **Layer 1 (DOI)**: CrossRef 验证全部 22 个 DOI 有效且标题匹配（上轮）。
 - **Layer 2 (PMID↔DOI)**: PubMed E-utilities 交叉验证，**修正 7 个错误 PMID**（hofman2020, geldermalsen2016, wang1999, zempleni2008, hardebo1979, shaikh2023, sheng2025, cundy2004）。全部 22 个现 PMID↔DOI 一致，0 mismatch。
