@@ -29,6 +29,12 @@
 - 提交: 6b2d02a, 564257e。
 - FigS3 验证：数据源（84 化合物 docking_expanded_results.csv）未变，图正确。
 
+## 2026-07-31 (深夜) — SMVT 结合特异性：5-HTP vs SSRI 对照
+- 云端 GPU 未就绪，5-HTP MD 等待中 → 转做零 GPU 的稿件补强。
+- 发现稿件血清素轴假说缺 SSRI 对照组，审稿人会问"SMVT 是否非特异"。
+- 同一 R1-R3 轮数据：5-HTP −7.66 >> Fluoxetine −6.13 > Sertraline −4.25。SMVT 偏好 5-HTP 而非 SERT 抑制剂本身。
+- 已加入稿件 Discussion。编译后台验证中。
+
 ## 2026-07-31 (夜) — ESM-2 650M 交叉验证（passenger 结论稳健性）
 - 动机：passenger 结论只靠单一 35M 模型，审稿人可挑战。
 - 用 HF 缓存的 esm2_t33_650M_UR50D 重算 87 变异（GPU，秒级）。

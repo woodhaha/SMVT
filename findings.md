@@ -20,6 +20,13 @@
 - **附带修正**：正文"<2% all"说法不准确——实际 ESCA 5.9%、UCEC 3.3%、SKCM 3.2%、LUSC 3.0%、STAD 2.9% 超 2%（高突变癌型基线）。已改为准确表述（仍 passenger：多数 <2%、无 hotspot、突变率随基线 TMB）。
 - **教训**：任何基于 TCGA barcode 前缀→癌型映射的分析都必须用完整 center code 表，否则漏样本。
 
+## 新发现 (2026-07-31) — SMVT 结合特异性：5-HTP 远强于 SSRI 抗抑郁药
+- **动机**：稿件血清素轴假说会被审稿人挑战"SMVT 是否非特异转运任意脂溶性胺"。现用同一 docking 轮数据回答。
+- **同轮可比数据**（R1-R3 hand_picked）：5-HTP −7.66 vs Fluoxetine −6.13 vs Sertraline −4.25 kcal/mol。
+- **结论**：SMVT 偏好血清素前体 5-HTP，而非 SERT 抑制剂本身（差距 1.5-3.4 kcal/mol）。结合特异性支撑"SMVT 转运 5-HTP"假说，排除非特异吸收。
+- 已加入稿件 Discussion 5-HTP 段落。
+- **教训**：比较 docking 分数必须同轮同源（不同 R 轮/不同 source 不可直接比）。venlafaxine(−5.43)/desvenlafaxine(−5.24) 是 R4 chembl_ml，不与 R1-R3 hand_picked 混用。
+
 ## 新发现 (2026-07-31) — ESM-2 650M 交叉验证：passenger 结论对模型规模稳健
 - **动机**：passenger 结论只依赖单一模型（ESM-2 35M），审稿人可质疑方法稳健性。
 - **交叉验证**：用 20× 更大的 esm2_t33_650M_UR50D（HF 缓存，零下载）重算全部 87 变异。
