@@ -35,6 +35,13 @@
 - 输出: `Fig_Vina_vs_MMGBSA.{pdf,png}`。
 - **投稿价值**：可作为 Discussion 中方法学 caveat（Vina 单方法局限）+ Furosemide 作为"打分乐观"例子。
 
+## 新发现 (2026-07-31) — 泛癌生存的"低表达特异"模式
+- **HR 与 SLC5A6 表达显著负相关** (Spearman ρ=−0.603, p<0.001, n=33 癌型)。
+- **显著癌型表达中位数更低** (2.11 vs 2.36, Mann-Whitney p=0.040)。
+- **机制解释**：在 SMVT 低基线癌型（ACC/KIRC/MESO 等），异常高表达代表代谢特化亚型（依赖生物素/泛酸→脂肪生成），预后差；在普遍高表达癌型（LUAD/LUSC/BLCA），失去区分度。
+- 升级稿件 line 122 从定性断言 → 数据支撑。新增 FigS16。提交: 0771364。
+- **投稿价值**：审稿人会问"为什么 LGG/KIRC 显著而 LUAD 不显著"——现在有系统数据回答。
+
 ## ⚠️ 参考文献三层审计完成 (2026-07-31) — 22 个引用全部验证
 - **Layer 1 (DOI)**: CrossRef 验证全部 22 个 DOI 有效且标题匹配（上轮）。
 - **Layer 2 (PMID↔DOI)**: PubMed E-utilities 交叉验证，**修正 7 个错误 PMID**（hofman2020, geldermalsen2016, wang1999, zempleni2008, hardebo1979, shaikh2023, sheng2025, cundy2004）。全部 22 个现 PMID↔DOI 一致，0 mismatch。
