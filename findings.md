@@ -18,3 +18,21 @@
 - MC3 MAF 3.5G：先预提取再迭代，勿逐次全扫。
 - AlphaFold 原始 PDB 只读（02_Data/raw/）。
 - 统计需遵循 CLAUDE.md 规范（Kruskal-Wallis、Mann-Whitney U 等）。
+
+## ⚠️ 稿件一致性 bug（投稿前必须修）
+**问题**：稿件 DE 数字存在两套口径，互相矛盾。
+- **新口径（可信，可复现）**：`run_pancancer.py` → `pancan_de.csv` → Fig1 图。Mann-Whitney U, unpaired, 全样本。**14/21 癌型显著上调**, log2FC +0.1~+0.6。摘要 "14 of 21" 与此吻合。
+- **旧口径（硬编码，不可复现）**：`visualize_mutations_nature.py` 硬编码 `log2fc=[1.13,1.68,1.51,1.71,1.44,1.48,...]` → 稿件 Table 1 + 正文 "six cancer types"。log2FC +1.1~+1.7，paired TissGDB 风格（41 COAD 对等）。
+- 正文声称 "Kruskal-Wallis with Dunn post-hoc" 但脚本实际用 Mann-Whitney U。
+- **冲突点**：Table 1 / 正文（6 癌型、+1.1~+1.7）vs 摘要 / Fig1（14 癌型、+0.1~+0.6）。
+
+**处理进展 (2026-07-31)**：
+- ✅ 用 unpaired Mann-Whitney U + BH FDR 重算 → 14/21 上调 + 2 下调（THCA/KICH）。已更新稿件 Table 1、正文 DE 段、统计方法描述。
+- ✅ 正文 mutation 段改为真实 MC3 数字：193 突变 / 167 患者 / 114 非沉默（96 missense, 11 nonsense, 5 splice, 2 indel）。missense 占非沉默 84.2%。
+- ✅ V120I 实际 5 例（非 4）→ 已改。
+- ✅ 摘要 mutation 率 0.6% → 1.5%。
+- ✅ 对接数字验证：biotin −6.762 ✓, phenobarbital −8.299 ✓, naftazone −8.339 ✓, hydromorphone −8.577 ✓, furosemide −8.358 ✓, 5-HTP −7.664 ✓, glutarimide −9.364 ✓ (pathc_v2, 598 cmpds/62 hits)。
+- ✅ MD 数字（RMSD/drift/H-bond）全部吻合 md_master_metrics.json。
+- ✅ AUC = 0.888, MCC = 0.506, MAE = 1.965 kcal/mol 全部复现（pharmacophore_ml.log）→ 与稿件吻合。
+- pLI=0.01/LOEUF=0.61、10,967 样本为外部权威来源，未核对（可接受）。
+- **结论**：稿件核心数字已全部核对。DE + mutation 两处不一致已修；其余（对接分、MD、ML）全部正确。

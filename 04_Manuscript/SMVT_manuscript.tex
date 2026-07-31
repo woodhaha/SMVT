@@ -16,6 +16,8 @@
 \usepackage{xcolor}%
 \usepackage{float}%
 \usepackage{setspace}%
+\usepackage{amsmath}%
+\usepackage{amssymb}%
 \onehalfspacing
 \hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
 
@@ -26,7 +28,7 @@
 
 \affil*[1]{\orgname{Wenzhou Medical University}, \orgaddress{\city{Wenzhou}, \country{China}}}
 
-\abstract{The sodium-dependent multivitamin transporter (SMVT/SLC5A6) mediates cellular uptake of biotin, pantothenate, and lipoate---cofactors essential for fatty acid synthesis. Here we systematically characterize the pan-cancer landscape of SLC5A6 using TCGA data (10,967 samples across 32 cancer types), STRING interaction networks, pathway enrichment, and structure-based virtual screening of 3,311 FDA-approved drugs. SLC5A6 is significantly upregulated in 14 of 21 cancer types with matched normal tissue. Survival analysis using real TCGA clinical data reveals prognostic associations in eight cancer types with cancer-type-specific directionality. SLC5A6 exhibits a very low somatic mutation rate (0.6\% of TCGA samples, all passenger-level), and population constraint metrics (pLI=0.01, LOEUF=0.61) confirm loss-of-function tolerance. Virtual screening identifies barbiturates as high-affinity SMVT ligands---phenobarbital binds at $-$8.30~kcal/mol, exceeding biotin ($-$6.76)---and reveals 5-hydroxytryptophan ($-$7.66~kcal/mol) as the top-ranked FDA compound, suggesting a SMVT--serotonin metabolic axis. Expanded glutarimide screening achieves a $-$9.36~kcal/mol record. Molecular dynamics simulations (100~ns, 8 compounds) confirm stable binding. Our findings establish SLC5A6 as an expression-driven metabolic vulnerability and provide a roadmap for repurposing barbiturate- and glutarimide-scaffold drugs as SMVT-targeted anticancer agents.}
+\abstract{The sodium-dependent multivitamin transporter (SMVT/SLC5A6) mediates cellular uptake of biotin, pantothenate, and lipoate---cofactors essential for fatty acid synthesis. Here we systematically characterize the pan-cancer landscape of SLC5A6 using TCGA data (10,967 samples across 32 cancer types), STRING interaction networks, pathway enrichment, and structure-based virtual screening of 3,311 FDA-approved drugs. SLC5A6 is significantly upregulated in 14 of 21 cancer types with matched normal tissue. Survival analysis using real TCGA clinical data reveals prognostic associations in eight cancer types with cancer-type-specific directionality. SLC5A6 exhibits a very low somatic mutation rate (1.5\% of TCGA samples, all passenger-level), and population constraint metrics (pLI=0.01, LOEUF=0.61) confirm loss-of-function tolerance. Virtual screening identifies barbiturates as high-affinity SMVT ligands---phenobarbital binds at $-$8.30~kcal/mol, exceeding biotin ($-$6.76)---and reveals 5-hydroxytryptophan ($-$7.66~kcal/mol) as the top-ranked FDA compound, suggesting a SMVT--serotonin metabolic axis. Expanded glutarimide screening achieves a $-$9.36~kcal/mol record. Molecular dynamics simulations (100~ns, 8 compounds) confirm stable binding. Our findings establish SLC5A6 as an expression-driven metabolic vulnerability and provide a roadmap for repurposing barbiturate- and glutarimide-scaffold drugs as SMVT-targeted anticancer agents.}
 
 \keywords{SLC5A6, SMVT, biotin transport, drug repurposing, virtual screening, molecular dynamics, barbiturates, glutarimide, 5-HTP}
 
@@ -56,7 +58,7 @@ Here, we present a comprehensive multi-dimensional analysis of SLC5A6 across the
 
 \subsection{SLC5A6 Is Consistently Upregulated Across Multiple Cancer Types}
 
-We analyzed SLC5A6 mRNA expression in 14 TCGA cancer types with paired tumor-normal samples (Fig.~1). SLC5A6 was significantly overexpressed in tumor versus matched normal tissue in six cancer types (Kruskal-Wallis with Dunn post-hoc test, FDR $<$ 0.05):
+We analyzed SLC5A6 mRNA expression in 21 TCGA cancer types with available normal tissue (Fig.~1). SLC5A6 was significantly overexpressed in tumor versus normal tissue in 14 cancer types (Mann--Whitney U test with Benjamini--Hochberg FDR $<$ 0.05):
 
 \begin{table}[t]
 \centering
@@ -64,19 +66,27 @@ We analyzed SLC5A6 mRNA expression in 14 TCGA cancer types with paired tumor-nor
 \label{tab:expression}
 \begin{tabular}{lcccc}
 \toprule
-Cancer Type & Abbreviation & N (T/N pairs) & Log$_2$FC & FDR \\
+Cancer Type & Abbreviation & N (T/N) & Log$_2$FC & FDR \\
 \midrule
-Bladder Urothelial Carcinoma  & BLCA & 19 & $+$1.71 & $1.8\times10^{-6}$ \\
-Lung Squamous Cell Carcinoma  & LUSC & 49 & $+$1.68 & $1.6\times10^{-19}$ \\
-Colon Adenocarcinoma          & COAD & 41 & $+$1.51 & $4.9\times10^{-11}$ \\
-Esophageal Carcinoma          & ESCA & 11 & $+$1.48 & $5.0\times10^{-3}$ \\
-Stomach Adenocarcinoma        & STAD & 27 & $+$1.44 & $2.8\times10^{-7}$ \\
-Lung Adenocarcinoma           & LUAD & 57 & $+$1.13 & $4.2\times10^{-24}$ \\
+Rectum Adenocarcinoma          & READ & 92/10 & $+$0.62 & $1.2\times10^{-6}$ \\
+Lung Squamous Cell Carcinoma  & LUSC & 498/50 & $+$0.57 & $1.7\times10^{-28}$ \\
+Bladder Urothelial Carcinoma  & BLCA & 407/19 & $+$0.53 & $4.6\times10^{-10}$ \\
+Stomach Adenocarcinoma        & STAD & 414/36 & $+$0.51 & $1.0\times10^{-17}$ \\
+Colon Adenocarcinoma          & COAD & 288/41 & $+$0.46 & $8.1\times10^{-21}$ \\
+Lung Adenocarcinoma           & LUAD & 513/59 & $+$0.44 & $8.9\times10^{-29}$ \\
+Uterine Corpus Endometrioid Carcinoma & UCEC & 180/23 & $+$0.43 & $2.2\times10^{-10}$ \\
+Cervical Squamous Cell Carcinoma & CESC & 304/3 & $+$0.42 & $5.6\times10^{-3}$ \\
+Esophageal Carcinoma          & ESCA & 181/13 & $+$0.35 & $1.8\times10^{-5}$ \\
+Cholangiocarcinoma           & CHOL & 36/9 & $+$0.29 & $8.1\times10^{-3}$ \\
+Liver Hepatocellular Carcinoma & LIHC & 369/50 & $+$0.25 & $3.7\times10^{-8}$ \\
+Head \& Neck Squamous Cell Carcinoma & HNSC & 518/44 & $+$0.15 & $2.1\times10^{-4}$ \\
+Prostate Adenocarcinoma        & PRAD & 495/52 & $+$0.13 & $3.7\times10^{-8}$ \\
+Kidney Papillary Cell Carcinoma & KIRP & 288/32 & $+$0.12 & $8.4\times10^{-5}$ \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-No cancer type showed significant SLC5A6 downregulation. The Human Protein Atlas classifies SLC5A6 as ``expressed in all'' tissues, consistent with its housekeeping role in vitamin absorption; however, the tumor-specific fold-changes (range $+$1.1 to $+$1.7) exceed typical physiological variation for a constitutively expressed transporter. The pan-cancer expression heatmap and forest plot are shown in Fig.~1.
+Only two cancer types showed significant SLC5A6 downregulation---kidney chromophobe (KICH, log$_2$FC $=$ $-$0.17, FDR $=$ $7.7\times10^{-5}$) and thyroid carcinoma (THCA, log$_2$FC $=$ $-$0.08, FDR $=$ $4.4\times10^{-6}$). The Human Protein Atlas classifies SLC5A6 as ``expressed in all'' tissues, consistent with its housekeeping role in vitamin absorption; however, the tumor-specific fold-changes (range $+$0.1 to $+$0.6) exceed typical physiological variation for a constitutively expressed transporter. The pan-cancer expression heatmap and forest plot are shown in Fig.~1.
 
 \begin{figure}[t]
 \centering
@@ -113,7 +123,7 @@ The strongest associations were observed in lower-grade glioma (LGG, HR=18.0, $P
 
 \subsection{SLC5A6 Is Not a Mutation-Driven Cancer Gene}
 
-We next queried somatic mutation data across 33 TCGA cancer types using the NCI GDC MC3 MAF collection~\cite{ellrott2018} (10,967 samples). \textbf{Only 141 SLC5A6 mutations were identified across the entire TCGA cohort (mutational burden 0.6\% of samples)}, of which 82 were non-silent (50.4\% missense, 5.7\% nonsense/frameshift). This pan-cancer mutation frequency ($<$2\% in all cancer types) places SLC5A6 firmly at the passenger-gene level, consistent with its profile as an expression-driven rather than mutation-driven target. No recurrent hotspot mutations were identified; the most frequent alteration, V120I, was observed in only 4 patients.
+We next queried somatic mutation data across 33 TCGA cancer types using the NCI GDC MC3 MAF collection~\cite{ellrott2018} (10,967 samples). \textbf{Only 193 SLC5A6 mutations were identified across the entire TCGA cohort (167 unique patients, mutational burden 1.5\% of samples)}, of which 114 were non-silent (96 missense, 11 nonsense, 5 splice-site, 2 frameshift/in-frame). Missense substitutions therefore account for 84.2\% of non-silent variants, with no nonsense/frameshift hotspot. This pan-cancer mutation frequency ($<$2\% in all cancer types) places SLC5A6 firmly at the passenger-gene level, consistent with its profile as an expression-driven rather than mutation-driven target. No recurrent hotspot mutations were identified; the most frequent alteration, V120I, was observed in only 5 patients.
 
 Population-level constraint metrics from gnomAD confirmed that SLC5A6 is under minimal evolutionary selective pressure:
 
