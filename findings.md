@@ -35,6 +35,19 @@
 - 输出: `Fig_Vina_vs_MMGBSA.{pdf,png}`。
 - **投稿价值**：可作为 Discussion 中方法学 caveat（Vina 单方法局限）+ Furosemide 作为"打分乐观"例子。
 
+## ⚠️ 参考文献全面审计 (2026-07-31) — 修复 6 处错误/编造引用
+- **批量 CrossRef 验证 22 个 DOI**，发现 6 处错误：
+  1. `zhang2024` **编造**（"SMVT-ACC-FASN lung" Cancer Res, DOI 404, PMID 指向 Foxd3 论文）→ `zheng2025` (Cell Signal, 真实)
+  2. `chen2024` DOI 指向 PTPN2 喉咽癌论文 → `wang2026` (SLC5A6-FASN 宫颈癌, DOI 10.1002/mc.70052)
+  3. `li2019` DOI 指向黑色素瘤论文 → `sun2020` (WGCNA 胃癌, DOI 10.3892/ijo.2019.4944)
+  4. `peters2017` PMID 指向胰岛素痉挛病例 → `peters2014` (Drug Resist Updat, 血清素肿瘤综述, 真实)
+  5. `agren1991` 期刊/DOI 错 (→ Acta Psychiatr Scand, 10.1111/j.1600-0447.1991.tb05574.x)
+  6. `nabokina2010` 期刊/DOI 错 (→ Am J Physiol GI Liver, 10.1152/ajpgi.00530.2010, 2011)
+  + `cundy2004`/`nakatani2008` DOI 修正
+- **全部 22 个 DOI 现验证通过，标题与稿件声称一致**。编译干净。
+- **教训**：稿件引用必须逐一 CrossRef 验证，审稿人会查。README 早先的 "Ref X — 不同首作者？Check" 标注印证了风险。
+- 提交: 97fff83。
+
 ## 5-HTP-SMVT 实验方案 + 理化预验证 (2026-07-31)
 - 写 3 阶段实验方案：体外摄取 (H1) → BBB 模型 (H3 转运) → 体内 (H3 整体)，含对照与 Go/No-Go。
 - **计算预验证**：5-HTP 具 SMVT 底物识别特征（COOH + MW 220 近生物素 244 + logP 0.83 vs 0.80 + HBD/HBA 4/3）。Tanimoto: 5-HTP vs 底物 0.09-0.11 = 底物彼此相似度 → SMVT 识别特征非结构。Trp vs 5-HTP 0.675 → 需区分 SMVT/LAT1。
