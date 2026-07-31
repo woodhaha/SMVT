@@ -6,7 +6,7 @@ status: active
 # SMVT: Na+-dependent multivitamin transporter (SLC5A6). 泛癌表达/突变景观 + 结构药理学 + MD。
 # 8 compounds 100ns MD 全部完成 (2026-07-04)。现处稿件 figure 精修阶段。
 
-current_focus: 投稿就绪 — 稿件 40 页 + 24 图全在 + cover letter 更新 + 5-HTP MD 诚实修正(11.2ns)。待提交 NC 或转入 Cell Reports。期刊策略确定(NC→Cell Reports→Theranostics/CSBJ)。
+current_focus: 投稿就绪 — 3 轮堂会审完成（3 审稿人全部通过，Minor/Accept），稿件 42 页 + FDR 校正生存 + 诚实化修改。待用户决策投稿期刊（NC/Cell Reports）。
 
 ## 已完成 (2026-07-31)
 - Fig1/Fig3/Fig4 精修 + Fig2 DE 更新 + FigS1/S2 生存图重生成
@@ -39,6 +39,12 @@ current_focus: 投稿就绪 — 稿件 40 页 + 24 图全在 + cover letter 更�
 - 重新开机：AutoDL 控制台一键启动，端口/文件保留。
 
 ## 投稿包（就绪）
-- 稿件 PDF 40 页 + 24 图全存在，编译干净
+- 稿件 PDF 42 页 + 24 图全存在，编译干净
 - cover_letter.md（NC）+ cover_letter_CellReports.md（CR，含 journal-fit 段）
 - 实验验证方案 05_Experimental/5HTP_SMVT_validation_plan.md（供 rebuttal）
+
+## 堂会审 3 轮完成（2026-08-01）
+- **Round 1**：3 审稿人全 Major Revision → **Round 2**：R1 Minor/R2 Major/R3 Accept → **Round 3**：R2 Minor（全部接受）
+- **关键修复**：FDR 生存（8→6 癌型）、5-HTP 诚实化、标题软化（Predicted Ligands）、MD confirm→support、核黄素 caveat、passenger 降级、羧基声称软化、MD 局限声明
+- **发现硬伤**：FigS1/S2 旧数据+合成曲线污染（已重生成）、"5-HTP top FDA" 事实矛盾
+- 稿件现为诚实的 hypothesis-generating 计算研究，可投稿
