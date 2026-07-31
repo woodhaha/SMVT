@@ -1,20 +1,18 @@
 # Fdb version 4
-["bibtex SMVT_manuscript"] 1785495869.97174 "SMVT_manuscript.aux" "SMVT_manuscript.bbl" "SMVT_manuscript" 1785495874.37699 0
-  "./references.bib" 1785495621 8075 8a4639c8ea58c9e004965866d64076ac ""
-  "SMVT_manuscript.aux" 1785495872 15149 d65a2540391548e7e058068f4ae040bb "pdflatex"
+["bibtex SMVT_manuscript"] 1785534922.70708 "SMVT_manuscript.aux" "SMVT_manuscript.bbl" "SMVT_manuscript" 1785534926.8728 0
+  "./references.bib" 1785501706 8346 981a61b3bdcb5d49a15e0ea7cd41dd1a ""
+  "SMVT_manuscript.aux" 1785534925 15357 02b5bfa6c40fd796bc0a6af9d9ae1095 "pdflatex"
   "c:/texlive/2026/texmf-dist/bibtex/bst/sn-jnl/sn-nature.bst" 1734053478 39056 79015bb52bc3cfff30361eb98643f89c ""
   (generated)
   "SMVT_manuscript.bbl"
   "SMVT_manuscript.blg"
   (rewritten before read)
-["pdflatex"] 1785495870.61001 "SMVT_manuscript.tex" "SMVT_manuscript.pdf" "SMVT_manuscript" 1785495874.37791 0
-  "SMVT_manuscript.aux" 1785495872 15149 d65a2540391548e7e058068f4ae040bb "pdflatex"
-  "SMVT_manuscript.bbl" 1785495870 8407 868aed6915b03e90639aed685ce656bd "bibtex SMVT_manuscript"
-  "SMVT_manuscript.out" 1785495872 6017 0e831d8b7164a2448812e89c787ed204 "pdflatex"
-  "SMVT_manuscript.tex" 1785495857 66858 4d8cddc80abea0e1216647debc6435dd ""
-  "c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1775972939 2900 1537cc8184ad1792082cd229ecc269f4 ""
+["pdflatex"] 1785534923.38999 "SMVT_manuscript.tex" "SMVT_manuscript.pdf" "SMVT_manuscript" 1785534926.87376 0
+  "SMVT_manuscript.aux" 1785534925 15357 02b5bfa6c40fd796bc0a6af9d9ae1095 "pdflatex"
+  "SMVT_manuscript.bbl" 1785534923 8744 36758959bf1ad518b931abcd4128db02 "bibtex SMVT_manuscript"
+  "SMVT_manuscript.out" 1785534925 5724 5f8ae08a3f5ebe797826a130bf7eaa1e "pdflatex"
+  "SMVT_manuscript.tex" 1785534912 72668 13cfab56aa21e8410a8e4c7f8b091ba4 ""
   "c:/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1775973842 3524 cb3e574dea2d1052e39280babc910dc8 ""
-  "c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1775973401 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1775972336 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1775972336 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1775972336 1004 54797486969f23fa377b128694d548df ""
@@ -80,7 +78,6 @@
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1775972336 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1775972336 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1775972336 31099 342ef5a582aacbd3346f3cf4579679fa ""
-  "c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb" 1775972939 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1775975276 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "c:/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1775972679 40635 c40361e206be584d448876bba8a64a3b ""
   "c:/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty" 1775972690 33961 6b5c75130e435b2bfdb9f480a09a39f9 ""
@@ -165,10 +162,10 @@
   "figures/FigS12_cross_structure_docking.pdf" 1783739302 58075 5a0f8e295f513fc94984e1b433710afe ""
   "figures/FigS13_gb_model_comparison.pdf" 1783745470 42428 204256f2be473d14e417f9ba204652d0 ""
   "figures/FigS14_gb_vs_pb.pdf" 1783745472 35823 41620d55661539e19edf41ce3eefeadc ""
-  "figures/FigS15_5HTP_biotin_overlap.pdf" 1785489033 22924 09f5faf251c2db91e5b5d55ff844a431 ""
-  "figures/FigS16_survival_vs_expression.pdf" 1785495865 21777 525ab1ad1655555a8896540875e8271c ""
-  "figures/FigS1_SMVT_survival_KM.pdf" 1785488487 28983 e86c48aa9372509d6674ffa2e28c9bf4 ""
-  "figures/FigS2_SMVT_survival_forest.pdf" 1785488534 20950 f4df1971121add24db80124cb150b3bb ""
+  "figures/FigS15_5HTP_biotin_overlap_rmsd.pdf" 1785510736 381382 e279828f34d12279cfed3c15562ebb14 ""
+  "figures/FigS16_survival_vs_expression.pdf" 1785534797 30978 ff42337d4eedbd151b4fbd48829a1bbe ""
+  "figures/FigS1_SMVT_survival_KM.pdf" 1785534553 119725 7ebee3e61a33316c7b02e17493af9fc6 ""
+  "figures/FigS2_SMVT_survival_forest.pdf" 1785534554 20015 bc26e216a879651a80adc50bddefa57b ""
   "figures/FigS3_SMVT_family_SAR.pdf" 1782636562 26061 6806737985750cd9ba495cb05498e275 ""
   "figures/FigS4_SMVT_GO_enrichment.pdf" 1783739262 7042 80c22a430993a1a8a45c949053273569 ""
   "figures/FigS5_SMVT_KEGG_Reactome.pdf" 1783739262 65101 2528610695f7a68db2104f6483659c43 ""
