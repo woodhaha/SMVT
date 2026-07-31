@@ -35,6 +35,14 @@
 - 输出: `Fig_Vina_vs_MMGBSA.{pdf,png}`。
 - **投稿价值**：可作为 Discussion 中方法学 caveat（Vina 单方法局限）+ Furosemide 作为"打分乐观"例子。
 
+## NSAID-SMVT DDI 文献挖掘 (2026-07-31)
+- **Uchida 2015** (J Neurochem, DOI 10.1111/jnc.13092): SMVT 介导 BBB 88.7% 生物素/98.6% 泛酸摄取；**6 NSAID 直接抑制** (indomethacin, ketoprofen, diclofenac, ibuprofen, phenylbutazone, flurbiprofen)。
+- **修正稿件 DOI 错误** (uchida2015: 13089→13092)。
+- **流行病学**：Shaikh 2023 (累积 NSAID→抑郁, 癌症幸存者) ✓ 验证准确；Hu 2020 (非阿司匹林 NSAID HR 1.24)；Molero 2019 (一般人群无关联)。
+- **5-HTP-SMVT 转运无直接实验证据** = 稿件假说新颖点 + 待验证空白。
+- 存档: `01_Literature/08_NSAID_SMVT_DDI_review.md` + README 索引。
+- 提交: c4d0086, ca8ca35。
+
 ## 稿件一致性补全 (2026-07-31 深夜)
 - **Fig2 面板 a/d 用旧 DE 硬编码**（log2FC +1.1~+1.7, ESCA）→ 改为新 DE 数据（+0.44~+0.62, READ 替代 ESCA），轴范围重调，倍数 1.2-1.3x。提交: edab741。
 - **Fig1 注意**：visualize_tcga_nature.py 也生成一个 Fig1 到 03_Analysis/ 根目录（不同布局），但稿件用的 Fig1 是 fig_pancan_de.py 生成（04_Manuscript/figures/），两者不同文件，无冲突。
