@@ -47,7 +47,14 @@
 - **崩盘根因**：数值不稳定（GAFF2 极性 H 高频），非物理逃逸。HMR 不覆盖配体极性 H。
 - **本地分析管线打通**：云端重建完整 solvated 拓扑（228540 原子 5HTP_final.pdb）→ scp 同步 dcd+csv+pdb → 本地 analyze_md.py 跑通。
 - **稿件**：正文 MD 段加 5-HTP 句 + FigS15 升级双面板（docking overlap + RMSD），编译干净（40 页，仅无害 figure.N 警告）。
-- 提交: (本轮)
+- 提交: e142ebf。
+
+## 2026-08-01 (凌晨) — 5-HTP MD 重跑：AllBonds 修复配体极性 H
+- **根因**：`constraints=app.HBonds` 不约束配体极性 H（吲哚 NH、酚 OH、羧基 OH、氨基 NH₂）→ 高频振动未阻尼 → 2fs 崩在 11.2ns。
+- **修复**：改用 `constraints=app.AllBonds`（约束所有重原子-H 键）。云端 weste 重跑，NVT/NPT 全过（PE 正常 −699 至 −858k），2fs production 运行中。
+- 速率 ~5.6 ns/hr（AllBonds + 2fs 代价，比 4fs 8 化合物慢），预计 ~01:04 完成。
+- findings.md 记录 AllBonds 教训。
+- 本地诊断教训：addSolvent 随机性导致本地复现不可靠；但本地 lig/protein clash 检查（min 1.02Å）暴露了坐标敏感性。
 
 ## 2026-07-31 (深夜) — HPA 蛋白验证：SLC5A6 肾癌不利预后标志物
 - HPA API + WebSearch 确认：SLC5A6 蛋白水平证据 + 质膜定位（surface drug target 支撑）。

@@ -52,6 +52,7 @@
   - 配体 COM 漂移 0.22±0.06 Å，100% 帧结合在位点
 - **重要排障**：早期"配体逃逸 13Å"是 **PBC 镜像伪影**（配体在盒子边缘 x≈13.1nm，镜像跳变到 x≈0）。`image_molecules()` + superpose 后确认从未逃逸。**教训：分析配体-蛋白距离必须做 PBC 修正，否则把结合当逃逸。**
 - **崩盘根因**：2fs production 崩在 11.2ns（NaN），非物理逃逸——数值不稳定（GAFF2 极性 H 高频振动）。HMR 不覆盖配体极性 H。
+- **修复（2026-08-01）**：改用 `constraints=app.AllBonds`（约束所有重原子-H 键，含配体极性 H），NVT/NPT 全过，2fs production 稳定重跑中。**教训：配体含多个极性 H（吲哚 NH、酚 OH、羧基 OH、氨基 NH₂）时，`app.HBonds` 约束不足，必须用 `app.AllBonds`。**
 - **稿件整合**：正文 MD 段 + FigS15 caption 加入 5-HTP MD 证据（(a) docking overlap + (b) RMSD 面板）。编译干净。
 - **科学意义**：5-HTP 从 docking-only 升级为 docking + MD 双重验证，强化"血清素轴假说"——5-HTP 稳定占据 biotin 底物位点，是转运介导摄取的前提。
 
