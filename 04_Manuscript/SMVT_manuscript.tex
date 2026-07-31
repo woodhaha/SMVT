@@ -435,21 +435,6 @@ The top 8 compounds (4 top hits + biotin reference + gabapentin enacarbil positi
 
 Binding free energies were calculated using the single-trajectory MM-GBSA approach (GBSAOBC2 implicit solvent model) on 200 evenly spaced frames from each 100~ns trajectory. Per-residue energy decomposition identified key binding pocket hotspots. Vina docking scores were used as orthogonal validation.
 
-\subsection{Data Availability}
-
-TCGA data are publicly available from the NCI Genomic Data Commons (\url{https://portal.gdc.cancer.gov}). Expression data for SLC5A6 were obtained from 33 TCGA cancer types, of which 21 had available normal tissue for differential expression analysis (BLCA, BRCA, CESC, CHOL, COAD, ESCA, GBM, HNSC, KICH, KIRC, KIRP, LIHC, LUAD, LUSC, PAAD, PCPG, PRAD, READ, STAD, THCA, UCEC). The scRNA-seq dataset GSE178341 (Pelka et al.) was obtained from GEO (\url{https://www.ncbi.nlm.nih.gov/geo/}). gnomAD constraint metrics are available at \url{https://gnomad.broadinstitute.org}. ChEMBL v34 was accessed via \url{https://www.ebi.ac.uk/chembl}. The AlphaFold SMVT structure (AF-Q9Y289-F1) is available at \url{https://alphafold.ebi.ac.uk/entry/Q9Y289}. The cryo-EM structures of SMVT are available at \url{https://www.rcsb.org} (PDB IDs: 26va--26ve). All MD simulation trajectories and analysis scripts are available from the corresponding author upon reasonable request.
-
-\subsection{Code Availability}
-
-All analysis scripts are available in the project repository (\texttt{03\_Analysis/}). Key scripts:
-\begin{itemize}
-    \item \texttt{pharmacophore\_ml\_screen.py} --- ML model training and ChEMBL library screening
-    \item \texttt{docking\_batch\_screen.py} --- batch AutoDock Vina pipeline
-    \item \texttt{analyze\_screening\_results.py} --- hit identification and SAR analysis
-    \item \texttt{MM-GBSA Analysis/\_run\_mmgbsa.py} --- OpenMM MM-GBSA binding free energy
-    \item \texttt{MM-GBSA Analysis/\_figS13\_S14.py} --- GB model comparison figures
-\end{itemize}
-
 \backmatter
 
 \bmhead{Supplementary information}
@@ -470,7 +455,7 @@ This study utilized data from the TCGA Research Network (\url{https://www.cancer
 
 \textbf{Data availability}. TCGA data are publicly available from the NCI Genomic Data Commons (\url{https://portal.gdc.cancer.gov}); RNA-seq and somatic mutation data for 33 cancer types (10,967 samples) were used, with 21 cancer types having matched normal tissue for differential expression analysis (BLCA, BRCA, CESC, CHOL, COAD, ESCA, GBM, HNSC, KICH, KIRC, KIRP, LIHC, LUAD, LUSC, PAAD, PCPG, PRAD, READ, STAD, THCA, UCEC). scRNA-seq data GSE178341 from GEO (\url{https://www.ncbi.nlm.nih.gov/geo/}). gnomAD at \url{https://gnomad.broadinstitute.org}. ChEMBL v34 at \url{https://www.ebi.ac.uk/chembl}. AlphaFold SMVT (AF-Q9Y289-F1) at \url{https://alphafold.ebi.ac.uk/entry/Q9Y289}. Cryo-EM SMVT structures at \url{https://www.rcsb.org} (PDB: 26va, 26vb, 26vc, 26vd, 26ve).
 
-\textbf{Code availability}. All analysis code---pan-cancer expression and survival, mutation landscape, ESM-2 pathogenicity scoring, virtual screening and MD simulation pipelines---is available from the corresponding author upon reasonable request, and will be deposited in a public repository (Zenodo/Figshare) upon publication.
+\textbf{Code availability}. All analysis code---pan-cancer expression and survival, mutation landscape, ESM-2 pathogenicity scoring, virtual screening and MD simulation pipelines---is available from the corresponding author upon reasonable request, and will be deposited in a public repository (Zenodo/Figshare) upon publication. Key scripts include \texttt{run\_pancancer.py} (pan-cancer expression/survival), \texttt{esm\_pathogenicity\_mc3.py} (ESM-2 pathogenicity), \texttt{pharmacophore\_ml\_screen.py} (ML screening), \texttt{docking\_batch\_screen.py} (AutoDock Vina), and \texttt{MD\_pipeline/} (OpenMM MD + MM-GBSA).
 
 % ═══════════════════════════════════════════════════════════════
 % FIGURE LEGENDS
