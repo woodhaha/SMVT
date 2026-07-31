@@ -22,7 +22,7 @@ The sodium-dependent multivitamin transporter (SMVT/SLC5A6) is a cell-surface me
 
 3. **Drug-repurposing roadmap**: MD simulations (100 ns, 8 compounds) confirm stable binding of all virtual-screening hits; cross-method validation (Vina ↔ MD ↔ MM-GBSA) shows strong agreement, providing an orthogonal-validated hit list for experimental follow-up.
 
-4. **Provocative metabolic axis**: 5-hydroxytryptophan (5-HTP), the serotonin precursor, is the top-ranked FDA compound and engages the SMVT biotin substrate site (pose overlap 0.37 Å)—suggesting SMVT may function as a blood–brain barrier 5-HTP transporter, with NSAID-mediated SMVT inhibition providing a potential mechanistic link between chronic NSAID use and depression risk.
+4. **Provocative metabolic axis**: 5-hydroxytryptophan (5-HTP), the serotonin precursor, is the top-ranked FDA compound and engages the SMVT biotin substrate site (pose overlap 0.37 Å; 11.2-ns MD confirms tight binding with the lowest backbone RMSD—0.49 Å—of all nine simulated complexes and protein contacts retained in every frame)—suggesting SMVT may function as a blood–brain barrier 5-HTP transporter, with NSAID-mediated SMVT inhibition providing a potential mechanistic link between chronic NSAID use and depression risk.
 
 ## Significance
 
