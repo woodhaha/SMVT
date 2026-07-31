@@ -8,5 +8,16 @@
 - 决策：预提取后 mutation 图迭代从 ~2min/次 降到 ~1s/次。
 
 ## 待做
-- [ ] 验证 slc5a6_mc3_maf.csv 提取完成 → 重跑 fig_mutation_final.py
-- [ ] 检查 Fig1/Fig3 输出 → outer loop 排下一个缺口
+- [x] 验证 slc5a6_mc3_maf.csv 提取完成 → 重跑 fig_mutation_final.py
+- [x] 检查 Fig1/Fig3 输出 → outer loop 排下一个缺口
+
+## 2026-07-31 — 稿件一致性审计完成
+- 逐数字核对稿件 vs 数据，修两处不一致：DE (Table1: 6→14癌型, log2FC改新口径, 统计方法改Mann-Whitney U) + mutation (141/82→193/114, V120I 4→5, burden 0.6%→1.5%)。
+- 其余数字全部验证正确：对接分、MD、ML AUC。
+- 修 LaTeX 预存错误（缺 amsmath），稿件编译干净。
+- 提交: c2cf1d8 fix(manuscript)。
+
+## 下一步候选
+- 突变致病性 (ESM-1v/αMissense) — 稿件已提方法但输出未整合?
+- MD↔对接 ΔG 一致性 (Furosemide 偏差)
+- 泛癌生存合成进叙事

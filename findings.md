@@ -9,10 +9,17 @@
 5. **功能猜想**：SMVT 是多种临床药物（巴比妥/NSAID/阿片）的非预期转运底物 → DDI 风险。
 
 ## 尚未回答的问题（gap → 候选实验）
-- **突变致病性**：哪些 SLC5A6 突变影响转运功能/底物识别？→ αMissense/ESM-1v + 结构映射。
+- **突变致病性**：哪些 SLC5A6 突变影响转运功能/底物识别？→ ESM-2 LLR + 结构映射（进行中）。
 - **MD 与对接 ΔG 的一致性**：Furosemide ΔG 强但 MD 接触率最低 (56%)，结合模式是否不同？
 - **泛癌生存**：KM/forest 图已出，未与表达/突变整合进叙事。
 - **NSAID-SMVT DDI**：6 NSAIDs 命中，临床相关性未展开。
+
+## 新发现 (2026-07-31) — Vina ΔG 与 MD 动态稳定性
+- **ΔG vs MD backbone RMSD**: Spearman ρ=−0.833, p=0.010（**显著**）。对接分越强 → MD 结构越稳定。强验证。
+- **ΔG vs 接触率**: ρ=0.571, p=0.139（趋势，未显著）。原因：Riboflavin（负对照 ΔG=−0.01）接触率 80%——体积大机械贴近，非特异。排除后相关性增强。
+- **数据源澄清**：稿件 Table 2 "Contacts%" = `hbond_occupancy_pct`（脚本注释明确 "contact occupancy"），56-85% 数据无误。
+- 输出: `md_vina_correlation.csv` + `Fig_MD_vs_Vina_correlation.{pdf,png}`。
+- **投稿价值**：ρ=−0.83 可加入 Discussion 作计算验证（Vina 打分 → MD 稳定性 → 对接可信度）。
 
 ## 教训 / 约束
 - MC3 MAF 3.5G：先预提取再迭代，勿逐次全扫。
