@@ -29,6 +29,17 @@
 - 提交: 6b2d02a, 564257e。
 - FigS3 验证：数据源（84 化合物 docking_expanded_results.csv）未变，图正确。
 
+## 2026-07-31 (深夜) — 数字一致性审计（二轮）+ fold 修正
+- 修正 5-HTP fold 声称：10x → 4.6x（e^(-0.90/RT)=4.56）。glutarimide 5.6x 验证正确。
+- 审计通过：8 癌型统一、LGG/KIRC HR 正文与 Table 一致、AUC=0.888 一致、全部 docking 分数跨章节一致（biotin 6.76 pilot / 6.82 screening 有区分）。
+- 提交: baed3ef。
+
+## 2026-07-31 (深夜) — 5-HTP MD 2fs production 稳定运行
+- 4fs production 崩（HMR 不覆盖配体极性 H）→ 改 2fs，现已稳定。
+- 速率 ~20 ns/hour，20ns 测试约 60 分钟完成。
+- 主表 8 化合物参照齐备（RMSD 0.53-0.70 全稳定），analyze_md.py 输出字段与主表一致。
+- cron 每 20 分钟监控，完成后自动分析对比。
+
 ## 2026-07-31 (深夜) — HPA 蛋白验证：SLC5A6 肾癌不利预后标志物
 - HPA API + WebSearch 确认：SLC5A6 蛋白水平证据 + 质膜定位（surface drug target 支撑）。
 - **HPA 明确列 SLC5A6 为肾癌不利预后标志物**——独立于 TCGA 的蛋白层验证，与稿件 KIRC HR=9.2 吻合。
