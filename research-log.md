@@ -75,7 +75,9 @@
 - **Round 1 修改**：FDR 校正生存（8→6 癌型 + q 值）、5-HTP 诚实化（top aromatic-amino-acid）、FigS1/S2/S16 用真实数据重生成、negative control caveat、MD 局限声明、passenger 降级、glutarimide 烷化剂警示。
 - **Round 2 复审**：R1→Minor、R2→Major（第2轮）、R3→Accept(minor)。残留：摘要/legend top-FDA 遗留、MD confirm 过度、羧基 not-essential 矛盾、KO 非正交、标题过度声称。
 - **Round 2 修改**：标题→"Predicted Ligands"、摘要/正文 establish→identify/propose、confirm→support、羧基声称软化、KO 改内部一致性、Na⁺ 断行修复。commit a229996。
-- **Round 3**：Reviewer 2 最终复审中（门槛最高）。
+- **Round 3**：Reviewer 2 最终复审 → **Minor（接受）**。3 审稿人全部通过。
+- **收尾**：Table 2 加事件列（UVM 79/22 透明化）、最终一致性扫描全过。
+- **会话状态**：2026-08-01 保存。稿件投稿就绪，唯一待办 = 用户决策期刊（NC/Cell Reports）。
 - **教训**：模拟会审能有效暴露投稿硬伤（FDR 缺失、标题过度、legacy 图数据错），比人工自查更全面。FigS1/S2 曾被 generate_manuscript_figures.py 用旧 LUSC/LUAD 数据 + 合成曲线污染——审稿人抓不到但会审抓到。
 
 ## 2026-07-31 (深夜) — HPA 蛋白验证：SLC5A6 肾癌不利预后标志物
