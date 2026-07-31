@@ -91,7 +91,7 @@ Only two cancer types showed significant SLC5A6 downregulation---kidney chromoph
 \begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/Fig1_SMVT_TCGA_pan_cancer.pdf}
-\caption{Pan-cancer SLC5A6 expression landscape. (a) Box plot of tumor vs.\ normal SLC5A6 mRNA across 14 TCGA cancer types. (b) Forest plot of Log$_2$ fold-changes with 95\% CI. (c) Volcano plot of significance vs.\ effect size. (d) Pan-cancer expression heatmap.}
+\caption{Pan-cancer SLC5A6 expression landscape. (a) Box plot of tumor vs.\ normal SLC5A6 mRNA across 21 TCGA cancer types. (b) Forest plot of Log$_2$ fold-changes with 95\% CI. (c) Volcano plot of significance vs.\ effect size. (d) Pan-cancer expression heatmap.}
 \label{fig:expression}
 \end{figure}
 
@@ -387,7 +387,7 @@ In conclusion, SLC5A6/SMVT is a pan-cancer metabolic transporter whose overexpre
 
 \subsection{TCGA Expression Analysis}
 
-RNA-seq expression data (FPKM-UQ normalized) for SLC5A6 were retrieved from TCGA via TCGAbiolinks (R/Bioconductor) for 14 cancer types with paired tumor-normal samples. Differential expression was assessed using the Kruskal-Wallis rank-sum test with Dunn post-hoc correction (Benjamini-Hochberg FDR $<$ 0.05). Log$_2$ fold-changes were computed as log$_2$(mean tumor FPKM / mean normal FPKM).
+RNA-seq expression data (FPKM-UQ normalized) for SLC5A6 were retrieved from the TCGA TOIL pipeline for 21 cancer types with available normal tissue. Differential expression was assessed using the Mann--Whitney U test with Benjamini-Hochberg FDR correction ($<$ 0.05). Log$_2$ fold-changes were computed as log$_2$(median tumor FPKM / median normal FPKM).
 
 \subsection{Survival Analysis}
 
@@ -437,7 +437,7 @@ Binding free energies were calculated using the single-trajectory MM-GBSA approa
 
 \subsection{Data Availability}
 
-TCGA data are publicly available from the NCI Genomic Data Commons (\url{https://portal.gdc.cancer.gov}). Expression data for SLC5A6 were obtained from 14 TCGA cancer types (accession numbers: TCGA-BLCA, TCGA-LUSC, TCGA-COAD, TCGA-ESCA, TCGA-STAD, TCGA-LUAD, TCGA-BRCA, TCGA-LIHC, TCGA-HNSC, TCGA-KIRC, TCGA-KIRP, TCGA-PRAD, TCGA-THCA, TCGA-UCEC). The scRNA-seq dataset GSE178341 (Pelka et al.) was obtained from GEO (\url{https://www.ncbi.nlm.nih.gov/geo/}). gnomAD constraint metrics are available at \url{https://gnomad.broadinstitute.org}. ChEMBL v34 was accessed via \url{https://www.ebi.ac.uk/chembl}. The AlphaFold SMVT structure (AF-Q9Y289-F1) is available at \url{https://alphafold.ebi.ac.uk/entry/Q9Y289}. The cryo-EM structures of SMVT are available at \url{https://www.rcsb.org} (PDB IDs: 26va--26ve). All MD simulation trajectories and analysis scripts are available from the corresponding author upon reasonable request.
+TCGA data are publicly available from the NCI Genomic Data Commons (\url{https://portal.gdc.cancer.gov}). Expression data for SLC5A6 were obtained from 33 TCGA cancer types, of which 21 had available normal tissue for differential expression analysis (BLCA, BRCA, CESC, CHOL, COAD, ESCA, GBM, HNSC, KICH, KIRC, KIRP, LIHC, LUAD, LUSC, PAAD, PCPG, PRAD, READ, STAD, THCA, UCEC). The scRNA-seq dataset GSE178341 (Pelka et al.) was obtained from GEO (\url{https://www.ncbi.nlm.nih.gov/geo/}). gnomAD constraint metrics are available at \url{https://gnomad.broadinstitute.org}. ChEMBL v34 was accessed via \url{https://www.ebi.ac.uk/chembl}. The AlphaFold SMVT structure (AF-Q9Y289-F1) is available at \url{https://alphafold.ebi.ac.uk/entry/Q9Y289}. The cryo-EM structures of SMVT are available at \url{https://www.rcsb.org} (PDB IDs: 26va--26ve). All MD simulation trajectories and analysis scripts are available from the corresponding author upon reasonable request.
 
 \subsection{Code Availability}
 
@@ -477,7 +477,7 @@ This study utilized data from the TCGA Research Network (\url{https://www.cancer
 \clearpage
 \section*{Figure Legends}
 
-\noindent\textbf{Fig.~1} \textbf{| Pan-cancer SLC5A6 expression landscape.} (a) Box plot of tumor vs.\ normal SLC5A6 mRNA across 14 TCGA cancer types. (b) Forest plot of Log$_2$ fold-changes with 95\% CI. (c) Volcano plot of significance vs.\ effect size. (d) Pan-cancer expression heatmap with hierarchical clustering.
+\noindent\textbf{Fig.~1} \textbf{| Pan-cancer SLC5A6 expression landscape.} (a) Box plot of tumor vs.\ normal SLC5A6 mRNA across 21 TCGA cancer types. (b) Forest plot of Log$_2$ fold-changes with 95\% CI. (c) Volcano plot of significance vs.\ effect size. (d) Pan-cancer expression heatmap with hierarchical clustering.
 
 \noindent\textbf{Fig.~2} \textbf{| SLC5A6 pro-tumorigenic mechanism.} Schematic of the SMVT--biotin--ACC--FASN axis: SLC5A6-mediated biotin uptake $\rightarrow$ ACC activation $\rightarrow$ de novo fatty acid synthesis $\rightarrow$ tumor proliferation. HLCS-H4K12bio negative feedback loop and PDZD11 membrane anchoring are depicted.
 
