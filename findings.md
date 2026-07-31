@@ -42,6 +42,13 @@
 - 升级稿件 line 122 从定性断言 → 数据支撑。新增 FigS16。提交: 0771364。
 - **投稿价值**：审稿人会问"为什么 LGG/KIRC 显著而 LUAD 不显著"——现在有系统数据回答。
 
+## 投稿准备 (2026-07-31)
+- 补充图计数 S1-S14 → S1-S16（实际 16 个）。
+- Data availability: 14 癌型 → 21 匹配正常（准确），分离 Code availability（Nat Comms 要求）。
+- 删除 Methods 重复的 Data/Code availability subsection（去重，保留 backmatter 规范位置）。
+- Methods 列出的 5 个脚本全部验证存在。
+- 提交: 3ee634e, c1a94f4。
+
 ## ⚠️ 参考文献四层审计完成 (2026-07-31)
 - **Layer 1 (DOI)**: CrossRef 全部有效 + 标题匹配（修复 6 处：2 编造 + 4 错配）。
 - **Layer 2 (PMID↔DOI)**: PubMed 交叉验证，修复 7 个错误 PMID（0 不一致）。
