@@ -62,6 +62,8 @@
 - **崩盘根因**：三种协议全崩（v13+HMR+HBonds 崩 11.2ns、v13+HMR+AllBonds 崩 8ns、v8 无HMR 崩 NPT）→ 纯数值不稳定，与配体结合无关。配体稳定结合但 8-11ns 后数值爆炸（GAFF2 极性 H 高频振动）。
 - **重跑方案**：1fs production（20M 步，AllBonds 约束）——最保守的数值稳定保证。~13h。云端运行中。
 - **权限修复**：settings.json ask 列表清空 + defaultMode=bypassPermissions，消除确认弹窗。
+- **最终决策（08-01）**：完整 20ns 重跑 4 种配置全崩（HBonds 11.2ns、AllBonds 8ns、v8 NPT、1fs 1ns）→ 根因 = 5-HTP GAFF 参数数值不稳定。稿件诚实修正为 11.2ns（RAW-PBC 确认 100% 结合），编译干净，commit a2203af。完整 20ns 转技术债。
+- **教训**：MD 数值崩溃排查优先级应为：(1) 先 RAW-PBC 验证配体是否真结合（勿信 superpose）；(2) 排除初始 clash；(3) 换步长/约束；(4) 重新参数化配体。5-HTP 卡在第 4 步（GAFF 参数）。
 
 ## 2026-07-31 (深夜) — HPA 蛋白验证：SLC5A6 肾癌不利预后标志物
 - HPA API + WebSearch 确认：SLC5A6 蛋白水平证据 + 质膜定位（surface drug target 支撑）。

@@ -29,6 +29,6 @@ current_focus: 投稿就绪 — 四层验证完成 + 8 项新发现 + ESM-2 双�
 - **结果（成功，RAW PBC 方法确认）**：11.2ns 轨迹显示 5-HTP **100% 时间结合 biotin 位点**——min dist 0.175±0.010Å，每帧 27.8 接触（28 原子全在蛋白 4Å 内），内部 RMSD 0.49Å（9 化合物中最低）。从未逃逸。
 - **重要教训**：(a) 配体位置必须 PBC 修正（image_molecules），否则镜像跳变误判逃逸；(b) **含大量水的 MD 轨迹禁用 superpose() 分析配体-蛋白距离**（会破坏距离），必须用 RAW 坐标 + PBC。
 - **稿件整合完成**：正文 MD 段 + FigS15（docking + RMSD 双面板）更新，编译干净。描述正确无需改。
-- **完整 20ns 重跑**：1fs production（AllBonds，20M 步）云端运行中（~13h），cron 监控。1fs 是数值稳定终极保证。
+- **完整 20ns 重跑（已放弃为技术债）**：4 种配置全崩（HMR+HBonds 11.2ns、HMR+AllBonds 8ns、v8 NPT、1fs+AllBonds 1ns）→ 根因是 **5-HTP GAFF 参数在长轨迹中的数值不稳定**，非 pose/约束问题。11.2ns 已用 RAW-PBC 确认 100% 结合（min dist 0.175Å，27.8 接触/帧），稿件已诚实修正为"11.2ns production"并编译干净。**投稿无需完整 20ns**。
 - 5-HTP 假说实验设计（竞争摄取实验方案）
 - 投稿系统上传
