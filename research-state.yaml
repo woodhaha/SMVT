@@ -8,19 +8,14 @@ status: active
 
 current_focus: manuscript figure rework (Fig1 pan-cancer DE + Fig3 mutation landscape)
 
-## 已完成的 inner-loop 工作
-- 2026-07-31: Fig1 (pan-cancer DE) 重写完成 — tumor vs normal 分开统计，33 癌型 T2A 映射修复
-- 2026-07-31: Fig3 mutation landscape — 扩展肿瘤 barcode→癌型映射 (MC3 MAF)，标注级联避让
+## 已完成 (2026-07-31)
+- Fig1 (pan-cancer DE) + Fig3 (mutation landscape) 精修
+- 稿件一致性审计：DE (Table1 6→14癌型, log2FC, 统计方法) + mutation (141→193/114) + 全部数字核对
+- MD↔Vina 相关性: Spearman ρ=-0.83 (p=0.01) — ΔG 强→MD 稳定
+- ESM-2 致病性: 86 MC3 missense, uniform distribution (passenger), R123L control top 24%
+- LaTeX 修复 (amsmath), 编译干净
 
-## 进行中
-- Fig3: mutation 脚本读 mc3_maf.gz (缺失)，需改为读预提取的 slc5a6_mc3_maf.csv
-
-## 候选假设 / 研究缺口 (待 outer loop 排优先级)
-- H1: SLC5A6 突变致病性 (αMissense / ESM-1v 扫描) — 论文 "突变不影响表达" 未达机制层面
-- H2: NSAID-SMVT 药物相互作用 (6 NSAIDs 命中，文献挖掘)
-- H3: 泛癌生存综合 (KM/forest 已出图，未合成进稿件)
-- H4: 8 compounds MD 结果 ↔ 虚拟筛选 ΔG 相关性系统分析
-
-next_steps:
-  - 等 SLC5A6 提取完成后重跑 Fig3
-  - 检查两个 figure 输出 (Fig1_DE, Fig3_mutation) 后决定下一个实验
+## 进行中 / 候选
+- H3: 泛癌生存综合 — KM/forest 图已出，未整合进稿件叙事（需要 review）
+- H2: NSAID-SMVT DDI — 5 NSAIDs 命中，稿件已提 5-HTP serotonin 假说
+- H1: 突变致病性 — ESM-2 完成，可进一步结构映射到 cryo-EM/AlphaFold

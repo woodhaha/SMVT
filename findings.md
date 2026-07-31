@@ -41,5 +41,7 @@
 - ✅ 对接数字验证：biotin −6.762 ✓, phenobarbital −8.299 ✓, naftazone −8.339 ✓, hydromorphone −8.577 ✓, furosemide −8.358 ✓, 5-HTP −7.664 ✓, glutarimide −9.364 ✓ (pathc_v2, 598 cmpds/62 hits)。
 - ✅ MD 数字（RMSD/drift/H-bond）全部吻合 md_master_metrics.json。
 - ✅ AUC = 0.888, MCC = 0.506, MAE = 1.965 kcal/mol 全部复现（pharmacophore_ml.log）→ 与稿件吻合。
+- ✅ **生存分析验证**：稿件 Table 2 的 8 癌型（LGG/KIRC/ACC/MESO/KIRP/SARC/UVM/STAD）与 `pancan_survival.csv` 逐一吻合（HR 值精确匹配）。摘要 "eight cancer types" 正确。`survival_results.csv`（旧 cBioPortal 版，LUSC/LUAD 那套）未用于稿件，无冲突。
+- ✅ **ESM-2 致病性**：86 个 MC3 missense 分析完成，uniform 分布（passenger），R123L control top 24%。修正了旧"zero missense"错误。
 - pLI=0.01/LOEUF=0.61、10,967 样本为外部权威来源，未核对（可接受）。
-- **结论**：稿件核心数字已全部核对。DE + mutation 两处不一致已修；其余（对接分、MD、ML）全部正确。
+- **结论**：稿件核心数字已全部核对。DE + mutation + 生存全部验证；对接分、MD、ML 全部正确。
