@@ -293,7 +293,7 @@ Among the top hits, three compounds merit particular attention for drug repurpos
     \item \textbf{Esketamine ($-$7.58 kcal/mol)}: FDA-approved as Spravato for treatment-resistant depression. Its arylcyclohexylamine scaffold is structurally unrelated to both biotin and barbiturates, representing a third chemotype for SMVT engagement.
 \end{enumerate}
 
-Among all compounds screened, 5-hydroxytryptophan (5-HTP, $-$7.66 kcal/mol) emerged as the top-scoring FDA-approved compound, surpassing both diclofenac ($-$7.15) and the natural substrate biotin ($-$6.76). 5-HTP is the direct precursor of serotonin (5-HT) and is used clinically for depression, fibromyalgia, and insomnia. Its exceptional docking score is attributable to three synergistic features: an indole ring for hydrophobic $\pi$-stacking, a carboxyl group satisfying the SMVT Na$^+$-coupled carboxyl recognition site, and a primary amine providing additional electrostatic interaction. Notably, 5-HTP ($M_W=220$~Da) fits the SMVT binding cavity with minimal steric strain, achieving a predicted affinity 10-fold stronger than biotin ($\Delta\Delta G = -0.90$~kcal/mol).
+Among all compounds screened, 5-hydroxytryptophan (5-HTP, $-$7.66 kcal/mol) emerged as the top-scoring FDA-approved compound, surpassing both diclofenac ($-$7.15) and the natural substrate biotin ($-$6.76). 5-HTP is the direct precursor of serotonin (5-HT) and is used clinically for depression, fibromyalgia, and insomnia. Its exceptional docking score is attributable to three synergistic features: an indole ring for hydrophobic $\pi$-stacking, a carboxyl group satisfying the SMVT Na$^+$-coupled carboxyl recognition site, and a primary amine providing additional electrostatic interaction. Notably, 5-HTP ($M_W=220$~Da) fits the SMVT binding cavity with minimal steric strain, achieving a predicted affinity 10-fold stronger than biotin ($\Delta\Delta G = -0.90$~kcal/mol). Structurally, the docked 5-HTP pose overlaps the biotin binding pose almost exactly (center-of-mass displacement 0.37~\AA{}, minimum inter-ligand atom distance 0.15~\AA{}, Fig.~S15), confirming that 5-HTP engages the same substrate-recognition site as the natural ligand---a prerequisite for transporter-mediated uptake.
 
 This result raises a provocative mechanistic hypothesis: SMVT may function as a blood--brain barrier (BBB) transporter for 5-HTP. The BBB transport of 5-HTP is incompletely understood---LAT1-mediated transport~\cite{kanai1998} and endothelial decarboxylase trapping~\cite{hardebo1979} have both been proposed, but no dedicated transporter has been identified. A PET study found significantly reduced brain uptake of [11C]5-HTP in major depression, suggesting a transport deficit~\cite{agren1991}. If SMVT contributes to BBB 5-HTP passage, NSAID-mediated SMVT inhibition---diclofenac ranked \#3 ($-$7.15 kcal/mol) and five additional fenamate NSAIDs scored below $-$6.0 kcal/mol---would reduce brain 5-HTP uptake and decrease serotonin synthesis. This would provide a structural mechanism for the clinically observed association between chronic NSAID use and increased depression risk~\cite{shaikh2023}, which has remained mechanistically unexplained. In the oncological context, tumour SMVT overexpression may drive 5-HTP uptake to fuel serotonin-mediated proliferative signalling via 5-HT receptors expressed in ovarian, hepatic, and glioblastoma cells~\cite{peters2017}, with recent evidence showing serotonin promotes an aggressive, mesenchymal-like phenotype in breast cancer~\cite{sheng2025}. This suggests a dual mechanism for SMVT-targeted therapy: simultaneous blockade of vitamin and serotonin uptake, depriving tumours of both metabolic and mitogenic support.
 
@@ -521,6 +521,8 @@ This study utilized data from the TCGA Research Network (\url{https://www.cancer
 
 \noindent\textbf{Fig.~S14} \textbf{| GB model cross-validation (OBC1 vs OBC2).} (a) Correlation between GB(OBC1) and GB(OBC2) binding free energies (R$^2 = 0.990$, Spearman $\rho = 0.976$). (b) Per-compound deviation, showing RMSD of 2.1~kcal/mol between models. \textit{Note: True MM-PBSA (Poisson--Boltzmann) results could not be obtained as the APBS calculation environment (WSL) is no longer available. The OBC1/OBC2 comparison serves as a GB model robustness check.}
 
+\noindent\textbf{Fig.~S15} \textbf{| 5-HTP engages the biotin substrate site in SMVT.} Superposition of docked poses of 5-hydroxytryptophan (5-HTP, red) and biotin (green) in the SMVT binding cavity (AlphaFold AF-Q9Y289-F1). The two ligands occupy essentially the same position (center-of-mass displacement 0.37~\AA{}, minimum inter-ligand atom distance 0.15~\AA{}), demonstrating that the top-scoring FDA compound 5-HTP engages the same substrate-recognition site as the natural ligand biotin.
+
 % ═══════════════════════════════════════════════════════════════
 % SUPPLEMENTARY FIGURES
 % ═══════════════════════════════════════════════════════════════
@@ -624,6 +626,13 @@ This study utilized data from the TCGA Research Network (\url{https://www.cancer
 \includegraphics[width=\textwidth]{figures/FigS14_gb_vs_pb.pdf}
 \caption{GB model cross-validation (OBC1 vs OBC2).}
 \label{fig:s14}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/FigS15_5HTP_biotin_overlap.pdf}
+\caption{5-HTP engages the biotin substrate site in SMVT. Docked poses of 5-HTP (red) and biotin (green) overlap in the SMVT binding cavity.}
+\label{fig:s15}
 \end{figure}
 
 % ═══════════════════════════════════════════════════════════════
