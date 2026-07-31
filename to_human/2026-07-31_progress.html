@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>SMVT Autoresearch — 进度报告</title>
+<style>
+body{font-family:'Segoe UI',system-ui,sans-serif;max-width:900px;margin:40px auto;padding:0 20px;color:#222;line-height:1.6}
+h1{color:#0d47a1;border-bottom:3px solid #0d47a1;padding-bottom:8px}
+h2{color:#1565c0;margin-top:32px}
+.ok{color:#2e7d32;font-weight:bold}.bad{color:#c62828;font-weight:bold}
+table{border-collapse:collapse;width:100%;margin:12px 0}
+th,td{border:1px solid #ddd;padding:8px 10px;text-align:left;font-size:14px}
+th{background:#e3f2fd}
+.mono{font-family:Consolas,monospace;font-size:13px}
+.card{background:#f5f5f5;border-left:4px solid #1565c0;padding:12px 16px;margin:12px 0;border-radius:0 6px 6px 0}
+</style>
+</head>
+<body>
+<h1>SMVT (SLC5A6) Autoresearch — 进度报告</h1>
+<p><strong>日期:</strong> 2026-07-31 · <strong>阶段:</strong> 稿件 figure 精修 + 一致性审计</p>
+
+<h2>本轮完成</h2>
+
+<div class="card">
+<b>1. Fig1 / Fig3 精修</b><br>
+- Fig1 泛癌 DE 重写：tumor vs normal 正确分离（slc5a6_tn.json，33 癌型 T2A 映射修复）<br>
+- Fig3 突变景观：MC3 MAF 预提取（3.5G → 193 行 SLC5A6），迭代从 2min → 1s<br>
+- 两个图重跑通过，已提交
+</div>
+
+<div class="card">
+<b>2. 稿件一致性审计（投稿前硬伤修复）</b><br>
+逐数字核对稿件 vs 可复现数据，发现并修复两处不一致，其余全部验证通过。
+</div>
+
+<h2>发现并修复的不一致</h2>
+<table>
+<tr><th>项目</th><th>稿件旧值</th><th>实际数据</th><th>状态</th></tr>
+<tr><td>DE 显著上调癌型</td><td>6 个 (Table 1)</td><td><b>14 / 21</b> (Mann-Whitney U + BH-FDR)</td><td class="bad">已修</td></tr>
+<tr><td>DE log2FC</td><td>+1.1 ~ +1.7 (硬编码)</td><td><b>+0.1 ~ +0.6</b></td><td class="bad">已修</td></tr>
+<tr><td>DE 统计方法</td><td>Kruskal-Wallis/Dunn</td><td><b>Mann-Whitney U</b></td><td class="bad">已修</td></tr>
+<tr><td>mutation 总数</td><td>141</td><td><b>193</b> (167 患者)</td><td class="bad">已修</td></tr>
+<tr><td>非沉默突变</td><td>82</td><td><b>114</b> (96 missense, 11 nonsense, 5 splice, 2 indel)</td><td class="bad">已修</td></tr>
+<tr><td>V120I 计数</td><td>4 患者</td><td><b>5 患者</b></td><td class="bad">已修</td></tr>
+<tr><td>mutation burden</td><td>0.6%</td><td><b>1.5%</b></td><td class="bad">已修</td></tr>
+</table>
+
+<h2>验证通过的数字（无需修改）</h2>
+<table>
+<tr><th>数字</th><th>验证</th></tr>
+<tr><td>对接: biotin −6.76 / phenobarbital −8.30 / naftazone −8.34 / hydromorphone −8.58 / furosemide −8.36</td><td class="ok">✓ docking_results + screening_master</td></tr>
+<tr><td>5-HTP −7.66 (top FDA)</td><td class="ok">✓ docking_expanded</td></tr>
+<tr><td>glutarimide 3-benzyl-3-chloropiperidine-2,6-dione −9.36, 598 cmpds / 62 hits</td><td class="ok">✓ docking_pathc_v2</td></tr>
+<tr><td>MD RMSD/drift/H-bond (8 化合物)</td><td class="ok">✓ md_master_metrics.json</td></tr>
+<tr><td>ML: CV AUC = 0.888, MCC = 0.506, MAE = 1.965</td><td class="ok">✓ pharmacophore_ml.log</td></tr>
+</table>
+
+<h2>新增成果（同日下午）</h2>
+<div class="card">
+<b>3. ESM-2 致病性分析（修正旧错误）</b><br>
+旧分析错误声称"TCGA 无 SLC5A6 错义突变"（cBioPortal 查询不完整）。用完整 MC3 数据重新分析 86 个错义突变：均匀致病性分布（passenger），18 个强去稳定集中在跨膜螺旋 Gly 替换。ClinVar 已知致病 R123L 对照排名 top 24% 验证方法。稿件已更新。
+</div>
+<div class="card">
+<b>4. Furosemide 三方法矛盾发现</b><br>
+Vina (−8.36) vs MM-GBSA (+6.4 排斥) vs MD 接触率最低 (56%) — 三方法揭示 Furosemide 的 Vina 打分过度乐观。作为方法学 caveat 加入 Discussion。
+</div>
+<div class="card">
+<b>5. 生存分析验证</b><br>
+稿件 Table 2 的 8 癌型 HR 与 pancan_survival.csv 逐一精确匹配，无冲突。
+</div>
+
+<h2>待决策 / 下一步</h2>
+<div class="card">
+- <b>稿件已高度完善</b>：所有核心数字已验证 + 两个新发现（ESM-2, Furosemide）已写入<br>
+- <b>剩余可选</b>：NSAID-SMVT DDI 文献挖掘、5-HTP 假说强化、突变结构映射 (cryo-EM/AlphaFold)<br>
+- 统计方法描述已统一为 Mann-Whitney U + BH-FDR
+</div>
+
+<p style="color:#888;font-size:13px;margin-top:40px">SMVT Autoresearch · research-state.yaml / findings.md 持续更新 · 每 20 分钟自动推进</p>
+</body>
+</html>
