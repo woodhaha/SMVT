@@ -24,6 +24,12 @@ Updated: 2026-07-07
 | 06 | `06_Sun2019_SLC5A6_gastric_cancer_biomarker_IntJOncol.pdf` | Sun T | 2020 | *Int. J. Oncol.* | SLC5A6 as diagnostic/prognostic biomarker in gastric cancer (AUC=1.000) | 31894266 |
 | 07 | `07_Nabokina2011_PDZD11_SMVT_interaction_AJP.pdf` | Nabokina SM | 2011 | *Am. J. Physiol.* | PDZD11 identified as SMVT-interacting PDZ scaffold (STRING 0.969) | 21183659 |
 
+## NSAID–SMVT DDI & Serotonin Axis（2026-07-31 文献挖掘）
+
+| # | File | 内容 | 关键结论 |
+|---|------|------|---------|
+| 08 | `08_NSAID_SMVT_DDI_review.md` | NSAID–SMVT–5-HTP–serotonin 机制综述 | Uchida 2015 确认 6 NSAID 抑制 SMVT (BBB 88.7%/98.6% 生物素/泛酸摄取)；Shaikh 2023/Hu 2020 支持 NSAID→抑郁关联；5-HTP-SMVT 为稿件新颖假说 |
+
 ## Papers to Add (not yet downloaded — access restricted)
 
 | First Author | Year | Journal | Title | DOI / PMID |
