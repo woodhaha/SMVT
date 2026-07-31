@@ -20,6 +20,16 @@
 - **附带修正**：正文"<2% all"说法不准确——实际 ESCA 5.9%、UCEC 3.3%、SKCM 3.2%、LUSC 3.0%、STAD 2.9% 超 2%（高突变癌型基线）。已改为准确表述（仍 passenger：多数 <2%、无 hotspot、突变率随基线 TMB）。
 - **教训**：任何基于 TCGA barcode 前缀→癌型映射的分析都必须用完整 center code 表，否则漏样本。
 
+## 5-HTP MD 云端执行 (2026-07-31) — 排障记录
+- **服务器**：weste RTX 6000D（bjb2 已释放）。md_env conda，OpenMM 8.5.2 CUDA，缺 mdtraj 已补装。
+- **排障**：
+  1. md_v8_simple.py NPT 崩（`Particle coordinate is NaN`）——v8 在 NPT 才 `addForce(barostat)`+`reinitialize(preserveState=True)`，OpenMM 8.5.2 此转换出 NaN。8 化合物实际用的是 md_v13.py（barostat 从一开始就加）。
+  2. 5-HTP 坐标在蛋白内 clash（RDKit 嵌入质心在原点 vs 结合腔中心 −2.5,1,−1）→ 平移坐标到 Vina pose 质心。
+  3. v13 的 GAFF_XML 已硬编码 weste 路径（正好匹配）。
+- **修复**：改用 md_v13.py（HMR + barostat always-on），PROD_NS 加第 3 参数。NPT PASS（PE −699→−697k），production 20ns。
+- **4fs production 仍崩**：NPT 2fs 稳定但 production 切 4fs 后 ~7 帧 NaN。原因：HMR 可能只覆盖蛋白/水 H，5-HTP 的极性 H（NH2/OH/COOH）未被重分配，4fs 太快。→ **改 2fs production 重跑**（NPT 已证明 2fs 稳）。
+- **教训**：(a) barostat 必须从一开始就加，不要中途 addForce+reinitialize；(b) 配体初始坐标必须放对位置（结合腔/Vina pose），RDKit 随机嵌入会 clash；(c) 8 化合物的 MD 可能用了 v13 而非 v8；(d) HMR 是否覆盖配体 H 存疑，配体多极性 H 时 production 保守用 2fs。
+
 ## 新发现 (2026-07-31) — HPA 蛋白水平验证：SLC5A6 肾癌不利预后标志物
 - **动机**：稿件生存段是 RNA 层，缺蛋白层正交验证。审稿人可质疑"RNA 不等于蛋白"。
 - **HPA 证据**（WebSearch + API）：SLC5A6 蛋白证据水平 = "Evidence at protein level"，定位质膜（MCF7 IF 验证）——支撑 surface drug target。**HPA 明确列为肾癌（renal cancer）不利预后标志物**（IHC 病理数据，独立于 TCGA RNA）。

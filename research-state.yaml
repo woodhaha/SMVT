@@ -21,10 +21,13 @@ current_focus: 投稿就绪 — 四层验证完成 + 8 项新发现 + ESM-2 双�
 - 所有主图/补充图/表格数据一致，可复现
 - 期刊政策确认：Nature Comms / Cell Reports 均不在不奖励目录
 
-## 可选下一步
-- 5-HTP 的 MD 稳定性验证（等云服务器配置好，在云上执行）
-  - 本地已备好全部输入：SMVT_MD/ligands/5HTP.sdf + 5HTP.pdbqt + 5HTP_template.xml（GAFF, 28原子, 与8化合物同管线）
-  - 注意 md_v8_simple.py 的 gaff-2.11.xml 是 Linux 硬编码路径，云上可用；本地 Windows 需改用 venv 路径
-  - 建议跑 20-100ns，产出与 md_master_metrics.json 同格式的 RMSD/接触率
+## 5-HTP MD（云端 weste，进行中 2026-07-31）
+- **服务器**：weste RTX 6000D 85GB（bjb2 已释放，skill 已更新）@ :42207
+- **协议**：md_v13.py（8 化合物原始协议：HMR + barostat always-on + 4fs production）
+- **关键修复**：md_v8_simple.py NPT 崩（addForce(barostat)+reinitialize 时序 bug）→ 改用 v13（barostat 从一开始就加）。5HTP 平移坐标到 Vina 结合位点（原 RDKit 嵌入在蛋白内 clash 0.08Å）。
+- **状态**：4fs production 崩（~7帧 NaN）→ **改 2fs production 重跑**，现已稳定运行（~20 ns/hour，预计 60 分钟完成 20ns）
+- 云端文件：/root/autodl-tmp/SMVT_MD/，日志 logs_5htp_2fs.log，脚本 md_v13_5htp_2fs.py（2fs，第3参数字段）
+- **注意**：HMR 可能不覆盖配体极性 H，4fs 对 5-HTP 不稳，production 保守用 2fs
+- **下一步**：20ns 跑完 → analyze_md.py 分析 → 指标对比 8 化合物 → 若稳定改 100ns（2fs 需 ~5h）
 - 5-HTP 假说实验设计（竞争摄取实验方案）
 - 投稿系统上传
