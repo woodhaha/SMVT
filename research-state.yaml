@@ -1,0 +1,26 @@
+project: SMVT (SLC5A6) 靶点研究
+started: 2026-07-31
+status: active
+
+# 项目背景
+# SMVT: Na+-dependent multivitamin transporter (SLC5A6). 泛癌表达/突变景观 + 结构药理学 + MD。
+# 8 compounds 100ns MD 全部完成 (2026-07-04)。现处稿件 figure 精修阶段。
+
+current_focus: manuscript figure rework (Fig1 pan-cancer DE + Fig3 mutation landscape)
+
+## 已完成的 inner-loop 工作
+- 2026-07-31: Fig1 (pan-cancer DE) 重写完成 — tumor vs normal 分开统计，33 癌型 T2A 映射修复
+- 2026-07-31: Fig3 mutation landscape — 扩展肿瘤 barcode→癌型映射 (MC3 MAF)，标注级联避让
+
+## 进行中
+- Fig3: mutation 脚本读 mc3_maf.gz (缺失)，需改为读预提取的 slc5a6_mc3_maf.csv
+
+## 候选假设 / 研究缺口 (待 outer loop 排优先级)
+- H1: SLC5A6 突变致病性 (αMissense / ESM-1v 扫描) — 论文 "突变不影响表达" 未达机制层面
+- H2: NSAID-SMVT 药物相互作用 (6 NSAIDs 命中，文献挖掘)
+- H3: 泛癌生存综合 (KM/forest 已出图，未合成进稿件)
+- H4: 8 compounds MD 结果 ↔ 虚拟筛选 ΔG 相关性系统分析
+
+next_steps:
+  - 等 SLC5A6 提取完成后重跑 Fig3
+  - 检查两个 figure 输出 (Fig1_DE, Fig3_mutation) 后决定下一个实验
