@@ -14,6 +14,12 @@
 - **泛癌生存**：KM/forest 图已出，未与表达/突变整合进叙事。
 - **NSAID-SMVT DDI**：6 NSAIDs 命中，临床相关性未展开。
 
+## ⚠️ 重大修复 (2026-07-31 晚) — MC3 barcode code_map 不完整
+- **问题**：fig_mutation_final.py 的 code_map 漏了 18 个 TCGA 中心代码（12,17,23,27,29,33,94,A6,AB,BT,CD,CN,CQ,E2,E9,EM,FI,IB），导致 22 个 SLC5A6 突变被标为 OTHER 丢弃。Fig3/Fig4 用不完整数据（171/102/146 vs 实际 193/114/167）。
+- **修复**：补全 18 个代码（含 LUAD/OV/GBM/CESC/LUSC/COAD/BLCA/STAD/SKCM）。Fig3 现显示 193/114/167 与正文一致。
+- **附带修正**：正文"<2% all"说法不准确——实际 ESCA 5.9%、UCEC 3.3%、SKCM 3.2%、LUSC 3.0%、STAD 2.9% 超 2%（高突变癌型基线）。已改为准确表述（仍 passenger：多数 <2%、无 hotspot、突变率随基线 TMB）。
+- **教训**：任何基于 TCGA barcode 前缀→癌型映射的分析都必须用完整 center code 表，否则漏样本。
+
 ## 新发现 (2026-07-31) — Vina ΔG 与 MD 动态稳定性
 - **ΔG vs MD backbone RMSD**: Spearman ρ=−0.833, p=0.010（**显著**）。对接分越强 → MD 结构越稳定。强验证。
 - **ΔG vs 接触率**: ρ=0.571, p=0.139（趋势，未显著）。原因：Riboflavin（负对照 ΔG=−0.01）接触率 80%——体积大机械贴近，非特异。排除后相关性增强。

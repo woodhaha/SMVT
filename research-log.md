@@ -28,3 +28,9 @@
 - caption 更新 4/10 → 8 癌型。编译干净。
 - 提交: 6b2d02a, 564257e。
 - FigS3 验证：数据源（84 化合物 docking_expanded_results.csv）未变，图正确。
+
+## 2026-07-31 (深夜) — MC3 barcode map 完整化 + Fig3/Fig4 重生成
+- **关键 bug 修复**：code_map 漏 18 个 TCGA 中心代码，丢 22 个突变。补全后 Fig3 显示 193/114/167（完整）。
+- **正文修正**：mutation 频率 "<2% all" → 准确表述（ESCA 5.9% 等超 2%，随高突变癌型基线）。
+- Fig3/Fig4 用唯一患者/标准 TCGA 样本数重生成，caption 更新。
+- 提交: c0757fb。
