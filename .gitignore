@@ -76,3 +76,9 @@ SMVT_MD/
 .claude/
 .omc/*
 !.omc/skills/
+
+# Large re-downloadable MC3 MAF (3.5G)
+02_Data/raw/mc3*.maf
+# Temp/debug artifacts
+03_Analysis/figures/_test.pdf
+03_Analysis/outputs/gdc_cache/
