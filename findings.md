@@ -45,6 +45,16 @@
 - 已加入稿件 Discussion 5-HTP 段落。
 - **教训**：比较 docking 分数必须同轮同源（不同 R 轮/不同 source 不可直接比）。venlafaxine(−5.43)/desvenlafaxine(−5.24) 是 R4 chembl_ml，不与 R1-R3 hand_picked 混用。
 
+## 新发现 (2026-07-31 深夜) — 5-HTP MD 验证成功：9 化合物中最稳定
+- **结果**：5-HTP 在 2fs production 中稳定结合 biotin 位点。崩盘前的 11.2ns 轨迹分析（PBC 修正后）：
+  - **Cα RMSD 0.49±0.11 Å**——9 个模拟化合物中最低（8 参照：0.53–0.70 Å）
+  - **接触占用率 99.5%**（>5 蛋白-配体接触），平均 26.6 接触/帧
+  - 配体 COM 漂移 0.22±0.06 Å，100% 帧结合在位点
+- **重要排障**：早期"配体逃逸 13Å"是 **PBC 镜像伪影**（配体在盒子边缘 x≈13.1nm，镜像跳变到 x≈0）。`image_molecules()` + superpose 后确认从未逃逸。**教训：分析配体-蛋白距离必须做 PBC 修正，否则把结合当逃逸。**
+- **崩盘根因**：2fs production 崩在 11.2ns（NaN），非物理逃逸——数值不稳定（GAFF2 极性 H 高频振动）。HMR 不覆盖配体极性 H。
+- **稿件整合**：正文 MD 段 + FigS15 caption 加入 5-HTP MD 证据（(a) docking overlap + (b) RMSD 面板）。编译干净。
+- **科学意义**：5-HTP 从 docking-only 升级为 docking + MD 双重验证，强化"血清素轴假说"——5-HTP 稳定占据 biotin 底物位点，是转运介导摄取的前提。
+
 ## 新发现 (2026-07-31) — ESM-2 650M 交叉验证：passenger 结论对模型规模稳健
 - **动机**：passenger 结论只依赖单一模型（ESM-2 35M），审稿人可质疑方法稳健性。
 - **交叉验证**：用 20× 更大的 esm2_t33_650M_UR50D（HF 缓存，零下载）重算全部 87 变异。

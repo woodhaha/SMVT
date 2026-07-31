@@ -40,6 +40,15 @@
 - 主表 8 化合物参照齐备（RMSD 0.53-0.70 全稳定），analyze_md.py 输出字段与主表一致。
 - cron 每 20 分钟监控，完成后自动分析对比。
 
+## 2026-07-31 (深夜) — 5-HTP MD 崩盘分析 + 验证成功
+- **崩盘**：2fs production 跑到 11.2ns（214/400 帧）后 `Particle coordinate is NaN`，进程死。8 化合物全稳定 100ns，唯独 5-HTP 崩。
+- **排障关键**：最初分析配体 COM 漂移显示"逃逸 13Å"——实为 **PBC 镜像伪影**（13.2nm 盒子边缘，配体 x≈13.1 与 x≈0 镜像跳变）。`image_molecules()` PBC 修正后确认配体 100% 结合位点。
+- **结果**：11.2ns 轨迹 Cα RMSD 0.49±0.11Å（9 化合物最低），接触占用率 99.5%，配体 COM 漂移 0.22±0.06Å。**5-HTP MD 验证成功**。
+- **崩盘根因**：数值不稳定（GAFF2 极性 H 高频），非物理逃逸。HMR 不覆盖配体极性 H。
+- **本地分析管线打通**：云端重建完整 solvated 拓扑（228540 原子 5HTP_final.pdb）→ scp 同步 dcd+csv+pdb → 本地 analyze_md.py 跑通。
+- **稿件**：正文 MD 段加 5-HTP 句 + FigS15 升级双面板（docking overlap + RMSD），编译干净（40 页，仅无害 figure.N 警告）。
+- 提交: (本轮)
+
 ## 2026-07-31 (深夜) — HPA 蛋白验证：SLC5A6 肾癌不利预后标志物
 - HPA API + WebSearch 确认：SLC5A6 蛋白水平证据 + 质膜定位（surface drug target 支撑）。
 - **HPA 明确列 SLC5A6 为肾癌不利预后标志物**——独立于 TCGA 的蛋白层验证，与稿件 KIRC HR=9.2 吻合。
