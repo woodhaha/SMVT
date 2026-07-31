@@ -6,13 +6,13 @@ status: active
 # SMVT: Na+-dependent multivitamin transporter (SLC5A6). 泛癌表达/突变景观 + 结构药理学 + MD。
 # 8 compounds 100ns MD 全部完成 (2026-07-04)。现处稿件 figure 精修阶段。
 
-current_focus: 投稿就绪 — 四层验证全部完成 + 7 项新发现 + 投稿材料齐备
+current_focus: 投稿就绪 — 四层验证完成 + 8 项新发现 + ESM-2 双模型交叉验证 + 期刊策略确定(NC→Cell Reports→Theranostics/CSBJ)
 
 ## 已完成 (2026-07-31)
 - Fig1/Fig3/Fig4 精修 + Fig2 DE 更新 + FigS1/S2 生存图重生成
 - 稿件一致性审计：DE (14/21 癌型) + mutation (193/114/167) + survival (8 癌型) + 全部数字核对
 - MC3 barcode code_map 补全（18 个中心代码，修复 22 突变丢失）
-- 新发现 6 项：ESM-2 致病性、Furosemide caveat、passenger 结构证据、Vina↔MD ρ=-0.83、5-HTP 位点重叠、FigS1/S2 一致性
+- 新发现 7 项：ESM-2 致病性、Furosemide caveat、passenger 结构证据、Vina↔MD ρ=-0.83、5-HTP 位点重叠、FigS1/S2 一致性、ESM-2 650M 交叉验证（ρ=0.81）
 - NSAID-SMVT DDI 文献挖掘（Uchida 2015 DOI 修正 + 综述存档）
 - Nature Communications cover letter
 - 稿件完整编译：23 图全存在，0 错误

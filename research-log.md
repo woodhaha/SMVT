@@ -29,6 +29,13 @@
 - 提交: 6b2d02a, 564257e。
 - FigS3 验证：数据源（84 化合物 docking_expanded_results.csv）未变，图正确。
 
+## 2026-07-31 (夜) — ESM-2 650M 交叉验证（passenger 结论稳健性）
+- 动机：passenger 结论只靠单一 35M 模型，审稿人可挑战。
+- 用 HF 缓存的 esm2_t33_650M_UR50D 重算 87 变异（GPU，秒级）。
+- **结果**：35M vs 650M ρ=0.806 (p=5e-21)；R123L 对照 650M 排名 13%（更强致病）；650M 最致病 18 变异 17 个 >10Å 离 biotin 位点；分布无偏无簇集。
+- 稿件 Results/Methods 加 robustness 描述，编译干净。
+- 提交: (本轮)
+
 ## 2026-07-31 (深夜) — MC3 barcode map 完整化 + Fig3/Fig4 重生成
 - **关键 bug 修复**：code_map 漏 18 个 TCGA 中心代码，丢 22 个突变。补全后 Fig3 显示 193/114/167（完整）。
 - **正文修正**：mutation 频率 "<2% all" → 准确表述（ESCA 5.9% 等超 2%，随高突变癌型基线）。
