@@ -1,0 +1,18 @@
+{
+  "root": "D:\\Researching\\SMVT",
+  "references": {},
+  "figure_dirs": ["04_Manuscript/figures"],
+  "tripwires": {
+    "must_contain": {
+      "Predicted Ligands of the Multivitamin Transporter SLC5A6": ["04_Manuscript/SMVT_manuscript.tex", "04_Manuscript/cover_letter.md", "04_Manuscript/cover_letter_CellReports.md", "04_Manuscript/cover_letter_CSBJ.md"],
+      "top-ranking aromatic-amino-acid candidate": ["04_Manuscript/SMVT_manuscript.tex"],
+      "zhouzhuha@wmu.edu.cn": ["04_Manuscript/SMVT_manuscript.tex", "04_Manuscript/cover_letter.md", "04_Manuscript/cover_letter_CellReports.md"]
+    },
+    "must_not_contain": {
+      "Targetable by FDA-Approved Barbiturates": ["04_Manuscript/cover_letter.md", "04_Manuscript/cover_letter_CellReports.md"],
+      "top-ranked FDA compound": ["04_Manuscript/cover_letter.md", "04_Manuscript/cover_letter_CellReports.md"],
+      "top-scoring compound, naftazone": ["04_Manuscript/SMVT_manuscript.tex"],
+      "seven of eight compounds": ["04_Manuscript/cover_letter_CellReports.md"]
+    }
+  }
+}
