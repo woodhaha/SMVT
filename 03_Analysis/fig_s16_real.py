@@ -8,11 +8,13 @@ import numpy as np
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+from fig_style import apply_style, PALETTE
+apply_style()
 from scipy import stats
 
 OUT = '04_Manuscript/figures'
 expr = json.load(open('03_Analysis/data/slc5a6_by_cancer.json'))  # {cancer: [per-sample log2 expr]}
-surv = list(csv.DictReader(open('03_Analysis/outputs/pancan_survival.csv')))
+surv = list(csv.DictReader(open('03_Analysis/outputs/pancan_survival_corrected.csv')))
 
 # per-cancer median expression + HR + FDR q
 rows = []

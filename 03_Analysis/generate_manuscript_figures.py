@@ -182,6 +182,29 @@ def fig7_virtual_screening():
 # FIGURE 8: Barbiturate Pharmacophore
 # ═══════════════════════════════════════════════════════════════
 
+def draw_mol_2d(ax, smi, cx, cy, scale=1.0):
+    """Draw a 2D structure from SMILES onto a matplotlib axis (no Cairo needed)."""
+    from rdkit.Chem import rdDepictor
+    mol = Chem.MolFromSmiles(smi)
+    if mol is None:
+        return
+    rdDepictor.Compute2DCoords(mol)
+    conf = mol.GetConformer()
+    pos = {i: conf.GetAtomPosition(i) for i in range(mol.GetNumAtoms())}
+    for b in mol.GetBonds():
+        i, j = b.GetBeginAtomIdx(), b.GetEndAtomIdx()
+        lw = 1.6 if b.GetBondTypeAsDouble() > 1.0 else 1.1
+        ax.plot([cx + pos[i].x * scale, cx + pos[j].x * scale],
+                [cy - pos[i].y * scale, cy - pos[j].y * scale],
+                color='black', lw=lw, zorder=1, solid_capstyle='round')
+    for i in range(mol.GetNumAtoms()):
+        a = mol.GetAtomWithIdx(i)
+        if a.GetSymbol() == 'C':
+            continue
+        ax.text(cx + pos[i].x * scale, cy - pos[i].y * scale, a.GetSymbol(),
+                ha='center', va='center', fontsize=8, fontweight='bold', zorder=2)
+
+
 def fig8_barbiturate_pharmacophore():
     """2-panel: 2D comparison + barbiturate affinity ladder."""
     fig = plt.figure(figsize=(12, 8))
@@ -200,16 +223,16 @@ def fig8_barbiturate_pharmacophore():
     barb_mol = Chem.MolFromSmiles(barb_smi)
 
     if biotin_mol:
-        img = Draw.MolToImage(biotin_mol, size=(350, 200))
-        ax1.text(3, 7.5, 'Biotin (natural substrate)', ha='center', fontsize=8, fontweight='bold')
+        draw_mol_2d(ax1, biotin_smi, 3, 5.6, scale=0.5)
+        ax1.text(3, 7.6, 'Biotin (natural substrate)', ha='center', fontsize=8, fontweight='bold')
         # Highlight ureido ring
-        ax1.text(3, 5, 'Ureido ring\nN−C(=O)−N', ha='center', fontsize=7,
+        ax1.text(3, 3.3, 'Ureido ring\nN−C(=O)−N', ha='center', fontsize=7,
                 bbox=dict(boxstyle='round,pad=0.3', facecolor='lightblue', alpha=0.7))
 
     if barb_mol:
-        img2 = Draw.MolToImage(barb_mol, size=(300, 180))
-        ax1.text(7, 7.5, 'Barbituric acid (malonylurea)', ha='center', fontsize=8, fontweight='bold')
-        ax1.text(7, 5, 'Malonylurea core\nN−C(=O)−CH₂−C(=O)−N', ha='center', fontsize=7,
+        draw_mol_2d(ax1, barb_smi, 7, 5.6, scale=0.8)
+        ax1.text(7, 7.6, 'Barbituric acid (malonylurea)', ha='center', fontsize=8, fontweight='bold')
+        ax1.text(7, 3.3, 'Malonylurea core\nN−C(=O)−CH₂−C(=O)−N', ha='center', fontsize=7,
                 bbox=dict(boxstyle='round,pad=0.3', facecolor='lightcoral', alpha=0.7))
 
     # Arrow between them

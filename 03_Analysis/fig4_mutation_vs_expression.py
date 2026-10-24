@@ -2,6 +2,8 @@
 import pandas as pd, numpy as np, re, json
 import matplotlib; matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+from fig_style import apply_style, PALETTE
+apply_style()
 
 MAF = 'D:/Researching/SMVT/02_Data/cleaned/slc5a6_mc3_maf.csv'
 DE = 'D:/Researching/SMVT/03_Analysis/outputs/de_table_fdr.json'

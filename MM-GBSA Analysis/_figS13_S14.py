@@ -16,6 +16,9 @@ import numpy as np
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+import sys; sys.path.insert(0, 'D:/Researching/SMVT/03_Analysis')
+from fig_style import apply_style, PALETTE
+apply_style()
 from scipy.stats import spearmanr
 
 warnings.filterwarnings("ignore")

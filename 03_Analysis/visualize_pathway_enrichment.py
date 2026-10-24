@@ -11,6 +11,8 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, Rectangle
 from matplotlib.lines import Line2D
+from fig_style import apply_style, PALETTE
+apply_style()
 from pathlib import Path
 
 plt.rcParams.update({

@@ -4,6 +4,8 @@ import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 from matplotlib.patches import Patch; from matplotlib.lines import Line2D
+from fig_style import apply_style, PALETTE
+apply_style()
 
 OUT = r"D:/Researching/SMVT/03_Analysis/figures"
 FINAL = r"D:/Researching/SMVT/04_Manuscript/figures"

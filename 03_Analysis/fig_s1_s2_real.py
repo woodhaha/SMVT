@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regenerate FigS1 (KM curves) and FigS2 (forest plot) from REAL pancan_survival.csv data.
+"""Regenerate FigS1 (KM curves) and FigS2 (forest plot) from REAL pancan_survival_corrected.csv data.
 6 cancer types significant after BH-FDR. KM curves are data-driven: fitted to the reported
 median survival (med_hi/med_lo) and event counts via a Weibull model — no random synthetic data.
 """
@@ -8,13 +8,15 @@ import numpy as np
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+from fig_style import apply_style, PALETTE
+apply_style()
 
 OUT = os.path.join('04_Manuscript', 'figures')
 os.makedirs(OUT, exist_ok=True)
 SIG = {'LGG', 'KIRC', 'ACC', 'MESO', 'SARC', 'UVM'}
 
 # Load real data
-rows = list(csv.DictReader(open('03_Analysis/outputs/pancan_survival.csv')))
+rows = list(csv.DictReader(open('03_Analysis/outputs/pancan_survival_corrected.csv')))
 sig = [r for r in rows if r['cancer'] in SIG]
 sig.sort(key=lambda r: float(r['cox_p']))
 

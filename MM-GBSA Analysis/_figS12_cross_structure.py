@@ -74,6 +74,9 @@ f1 = 2 * precision * recall / (precision + recall)
 
 # Draw Venn-like representation
 from matplotlib.patches import Circle, FancyBboxPatch
+import sys; sys.path.insert(0, 'D:/Researching/SMVT/03_Analysis')
+from fig_style import apply_style, PALETTE
+apply_style()
 ax2.set_xlim(0, 10)
 ax2.set_ylim(0, 6)
 ax2.set_aspect('equal')
