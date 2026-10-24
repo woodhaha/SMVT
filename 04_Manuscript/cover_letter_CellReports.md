@@ -2,13 +2,13 @@
 
 **Date**: 2026-08-01
 **To**: The Editors, Cell Reports
-**Re**: Submission of "Structure-Based Virtual Screening of FDA-Approved Drugs and Molecular Dynamics Simulation Identifies Predicted Ligands of the Multivitamin Transporter SLC5A6 (SMVT)"
+**Re**: Submission of "Structure-Based Virtual Screening of FDA-Approved Drugs and Molecular Dynamics Simulation Identifies Predicted Ligands of the Pan-Cancer Multivitamin Transporter SLC5A6 (SMVT)"
 
 ---
 
 Dear Editor,
 
-We are pleased to submit our manuscript, "Structure-Based Virtual Screening of FDA-Approved Drugs and Molecular Dynamics Simulation Identifies Predicted Ligands of the Multivitamin Transporter SLC5A6 (SMVT)," for consideration as a research article in Cell Reports.
+We are pleased to submit our manuscript, "Structure-Based Virtual Screening of FDA-Approved Drugs and Molecular Dynamics Simulation Identifies Predicted Ligands of the Pan-Cancer Multivitamin Transporter SLC5A6 (SMVT)," for consideration as a research article in Cell Reports.
 
 ## Summary
 

@@ -4,7 +4,7 @@
   "figure_dirs": ["04_Manuscript/figures"],
   "tripwires": {
     "must_contain": {
-      "Predicted Ligands of the Multivitamin Transporter SLC5A6": ["04_Manuscript/SMVT_manuscript.tex", "04_Manuscript/cover_letter.md", "04_Manuscript/cover_letter_CellReports.md", "04_Manuscript/cover_letter_CSBJ.md"],
+      "Predicted Ligands of the Pan-Cancer Multivitamin Transporter SLC5A6": ["04_Manuscript/SMVT_manuscript.tex", "04_Manuscript/cover_letter.md", "04_Manuscript/cover_letter_CellReports.md", "04_Manuscript/cover_letter_CSBJ.md"],
       "top-ranking aromatic-amino-acid candidate": ["04_Manuscript/SMVT_manuscript.tex"],
       "zhouzhuha@wmu.edu.cn": ["04_Manuscript/SMVT_manuscript.tex", "04_Manuscript/cover_letter.md", "04_Manuscript/cover_letter_CellReports.md"]
     },

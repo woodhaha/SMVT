@@ -2,7 +2,7 @@
 
 **Date**: 2026-10-24
 **To**: The Editors, Computational and Structural Biotechnology Journal
-**Re**: Submission of "Structure-Based Virtual Screening of FDA-Approved Drugs and Molecular Dynamics Simulation Identifies Predicted Ligands of the Multivitamin Transporter SLC5A6 (SMVT)"
+**Re**: Submission of "Structure-Based Virtual Screening of FDA-Approved Drugs and Molecular Dynamics Simulation Identifies Predicted Ligands of the Pan-Cancer Multivitamin Transporter SLC5A6 (SMVT)"
 
 ---
 
