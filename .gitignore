@@ -56,7 +56,7 @@ MM-GBSA Analysis/*.pse
 MM-GBSA Analysis/[A-Z]*/
 MM-GBSA Analysis/ligands/
 MM-GBSA Analysis/SMVT\ MM-GBSA\ Analysis.md
-MM-GBSA Analysis_Report.md
+MM-GBSA Analysis/MM-GBSA Analysis_Report.md
 
 # Literature PDFs (regenerable from DOI)
 01_Literature/*.pdf
@@ -82,3 +82,15 @@ SMVT_MD/
 # Temp/debug artifacts
 03_Analysis/figures/_test.pdf
 03_Analysis/outputs/gdc_cache/
+
+# Archive (old/stale files preserved but not tracked)
+_archive/
+
+# Raw external compound libraries (downloadable; see data_sources)
+03_Analysis/data/anticancer_library/selleck_L3000.sdf
+03_Analysis/data/nci/next-3500-library.sdf
+03_Analysis/data/rephub/repo-drug-annotation-*.txt
+03_Analysis/data/rephub/repo-sample-annotation-*.txt
+
+# Intermediate per-compound docking working dirs (results in outputs/docking_final/)
+03_Analysis/docking_rephub/

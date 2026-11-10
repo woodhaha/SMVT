@@ -1,0 +1,13 @@
+open D:\Researching\SMVT\SMVT-MD-Analysis\chimerax\PHENOBARBITAL_centroid.pdb
+hide solvent
+cartoon; color lightgray target c
+select :LIG; show sel; style sel stick; color sel byelement target a
+~select sel
+select zone :LIG range 5; show sel; style sel stick; color sel mediumpurple target a
+~select sel
+label /A name CA font helvetica 24 bold color black
+findhbond selRestrict sel :LIG || selected reveal true dashes 12 color #22CC44 width 3
+lighting full; set bgColor white; ~set glow
+view orient
+save D:\Researching\SMVT\Paper_Figures\chimerax_scripts\PHENOBARBITAL_binding_3d.png width 2400 height 1800 supersample 4 transparentBackground true
+close session

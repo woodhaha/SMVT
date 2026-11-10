@@ -1,0 +1,83 @@
+2026-07-31 16:13:48,847 [INFO] Loaded 84 docking results
+2026-07-31 16:13:48,849 [INFO] Compounds with SMILES: 84
+2026-07-31 16:13:48,987 [INFO] Valid fingerprints: 84 (0 failed)
+2026-07-31 16:13:49,042 [INFO] Feature matrix: (84, 2059) (ECFP4=2048 + descriptors=11)
+2026-07-31 16:13:49,042 [INFO] Affinity range: -7.66 to 15.54 kcal/mol
+2026-07-31 16:15:38,791 [INFO] RF Regressor LOO-CV: MAE = 1.965 kcal/mol, R² = nan
+2026-07-31 16:15:39,430 [INFO] RF Regressor Full: R² = 0.570, MAE = 1.642 kcal/mol
+2026-07-31 16:15:39,430 [INFO] Hit threshold: ΔG < -6.5 kcal/mol → 16/84 compounds (19.0%)
+2026-07-31 16:15:47,560 [INFO] RF Classifier 5-fold CV: AUC = 0.888, MCC = 0.506
+2026-07-31 16:15:48,593 [INFO] RF Classifier Full: AUC = 0.981
+2026-07-31 16:15:48,889 [INFO] Top 50 pharmacophore bits saved
+2026-07-31 16:15:48,890 [INFO] 
+============================================================
+2026-07-31 16:15:48,890 [INFO] PHARMACOPHORE FEATURES (bits enriched in hits > 40%)
+2026-07-31 16:15:48,890 [INFO] ============================================================
+2026-07-31 16:15:48,890 [INFO]   Bit 1267 | imp=0.0078 | hit%=41.7% | n=12 | top: Biotin_Sulfone, Homobiotin, Desthiobiotin, Biotin_Sulfoxide, Biotin, Biotin_Methyl_Ester, Azelaic_Ac
+2026-07-31 16:15:48,891 [INFO]   Bit 1991 | imp=0.0059 | hit%=44.4% | n= 9 | top: Flufenamic_Acid, Niflumic_Acid, Aspirin, Meclofenamic_Acid, Tolfenamic_Acid, Mefenamic_Acid, Salicyl
+2026-07-31 16:15:48,891 [INFO]   Bit 1110 | imp=0.0047 | hit%=50.0% | n=14 | top: Biotin_Sulfone, Homobiotin, Desthiobiotin, Biotin_Sulfoxide, Biotin, Norbiotin, Gemfibrozil, Azelaic
+2026-07-31 16:15:48,891 [INFO]   Bit 1911 | imp=0.0042 | hit%=43.8% | n=16 | top: Biotin_Sulfone, Homobiotin, Desthiobiotin, Biotin_Sulfoxide, Biotin, Norbiotin, Gemfibrozil, Biotin_
+2026-07-31 16:15:48,891 [INFO]   Bit  398 | imp=0.0041 | hit%=83.3% | n= 6 | top: Biotin_Sulfone, Homobiotin, Biotin_Sulfoxide, Biotin, Norbiotin, Biotin_Methyl_Ester
+2026-07-31 16:15:48,891 [INFO] 
+============================================================
+2026-07-31 16:15:48,891 [INFO] DESCRIPTOR IMPORTANCE
+2026-07-31 16:15:48,891 [INFO] ============================================================
+2026-07-31 16:15:48,891 [INFO]   MW                  : 0.0689
+2026-07-31 16:15:48,891 [INFO]   RingCount           : 0.0653
+2026-07-31 16:15:48,891 [INFO]   HeavyAtom           : 0.0593
+2026-07-31 16:15:48,891 [INFO]   LogP                : 0.0337
+2026-07-31 16:15:48,891 [INFO]   FractionCsp3        : 0.0333
+2026-07-31 16:15:48,891 [INFO]   AromaticRing        : 0.0299
+2026-07-31 16:15:48,891 [INFO]   TPSA                : 0.0264
+2026-07-31 16:15:48,891 [INFO]   HBA                 : 0.0239
+2026-07-31 16:15:48,892 [INFO]   RotBonds            : 0.0124
+2026-07-31 16:15:48,892 [INFO]   HBD                 : 0.0083
+2026-07-31 16:15:48,892 [INFO]   Carboxyl            : 0.0040
+2026-07-31 16:15:48,920 [INFO] 
+============================================================
+2026-07-31 16:15:48,921 [INFO] MODEL SAVED → 03_Analysis/models/smvt_ml_screen.pkl
+2026-07-31 16:15:48,921 [INFO] ============================================================
+2026-07-31 16:15:48,921 [INFO]   CV MAE:          1.965 kcal/mol
+2026-07-31 16:15:48,921 [INFO]   CV R²:           nan
+2026-07-31 16:15:48,921 [INFO]   CV AUC:          0.888
+2026-07-31 16:15:48,921 [INFO]   CV MCC:          0.506
+2026-07-31 16:15:48,921 [INFO]   Hit threshold:   < -6.5 kcal/mol
+2026-07-31 16:15:48,921 [INFO]   Training set:    84 compounds
+2026-07-31 16:15:48,922 [INFO] 
+============================================================
+2026-07-31 16:15:48,922 [INFO] TOP 20 PREDICTED HITS (from training set, for validation)
+2026-07-31 16:15:48,922 [INFO] ============================================================
+2026-07-31 16:15:48,928 [INFO]    1. Biotin                    | true=-6.76 | pred=-6.01 | p(hit)=0.82 | err=0.75 ← MISMATCH
+2026-07-31 16:15:48,928 [INFO]    2. Homobiotin                | true=-6.94 | pred=-5.97 | p(hit)=0.81 | err=0.97 ← MISMATCH
+2026-07-31 16:15:48,929 [INFO]    3. Norbiotin                 | true=-6.74 | pred=-5.91 | p(hit)=0.78 | err=0.83 ← MISMATCH
+2026-07-31 16:15:48,929 [INFO]    4. Biotin_Sulfoxide          | true=-6.87 | pred=-5.89 | p(hit)=0.76 | err=0.98 ← MISMATCH
+2026-07-31 16:15:48,929 [INFO]    5. Biotin_Sulfone            | true=-7.25 | pred=-5.83 | p(hit)=0.75 | err=1.43 ← MISMATCH
+2026-07-31 16:15:48,929 [INFO]    6. Biotin_Methyl_Ester       | true=-6.43 | pred=-5.60 | p(hit)=0.65 | err=0.82 
+2026-07-31 16:15:48,929 [INFO]    7. Desthiobiotin             | true=-6.91 | pred=-5.55 | p(hit)=0.64 | err=1.36 ← MISMATCH
+2026-07-31 16:15:48,929 [INFO]    8. L-Phenylalanine           | true=-6.72 | pred=-5.43 | p(hit)=0.53 | err=1.29 ← MISMATCH
+2026-07-31 16:15:48,930 [INFO]    9. Pimelic_Acid              | true=-5.75 | pred=-5.42 | p(hit)=0.33 | err=0.33 
+2026-07-31 16:15:48,930 [INFO]   10. L-Tyrosine                | true=-6.23 | pred=-5.41 | p(hit)=0.48 | err=0.82 
+2026-07-31 16:15:48,930 [INFO]   11. Suberic_Acid              | true=-5.95 | pred=-5.41 | p(hit)=0.33 | err=0.54 
+2026-07-31 16:15:48,930 [INFO]   12. L-Tryptophan              | true=-6.88 | pred=-5.41 | p(hit)=0.62 | err=1.47 ← MISMATCH
+2026-07-31 16:15:48,930 [INFO]   13. Adipic_Acid               | true=-5.55 | pred=-5.39 | p(hit)=0.32 | err=0.16 
+2026-07-31 16:15:48,930 [INFO]   14. Azelaic_Acid              | true=-6.39 | pred=-5.38 | p(hit)=0.34 | err=1.02 
+2026-07-31 16:15:48,930 [INFO]   15. Sebacic_Acid              | true=-6.33 | pred=-5.35 | p(hit)=0.35 | err=0.98 
+2026-07-31 16:15:48,930 [INFO]   16. 5-Hydroxytryptophan       | true=-7.66 | pred=-5.34 | p(hit)=0.60 | err=2.33 ← MISMATCH
+2026-07-31 16:15:48,930 [INFO]   17. Glutaric_Acid             | true=-5.31 | pred=-5.29 | p(hit)=0.31 | err=0.02 
+2026-07-31 16:15:48,930 [INFO]   18. Levodopa                  | true=-6.31 | pred=-5.26 | p(hit)=0.43 | err=1.05 
+2026-07-31 16:15:48,931 [INFO]   19. Phenylacetic_Acid         | true=-6.12 | pred=-5.23 | p(hit)=0.39 | err=0.89 
+2026-07-31 16:15:48,931 [INFO]   20. Flufenamic_Acid           | true=-6.74 | pred=-5.20 | p(hit)=0.67 | err=1.55 ← MISMATCH
+2026-07-31 16:15:48,931 [INFO] 
+LARGEST PREDICTION ERRORS:
+2026-07-31 16:15:48,932 [INFO]   Zafirlukast               | true=15.54 | pred=0.19 | err=15.35 kcal/mol
+2026-07-31 16:15:48,932 [INFO]   Retinoic_Acid             | true=6.01 | pred=-2.56 | err=8.57 kcal/mol
+2026-07-31 16:15:48,933 [INFO]   Deoxycholic_Acid          | true=7.33 | pred=0.81 | err=6.52 kcal/mol
+2026-07-31 16:15:48,933 [INFO]   Celecoxib                 | true=4.87 | pred=-1.44 | err=6.31 kcal/mol
+2026-07-31 16:15:48,933 [INFO]   Methotrexate              | true=6.32 | pred=0.02 | err=6.30 kcal/mol
+2026-07-31 16:15:48,933 [INFO]   Cholic_Acid               | true=6.50 | pred=0.92 | err=5.58 kcal/mol
+2026-07-31 16:15:48,933 [INFO]   Meloxicam                 | true=0.06 | pred=-3.33 | err=3.39 kcal/mol
+2026-07-31 16:15:48,933 [INFO]   Folic_Acid                | true=3.06 | pred=-0.29 | err=3.35 kcal/mol
+2026-07-31 16:15:48,933 [INFO]   Sulindac                  | true=0.66 | pred=-2.44 | err=3.11 kcal/mol
+2026-07-31 16:15:48,933 [INFO]   5-Hydroxytryptophan       | true=-7.66 | pred=-5.34 | err=2.33 kcal/mol
+2026-07-31 16:15:48,933 [INFO] 
+Done. Model ready for DrugBank screening.

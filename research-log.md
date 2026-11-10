@@ -1,5 +1,47 @@
 # Research Log — SMVT
 
+## 2026-11-04 — 第 4 轮堂会审 + SMVT 药物设计策略研究
+- **第 4 轮堂会审**（3 审稿人 + 复审）：抓出 10 处问题，核心是 said1989 反噬（证明巴比妥配体同时证明抑制有毒）+ Vina −8.0 阈值统计脆弱 + 金刚烷 SAR 无统计 + MD 只报蛋白 RMSD。全部修复，靶点定位统一为"probe/prodrug-delivery + 抑制需治疗窗"。
+- **投稿包同步**：发现 CBM_submission/ 是 10-27 旧快照，缺 expanded screening 段（Table 7 + Fig 9），已完整同步 04_Manuscript 最新版。
+- **药物设计研究**（网络 + zhen2026 结构 + tripathi2025）：核心结论=自由羧基是 SMVT 识别锁，biotin 偶联物（酰胺消耗羧基）不被转运，金刚烷羧酸是最优递送头。详见 `SMVT_drug_design_strategy.md` + 记忆 smvt-drug-design-carboxyl-key。
+- **docking 验证（证伪偶联物递送）**：cryo-EM 26va（occluded）+ 26vd（outward-open）。金刚烷二羧酸 −7.73（强于 biotin −6.49），羧基锚定 Tyr156 3.5 Å（识别头正确）；但偶联物 16.7 Å 太大，occluded 态 +27.45 排斥，outward-open 态 −10.93 是非特异性塞入（羧基距 TM1 kink 7–8 Å）。结论：金刚烷羧酸定位为 SMVT 抑制剂/探针，非递送头；递送走小分子前药范式。记忆 smvt-conjugate-docking-negative。
+- **三轮补充验证（换识别头 + 换 payload）**：换识别头（丙二酸/戊二酸/环己烷二羧酸+SN-38）全排斥——SN-38 本身 392 Da 超限，识别头非变量；换最小 payload 5-FU（130 Da）偶联物 336 Da 能进 occluded 口袋（−5.16）但羧基距 Tyr156 8.1 Å 仍不锚定。最终结论：SMVT 底物识别是"羧基插 TM1 kink + 整体几何匹配"，任何双模块偶联都破坏匹配（大→进不去、小→羧基脱靶），偶联递送方向彻底证伪。
+- **方向转变：转运递送 → 纳米粒靶向胞吞**：把 SMVT 从"转运体"重新定位为"肿瘤细胞表面靶标"。不要求偶联物匹配口袋被转运，而是金刚烷羧酸（−7.73 强于 biotin）修饰纳米粒/脂质体，结合 SMVT 后介导胞吞内化（~100 nm 尺度，绕开口袋限制）。有先例（MDPI Cancers 12:2837：biotin 修饰脂质体/cubosome 靶向 SMVT，游离 biotin 竞争证实特异性）。金刚烷羧酸新定位 = 更强 SMVT 靶向头。记忆 smvt-nanoparticle-targeting-direction。
+
+## 2026-11-04 — 投稿目标重大变化：CBM 已死 → PLOS CB
+- **CBM 已死**（web 查证）：2024-04 On Hold（同行评审操纵、假引用）→ 2025-11-17 WoS Core Collection 移除。无 IF/分区，温医绝不奖励，CBM 投稿包作废。
+- **期刊筛选**（web 查 scope 非仅 IF）：BIB（综述期刊不收原创）、JCIM（"不收单靶标对接应用+无实验"）、PLOS CB（唯一 fit：收应用+实验不必需）。结论：2区以上唯一选择 = PLOS CB（2区生物学 IF3.7）。记忆 smvt-journal-scope-screening。
+- **稿件适配 PLOS CB**：标题改 "Carboxyl-Bearing Ligands"、参考文献转 Vancouver（unsrt 前6作者 et al.，30条，查 Crossref 补全）、摘要 253 词（≤300 OK）、Code availability 措辞改"public repository"、金刚烷三羧酸 cryo-EM −7.64 验证 + 靶向递送定位（hypothesis）。
+- **代码归档计划**：code_archive_plan.md（6 模块 ~25 核心脚本 + 数据来源 + 3 缺口）。待办：建 GitHub repo、从 weste 同步 md_v13.py、温医 T1/T2/T3 核对。
+
+## 2026-11-02 — 对接扩展完成 + 金刚烷羧酸 SAR
+- **对接扩展收官**：主库 10569（9659 ok / 910 fail，288 min）+ anticancer 2371（2164 ok）→ 合并去重 **11823 个**。hits <−8 = **20**（全氟已剔）、<−7 = **349**、<−6.5 = 910。原 703 库仅 8 个 <−8。
+- **三大化学型**：①金刚烷/钻石烷羧酸簇（6 个，全新 chemotype）②巴比妥/戊二酰亚胺簇（phenobarbital −8.17 + 哌啶二酮腈 −8.61 + glutethimide −7.75）③NMDA 轴（dizocilpine/MK-801 −8.02 + 美金刚类似物 −8.12）。
+- **假阳性剔除**：perfluorodecalin/PFOA（全氟）+ 苯并三唑（紫外吸收剂）。
+- **金刚烷羧酸 SAR**：58 类似物本地对接（4.2 min），best **COOH+Ac −8.84**（超主库金刚烷 −8.62，与巴比妥 SAR −8.79 同级）。规律：双羧基>单羧基、F/CN 增强、diamantane 太大。
+- **数据备份**：本地 `03_Analysis/outputs/docking_final/`（results.csv / anticancer_results.csv / anticancer_combined_results.csv / 两个 checkpoint）。
+- **坑**：①B12 钴 segfault → 金属/超大须预过滤；②Na/K/Ca 盐须去盐；③watchdog 缓存 anticancer 目标数须重启重读。详见记忆 smvt-docking-b12-segfault / smvt-adamantane-sar-local-dock。
+- **pod 关机**：SSH shutdown/poweroff 被拒（容器无 systemd），须网页控制台点关机（pod `cpod-1wsdz4i2otkn`）。
+- **20 hit 查证**：PubChem 全查（19 有 CID，1 个 UWARBR 无记录）。可采购性按身份分类：8 个 FDA/天然产物（phenobarbital/cytisine/cedrol/patchouli alcohol/securinine/sorbinil/CRT0044876/dizocilpine）可购；金刚烷羧酸簇（6 个）Sigma 类可购但非上市药；苯并三唑工业品剔除。分类表 `03_Analysis/outputs/docking_final/hits_top20_classified.csv`。
+- **稿件整合**：screening 扩展段正式并入 `SMVT_manuscript.tex`——Results 段（11823 化合物+三大化学型+SAR）+ **Table 7**（tab:expanded，20 hit 含 InChIKey/ΔG/化学型/可购性）+ **Fig 9**（RDKit 20 结构网格，按化学型分组）+ Methods 段（Expanded Library Screening）。编译 0 错误 52 页。
+- **图号修复**：机制图（Fig2）从文档末尾移回第 2 位；扩展筛选图定 **Fig9**（原 FigX 重命名）。现 Fig1–Fig9 文件名 = 文档位置 = 硬编码引用三处对齐。
+- **文献意义调研**：`findings_literature.md` 存档。核心发现——①巴比妥发现印证 Said 1989（carbamazepine/primidone 竞争性抑制 SMVT 生物素转运，Ki 4.70/2.25 mM）②金刚烷羧酸是已知 DGAT1 抑制剂药化骨架 ③NMDA 轴无文献（最弱，建议降权）。
+- **Discussion 增补（已并入稿件）**：+3 篇文献（said1989/park2005/pagire2015）——巴比妥临床先例、羧基必需性底物特异性、金刚烷 DGAT1 药化背书。编译 0 错误。
+
+## 2026-10-27 — 改投 Computers in Biology and Medicine (CBM)
+- 期刊从 CSBJ 改为 CBM（IF 6.3/JCR Q1/中科院大类 2区医学；范围对"临床生信+ML+docking/MD"混合体更对口，CSBJ 偏结构会嫌临床那块）
+- CSBJ_submission/ → CBM_submission/，cover letter 重写 CBM 版（.md+.docx），README/checklist 更新，稿件/title page/highlights/reviewers 均 journal-neutral 未动
+- 剩余：审稿人邮箱核实、温医 T1/T2/T3 核对、GA 视觉核验
+
+## 2026-10-26 — Elsevier 模板迁移 + 全稿 audit + 投稿包 + 图形摘要
+- 期刊定稿 CSBJ（IF 4.8/中科院3区/JCR Q2；对比过 iScience/PLOS CB/JBSD，详见 research-state）
+- Elsevier elsarticle 模板迁移：sn-jnl → elsarticle + elsarticle-num，编译 0 错误 0 警告（47 页）
+- 全稿 audit：4 处文献真实性修复（Paixão/Shaikh N.F./zhen2026 vol17:8036/leonardi）+ FDA→Approved + 标题重写 + Vina 两数据集陷阱识别
+- 目录整理：_archive/ 归档旧文件、03_Analysis 图合并、.gitignore 更新
+- CSBJ_submission/ 投稿包建成（manuscript + 4 投稿文档 docx + 24 图 + README）
+- 图形摘要：Gemini 提示词 + matplotlib 热图 + 1328×531 合成图，已入 CSBJ_submission
+- 剩余：审稿人邮箱核实、温医 T1/T2/T3 核对、GA 视觉核验
+
 ## 2026-07-31 — Autoresearch 启动（稿件 figure 精修阶段）
 - 状态：已有完整 8 化合物 MD + 泛癌 DE + 突变景观。进入稿件 figure 精修。
 - 进行中工作：Fig1 (pan-cancer DE) 重写完成跑通；Fig3 (mutation landscape) 在改。

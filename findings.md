@@ -79,14 +79,14 @@
 - **教训**：单模型 ML 结论要主动做 cross-model 验证，成本低（模型已在缓存）、增益大。
 
 ## 新发现 (2026-07-31) — Vina ΔG 与 MD 动态稳定性
-- **ΔG vs MD backbone RMSD**: Spearman ρ=−0.833, p=0.010（**显著**）。对接分越强 → MD 结构越稳定。强验证。
+- **ΔG vs MD backbone RMSD**: Spearman ρ=−0.833, p=0.010（**显著**）。⚠️ **负相关**：对接分越强（ΔG 越负）→ Cα RMSD 越高（越不稳）。即**对接打分不预测 MD 动态稳定性**（此前误读为"强验证"）。由两离群点驱动：Hydromorphone（ΔG −8.58 最强 / RMSD 0.703 最高）与 Riboflavin（−0.01 最弱 / 0.528 最低），与稿件已写的 hydromorphone 构象依赖一致。
 - **ΔG vs 接触率**: ρ=0.571, p=0.139（趋势，未显著）。原因：Riboflavin（负对照 ΔG=−0.01）接触率 80%——体积大机械贴近，非特异。排除后相关性增强。
 - **数据源澄清**：稿件 Table 2 "Contacts%" = `hbond_occupancy_pct`（脚本注释明确 "contact occupancy"），56-85% 数据无误。
 - 输出: `md_vina_correlation.csv` + `Fig_MD_vs_Vina_correlation.{pdf,png}`。
-- **投稿价值**：ρ=−0.83 可加入 Discussion 作计算验证（Vina 打分 → MD 稳定性 → 对接可信度）。
+- **投稿价值**：ρ=−0.83 是**负结果**，不可作"Vina 预测稳定性"的正验证。稿件已用"rank-only 非定量 + hydromorphone 构象依赖 + riboflavin MM-GBSA 假阳性"诚实覆盖；建议**不加**，或只作 caveat 反向表述（"Vina ΔG 与 MD RMSD 负相关，支持 rank-only 解读"）。
 
 ## 新发现 (2026-07-31) — Furosemide 三方法矛盾（投稿 caveat）
-- **Vina vs MM-GBSA**（n=7 排除 Furosemide）: Pearson r=−0.808, p=0.028 — 强一致性。
+- **Vina vs MM-GBSA**（n=7 排除 Furosemide）: Pearson r=−0.808, p=0.028 — ⚠️ **强负相关（两方法排序相反 = 不一致，非"强一致性"）**。Vina 高分 ↔ MM-GBSA 弱结合（Gabapentin Vina −4.97 却 MM-GBSA −43.33 最强；Naftazone Vina −8.34 却 MM-GBSA −22.36 倒数）。与本行下方"Vina 高分 ≠ 稳定结合"一致。
 - **Furosemide 例外**：Vina −8.36（强结合）但 MM-GBSA **+6.40 kcal/mol（正排斥）**，MD 接触率最低（56%）。
 - **三重证据链**：Vina 高分 ≠ 稳定结合。Furosemide 的 Vina 打分可能过度乐观（结合模式与预测不符）。
 - MM-GBSA 数字全部吻合稿件（gabapentin −43.33 / riboflavin −41.48 / biotin −29.97 / hydromorphone −29.89 #4）。

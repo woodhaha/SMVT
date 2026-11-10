@@ -6,7 +6,16 @@ status: active
 # SMVT: Na+-dependent multivitamin transporter (SLC5A6). 泛癌表达/突变景观 + 结构药理学 + MD。
 # 8 compounds 100ns MD 全部完成 (2026-07-04)。现处稿件 figure 精修阶段。
 
-current_focus: 投稿就绪 — 3 轮堂会审完成（3 审稿人全部通过，Minor/Accept），稿件 42 页 + FDR 校正生存 + 事件列 + 诚实化修改。待用户决策投稿期刊（NC/Cell Reports）。【2026-08-01 会话保存，下次从投稿决策继续】
+current_focus: 投稿目标从 CBM 改为 PLOS Computational Biology（⚠️ CBM 已 On Hold→WoS 移除 2025-11-17，投稿包作废）。稿件 54 页编译 0 错误：标题改 "Structure-Based Discovery of Carboxyl-Bearing Ligands..."、参考文献转 Vancouver（unsrt 前6作者et al.，30条）、金刚烷三羧酸 cryo-EM 验证 −7.64（羧基锚定 Tyr156 3.7Å）+ 靶向递送定位（hypothesis）。药物设计研究结论：偶联物转运证伪（三轮 docking），转向纳米粒靶向胞吞（PLOS CB 2区唯一 fit，实验不必需）。待办：建 GitHub repo 上传代码（~25脚本，见 code_archive_plan.md）、从 weste 同步 md_v13.py、温医 T1/T2/T3 核对。【2026-11-04 会话保存】
+
+## 2026-10-26 — 投稿冲刺（本轮完成）
+- **期刊定稿 CSBJ**：IF 4.8 / 中科院 3 区 / JCR Q2 / Elsevier OA。对比过 iScience(2区但IF跌4.1+On Hold隐患)、PLOS Comput Biol(2区但scope错配)、JBSD(2.4兜底)
+- **Elsevier 模板迁移**：sn-jnl → elsarticle + elsarticle-num 编号文献，编译 0 错误 0 警告（47 页）
+- **全稿 audit**：4 处文献修复（sheng2025 幻觉作者 Paixão / shaikh2023 Shaikh N.F. / zhen2026 vol17:8036 / leonardi 删 pages）+ FDA→Approved + 标题重写 + Vina 两数据集识别（line333 #2 指重对接）
+- **目录整理**：建 _archive/（旧稿 v1/SMVT.rar/zip/旧Fig1），03_Analysis 图合并进 figures/，删 __pycache__，.gitignore 更新
+- **CSBJ_submission/ 投稿包**：manuscript PDF/tex/bib + 24图 + cover letter/title page/highlights/reviewers（全转 docx）+ README
+- **图形摘要**：Gemini 提示词（Gemini prompts.md）+ matplotlib 泛癌热图（pancancer_heatmap.png）+ 整张 1328×531 合成图（SMVT_graphical_abstract.png/pdf，已拷入 CSBJ_submission）
+- **脚本**：03_Analysis/plot_pancancer_heatmap.py + compose_GA.py
 
 ## 已完成 (2026-07-31)
 - Fig1/Fig3/Fig4 精修 + Fig2 DE 更新 + FigS1/S2 生存图重生成

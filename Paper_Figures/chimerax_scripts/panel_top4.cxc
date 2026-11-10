@@ -1,0 +1,33 @@
+# SMVT Top 4 — 2x2 binding site panel
+# Open and arrange 4 structures, render one page
+
+open D:\Researching\SMVT\SMVT-MD-Analysis\chimerax\HYDROMORPHONE_centroid.pdb
+open D:\Researching\SMVT\SMVT-MD-Analysis\chimerax\NAFTAZONE_centroid.pdb
+open D:\Researching\SMVT\SMVT-MD-Analysis\chimerax\PHENOBARBITAL_centroid.pdb
+open D:\Researching\SMVT\SMVT-MD-Analysis\chimerax\FUROSEMIDE_centroid.pdb
+
+# Style all
+hide solvent
+cartoon; color lightgray target c
+
+# Ligands
+select :LIG; show sel; style sel stick; color sel byelement target a
+~select sel
+
+# Pocket
+select zone :LIG range 5; show sel; style sel stick; color sel mediumpurple target a
+~select sel
+
+# Labels
+label /A name CA font helvetica 16 bold color black
+
+# Arrange 2x2
+tile 2 2
+
+# Labels on each model for identity
+names ":1 Hydromorphone" ":2 Naftazone" ":3 Phenobarbital" ":4 Furosemide"
+
+# Render
+lighting full; set bgColor white; ~set glow
+view
+save D:\Researching\SMVT\Paper_Figures\chimerax_scripts\SMVT_top4_panel.png width 4800 height 3600 supersample 3 transparentBackground true

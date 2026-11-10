@@ -30,9 +30,14 @@ SMVT/
 │   ├── openmm_minimize.py
 │   └── outputs/               # 富集分析 CSV
 ├── 04_Manuscript/
-│   ├── figures/               # Fig1-6 + pathlinkR (PDF + PNG)
+│   ├── figures/               # Fig1-8 + FigS1-16 (PDF + PNG)
 │   └── tables/
-├── 05_Submission/             # Cover letter, response, journal reqs
+├── 05_Experimental/           # 5HTP 验证计划
+├── 05_PDB/                    # cryo-EM 结构 (26va–26ve) + validation
+├── MM-GBSA Analysis/          # MM-GBSA 结合自由能分析
+├── SMVT_MD/                   # 100ns MD 轨迹 + 指标
+├── SMVT-MD-Analysis/          # MD 分析图 (FEL/DCCM/RMSD)
+├── Paper_Figures/             # 论文图草稿 + make_figures.py
 └── 06_Logs/
     ├── SMVT-target-research.md     # 靶点研究报告
     ├── SMVT-TCGA-*.md              # TCGA 各维度分析

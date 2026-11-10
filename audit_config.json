@@ -4,15 +4,14 @@
   "figure_dirs": ["04_Manuscript/figures"],
   "tripwires": {
     "must_contain": {
-      "Predicted Ligands of the Pan-Cancer Multivitamin Transporter SLC5A6": ["04_Manuscript/SMVT_manuscript.tex", "04_Manuscript/cover_letter.md", "04_Manuscript/cover_letter_CellReports.md", "04_Manuscript/cover_letter_CSBJ.md"],
-      "top-ranking aromatic-amino-acid candidate": ["04_Manuscript/SMVT_manuscript.tex"],
-      "zhouzhuha@wmu.edu.cn": ["04_Manuscript/SMVT_manuscript.tex", "04_Manuscript/cover_letter.md", "04_Manuscript/cover_letter_CellReports.md"]
+      "Carboxyl-Bearing Ligands for the Multivitamin Transporter SLC5A6": ["04_Manuscript/SMVT_manuscript.tex", "04_Manuscript/cover_letter_PLOS_CB.md", "04_Manuscript/title_page.md"],
+      "zhouzhuha@wmu.edu.cn": ["04_Manuscript/SMVT_manuscript.tex", "04_Manuscript/cover_letter_PLOS_CB.md", "04_Manuscript/title_page.md"]
     },
     "must_not_contain": {
-      "Targetable by FDA-Approved Barbiturates": ["04_Manuscript/cover_letter.md", "04_Manuscript/cover_letter_CellReports.md"],
-      "top-ranked FDA compound": ["04_Manuscript/cover_letter.md", "04_Manuscript/cover_letter_CellReports.md"],
-      "top-scoring compound, naftazone": ["04_Manuscript/SMVT_manuscript.tex"],
-      "seven of eight compounds": ["04_Manuscript/cover_letter_CellReports.md"]
+      "Computers in Biology and Medicine": ["04_Manuscript/SMVT_manuscript.tex", "04_Manuscript/cover_letter_PLOS_CB.md", "04_Manuscript/title_page.md"],
+      "Xiangyang Xue": ["04_Manuscript/cover_letter_PLOS_CB.md", "04_Manuscript/title_page.md"],
+      "wzxxy@wmu.edu.cn": ["04_Manuscript/cover_letter_PLOS_CB.md", "04_Manuscript/title_page.md"],
+      "top-scoring compound, naftazone": ["04_Manuscript/SMVT_manuscript.tex"]
     }
   }
 }
