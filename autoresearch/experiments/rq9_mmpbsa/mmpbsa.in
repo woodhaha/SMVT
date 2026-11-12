@@ -1,0 +1,10 @@
+MM/PBSA single-trajectory input (GB) — COOH-bisCF3 vs SMVT
+&general
+  startframe=1, interval=10,
+  verbose=2,
+  strip_mask=":WAT:Na+:Cl-:PA:OL:PC",
+  ligand_mask=":UNL",
+/
+&gb
+  igb=5, saltcon=0.150,
+/

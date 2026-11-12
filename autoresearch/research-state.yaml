@@ -63,6 +63,10 @@ negative_control: RQ8 DONE — low-affinity head (1-COOH-3-CH2NH2-adamantane, bi
   head -7.47/-6.84/-6.36 (vs bisCF3 -9.68/-8.55/-8.37) → CF3 = affinity driver (~2 kcal/mol).
   conjugate low-aff-SN38 (627.3 Da) rejected +48.5/+24.7/+4.0 → rejection is size-dominated,
   independent of head affinity. Full 6-row Table 3 in paper.
+mmpbsa: RQ9 RUNNING — head COOH-bisCF3 (carboxylate -1) membrane MD on pod (RTX 4090).
+  system built (139090 atoms, UNL charge -1.002, minimize OK), 100ns production launched
+  with crash-guard. MM-GBSA (igb=5, strip WAT/ions/lipids) input+script ready at
+  /root/md/rq9/. Conjugate NOT MD'd (rejected, no bound pose → no dG to compute).
 result_location: to_human/report.html + to_human/top20_scores.png
 next_phase: (1) MM-PBSA/membrane MD on SMVT-bisCF3, (2) wet-lab biotin-competition
   assay, (3) paper (ml-paper-writing)
