@@ -1,0 +1,109 @@
+=== BIOTIN_MEM MD analysis summary ===
+frames=936  time=2.76..96.26 ns
+protein backbone RMSD: mean=2.91 A  final=3.70 A  max=4.93 A
+ligand RMSD (heavy, fit prot): mean=1.22 A  final=1.18 A
+ligand drift from start: mean=4.52 A  final=5.09 A
+Na[0] min dist to ligand: mean=8.13 A  min=6.47 A  final=7.95 A
+Na[1] min dist to ligand: mean=13.54 A  min=11.61 A  final=13.32 A
+Na[2] min dist to ligand: mean=59.78 A  min=26.31 A  final=54.88 A
+Na[3] min dist to ligand: mean=50.23 A  min=26.59 A  final=59.28 A
+Na[4] min dist to ligand: mean=54.38 A  min=26.56 A  final=31.62 A
+Na[5] min dist to ligand: mean=55.04 A  min=23.44 A  final=50.03 A
+Na[6] min dist to ligand: mean=53.36 A  min=18.67 A  final=48.59 A
+Na[7] min dist to ligand: mean=48.05 A  min=17.21 A  final=51.56 A
+Na[8] min dist to ligand: mean=40.16 A  min=31.05 A  final=42.62 A
+Na[9] min dist to ligand: mean=56.59 A  min=22.07 A  final=55.20 A
+Na[10] min dist to ligand: mean=60.09 A  min=30.98 A  final=57.38 A
+Na[11] min dist to ligand: mean=33.42 A  min=26.31 A  final=40.99 A
+Na[12] min dist to ligand: mean=54.44 A  min=17.84 A  final=48.62 A
+Na[13] min dist to ligand: mean=44.21 A  min=28.32 A  final=51.55 A
+Na[14] min dist to ligand: mean=60.43 A  min=23.17 A  final=62.38 A
+Na[15] min dist to ligand: mean=53.15 A  min=24.49 A  final=80.27 A
+Na[16] min dist to ligand: mean=55.35 A  min=19.37 A  final=77.08 A
+Na[17] min dist to ligand: mean=46.53 A  min=25.24 A  final=41.52 A
+Na[18] min dist to ligand: mean=52.16 A  min=27.96 A  final=52.95 A
+Na[19] min dist to ligand: mean=55.51 A  min=29.77 A  final=48.15 A
+Na[20] min dist to ligand: mean=53.49 A  min=19.96 A  final=66.11 A
+Na[21] min dist to ligand: mean=59.81 A  min=23.55 A  final=42.96 A
+Na[22] min dist to ligand: mean=55.54 A  min=33.77 A  final=48.71 A
+Na[23] min dist to ligand: mean=49.76 A  min=17.14 A  final=63.74 A
+Na[24] min dist to ligand: mean=58.40 A  min=32.28 A  final=42.97 A
+Na[25] min dist to ligand: mean=57.33 A  min=25.77 A  final=56.30 A
+Na[26] min dist to ligand: mean=54.16 A  min=22.46 A  final=66.66 A
+Na[27] min dist to ligand: mean=51.78 A  min=21.72 A  final=36.49 A
+Na[28] min dist to ligand: mean=56.07 A  min=20.62 A  final=68.89 A
+Na[29] min dist to ligand: mean=56.10 A  min=29.18 A  final=30.47 A
+Na[30] min dist to ligand: mean=54.70 A  min=19.68 A  final=58.64 A
+Na[31] min dist to ligand: mean=55.60 A  min=25.23 A  final=62.18 A
+Na[32] min dist to ligand: mean=59.39 A  min=25.79 A  final=78.36 A
+Na[33] min dist to ligand: mean=49.94 A  min=28.73 A  final=40.52 A
+Na[34] min dist to ligand: mean=28.10 A  min=23.89 A  final=24.96 A
+Na[35] min dist to ligand: mean=57.41 A  min=20.42 A  final=56.09 A
+Na[36] min dist to ligand: mean=54.55 A  min=23.83 A  final=74.62 A
+Na[37] min dist to ligand: mean=61.66 A  min=26.14 A  final=66.06 A
+Na[38] min dist to ligand: mean=43.61 A  min=23.74 A  final=73.36 A
+Na[39] min dist to ligand: mean=56.51 A  min=23.42 A  final=43.17 A
+Na[40] min dist to ligand: mean=52.83 A  min=24.88 A  final=49.69 A
+Na[41] min dist to ligand: mean=60.68 A  min=31.47 A  final=48.40 A
+Na[42] min dist to ligand: mean=54.31 A  min=47.03 A  final=54.43 A
+Na[43] min dist to ligand: mean=54.51 A  min=23.21 A  final=42.41 A
+Na[44] min dist to ligand: mean=58.59 A  min=26.82 A  final=45.61 A
+Na[45] min dist to ligand: mean=51.06 A  min=18.12 A  final=34.78 A
+Na[46] min dist to ligand: mean=48.95 A  min=25.81 A  final=49.36 A
+Na[47] min dist to ligand: mean=44.95 A  min=22.59 A  final=44.07 A
+Na[48] min dist to ligand: mean=54.70 A  min=29.31 A  final=55.39 A
+Na[49] min dist to ligand: mean=50.89 A  min=20.31 A  final=42.18 A
+Na[50] min dist to ligand: mean=53.83 A  min=21.36 A  final=41.15 A
+Na[51] min dist to ligand: mean=56.38 A  min=24.07 A  final=67.44 A
+Na[52] min dist to ligand: mean=53.10 A  min=21.01 A  final=61.75 A
+Na[53] min dist to ligand: mean=52.18 A  min=26.21 A  final=39.86 A
+Na[54] min dist to ligand: mean=60.03 A  min=35.15 A  final=59.87 A
+Na[55] min dist to ligand: mean=55.30 A  min=19.31 A  final=41.38 A
+Na[56] min dist to ligand: mean=55.97 A  min=22.50 A  final=33.83 A
+Na[57] min dist to ligand: mean=55.19 A  min=25.31 A  final=39.29 A
+Na[58] min dist to ligand: mean=58.98 A  min=30.05 A  final=63.14 A
+Na[59] min dist to ligand: mean=55.13 A  min=20.87 A  final=36.13 A
+Na[60] min dist to ligand: mean=54.15 A  min=25.84 A  final=42.96 A
+Na[61] min dist to ligand: mean=54.30 A  min=24.07 A  final=50.29 A
+Na[62] min dist to ligand: mean=55.39 A  min=19.45 A  final=51.70 A
+Na[63] min dist to ligand: mean=43.68 A  min=23.76 A  final=47.84 A
+Na[64] min dist to ligand: mean=55.27 A  min=29.42 A  final=59.67 A
+Na[65] min dist to ligand: mean=58.09 A  min=24.74 A  final=34.49 A
+Na[66] min dist to ligand: mean=55.82 A  min=22.53 A  final=52.61 A
+Na[67] min dist to ligand: mean=57.34 A  min=26.09 A  final=34.13 A
+Na[68] min dist to ligand: mean=54.10 A  min=32.32 A  final=60.80 A
+Na[69] min dist to ligand: mean=54.85 A  min=26.74 A  final=64.27 A
+Na[70] min dist to ligand: mean=54.85 A  min=27.00 A  final=47.79 A
+Na[71] min dist to ligand: mean=52.82 A  min=27.68 A  final=56.51 A
+Na[72] min dist to ligand: mean=55.38 A  min=24.30 A  final=46.73 A
+Na[73] min dist to ligand: mean=52.79 A  min=17.54 A  final=22.74 A
+Na[74] min dist to ligand: mean=51.90 A  min=19.16 A  final=41.34 A
+Na[75] min dist to ligand: mean=57.26 A  min=19.06 A  final=62.79 A
+Na[76] min dist to ligand: mean=57.74 A  min=22.14 A  final=54.04 A
+Na[77] min dist to ligand: mean=52.60 A  min=32.60 A  final=37.34 A
+Na[78] min dist to ligand: mean=55.77 A  min=22.77 A  final=53.12 A
+Na[79] min dist to ligand: mean=56.64 A  min=26.47 A  final=53.87 A
+Na[80] min dist to ligand: mean=55.55 A  min=29.09 A  final=64.85 A
+Na[81] min dist to ligand: mean=54.85 A  min=28.49 A  final=60.06 A
+Na[82] min dist to ligand: mean=54.03 A  min=28.84 A  final=73.41 A
+Na[83] min dist to ligand: mean=54.79 A  min=25.68 A  final=41.02 A
+Na[84] min dist to ligand: mean=58.65 A  min=26.52 A  final=61.26 A
+Na[85] min dist to ligand: mean=52.66 A  min=27.04 A  final=47.19 A
+Na[86] min dist to ligand: mean=56.23 A  min=20.67 A  final=54.88 A
+Na[87] min dist to ligand: mean=52.79 A  min=24.14 A  final=62.64 A
+Na[88] min dist to ligand: mean=50.54 A  min=27.46 A  final=67.67 A
+Na[89] min dist to ligand: mean=58.71 A  min=27.16 A  final=65.70 A
+Na[90] min dist to ligand: mean=59.09 A  min=24.85 A  final=64.64 A
+Na[91] min dist to ligand: mean=54.04 A  min=21.58 A  final=54.53 A
+membrane thickness: mean=39.8 A  final=39.5 A
+top-10 flexible residues (resSeq resName rmsf_A):
+  0 ILE 37.46
+  1 MET 21.70
+  472 ASN 7.76
+  471 THR 7.34
+  484 LEU 7.22
+  474 THR 7.01
+  476 ALA 6.86
+  473 LEU 6.82
+  483 PRO 6.82
+  475 VAL 6.76

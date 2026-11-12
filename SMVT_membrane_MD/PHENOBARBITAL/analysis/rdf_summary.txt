@@ -1,0 +1,7 @@
+=== PHENOBARBITAL_MEM RDF summary ===
+Na bulk density rho = 0.0681 ions/nm^3 (V=1350.9 nm^3)
+  Na->lig_heavy: first-shell peak = 2.03 A (g=0.00)
+  Na->lig_O: first-shell peak = 2.03 A (g=0.00)
+  func Na protein-O/N coordination (#within 3.2A per Na) = 5.64
+  func Na ligand-heavy coordination (#within 3.2A per Na) = 0.00
+  min Na-COM distance over 100ns: mean=9.31 A  min=8.08 A  max=10.99 A

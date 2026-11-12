@@ -1,0 +1,7 @@
+=== BIOTIN_MEM RDF summary ===
+Na bulk density rho = 0.0680 ions/nm^3 (V=1353.7 nm^3)
+  Na->lig_heavy: first-shell peak = 2.03 A (g=0.00)
+  Na->lig_O: first-shell peak = 2.03 A (g=0.00)
+  func Na protein-O/N coordination (#within 3.2A per Na) = 5.44
+  func Na ligand-heavy coordination (#within 3.2A per Na) = 0.00
+  min Na-COM distance over 100ns: mean=12.40 A  min=11.16 A  max=13.63 A

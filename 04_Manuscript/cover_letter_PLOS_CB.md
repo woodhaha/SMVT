@@ -15,7 +15,7 @@ We are pleased to submit our manuscript for consideration as a research article 
 The sodium-dependent multivitamin transporter (SMVT/SLC5A6) sits at the interface of vitamin uptake and lipogenic metabolism, transporting biotin, pantothenate, and lipoate — cofactors required for fatty-acid synthesis and TCA-cycle function. Although the cryo-EM structure of SMVT was recently solved, the clinical landscape of SLC5A6 and its druggability have remained unexplored. We address this gap with an integrated computational workflow spanning three scales:
 
 1. **Genome scale** — a pan-cancer analysis of 10,967 TCGA samples (33 cancer types) integrating expression, survival, mutation constraint, and protein–protein interaction networks, with a machine-learning pharmacophore screen (AUC = 0.888) over 3,311 approved drugs and an expanded 11,823-compound library.
-2. **Structure scale** — structure-based virtual screening against the SMVT binding pocket, followed by 100-ns molecular dynamics simulations and cross-structure re-docking against the experimental cryo-EM conformations.
+2. **Structure scale** — structure-based virtual screening against the SMVT binding pocket, followed by 100-ns molecular dynamics simulations (including membrane-embedded Na⁺-bound MD of the carboxyl-bearing ligands) and cross-structure re-docking against the experimental cryo-EM conformations.
 3. **Mechanism scale** — a network-perturbation and pathway-enrichment analysis linking SMVT transport to the biotin–ACC–SREBP–FASN lipogenic axis.
 
 ## Key Findings
@@ -26,7 +26,7 @@ The sodium-dependent multivitamin transporter (SMVT/SLC5A6) sits at the interfac
 
 3. **Carboxyl-bearing chemotypes — 5-hydroxytryptophan, NSAIDs, and adamantane carboxylic acids — are the more plausible ligands.** 5-HTP (−7.66 kcal/mol) docks in the biotin site (pose overlap 0.37 Å; stable over an 11.2-ns MD window), and multiple NSAIDs reproduce the experimentally reported SMVT inhibition at the chemotype level. An expanded 11,823-compound screen identifies adamantane/diamondoid carboxylic acids (best −8.84 kcal/mol) as a novel carboxylate pharmacophore. These findings motivate a testable SMVT–serotonin metabolic-axis hypothesis.
 
-4. **Cross-structure validation against cryo-EM.** Re-docking against the recently solved SMVT structures (occluded/outward-open/inward-open) confirms naftazone as the most conformation-robust ligand and reveals that hydromorphone's score is highly receptor-conformation dependent — a caution that generalizes to AF2-based screening.
+4. **Cross-structure validation against cryo-EM.** Re-docking against the recently solved SMVT occluded-state structure confirms naftazone as the most conformation-robust ligand and reveals that hydromorphone's score is highly receptor-conformation dependent — a caution that generalizes to AF2-based screening.
 
 ## Fit for PLOS Computational Biology
 
@@ -34,7 +34,7 @@ This study documents a clear biological conclusion — that the multivitamin tra
 
 ## Transparency and Availability
 
-All analyses use public data (TCGA, gnomAD, STRING, ChEMBL, AlphaFold, RCSB). Analysis code will be deposited in a public repository (GitHub/Zenodo) and is available to reviewers upon request. The manuscript acknowledges its limitations explicitly: all ligand predictions are computational and pending experimental validation, and the MD was performed in a simplified water-box setup without the Na⁺ co-substrate or a lipid bilayer. As the immediate next step, we propose biotin-competition uptake assays in SLC5A6-overexpressing cells followed by SPR/ITC to test the top carboxyl-bearing candidates (5-HTP, NSAIDs, and adamantane carboxylic acids), and evaluation of adamantane-carboxylate-functionalised nanoparticles for SMVT-targeted uptake in SLC5A6-overexpressing versus knockdown cells.
+All analyses use public data (TCGA, gnomAD, STRING, ChEMBL, AlphaFold, RCSB). Analysis code will be deposited in a public repository (GitHub/Zenodo) and is available to reviewers upon request. The manuscript acknowledges its limitations explicitly: all ligand predictions are computational and pending experimental validation. In addition to the initial water-box MD, we now include membrane-embedded, Na⁺-bound MD of the carboxyl-bearing ligands (biotin, phenobarbital, 5-HTP), which confirms stable substrate binding with the two Na⁺ co-substrate ions coordinated in their own site. As the immediate next step, we propose biotin-competition uptake assays in SLC5A6-overexpressing cells followed by SPR/ITC to test the top carboxyl-bearing candidates (5-HTP, NSAIDs, and adamantane carboxylic acids), and evaluation of adamantane-carboxylate-functionalised nanoparticles for SMVT-targeted uptake in SLC5A6-overexpressing versus knockdown cells.
 
 We confirm this manuscript is not under consideration elsewhere and that all authors have approved the submission. No competing interests.
 

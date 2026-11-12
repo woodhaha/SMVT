@@ -7,14 +7,14 @@
 Jiancheng Sun<sup>1,†</sup>, Weisheng Chen<sup>1,†</sup>, Yiqi Cai<sup>1</sup>, Xiaopeng Zhuang<sup>1</sup>, Zhuxian Zhou<sup>2</sup>, Zhuha Zhou<sup>1,\*</sup>
 
 <sup>†</sup> These authors contributed equally to this work.
-<sup>\*</sup> Corresponding authors.
+<sup>\*</sup> Corresponding author.
 
 ## Affiliations
 
 1. Department of Gastrointestinal Surgery, The First Affiliated Hospital of Wenzhou Medical University, Nanbaixiang Street, Ouhai District, Wenzhou, Zhejiang 325000, China
 2. Center for Bionanoengineering, College of Chemical and Biological Engineering, Zhejiang University, Hangzhou 310027, China
 
-## Corresponding Authors
+## Corresponding Author
 
 - **Zhuha Zhou** — zhouzhuha@wmu.edu.cn — ORCID: 0009-0005-1818-4789
 

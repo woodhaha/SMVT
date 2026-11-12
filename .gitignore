@@ -94,3 +94,6 @@ _archive/
 
 # Intermediate per-compound docking working dirs (results in outputs/docking_final/)
 03_Analysis/docking_rephub/
+
+# Final MD snapshots (regenerable from trajectories)
+*_final.pdb

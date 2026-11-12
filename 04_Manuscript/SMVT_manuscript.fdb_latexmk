@@ -1,17 +1,17 @@
 # Fdb version 4
-["bibtex SMVT_manuscript"] 1794138828.69321 "SMVT_manuscript.aux" "SMVT_manuscript.bbl" "SMVT_manuscript" 1794138832.54714 0
+["bibtex SMVT_manuscript"] 1794481749.59504 "SMVT_manuscript.aux" "SMVT_manuscript.bbl" "SMVT_manuscript" 1794481753.57933 0
   "./plos2015.bst" 1794137367 38434 019b6943fa547ba18d4dbc858fc33446 ""
   "./references.bib" 1793800880 11978 549cc4f7c5ca9b004cd66698adb39562 ""
-  "SMVT_manuscript.aux" 1794138831 13730 d1d0df610b82c7c8713f70e3080ea7d3 "pdflatex"
+  "SMVT_manuscript.aux" 1794481751 15614 d4362c0baa2251a167e04388331a5945 "pdflatex"
   (generated)
   "SMVT_manuscript.bbl"
   "SMVT_manuscript.blg"
   (rewritten before read)
-["pdflatex"] 1794138829.25423 "SMVT_manuscript.tex" "SMVT_manuscript.pdf" "SMVT_manuscript" 1794138832.548 0
-  "SMVT_manuscript.aux" 1794138831 13730 d1d0df610b82c7c8713f70e3080ea7d3 "pdflatex"
-  "SMVT_manuscript.bbl" 1794138829 7492 b042eb0f3abf08f4a8fa656f6fac5713 "bibtex SMVT_manuscript"
-  "SMVT_manuscript.out" 1794138830 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "SMVT_manuscript.tex" 1794138809 92095 6e4ca379f763da3c6ed21839bcb76ddc ""
+["pdflatex"] 1794481750.17782 "SMVT_manuscript.tex" "SMVT_manuscript.pdf" "SMVT_manuscript" 1794481753.58034 0
+  "SMVT_manuscript.aux" 1794481751 15614 d4362c0baa2251a167e04388331a5945 "pdflatex"
+  "SMVT_manuscript.bbl" 1794481750 7492 b042eb0f3abf08f4a8fa656f6fac5713 "bibtex SMVT_manuscript"
+  "SMVT_manuscript.out" 1794481751 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "SMVT_manuscript.tex" 1794481741 97798 2784edc6fcc7781fad2b0076b5c64d89 ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1775972939 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1775973842 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1775973401 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -27,6 +27,7 @@
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1775972336 940 228d6584342e91276bf566bcf9716b83 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1775972930 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1775972930 1324 c910af8c371558dc20f2d7822f66fe64 ""
+  "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm" 1775972930 1336 3125ccb448c1a09074e3aa4a9832f130 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm" 1775972930 1328 5442e22a7072966dbaf88ca900acf3f0 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1775972930 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1775972930 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -47,6 +48,7 @@
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1775972930 768 1321e9409b4137d6fb428ac9dc956269 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1775972336 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1775972336 32080 340ef9bf63678554ee606688e7b5339d ""
+  "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb" 1775972336 32007 e8fa0078355f39467039935974716569 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb" 1775972336 32298 c6d25bb16d1eac01ebdc6d7084126a1e ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1775972336 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1775972336 36281 c355509802a035cadc5f15869451dcee ""
@@ -156,6 +158,8 @@
   "figures/FigS14_gb_vs_pb.pdf" 1792815120 55563 35561bc52fb74f06a0f93c782c9b4173 ""
   "figures/FigS15_5HTP_biotin_overlap_rmsd.pdf" 1785510736 381382 e279828f34d12279cfed3c15562ebb14 ""
   "figures/FigS16_survival_vs_expression.pdf" 1792815260 62516 869c2f26d6326270d767dbf2bf949fae ""
+  "figures/FigS17_Na_ligand_RDF.pdf" 1794480183 41722 76448617d7aaf484784c73e26fcaee40 ""
+  "figures/FigS18_membrane_MD_stability.pdf" 1794480184 122900 f9e4b0d86ddf1e5ced54f70413efdf2f ""
   "figures/FigS1_SMVT_survival_KM.pdf" 1792815527 149489 bd2962148cdb50c129a12e8a04ed8c67 ""
   "figures/FigS2_SMVT_survival_forest.pdf" 1792815528 45039 bdaeecea02ca3b1081369da2f3c61251 ""
   "figures/FigS3_SMVT_family_SAR.pdf" 1792815509 26061 a1caca7fbb00eca6c6e7a900b0614627 ""
