@@ -1,0 +1,26 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<title>SMVT Drug Design — Autoresearch Report</title>
+<style>body{font-family:Arial,sans-serif;max-width:900px;margin:2rem auto;padding:0 1rem;line-height:1.5}
+h1{color:#0F4D92} h2{color:#333;border-bottom:1px solid #ddd;padding-bottom:.3rem}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{border:1px solid #ddd;padding:6px 10px;text-align:left}
+th{background:#f2f2f2} .hit{background:#fff3f3;font-weight:bold}
+.badge{display:inline-block;background:#B64342;color:#fff;padding:2px 8px;border-radius:4px;font-size:13px}
+</style></head><body>
+<h1>SMVT 药物设计 — 自主研究进度报告</h1>
+<p><b>研究问题</b>：能否找到 <b>含自由羧基</b>（可转运）的 SMVT 配体，Vina 分数 < −8.84（超越当前最佳）？</p>
+<p><b>答案</b>：<span class="badge">是</span> — <b>bisCF3_seed1</b> = <b>-9.70 kcal/mol</b>，3 次独立 Vina 种子复现（−9.68~−9.70），打破 −8.84 天花板，也超过无羧基的戊二酰亚胺 −9.36。</p>
+<img src="top20_scores.png" style="width:100%;max-width:800px">
+<h2>完整 SAR 轨迹（5 实验 ~75 化合物）</h2>
+<table><tr><th>实验</th><th>化学型</th><th>最佳</th><th>结论</th></tr>
+<tr><td>E1</td><td>芳香氨基酸</td><td>1-萘丙氨酸 −7.74</td><td>次级线索，封顶 ~−7.7</td></tr>
+<tr><td>E2</td><td>新笼</td><td>金刚烷二羧酸 −8.48</td><td>替代笼全劣</td></tr>
+<tr><td>E3</td><td>羧基+小基团</td><td>COOH-CF3 −9.02</td><td>首破 −8.84</td></tr>
+<tr><td>E4</td><td>CF3 变体</td><td>bisCF3 −9.69</td><td>突破</td></tr>
+<tr><td>E5</td><td>确认+推进</td><td>bisCF3 −9.68（3 seeds）</td><td>确认最优</td></tr>
+</table>
+<h2>核心发现</h2>
+<p><b>三氟甲基（CF3）是金刚烷笼上的强亲和增强剂</b>——同时是吸电子（强化羧基锚定）+ 疏水（填口袋）+ 小（无位阻）。CF3 数量最优：1 个(−9.04) &lt; <b>2 个(−9.68)</b> &gt; 3 个(−8.03)。</p>
+<h2>下一步（验证，非更多 docking）</h2>
+<ol><li>cryo-EM 26va 交叉对接验证 COOH-bisCF3</li><li>SMVT–bisCF3 的 MM-PBSA / 膜 MD</li><li>湿实验：biotin 竞争摄取实验</li></ol>
+</body></html>

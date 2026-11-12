@@ -1,0 +1,10 @@
+name,best_affinity,ok,error
+COOH-bisCF3,-8.552,True,
+COOH-CF3,-8.522,True,
+COOH-CH2CF3,-8.218,True,
+COOH-OCF3,-8.129,True,
+diCOOH-CF3,-8.12,True,
+COOH-Ac (prior -8.84),-7.837,True,
+"adamantane-1,3-diCOOH",-7.674,True,
+1-adamantanecarboxylic,-6.682,True,
+biotin (calib -6.49),-6.544,True,

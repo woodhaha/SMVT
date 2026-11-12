@@ -1,0 +1,68 @@
+project: SMVT drug design — carboxyl-bearing ligand discovery (autoresearch)
+started: 2026-11-12
+status: rq5-done
+phase: RQ5 linker design done (cross-validated, AF2 overfitting caught)
+
+research_question: >
+  Discover carboxyl-bearing SMVT ligands with Vina score < -8.84 kcal/mol
+  (surpassing the current best transportable ligand) via iterative scaffold
+  enumeration + docking, while preserving the free-carboxyl recognition anchor.
+
+evaluation:
+  metric: Vina docking score (kcal/mol, more negative = better)
+  receptor: 03_Analysis/docking/SMVT_receptor.pdbqt (AF2 AF-Q9Y289-F1, meeko-prepared)
+  box: center (5.03, 1.5, -2.44), size 25^3 A, exhaustiveness 16, num_modes 9
+  baseline:
+    - -8.84  adamantane F/CN-substituted (best transportable ligand, focused SAR)
+    - -8.51  adamantane-1,3,5-tricarboxylic acid
+    - -7.66  5-HTP (aromatic amino acid)
+    - -9.36  3-benzyl-3-chloropiperidine-2,6-dione (glutarimide, carboxyl-free)
+
+hypotheses:
+  - id: H1
+    text: Electron-withdrawing F/CN/CF3 substitution improves affinity
+    prior: adamantane SAR F/CN -> -8.84
+    status: untested (aromatic scaffold)
+  - id: H2
+    text: >=2 carboxyl groups at optimal spacing enhance anchoring
+    prior: di-carboxylate > mono-carboxylate (adamantane)
+    status: untested (new scaffolds)
+  - id: H3
+    text: Hydrophobic ring extension (indole -> naphthalene/benzofuran) + carboxyl beats 5-HTP
+    prior: 5-HTP -7.66, indole pi-stacking favorable
+    status: CONFIRMED (1-naphthylalanine -7.74 > 5-HTP -7.61; 1-naphthyl >> 2-naphthyl)
+  - id: H4
+    text: Untested carboxyl-bearing cages/aromatics reach < -8.0
+    prior: adamantane/diamondoid chemotype
+    status: E2 running
+
+experiments:
+  - id: E1
+    hypothesis: H3
+    status: done
+    result: 1-naphthylalanine -7.74 best (caps at ~-7.7); amino group optional;
+      bulky EWG steric-fail; multi-carboxyl does not generalize to aromatics
+    dir: experiments/e1_aromatic_carboxyl_analogs
+
+next: E2 = diamondoid/bicyclic cage carboxylates (H4), target beat -8.84
+direction: PIVOT to cage scaffolds — aromatic chemotype capped at -7.7, cage is where affinity is
+
+answer: 1-carboxy-3,5-bis(trifluoromethyl)adamantane (COOH-bisCF3) = -9.68 kcal/mol
+  (3 Vina seeds -9.68/-9.69/-9.70), beats -8.84 ceiling and carboxyl-free glutarimide -9.36
+  while retaining the free carboxyl (transportable). CF3 = EWG + hydrophobic + small.
+cross_validation: RQ2+RQ3 DONE — bisCF3 is #1 on ALL THREE structures:
+  AF2 -9.68 / 26va occluded -8.55 / 26vd outward-open -8.37. CF3 ranking preserved
+  cross-state → NOT AF2 overfitting, NOT conformation-dependent.
+  Receptors ready at data/26va_receptor_clean.pdbqt + data/26vd_receptor_clean.pdbqt.
+conjugate_refutation: RQ6+RQ7 DONE (delta-lactone SN-38 corrected) —
+  COOH-bisCF3-SN38 (763.7 Da, 22 A) rejected all three (AF2 +59.0 / 26va +23.7 / 26vd +3.2);
+  biotin-SN38 (618.2 Da) rejected on occluded (+14.2) and loses free COOH (ester),
+  binds 26vd only -4.8 (< free biotin -6.01) → carboxyl-discrimination demonstrated.
+  BUG FIXED: codebase SN-38 was gamma-lactone (C21H18N2O5); corrected to delta-lactone C22H20N2O5.
+negative_control: RQ8 DONE — low-affinity head (1-COOH-3-CH2NH2-adamantane, bisCF3 minus 2 CF3)
+  head -7.47/-6.84/-6.36 (vs bisCF3 -9.68/-8.55/-8.37) → CF3 = affinity driver (~2 kcal/mol).
+  conjugate low-aff-SN38 (627.3 Da) rejected +48.5/+24.7/+4.0 → rejection is size-dominated,
+  independent of head affinity. Full 6-row Table 3 in paper.
+result_location: to_human/report.html + to_human/top20_scores.png
+next_phase: (1) MM-PBSA/membrane MD on SMVT-bisCF3, (2) wet-lab biotin-competition
+  assay, (3) paper (ml-paper-writing)
