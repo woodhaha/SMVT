@@ -35,4 +35,4 @@ Jiancheng Sun<sup>1,†</sup>, Weisheng Chen<sup>1,†</sup>, Yiqi Cai<sup>1</su
 - **Competing interests**: The authors declare no competing interests.
 - **Ethics**: Publicly available, de-identified data (TCGA, GEO, gnomAD); no new human subjects research.
 - **Data availability**: TCGA (NCI GDC), GSE178341 (GEO), gnomAD, STRING, ChEMBL, AlphaFold, RCSB PDB.
-- **Code availability**: Deposited in a public repository (GitHub/Zenodo) upon acceptance; available to reviewers on request.
+- **Code availability**: Publicly available at https://github.com/woodhaha/SMVT.

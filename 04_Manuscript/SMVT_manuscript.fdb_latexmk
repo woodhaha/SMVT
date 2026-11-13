@@ -1,17 +1,17 @@
 # Fdb version 4
-["bibtex SMVT_manuscript"] 1794573083.33988 "SMVT_manuscript.aux" "SMVT_manuscript.bbl" "SMVT_manuscript" 1794573090.8016 0
+["bibtex SMVT_manuscript"] 1794579599.55243 "SMVT_manuscript.aux" "SMVT_manuscript.bbl" "SMVT_manuscript" 1794579603.833 0
   "./plos2015.bst" 1794137367 38434 019b6943fa547ba18d4dbc858fc33446 ""
   "./references.bib" 1794573049 12569 ee6427852398f3ad9375594680595a64 ""
-  "SMVT_manuscript.aux" 1794573086 17728 adc95502e513dfc2b84c7200feef6771 "pdflatex"
+  "SMVT_manuscript.aux" 1794579602 17728 add5607ce939b4891bbbab11f670c4d2 "pdflatex"
   (generated)
   "SMVT_manuscript.bbl"
   "SMVT_manuscript.blg"
   (rewritten before read)
-["pdflatex"] 1794573084.33337 "SMVT_manuscript.tex" "SMVT_manuscript.pdf" "SMVT_manuscript" 1794573090.80262 0
-  "SMVT_manuscript.aux" 1794573086 17728 adc95502e513dfc2b84c7200feef6771 "pdflatex"
-  "SMVT_manuscript.bbl" 1794573084 7845 71b6ad657945d9d6bc45691d5d6ce270 "bibtex SMVT_manuscript"
-  "SMVT_manuscript.out" 1794573085 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "SMVT_manuscript.tex" 1794573063 103863 e3675776d088746f36b7943a7c35c493 ""
+["pdflatex"] 1794579600.35831 "SMVT_manuscript.tex" "SMVT_manuscript.pdf" "SMVT_manuscript" 1794579603.83383 0
+  "SMVT_manuscript.aux" 1794579602 17728 add5607ce939b4891bbbab11f670c4d2 "pdflatex"
+  "SMVT_manuscript.bbl" 1794579600 7845 71b6ad657945d9d6bc45691d5d6ce270 "bibtex SMVT_manuscript"
+  "SMVT_manuscript.out" 1794579601 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "SMVT_manuscript.tex" 1794579590 104479 547cedd3fe1ed4130759e313a4fbdbe1 ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1775972939 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1775973842 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1775973401 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
