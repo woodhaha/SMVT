@@ -76,3 +76,17 @@
 - [ ] 抗惊厥药抑制 SMVT 的**确切分子位点**（底物口袋竞争 vs 变构）——需 cryo-EM/突变验证，非本次 docking 可答
 - [ ] 金刚烷羧酸是否**真被转运**（抑制 vs 底物）——需体外摄取实验（与 5-HTP 竞争摄取实验同设计）
 - [ ] MK-801/memantine 的 SMVT 结合是否真实（无羧基，最不可靠）——建议降权或删
+
+---
+
+## Paper-Upgrade 2026-11-23 — Discussion 文献补强（3 条已核实）
+
+深度检索 2025-2026 最新文献，为 Discussion 补 3 条 Crossref 核实的引用（已写入 tex + bib，编译 0 错误，文献数 34 → 37）：
+
+| # | 文献 | 要点 | 落点 |
+|---|---|---|---|
+| 1 | Yuan Y, Chen L. *Transporters in vitamin uptake and cellular metabolism: impacts on health and disease.* **Life Metab 2025;4:loaf008** · PMID 40444179 | 综述把 SLC5 家族维生素转运体定位为治疗靶点 → 背书 SMVT 可成药（领域共识） | §Discussion "First"（递送范式句） |
+| 2 | Králová A et al. *Sodium-dependent multivitamin transporter facilitates brain and neuronal uptake of a creatine analogue.* **ACS Chem Neurosci 2026;17:3545–61** · PMID 42980081 | SMVT 介导肌酸类似物脑摄取 → 递送范式从维生素扩展到 CNS | 同上，并排 |
+| 3 | Rudenko AYu et al. *Test system for studying biotin transport upon SLC5A6 gene inactivation.* **Acta Naturae 2025;17:119–29** · PMID 41122322 | SLC5A6 敲除系统：生物素-氨基苯丙氨酸偶联物仍 SMVT 依赖性内化 → 羧基必需「主导但不绝对」 | 5-HTP/NSAID 羧基段（括号内 nuance） |
+
+**价值**：领域共识背书 + CNS 递送扩展 + 羧基要求诚实 nuance。全部 Crossref 核实 DOI/作者/卷期，无幻觉。
