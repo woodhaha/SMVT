@@ -1,17 +1,17 @@
 # Fdb version 4
-["bibtex SMVT_manuscript"] 1794579599.55243 "SMVT_manuscript.aux" "SMVT_manuscript.bbl" "SMVT_manuscript" 1794579603.833 0
+["bibtex SMVT_manuscript"] 1795415768.78213 "SMVT_manuscript.aux" "SMVT_manuscript.bbl" "SMVT_manuscript" 1795415773.0258 0
   "./plos2015.bst" 1794137367 38434 019b6943fa547ba18d4dbc858fc33446 ""
-  "./references.bib" 1794573049 12569 ee6427852398f3ad9375594680595a64 ""
-  "SMVT_manuscript.aux" 1794579602 17728 add5607ce939b4891bbbab11f670c4d2 "pdflatex"
+  "./references.bib" 1795415253 14407 ed8c99b77ccc78fb484691bd5f0032b8 ""
+  "SMVT_manuscript.aux" 1795415771 18970 f62046a2cd0358ebe5a313d088e83e00 "pdflatex"
   (generated)
   "SMVT_manuscript.bbl"
   "SMVT_manuscript.blg"
   (rewritten before read)
-["pdflatex"] 1794579600.35831 "SMVT_manuscript.tex" "SMVT_manuscript.pdf" "SMVT_manuscript" 1794579603.83383 0
-  "SMVT_manuscript.aux" 1794579602 17728 add5607ce939b4891bbbab11f670c4d2 "pdflatex"
-  "SMVT_manuscript.bbl" 1794579600 7845 71b6ad657945d9d6bc45691d5d6ce270 "bibtex SMVT_manuscript"
-  "SMVT_manuscript.out" 1794579601 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "SMVT_manuscript.tex" 1794579590 104479 547cedd3fe1ed4130759e313a4fbdbe1 ""
+["pdflatex"] 1795415769.44018 "SMVT_manuscript.tex" "SMVT_manuscript.pdf" "SMVT_manuscript" 1795415773.02658 0
+  "SMVT_manuscript.aux" 1795415771 18970 f62046a2cd0358ebe5a313d088e83e00 "pdflatex"
+  "SMVT_manuscript.bbl" 1795415769 8925 21646b85a98e4dd1a92bbaf818a95c49 "bibtex SMVT_manuscript"
+  "SMVT_manuscript.out" 1795415770 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "SMVT_manuscript.tex" 1795415756 106532 d217b8af3ccfb59e7245372bd425e758 ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1775972939 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1775973842 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1775973401 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -161,6 +161,7 @@
   "figures/FigS17_Na_ligand_RDF.pdf" 1794480183 41722 76448617d7aaf484784c73e26fcaee40 ""
   "figures/FigS18_membrane_MD_stability.pdf" 1794480184 122900 f9e4b0d86ddf1e5ced54f70413efdf2f ""
   "figures/FigS1_SMVT_survival_KM.pdf" 1792815527 149489 bd2962148cdb50c129a12e8a04ed8c67 ""
+  "figures/FigS23_SLC5A6_celltype.pdf" 1795415120 56133 c6c3c49b35a6ac6cb84a833f9f882403 ""
   "figures/FigS2_SMVT_survival_forest.pdf" 1792815528 45039 bdaeecea02ca3b1081369da2f3c61251 ""
   "figures/FigS3_SMVT_family_SAR.pdf" 1792815509 26061 a1caca7fbb00eca6c6e7a900b0614627 ""
   "figures/FigS4_SMVT_GO_enrichment.pdf" 1792815854 53652 668785585f45d7de896fa0bb8ca01c5f ""

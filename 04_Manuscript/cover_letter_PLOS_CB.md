@@ -2,7 +2,7 @@
 
 **Date**: 2026-11-08
 **To**: The Editors, PLOS Computational Biology
-**Re**: Submission of "Structure-Based Discovery of Carboxyl-Bearing Ligands for the Multivitamin Transporter SLC5A6, a Pan-Cancer Metabolic Vulnerability"
+**Re**: Submission of "Structure-Based Discovery of Carboxyl-Bearing Ligands for the Multivitamin Transporter SLC5A6, a Tumor-Intrinsic Pan-Cancer Metabolic Vulnerability"
 
 ---
 

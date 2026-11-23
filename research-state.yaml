@@ -6,7 +6,15 @@ status: active
 # SMVT: Na+-dependent multivitamin transporter (SLC5A6). 泛癌表达/突变景观 + 结构药理学 + MD。
 # 8 compounds 100ns MD 全部完成 (2026-07-04)。现处稿件 figure 精修阶段。
 
-current_focus: 投稿目标从 CBM 改为 PLOS Computational Biology（⚠️ CBM 已 On Hold→WoS 移除 2025-11-17，投稿包作废）。稿件 54 页编译 0 错误：标题改 "Structure-Based Discovery of Carboxyl-Bearing Ligands..."、参考文献转 Vancouver（unsrt 前6作者et al.，30条）、金刚烷三羧酸 cryo-EM 验证 −7.64（羧基锚定 Tyr156 3.7Å）+ 靶向递送定位（hypothesis）。药物设计研究结论：偶联物转运证伪（三轮 docking），转向纳米粒靶向胞吞（PLOS CB 2区唯一 fit，实验不必需）。待办：建 GitHub repo 上传代码（~25脚本，见 code_archive_plan.md）、从 weste 同步 md_v13.py、温医 T1/T2/T3 核对。【2026-11-04 会话保存】
+current_focus: 投稿目标 npj Systems Biology and Applications（Nature Portfolio）。npj_submission/ 已建成并迁移到官方 sn-jnl 模板：\documentclass[pdflatex,sn-nature]{sn-jnl}，47 页 / 0 错误 / 0 undefined / bibtex 干净 / 摘要 134 词（≤150）/ 37 条参考文献 / 32 图全存在。待办：GitHub 推送（代码可及性声称）、期刊指标四门槛（分区/IF/On Hold/APC + 温医目录）核完再投。【2026-11-23 会话保存】
+
+## 2026-11-23 — npj 迁移（本轮完成）
+- **模板**：PLOS article 壳（geometry/authblk/cite/marvosym + \begin{abstract}）→ Springer Nature **sn-jnl** 官方类（pdflatex + sn-nature 数字引用）；作者块改 \author/\affil/\equalcont/\email，\abstract{}/\keywords{}/\maketitle
+- **坑**：tex 里再写 `\bibliographystyle{sn-nature}` 会和 sn-jnl.cls 自动写入 aux 的 \bibstyle 冲突 → bibtex 报 "Illegal, another \bibstyle command" 并 exit 2；删掉显式那行即可（类选项已设）
+- **声明段**：转 backmatter 环境 + \bmhead，标题改 Nature 规范名（"Use of AI"→"Use of Generative AI in the preparation of the work"；CRediT→"Author contributions"；"Declaration of competing interest"→"Competing interests"，正文改 Nature 句式 "The authors declare no competing interests."；Elsevier 式长声明删除）
+- **一致性修复**：Fig.~S23（GSE178341 单细胞）在 SI 图列表里有图无 legend → 补写 S23 legend；SI 总数声明 "S1--S22" 陈旧 → 改 "S1--S23"；删除 PLOS 专属 "Author Summary" 段（npj 无此文稿类型）
+- **刊史**：CBM（On Hold→WoS 移除，作废）→ CSBJ（10-26 包）→ PLOS Comput Biol（11-04）→ **npj Systems Biology and Applications（今日）**；各家均未实际投出
+- **遗留可选**：SI 目前与正文合在一个 PDF（Nature 系刊通常单独上传 supplementary 文件）；正文对 SI 的引用是硬编码 "Fig.~S9" 文本，只有 4 个 \ref{} 且全指主文表格 → 拆分零风险，需要时再拆
 
 ## 2026-10-26 — 投稿冲刺（本轮完成）
 - **期刊定稿 CSBJ**：IF 4.8 / 中科院 3 区 / JCR Q2 / Elsevier OA。对比过 iScience(2区但IF跌4.1+On Hold隐患)、PLOS Comput Biol(2区但scope错配)、JBSD(2.4兜底)

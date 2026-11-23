@@ -1,6 +1,6 @@
 # Title Page
 
-**Structure-Based Discovery of Carboxyl-Bearing Ligands for the Multivitamin Transporter SLC5A6, a Pan-Cancer Metabolic Vulnerability**
+**Structure-Based Discovery of Carboxyl-Bearing Ligands for the Multivitamin Transporter SLC5A6, a Tumor-Intrinsic Pan-Cancer Metabolic Vulnerability**
 
 ## Authors
 
