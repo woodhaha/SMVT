@@ -1,0 +1,12 @@
+manuscript_ligand,claim,gdsc2_match
+diclofenac,"NSAID hit, dG -8.07",NOT SCREENED
+carprofen,"NSAID hit, dG -8.04",NOT SCREENED
+phenobarbital,"barbiturate hit, dG -8.30",NOT SCREENED
+pentobarbital,"barbiturate hit, dG -8.18",NOT SCREENED
+butalbital,"barbiturate hit, dG -8.02",NOT SCREENED
+furosemide,"sulfonamide hit, dG -8.36",NOT SCREENED
+naftazone,"naphthoquinone hit, dG -8.34",NOT SCREENED
+hydromorphone,"opioid top hit, dG -8.58",NOT SCREENED
+biotin,natural substrate,NOT SCREENED
+5-hydroxytryptophan,"5-HTP, dG -7.66",NOT SCREENED
+gabapentin enacarbil,FDA SMVT prodrug positive control,NOT SCREENED
