@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-from fig_style import apply_style, PALETTE
+from fig_style import apply_style, PALETTE, MM, DOUBLE, save_pub
 apply_style()
 
 OUT = os.path.join('04_Manuscript', 'figures')
@@ -34,7 +34,7 @@ def weibull_survival(t, median):
     return np.exp(-np.log(2) * (t / median) ** 1.5)
 
 # ─── FigS1: KM curves (6 panels) ───
-fig, axes = plt.subplots(2, 3, figsize=(12, 8))
+fig, axes = plt.subplots(2, 3, figsize=(DOUBLE, 110 * MM))
 t = np.linspace(0, 120, 300)
 for ax, r in zip(axes.flat, sig):
     cancer = r['cancer']
@@ -46,17 +46,16 @@ for ax, r in zip(axes.flat, sig):
     ax.step(t, sl, 'b-', lw=1.5, where='post', label='SMVT low')
     ax.fill_between(t, sh-0.03, sh+0.03, color='red', alpha=0.08)
     ax.fill_between(t, sl-0.03, sl+0.03, color='blue', alpha=0.08)
-    ax.set_title(f"{cancer} (n={n_pt})\nHR={float(r['hr']):.1f}, q={qmap[cancer]:.1e}", fontsize=9)
+    ax.set_title(f"{cancer} (n={n_pt})\nHR={float(r['hr']):.1f}, q={qmap[cancer]:.1e}", fontsize=7)
     ax.set_xlabel('Months'); ax.set_ylabel('OS'); ax.set_ylim(0,1.05)
     ax.grid(alpha=0.2); ax.legend(fontsize=6)
-fig.suptitle('Fig. S1 | KM curves, SLC5A6 median split — 6 FDR-significant cancer types (data-driven from reported medians)', fontsize=11)
+fig.suptitle('Fig. S1 | KM curves, SLC5A6 median split — 6 FDR-significant cancer types (data-driven from reported medians)', fontsize=8)
 plt.tight_layout()
-for fmt in ('png','pdf'):
-    fig.savefig(f'{OUT}/FigS1_SMVT_survival_KM.{fmt}', dpi=300, bbox_inches='tight')
+save_pub(fig, 'FigS1_SMVT_survival_KM', outdir=OUT)
 plt.close()
 
 # ─── FigS2: Forest plot (6 types) ───
-fig, ax = plt.subplots(figsize=(8, 5))
+fig, ax = plt.subplots(figsize=(DOUBLE, 100 * MM))
 ypos = np.arange(len(sig))[::-1]
 hrs = [float(r['hr']) for r in sig]
 los = [float(r['hr_lo']) for r in sig]
@@ -69,7 +68,6 @@ ax.set_xscale('log')
 ax.set_xlabel('Hazard ratio (95% CI, log scale)')
 ax.set_title('Fig. S2 | Pan-cancer survival forest plot — 6 FDR-significant types')
 plt.tight_layout()
-for fmt in ('png','pdf'):
-    fig.savefig(f'{OUT}/FigS2_SMVT_survival_forest.{fmt}', dpi=300, bbox_inches='tight')
+save_pub(fig, 'FigS2_SMVT_survival_forest', outdir=OUT)
 plt.close()
 print('saved FigS1 + FigS2 (6 types, real data)')

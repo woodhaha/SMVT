@@ -56,11 +56,15 @@ def doi_map():
 
 
 def run_consistency():
+    """audit_consistency.main() reads sys.argv and takes no parameters."""
     mod = load_skill("audit_consistency")
     print(f"\n=== mechanical consistency: {CONFIG.name} ===")
-    rc = mod.main([str(CONFIG)]) if hasattr(mod, "main") else subprocess.call(
-        [sys.executable, str(AUDIT_DIR / "audit_consistency.py"), str(CONFIG)])
-    return rc
+    argv = sys.argv
+    sys.argv = ["audit_consistency.py", str(CONFIG)]
+    try:
+        return mod.main()
+    finally:
+        sys.argv = argv
 
 
 def run_refs(no_cache=False):
@@ -89,6 +93,7 @@ def verify_from_bib():
     names + given-name initials, title tokens, year, volume, page/article-number.
     """
     import json
+    import unicodedata
     import urllib.request
 
     bib = BIB.read_text(encoding="utf-8", errors="replace")
@@ -102,12 +107,49 @@ def verify_from_bib():
         entries[key] = fields
 
     def strip(s):
-        s = re.sub(r"\\[a-zA-Z]+', ?", "", s)
-        s = re.sub(r"\\[a-zA-Z]+\s*", " ", s)
+        # LaTeX accents must be folded, not deleted: \v{a} / \'a / \~a carry the letter.
+        s = re.sub(r"\\[a-zA-Z]+\{([^{}]*)\}", r"\1", s)
+        s = re.sub(r"\\[a-zA-Z]+\s*", "", s)
         s = s.replace("\\&", "and").replace("{", "").replace("}", "").replace("$", "")
-        return re.sub(r"\s+", " ", s).strip()
+        s = unicodedata.normalize("NFKD", s)
+        s = "".join(c for c in s if not unicodedata.combining(c))
+        # Crossref uses U+2010/U+2011 hyphen and <sup>/<i> markup inside titles.
+        # Non-alphanumerics become SPACES, never deleted: deleting them fuses
+        # "Na+-dependent" into "nadependent" and invents a title mismatch.
+        s = re.sub(r"<[^>]+>", " ", s)
+        s = re.sub(r"[^A-Za-z0-9]+", " ", s)
+        return re.sub(r"\s+", " ", s).strip().lower()
 
-    words = lambda s: {w.strip(".,;:()").lower() for w in re.findall(r"[A-Za-z][A-Za-z'&-]{3,}", strip(s))}
+    def words(s):
+        return {w for w in strip(s).split() if len(w) > 2 and not w.isdigit()}
+
+    def abbr_ok(abbrev, full):
+        """True if an abbreviated journal name can be derived from the full name.
+
+        'j. biol. chem.' vs 'journal of biological chemistry' shares no complete
+        word, so token equality would flag every abbreviated reference. Prefix
+        matching per content word is what an abbreviation actually is.
+        """
+        aw, fw = words(abbrev), words(full)
+        if aw <= fw:
+            return True
+        return all(any(a == f or (len(a) >= 2 and f.startswith(a)) for f in fw) for a in aw)
+
+    def pubmed_title(doi):
+        """Fallback title, because Crossref sometimes deposits only a short title
+        (wang1999: Crossref 'Human Placental Na+-dependent Multivitamin Transporter'
+        vs PubMed's full '... Cloning, functional expression, gene structure, and
+        chromosomal localization' - real paper, would otherwise flag as invented)."""
+        try:
+            u = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
+            with urllib.request.urlopen(u + f"esearch.fcgi?db=pubmed&term={doi}[doi]&retmode=json", timeout=30) as f:
+                ids = json.load(f).get("esearchresult", {}).get("idlist", [])
+            if not ids:
+                return ""
+            with urllib.request.urlopen(u + f"esummary.fcgi?db=pubmed&id={ids[0]}&retmode=json", timeout=30) as f:
+                return json.load(f)["result"][ids[0]].get("title", "")
+        except Exception:
+            return ""
 
     bad, unresolved = [], []
     for key, f in sorted(entries.items()):
@@ -124,23 +166,27 @@ def verify_from_bib():
             unresolved.append((key, f"{type(ex).__name__}: {str(ex)[:50]}"))
             continue
         errs = []
-        cr_fam = [a.get("family", "") for a in m.get("author", [])]
-        cr_giv = " ".join(a.get("given", "") for a in m.get("author", []))
-        bib_auth = strip(f["author"])
-        for surname in re.split(r",| and ", bib_auth):
-            s = surname.split(" ")[0].strip()
-            if len(s) > 2 and s.lower() not in {x.lower() for x in cr_fam} and s.lower() not in cr_giv.lower():
-                if not any(s.lower() in x.lower() for x in cr_fam):
-                    errs.append(f"author {s!r} not in Crossref {cr_fam[:4]}")
-        extra = words(f["title"]) - words(m.get("title", [""])[0]) - {"and", "the", "of", "for", "via", "with", "from"}
+        cr_fam = [strip(a.get("family", "")) for a in m.get("author", [])]
+        cr_giv = strip(" ".join(a.get("given", "") for a in m.get("author", [])))
+        for part in re.split(r",\s*and\s+|\s+and\s+|,", strip(f["author"])):
+            s = part.strip().strip(".").split(" ")[0] if part.strip() else ""
+            if len(s) < 3 or s in ("others", "al", "and", "et"):
+                continue          # "and others" -> et al., not a surname
+            if not any(s == c or s in c or c in s for c in cr_fam) and s not in cr_giv:
+                errs.append(f"author {s!r} not in Crossref {cr_fam[:5]}")
+        cr_title = m.get("title", [""])[0]
+        extra = words(f["title"]) - words(cr_title) - words(pubmed_title(doi))
+        extra = {w for w in extra if len(w) > 3 and not w.isdigit()}
         if extra:
-            errs.append(f"title words absent from Crossref: {sorted(extra)[:5]}")
+            errs.append(f"title words absent from Crossref and PubMed: {sorted(extra)[:5]}")
         cr_year = (m.get("published-print") or m.get("published-online") or {}).get("date-parts", [[None]])[0][0]
         if f["year"] and cr_year and abs(int(f["year"]) - int(cr_year)) > 1:
             errs.append(f"year bib={f['year']} crossref={cr_year}")
+        # Venue is pinned by the DOI itself, so abbreviation-vs-full-name in the bib
+        # field is cosmetic; only a substantive mismatch (no shared token) is reported.
         cr_j = (m.get("container-title") or [""])[0]
-        if f["journal"] and cr_j and words(f["journal"]) != words(cr_j) and strip(f["journal"]).lower() not in strip(cr_j).lower():
-            errs.append(f"journal bib={strip(f['journal'])[:40]!r} cr={cr_j[:40]!r}")
+        if f["journal"] and cr_j and not abbr_ok(f["journal"], cr_j):
+            errs.append(f"journal not derivable: bib={strip(f['journal'])[:44]!r} cr={strip(cr_j)[:44]!r}")
         if errs:
             bad.append((key, doi, errs))
         print(f"OK   {key:16s} {cr_j[:34]:34s} {cr_year} vol={m.get('volume','-') or '-':6s} "

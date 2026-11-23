@@ -10,7 +10,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
-from fig_style import apply_style, PALETTE
+from fig_style import apply_style, PALETTE, MM, DOUBLE, save_pub
 apply_style()
 
 OUT = r'D:\Researching\SMVT\04_Manuscript\figures'
@@ -89,10 +89,10 @@ def barh_terms(ax, data, title):
     for i, t in enumerate(d):
         ax.text(-np.log10(t[1]) + 0.25, i, f'n={t[2]}', fontsize=6, va='center', color='#555')
     ax.set_yticks(y)
-    ax.set_yticklabels(labels, fontsize=7)
+    ax.set_yticklabels(labels, fontsize=6)
     ax.set_xlabel('−log$_{10}$(P-value)')
     ax.axvline(x=-np.log10(0.05), color='grey', lw=0.6, ls='--', alpha=0.4)
-    ax.set_title(title, fontsize=10, fontweight='bold', loc='left')
+    ax.set_title(title, loc='left')
     ax.tick_params(width=0.6)
     return ax
 
@@ -105,23 +105,21 @@ def cat_legend(ax):
 
 
 # ── FigS4: GO enrichment (single panel) ──
-fig, ax = plt.subplots(figsize=(6.5, 5.5))
+fig, ax = plt.subplots(figsize=(DOUBLE, 118 * MM))
 barh_terms(ax, go_data, 'GO Biological Process (top 18 of 52)')
 cat_legend(ax)
 fig.tight_layout()
-for fmt in ('png', 'pdf'):
-    fig.savefig(f'{OUT}/FigS4_SMVT_GO_enrichment.{fmt}', dpi=300, bbox_inches='tight')
+save_pub(fig, 'FigS4_SMVT_GO_enrichment', outdir=OUT)
 plt.close(fig)
 print('saved FigS4')
 
 # ── FigS5: KEGG (left) + Reactome (right) ──
-fig, (ax_k, ax_r) = plt.subplots(1, 2, figsize=(11, 6))
+fig, (ax_k, ax_r) = plt.subplots(1, 2, figsize=(DOUBLE, 100 * MM))
 barh_terms(ax_k, kegg_data, 'KEGG pathways (13)')
 barh_terms(ax_r, reactome_data[:15], 'Reactome pathways (top 15 of 17)')
 cat_legend(ax_k)
 cat_legend(ax_r)
 fig.tight_layout()
-for fmt in ('png', 'pdf'):
-    fig.savefig(f'{OUT}/FigS5_SMVT_KEGG_Reactome.{fmt}', dpi=300, bbox_inches='tight')
+save_pub(fig, 'FigS5_SMVT_KEGG_Reactome', outdir=OUT)
 plt.close(fig)
 print('saved FigS5')

@@ -4,7 +4,7 @@ import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 from matplotlib.patches import Patch; from matplotlib.lines import Line2D
-from fig_style import apply_style, PALETTE
+from fig_style import apply_style, PALETTE, MM, DOUBLE, save_pub
 apply_style()
 
 OUT = r"D:/Researching/SMVT/03_Analysis/figures"
@@ -49,17 +49,17 @@ else:
         elif sid.endswith(("-11","-10")): normals.setdefault(ab,[]).append(lv)
     json.dump({"tumors":tumors,"normals":normals}, open(cache,"w"))
 
-fig = plt.figure(figsize=(16, 10))
-gs = gridspec.GridSpec(2, 2, width_ratios=[1, 0.7], height_ratios=[0.5, 0.5], hspace=0.28, wspace=0.18)
+fig = plt.figure(figsize=(DOUBLE, 165 * MM))
+gs = gridspec.GridSpec(2, 2, width_ratios=[1, 0.7], height_ratios=[0.5, 0.5], hspace=0.32, wspace=0.20)
 
 ax1 = fig.add_subplot(gs[0, 0])
 ax1.barh(range(n), de["log2FC"].values, color=colors, ec="white", lw=0.4, height=0.6)
 ax1.axvline(0, color="#333", lw=0.8); ax1.axvline(0.2, color="#888", ls="--", lw=0.5, alpha=0.5)
-ax1.set_yticks(range(n)); ax1.set_yticklabels(ylabels, fontsize=7.5)
-ax1.set_xlabel("Log Fold Change", fontsize=9)
-ax1.set_title("a  SLC5A6 Differential Expression", fontsize=10, fontweight="bold", loc="left")
+ax1.set_yticks(range(n)); ax1.set_yticklabels(ylabels, fontsize=5.5)
+ax1.set_xlabel("Log Fold Change")
+ax1.set_title("a  SLC5A6 Differential Expression", loc="left")
 ax1.set_xlim(de["log2FC"].min()-0.03, de["log2FC"].max()+0.18)
-ax1.grid(axis="x", alpha=0.1); ax1.set_axisbelow(True); ax1.tick_params(axis="y", left=False, labelsize=7.5)
+ax1.grid(axis="x", alpha=0.1); ax1.set_axisbelow(True); ax1.tick_params(axis="y", left=False, labelsize=5.5)
 ax1.legend(handles=[Patch(color="#c62828",label="Up"),Patch(color="#1565c0",label="Down"),Patch(color="#bdbdbd",label="NS")], fontsize=6.5, loc="lower right")
 
 ax2 = fig.add_subplot(gs[0, 1])
@@ -70,8 +70,8 @@ for _, r in de.iterrows():
     if r["pval"] < 1e-15:
         ax2.annotate(r["cancer"], (-np.log10(r["pval"]), r["log2FC"]), fontsize=6, ha="right", va="center", xytext=(-3,0), textcoords="offset points")
 ax2.axvline(-np.log10(0.05), color="#888", ls="--", lw=0.5, alpha=0.5)
-ax2.set_xlabel("-log10(P-value)", fontsize=9); ax2.set_ylabel("Log Fold Change", fontsize=9)
-ax2.set_title("b  Volcano Plot", fontsize=10, fontweight="bold", loc="left")
+ax2.set_xlabel("-log10(P-value)"); ax2.set_ylabel("Log Fold Change")
+ax2.set_title("b  Volcano Plot", loc="left")
 ax2.grid(alpha=0.1); ax2.axhline(0, color="#ccc", lw=0.3)
 
 ax3 = fig.add_subplot(gs[1, :])
@@ -90,12 +90,12 @@ for s in [0, M+G]:
 cmp = plt.cm.YlOrRd.copy(); cmp.set_bad("#f0f0f0")
 ax3.imshow(mat, aspect="auto", cmap=cmp, vmin=1.5, vmax=3.0)
 ax3.axvline(M-0.5, color="#333", lw=1.5)
-ax3.text(M/2, -0.8, "Tumor", ha="center", fontsize=9, fontweight="bold")
-ax3.text(M+G+M/2, -0.8, "Normal", ha="center", fontsize=9, fontweight="bold")
-ax3.set_yticks(range(len(cancers))); ax3.set_yticklabels(cancers, fontsize=7.5)
+ax3.text(M/2, -0.8, "Tumor", ha="center", fontsize=8, fontweight="bold")
+ax3.text(M+G+M/2, -0.8, "Normal", ha="center", fontsize=8, fontweight="bold")
+ax3.set_yticks(range(len(cancers))); ax3.set_yticklabels(cancers, fontsize=5.5)
 ax3.set_xticks([]); ax3.set_xlim(-0.5, W+2.5)
-ax3.set_title("c  SLC5A6 Expression", fontsize=10, fontweight="bold", loc="left")
-ax3.tick_params(axis="y", left=False, labelsize=7.5)
+ax3.set_title("c  SLC5A6 Expression", loc="left", pad=14)
+ax3.tick_params(axis="y", left=False, labelsize=5.5)
 
 for i, c in enumerate(cancers):
     ax3.plot(W+0.3, i, "o", color="#c62828", ms=4)
@@ -103,11 +103,10 @@ for i, c in enumerate(cancers):
     ax3.text(W+1.8, i, "n="+str(tc[i])+"/"+str(nc[i]), va="center", fontsize=5.5, color="#555")
 
 plt.colorbar(ax3.images[0], ax=ax3, shrink=0.4, pad=0.06).set_label("log2(FPKM+1)", fontsize=8)
-ax3.legend(handles=[Line2D([0],[0],marker="o",color="w",mfc="#c62828",ms=5,label="Tumor mean"),Line2D([0],[0],marker="o",color="w",mfc="#1565c0",ms=5,label="Normal mean")], fontsize=6, loc="upper right")
+ax3.legend(handles=[Line2D([0],[0],marker="o",color="w",mfc="#c62828",ms=5,label="Tumor mean"),Line2D([0],[0],marker="o",color="w",mfc="#1565c0",ms=5,label="Normal mean")], fontsize=6, loc="upper center", bbox_to_anchor=(0.5, -0.02), ncol=2)
 
 plt.tight_layout()
-fig.savefig(OUT+"/Fig1_SMVT_TCGA_pan_cancer.pdf", dpi=300, bbox_inches="tight")
-fig.savefig(OUT+"/Fig1_SMVT_TCGA_pan_cancer.png", dpi=300, bbox_inches="tight")
-shutil.copy(OUT+"/Fig1_SMVT_TCGA_pan_cancer.pdf", FINAL+"/Fig1_SMVT_TCGA_pan_cancer.pdf")
-shutil.copy(OUT+"/Fig1_SMVT_TCGA_pan_cancer.png", FINAL+"/Fig1_SMVT_TCGA_pan_cancer.png")
+STEM = "Fig1_SMVT_TCGA_pan_cancer"
+for path in save_pub(fig, STEM, outdir=OUT):
+    shutil.copy(path, os.path.join(FINAL, os.path.basename(path)))
 plt.close(); print("Fig1 done")

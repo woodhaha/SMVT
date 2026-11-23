@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-from fig_style import apply_style, PALETTE
+from fig_style import apply_style, PALETTE, MM, DOUBLE, save_pub
 apply_style()
 from scipy import stats
 
@@ -37,7 +37,9 @@ sig = [x for x in rows if x['q'] < 0.05]
 nsig = [x for x in rows if x['q'] >= 0.05]
 print(f'{len(sig)} significant, {len(nsig)} not (n={len(rows)})')
 
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(11, 4.5))
+# panel a carries 30 text-labelled points, so it gets the wider share (was equal)
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(DOUBLE, 90 * MM),
+                               gridspec_kw={'width_ratios': [1.3, 1.0]})
 
 # (a) Scatter: HR (log) vs median expression
 hrs = np.array([x['hr'] for x in rows]); mex = np.array([x['med_expr'] for x in rows])
@@ -50,13 +52,13 @@ for x in rows:
 rho, p = stats.spearmanr(mex, hrs)
 ax1.set_yscale('log'); ax1.set_xlabel('Median SLC5A6 expression (log2)')
 ax1.set_ylabel('Cox HR (log scale)')
-ax1.set_title(f'(a) HR vs expression (ρ={rho:.2f}, P={p:.3g})', fontsize=10)
+ax1.set_title(f'(a) HR vs expression (ρ={rho:.2f}, P={p:.3g})')
 ax1.axhline(1, color='gray', ls='--', lw=0.8)
-ax1.legend(fontsize=8); ax1.grid(alpha=0.2)
+ax1.legend(fontsize=6); ax1.grid(alpha=0.2)
 
 # (b) Box plot: significant vs not
 sig_med = np.array([x['med_expr'] for x in sig]); nsig_med = np.array([x['med_expr'] for x in nsig])
-bp = ax2.boxplot([nsig_med, sig_med], labels=[f'Not significant (n={len(nsig)})', f'q<0.05 (n={len(sig)})'],
+bp = ax2.boxplot([nsig_med, sig_med], tick_labels=[f'Not significant (n={len(nsig)})', f'q<0.05 (n={len(sig)})'],
                  patch_artist=True, widths=0.5)
 for patch, col in zip(bp['boxes'], ['#e0e0e0', '#ef9a9a']):
     patch.set_facecolor(col)
@@ -66,12 +68,11 @@ for x, y in zip([2]*len(sig_med), sig_med):
     ax2.scatter(x + np.random.normal(0, 0.05, 1), y, c='#c62828', s=30, alpha=0.6)
 mw, mp = stats.mannwhitneyu(nsig_med, sig_med, alternative='two-sided')
 ax2.set_ylabel('Median SLC5A6 expression (log2)')
-ax2.set_title(f'(b) Expression by survival status (Mann-Whitney P={mp:.2f})', fontsize=10)
+ax2.set_title(f'(b) Expression by survival status (Mann-Whitney P={mp:.2f})')
 ax2.grid(alpha=0.2, axis='y')
 
-fig.suptitle('Fig. S16 | SLC5A6 survival association is strongest in low-baseline-expression types', fontsize=11)
+fig.suptitle('Fig. S16 | SLC5A6 survival association is strongest in low-baseline-expression types', fontsize=8)
 plt.tight_layout()
-for fmt in ('png', 'pdf'):
-    fig.savefig(f'{OUT}/FigS16_survival_vs_expression.{fmt}', dpi=300, bbox_inches='tight')
+save_pub(fig, 'FigS16_survival_vs_expression', outdir=OUT)
 plt.close()
 print('saved FigS16 (real data)')

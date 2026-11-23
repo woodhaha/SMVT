@@ -11,22 +11,13 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, Rectangle
 from matplotlib.lines import Line2D
-from fig_style import apply_style, PALETTE
+from fig_style import apply_style, PALETTE, MM, DOUBLE, save_pub
 apply_style()
 from pathlib import Path
 
-plt.rcParams.update({
-    'font.family': 'sans-serif',
-    'font.sans-serif': ['DejaVu Sans', 'Arial'],
-    'font.size': 6.5, 'axes.titlesize': 7.5, 'axes.labelsize': 6.5,
-    'xtick.labelsize': 5.5, 'ytick.labelsize': 5.5, 'legend.fontsize': 5,
-    'figure.dpi': 300, 'savefig.dpi': 600, 'savefig.bbox': 'tight',
-    'savefig.pad_inches': 0.08,
-    'axes.linewidth': 0.4, 'xtick.major.width': 0.4, 'ytick.major.width': 0.4,
-    'axes.spines.top': False, 'axes.spines.right': False,
-})
+# style comes from fig_style.apply_style() only (local rcParams override removed)
 
-OUTDIR = Path(__file__).parent
+OUTDIR = Path(__file__).parent / 'figures'
 
 # ═══ Colors ═══
 C_REACTOME = '#E41A1C'
@@ -101,7 +92,7 @@ kegg_data = [
 # FIGURE: 3-panel pathway enrichment
 # ═══════════════════════════════════════════════════
 
-fig = plt.figure(figsize=(9.0, 10.5))
+fig = plt.figure(figsize=(DOUBLE, 213 * MM))
 
 # ── Panel a: Reactome (top 17) ──
 ax_a = fig.add_axes([0.06, 0.62, 0.42, 0.35])
@@ -114,17 +105,17 @@ colors_a = [d[3] for d in r_data]
 y = range(len(labels_a))
 ax_a.barh(y, pvals_a, height=0.7, color=colors_a, alpha=0.85, edgecolor='white', lw=0.3)
 for i, (p, cnt) in enumerate(zip(pvals_a, counts_a)):
-    ax_a.text(p + 0.3, i, f'n={cnt}', fontsize=4.5, va='center', color='#666')
+    ax_a.text(p + 0.3, i, f'n={cnt}', fontsize=5.5, va='center', color='#666')
 
-ax_a.set_yticks(y); ax_a.set_yticklabels(labels_a, fontsize=5)
+ax_a.set_yticks(y); ax_a.set_yticklabels(labels_a, fontsize=5.5)
 ax_a.set_xlabel('-log10(P-value)', fontsize=6.5)
 ax_a.axvline(x=-np.log10(0.05), color='grey', lw=0.3, ls='--', alpha=0.4)
-ax_a.text(-np.log10(0.05)+0.1, len(labels_a)-1, 'P=0.05', fontsize=4.5, color='grey')
+ax_a.text(-np.log10(0.05)+0.1, len(labels_a)-1, 'P=0.05', fontsize=5.5, color='grey')
 
 leg = [Line2D([0],[0],c=C_METAB,lw=4,label='Vitamin/Cofactor'),
        Line2D([0],[0],c=C_SLC,lw=4,label='Transport'),
        Line2D([0],[0],c=C_LIPID,lw=4,label='Lipid/Energy')]
-ax_a.legend(handles=leg, frameon=False, fontsize=5, loc='lower right')
+ax_a.legend(handles=leg, frameon=False, fontsize=5.5, loc='lower right')
 ax_a.set_title('Reactome (17 pathways)', fontsize=8, fontweight='bold', loc='left')
 ax_a.text(-0.08, 1.03, 'a', transform=ax_a.transAxes, fontsize=12, fontweight='bold')
 
@@ -139,16 +130,16 @@ colors_b = [d[3] for d in g_data]
 yb = range(len(labels_b))
 ax_b.barh(yb, pvals_b, height=0.7, color=colors_b, alpha=0.85, edgecolor='white', lw=0.3)
 for i, (p, cnt) in enumerate(zip(pvals_b, counts_b)):
-    ax_b.text(p + 0.3, i, f'n={cnt}', fontsize=4.5, va='center', color='#666')
+    ax_b.text(p + 0.3, i, f'n={cnt}', fontsize=5.5, va='center', color='#666')
 
-ax_b.set_yticks(yb); ax_b.set_yticklabels(labels_b, fontsize=5)
+ax_b.set_yticks(yb); ax_b.set_yticklabels(labels_b, fontsize=5.5)
 ax_b.set_xlabel('-log10(P-value)', fontsize=6.5)
 ax_b.axvline(x=-np.log10(0.05), color='grey', lw=0.3, ls='--', alpha=0.4)
 
 leg2 = [Line2D([0],[0],c=C_METAB,lw=4,label='Metabolism'),
         Line2D([0],[0],c=C_SLC,lw=4,label='Transport'),
         Line2D([0],[0],c=C_LIPID,lw=4,label='Lipid/Acyl-CoA')]
-ax_b.legend(handles=leg2, frameon=False, fontsize=5, loc='lower right')
+ax_b.legend(handles=leg2, frameon=False, fontsize=5.5, loc='lower right')
 ax_b.set_title('GO Biological Process (top 18 of 52)', fontsize=8, fontweight='bold', loc='left')
 ax_b.text(-0.08, 1.03, 'b', transform=ax_b.transAxes, fontsize=12, fontweight='bold')
 
@@ -163,9 +154,9 @@ colors_c = [d[3] for d in k_data]
 yc = range(len(labels_c))
 ax_c.barh(yc, pvals_c, height=0.65, color=colors_c, alpha=0.85, edgecolor='white', lw=0.3)
 for i, (p, cnt) in enumerate(zip(pvals_c, counts_c)):
-    ax_c.text(p + 0.15, i, f'n={cnt}', fontsize=4.5, va='center', color='#666')
+    ax_c.text(p + 0.15, i, f'n={cnt}', fontsize=5.5, va='center', color='#666')
 
-ax_c.set_yticks(yc); ax_c.set_yticklabels(labels_c, fontsize=5)
+ax_c.set_yticks(yc); ax_c.set_yticklabels(labels_c, fontsize=5.5)
 ax_c.set_xlabel('-log10(P-value)', fontsize=6.5)
 ax_c.axvline(x=-np.log10(0.05), color='grey', lw=0.3, ls='--', alpha=0.4)
 ax_c.set_title('KEGG (13 pathways)', fontsize=8, fontweight='bold', loc='left')
@@ -188,7 +179,7 @@ for cx, cy, text, bg, fg in boxes:
     ax_d.text(cx, cy+0.17, text.split('\n')[0], transform=ax_d.transAxes,
               ha='center', fontsize=6, fontweight='bold', color=bg)
     ax_d.text(cx, cy-0.05, '\n'.join(text.split('\n')[1:]), transform=ax_d.transAxes,
-              ha='center', fontsize=4.5, color='#555')
+              ha='center', fontsize=5.5, color='#555')
 
 # Convergence point
 ax_d.text(0.50, 0.35, 'SLC5A6 (SMVT)\nVitamin Transport → Lipid Synthesis → Tumor',
@@ -234,7 +225,7 @@ for x1, y1, x2, y2 in arrows:
 
 # SREBP callout
 ax_e.text(0.78, 0.76, 'KEY FINDING:', fontsize=6, fontweight='bold', color=C_LIPID, transform=ax_e.transAxes)
-ax_e.text(0.78, 0.64, 'SREBP links SMVT\nvitamin transport to\nlipid transcription\nprogram (Reactome #7\np=1.3e-5)', fontsize=4.8,
+ax_e.text(0.78, 0.64, 'SREBP links SMVT\nvitamin transport to\nlipid transcription\nprogram (Reactome #7\np=1.3e-5)', fontsize=5.5,
           color='#555', transform=ax_e.transAxes, fontstyle='italic')
 
 ax_e.set_title('SMVT→Biotin→ACC→SREBP→FASN Axis', fontsize=8, fontweight='bold', loc='left')
@@ -262,10 +253,10 @@ dbs_f    = [t[3] for t in top_hits]
 
 yf = range(len(labels_f)-1, -1, -1)
 ax_f.barh(yf, pvals_f, height=0.6, color=colors_f, alpha=0.85, edgecolor='white', lw=0.3)
-ax_f.set_yticks(yf); ax_f.set_yticklabels(labels_f, fontsize=5)
+ax_f.set_yticks(yf); ax_f.set_yticklabels(labels_f, fontsize=5.5)
 
 for i, (p, db) in enumerate(zip(pvals_f, dbs_f)):
-    ax_f.text(p + 0.2, yf[i], db, fontsize=4.5, va='center', color='#666', fontstyle='italic')
+    ax_f.text(p + 0.2, yf[i], db, fontsize=5.5, va='center', color='#666', fontstyle='italic')
 
 ax_f.set_xlabel('-log10(P-value)', fontsize=6.5)
 ax_f.set_title('Top-9 Cross-Database Hits', fontsize=8, fontweight='bold', loc='left')
@@ -275,11 +266,9 @@ ax_f.text(-0.04, 1.03, 'f', transform=ax_f.transAxes, fontsize=12, fontweight='b
 fig.suptitle('SLC5A6 Interactome — Pathway Enrichment (Reactome + GO + KEGG)',
              fontsize=10.5, fontweight='bold', x=0.06, y=0.998, ha='left')
 fig.text(0.06, 0.005, 'pathlinkR v1.8.0 + clusterProfiler + ReactomePA  |  SLC5A6 interactome (25 genes)  |  P-value cutoff: 0.5 (Reactome), 0.3 (GO), 0.3 (KEGG)',
-         fontsize=4.5, color='grey', style='italic')
+         fontsize=5.5, color='grey', style='italic')
 
-out = OUTDIR / 'Fig_pathlinkR_master.png'
-fig.savefig(out, dpi=600, facecolor='white')
-fig.savefig(OUTDIR / 'Fig_pathlinkR_master.pdf', facecolor='white')
-print(f'OK: {out.name}')
+written = save_pub(fig, 'Fig_pathlinkR_master', outdir=str(OUTDIR))
+print(f'OK: {written[-1]}')
 plt.close()
 print('Pathway enrichment visualization complete.')

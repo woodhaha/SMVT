@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import mannwhitneyu
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from fig_style import apply_style, PALETTE, add_panel_label, style_axis
+from fig_style import apply_style, PALETTE, add_panel_label, style_axis, save_pub
 
 OUT = "03_Analysis/outputs"
 FIGDIR = "04_Manuscript/figures"
@@ -98,7 +98,5 @@ axc.set_xlim(0, g["pct"].max() * 1.22)
 style_axis(axc)
 add_panel_label(axc, "c")
 
-for ext, dpi in [("pdf", None), ("png", 300), ("svg", None)]:
-    fig.savefig(os.path.join(FIGDIR, f"Fig_SLC5A6_tumor_intrinsic.{ext}"),
-                dpi=dpi, bbox_inches="tight")
+save_pub(fig, "Fig_SLC5A6_tumor_intrinsic", outdir=FIGDIR)
 print(f"Saved main figure. up={n_up} down={n_dn}; Mann-Whitney p={p_mw}")

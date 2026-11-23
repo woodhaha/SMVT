@@ -1,36 +1,116 @@
 {
   "root": "D:\\Researching\\SMVT",
   "references": {},
-  "figure_dirs": ["04_Manuscript/figures", "npj_submission/figures"],
+  "figure_dirs": [
+    "04_Manuscript/figures",
+    "npj_submission/figures"
+  ],
   "tripwires": {
     "must_contain": {
-      "Carboxyl-Bearing Ligands for the Multivitamin Transporter SLC5A6": ["npj_submission/npj_manuscript.tex", "npj_submission/cover_letter_npj.md", "npj_submission/authors.md"],
-      "zhouzhuha@wmu.edu.cn": ["npj_submission/npj_manuscript.tex", "npj_submission/cover_letter_npj.md", "npj_submission/authors.md"],
-      "1,150": ["npj_submission/npj_manuscript.tex"],
-      "$+$0.015": ["npj_submission/npj_manuscript.tex"],
-      "0.1\\%": ["npj_submission/npj_manuscript.tex"],
-      "286 compounds": ["npj_submission/npj_manuscript.tex"],
-      "$\\rho = +0.018$": ["npj_submission/npj_manuscript.tex"],
-      "Fig.~S23": ["npj_submission/npj_manuscript.tex"],
-      "Supplementary Figures S1--S23": ["npj_submission/npj_manuscript.tex"],
-      "sn-nature": ["npj_submission/npj_manuscript.tex"]
+      "Carboxyl-Bearing Ligands for the Multivitamin Transporter SLC5A6": [
+        "npj_submission/npj_manuscript.tex",
+        "npj_submission/cover_letter_npj.md",
+        "npj_submission/authors.md"
+      ],
+      "zhouzhuha@wmu.edu.cn": [
+        "npj_submission/npj_manuscript.tex",
+        "npj_submission/cover_letter_npj.md",
+        "npj_submission/authors.md"
+      ],
+      "1,150": [
+        "npj_submission/npj_manuscript.tex"
+      ],
+      "$+$0.015": [
+        "npj_submission/npj_manuscript.tex"
+      ],
+      "0.1\\%": [
+        "npj_submission/npj_manuscript.tex"
+      ],
+      "286 compounds": [
+        "npj_submission/npj_manuscript.tex"
+      ],
+      "$\\rho = +0.018$": [
+        "npj_submission/npj_manuscript.tex"
+      ],
+      "Fig.~S23": [
+        "npj_submission/npj_manuscript.tex"
+      ],
+      "sn-nature": [
+        "npj_submission/npj_manuscript.tex"
+      ],
+      "Supplementary Figures S1--S25": [
+        "npj_submission/npj_manuscript.tex"
+      ],
+      "Fig.~S24": [
+        "npj_submission/npj_manuscript.tex"
+      ],
+      "Fig.~S25": [
+        "npj_submission/npj_manuscript.tex"
+      ],
+      "HPA036958": [
+        "npj_submission/npj_manuscript.tex"
+      ],
+      "0 of 20 tissues": [
+        "npj_submission/npj_manuscript.tex"
+      ],
+      "5.6\\times10^{-17}": [
+        "npj_submission/npj_manuscript.tex"
+      ]
     },
     "must_not_contain": {
-      "Computers in Biology and Medicine": ["npj_submission/npj_manuscript.tex", "npj_submission/cover_letter_npj.md"],
-      "PLOS Computational Biology": ["npj_submission/npj_manuscript.tex", "npj_submission/cover_letter_npj.md"],
-      "CSBJ": ["npj_submission/npj_manuscript.tex"],
-      "elsarticle": ["npj_submission/npj_manuscript.tex"],
-      "corum.ac.uk": ["npj_submission/npj_manuscript.tex"],
-      "ftp.cosmic.sanger.ac.uk": ["npj_submission/npj_manuscript.tex"],
-      "top-scoring compound, naftazone": ["npj_submission/npj_manuscript.tex"],
-      "Xiangyang Xue": ["npj_submission/npj_manuscript.tex", "npj_submission/authors.md"],
-      "wzxxy@wmu.edu.cn": ["npj_submission/npj_manuscript.tex", "npj_submission/authors.md"],
-      "\\begin{abstract}": ["npj_submission/npj_manuscript.tex"],
-      "authblk": ["npj_submission/npj_manuscript.tex"],
-      "Author Summary": ["npj_submission/npj_manuscript.tex"],
-      "\\bibliographystyle{sn-nature}": ["npj_submission/npj_manuscript.tex"],
-      "externally validated": ["npj_submission/npj_manuscript.tex", "npj_submission/cover_letter_npj.md"],
-      "outperforming": ["npj_submission/cover_letter_npj.md"]
+      "Computers in Biology and Medicine": [
+        "npj_submission/npj_manuscript.tex",
+        "npj_submission/cover_letter_npj.md"
+      ],
+      "PLOS Computational Biology": [
+        "npj_submission/npj_manuscript.tex",
+        "npj_submission/cover_letter_npj.md"
+      ],
+      "CSBJ": [
+        "npj_submission/npj_manuscript.tex"
+      ],
+      "elsarticle": [
+        "npj_submission/npj_manuscript.tex"
+      ],
+      "corum.ac.uk": [
+        "npj_submission/npj_manuscript.tex"
+      ],
+      "ftp.cosmic.sanger.ac.uk": [
+        "npj_submission/npj_manuscript.tex"
+      ],
+      "top-scoring compound, naftazone": [
+        "npj_submission/npj_manuscript.tex"
+      ],
+      "Xiangyang Xue": [
+        "npj_submission/npj_manuscript.tex",
+        "npj_submission/authors.md"
+      ],
+      "wzxxy@wmu.edu.cn": [
+        "npj_submission/npj_manuscript.tex",
+        "npj_submission/authors.md"
+      ],
+      "\\begin{abstract}": [
+        "npj_submission/npj_manuscript.tex"
+      ],
+      "authblk": [
+        "npj_submission/npj_manuscript.tex"
+      ],
+      "Author Summary": [
+        "npj_submission/npj_manuscript.tex"
+      ],
+      "\\bibliographystyle{sn-nature}": [
+        "npj_submission/npj_manuscript.tex"
+      ],
+      "externally validated": [
+        "npj_submission/npj_manuscript.tex",
+        "npj_submission/cover_letter_npj.md"
+      ],
+      "outperforming": [
+        "npj_submission/cover_letter_npj.md"
+      ],
+      "Supplementary Figures S1--S23": [
+        "npj_submission/npj_manuscript.tex"
+      ]
     }
   }
 }

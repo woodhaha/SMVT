@@ -1,10 +1,11 @@
 """Fig3: SLC5A6 mutation landscape from MC3 MAF — final version."""
+import os
 import pandas as pd, numpy as np, re
 import matplotlib; matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 from matplotlib.patches import Patch
-from fig_style import apply_style, PALETTE
+from fig_style import apply_style, PALETTE, MM, DOUBLE, save_pub
 apply_style()
 
 OUT = r'D:\Researching\SMVT\03_Analysis\figures'
@@ -83,8 +84,8 @@ df.loc[df['Variant_Classification'].isin(['Nonsense_Mutation','Frame_Shift_Del']
 df.loc[df['Variant_Classification']=='Splice_Site', 'Class'] = 'Splice'
 df.loc[df['Variant_Classification']=='In_Frame_Del', 'Class'] = 'In-frame'
 
-fig = plt.figure(figsize=(14, 8))
-gs = gridspec.GridSpec(2, 2, width_ratios=[1, 0.6], height_ratios=[0.4, 0.6], hspace=0.3, wspace=0.25)
+fig = plt.figure(figsize=(DOUBLE, 150 * MM))
+gs = gridspec.GridSpec(2, 2, width_ratios=[1, 0.6], height_ratios=[0.4, 0.6], hspace=0.42, wspace=0.28)
 
 # (a) Mutation frequency bar chart
 ax1 = fig.add_subplot(gs[0, :])
@@ -93,8 +94,8 @@ v = [mut_rates[cc] for cc in c]
 bars = ax1.bar(range(len(c)), v, color='#e74c3c', edgecolor='white', linewidth=0.4, width=0.6)
 ax1.set_xticks(range(len(c)))
 ax1.set_xticklabels(c, fontsize=8, rotation=90)
-ax1.set_ylabel('SLC5A6 Mutation Frequency (%)', fontsize=10)
-ax1.set_title('a  SLC5A6 Somatic Mutation Rate (TCGA MC3, n=193)', fontsize=11, fontweight='bold', loc='left')
+ax1.set_ylabel('SLC5A6 Mutation Frequency (%)')
+ax1.set_title('a  SLC5A6 Somatic Mutation Rate (TCGA MC3, n=193)', loc='left')
 ax1.axhline(2, color='#888', ls='--', lw=0.6, alpha=0.5, label='2% (passenger threshold)')
 ax1.legend(fontsize=7)
 ax1.grid(axis='y', alpha=0.15)
@@ -103,10 +104,14 @@ ax1.grid(axis='y', alpha=0.15)
 ax2 = fig.add_subplot(gs[1, 0])
 class_counts = df['Class'].value_counts()
 colors_pie = ['#e74c3c', '#f39c12', '#3498db', '#95a5a6']
-ax2.pie(class_counts.values, labels=[f'{k}\n({v})' for k,v in class_counts.items()],
-        colors=colors_pie[:len(class_counts)], autopct='%1.1f%%', startangle=90,
-        textprops={'fontsize':8})
-ax2.set_title('b  Mutation Type Distribution', fontsize=10, fontweight='bold')
+total = int(class_counts.sum())
+# labels/counts/percents live in a legend: the two thin wedges (In-frame 1,
+# Splice 5) cannot carry adjacent outside labels at 183 mm width
+wedges = ax2.pie(class_counts.values, colors=colors_pie[:len(class_counts)],
+        startangle=90, radius=0.85)[0]
+ax2.legend(wedges, [f'{k} ({v} = {v/total*100:.1f}%)' for k, v in class_counts.items()],
+           loc='lower center', bbox_to_anchor=(0.5, -0.06), fontsize=6.5, ncol=2)
+ax2.set_title('b  Mutation Type Distribution', loc='left')
 
 # (c) Lollipop-like plot
 ax3 = fig.add_subplot(gs[1, 1])
@@ -161,7 +166,7 @@ for i, (p, c, label) in enumerate(labels_list):
     if i == len(labels_list)-1 or labels_list[i+1][0] - p > 50:
         for j, (cp, cc, clabel) in enumerate(cluster):
             dy = 2 + j * 3  # data-units offset above the point
-            ax3.annotate(clabel, (cp, cc + dy), fontsize=5, ha='center', va='bottom', alpha=0.7)
+            ax3.annotate(clabel, (cp, cc + dy), fontsize=5.5, ha='center', va='bottom', alpha=0.7)
         cluster = []
 
 for start, end, name in [(1,40,'N-term'), (470,635,'C-term')]:
@@ -169,19 +174,18 @@ for start, end, name in [(1,40,'N-term'), (470,635,'C-term')]:
 ax3.text(20, 0.02, 'N', fontsize=8, color='#2ecc71')
 ax3.text(610, 0.02, 'C', fontsize=8, color='#2ecc71')
 
-ax3.set_xlabel('SLC5A6 Protein Position', fontsize=9)
-ax3.set_ylabel('Mutation Count', fontsize=9)
-ax3.set_title('c  Mutation Distribution', fontsize=10, fontweight='bold', loc='left')
+ax3.set_xlabel('SLC5A6 Protein Position')
+ax3.set_ylabel('Mutation Count')
+ax3.set_title('c  Mutation Distribution', loc='left')
 ax3.set_xlim(0, protein_len+5)
 ax3.legend(fontsize=7)
 ax3.grid(alpha=0.15)
 
 fig.subplots_adjust(left=0.06, right=0.98, bottom=0.06, top=0.95)
-fig.savefig(OUT+'/Fig3_SMVT_mutation_landscape.pdf', dpi=300, bbox_inches='tight')
-fig.savefig(OUT+'/Fig3_SMVT_mutation_landscape.png', dpi=300, bbox_inches='tight')
+STEM = 'Fig3_SMVT_mutation_landscape'
 import shutil
-shutil.copy(OUT+'/Fig3_SMVT_mutation_landscape.pdf', FINAL+'/Fig3_SMVT_mutation_landscape.pdf')
-shutil.copy(OUT+'/Fig3_SMVT_mutation_landscape.png', FINAL+'/Fig3_SMVT_mutation_landscape.png')
+for path in save_pub(fig, STEM, outdir=OUT):
+    shutil.copy(path, FINAL + '/' + os.path.basename(path))
 plt.close()
 
 print('Fig3 done — MC3 MAF based')

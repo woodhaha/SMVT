@@ -100,3 +100,15 @@ _archive/
 
 # Per-cell derived tables (regenerable from GEO + analysis scripts)
 03_Analysis/outputs/*.csv.gz
+
+# HPA bulk archives are re-downloadable from proteinatlas.org (extracted subsets are committed)
+02_Data/HPA/*.zip
+02_Data/HPA/tsv/
+02_Data/HPA/urls.txt
+
+# working copies visualize_tcga_nature.py drops next to the script (canonical copies live in 04_Manuscript/figures)
+03_Analysis/Fig*.pdf
+03_Analysis/Fig*.png
+03_Analysis/Fig*.svg
+03_Analysis/Fig*.tiff
+npj_submission/audit_verify_cache.json

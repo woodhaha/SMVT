@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import mannwhitneyu
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from fig_style import apply_style, PALETTE, add_panel_label, style_axis
+from fig_style import apply_style, PALETTE, add_panel_label, style_axis, save_pub
 
 OUT = "03_Analysis/outputs"
 FIGDIR = "04_Manuscript/figures"
@@ -46,7 +46,7 @@ sc = ax.scatter(
 ax.set_xlabel("Mean SLC5A6 log$_1$(CPM)")
 ax.set_ylabel("Cell type")
 cb = plt.colorbar(sc, ax=ax, pad=0.02, fraction=0.046)
-cb.set_label("Mean log$_1$(CPM)", fontsize=7)
+cb.set_label("Mean log$_1$(CPM)", fontsize=8)
 cb.ax.tick_params(labelsize=6)
 # size legend (percent positive)
 for pct in [5, 20, 40]:
@@ -78,16 +78,14 @@ for y, (pctv, nv) in enumerate(zip(g["pct"], g["n"])):
 # Mann-Whitney annotation (tumor vs normal epithelial)
 ax2.annotate("Mann–Whitney\n$p<10^{-6}$",
              xy=(0.98, 0.97), xycoords="axes fraction",
-             ha="right", va="top", fontsize=6.5)
+             ha="right", va="top", fontsize=7.5)
 ax2.set_xlabel("% SLC5A6+ cells")
 ax2.set_xlim(0, g["pct"].max() * 1.22)
 style_axis(ax2)
 add_panel_label(ax2, "b")
 
 fig.tight_layout()
-for ext, dpi in [("pdf", None), ("png", 300), ("svg", None)]:
-    fig.savefig(os.path.join(FIGDIR, f"FigS23_SLC5A6_celltype.{ext}"),
-                dpi=dpi, bbox_inches="tight")
+save_pub(fig, "FigS23_SLC5A6_celltype", outdir=FIGDIR)
 print("Saved FigS23. Mann-Whitney p (tumor vs normal epi) =", p_mw)
 print(ct.to_string(index=False))
 print(g.to_string(index=False))

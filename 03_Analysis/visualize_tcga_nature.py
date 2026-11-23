@@ -11,6 +11,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 from matplotlib.patches import FancyBboxPatch
+import sys
 from pathlib import Path
 
 # ═══ Nature 风格设置 ═══
@@ -40,6 +41,13 @@ plt.rcParams.update({
 })
 
 OUTDIR = Path(__file__).parent
+FIGDIR = OUTDIR.parent / "04_Manuscript" / "figures"
+
+# Unified manuscript style wins over the local rcParams block above (imported late
+# on purpose); save_pub emits PDF+SVG+PNG+600 dpi LZW TIFF.
+sys.path.insert(0, str(OUTDIR))
+from fig_style import apply_style, save_pub
+apply_style()
 
 # ═══ 数据 ═══
 # TCGA Tumor vs Normal (recomputed, Mann-Whitney U + BH-FDR)
@@ -227,14 +235,10 @@ fig.text(0.06, 0.01,
          fontsize=5.5, color='grey', style='italic')
 
 # ── Save ──
-outpath = OUTDIR / 'Fig1_SMVT_TCGA_pan_cancer.png'
-fig.savefig(outpath, dpi=600, facecolor='white', edgecolor='none')
-print(f'✅ Figure 1: {outpath}')
-
-# Also save PDF for publication
-outpath_pdf = OUTDIR / 'Fig1_SMVT_TCGA_pan_cancer.pdf'
-fig.savefig(outpath_pdf, facecolor='white', edgecolor='none')
-print(f'✅ Figure 1 PDF: {outpath_pdf}')
+# Working copy stays in this directory; Fig1 ships from fig_pancan_de.py, so this
+# script must not write Fig1 into 04_Manuscript/figures (two generators, one name).
+save_pub(fig, 'Fig1_SMVT_TCGA_pan_cancer', outdir=str(OUTDIR), formats=('png', 'pdf'))
+print(f'OK: Fig1 (working copy)')
 plt.close()
 
 # ═══════════════════════════════════════════════════
@@ -314,10 +318,8 @@ ax2b.text(-0.05, 1.03, 'b', transform=ax2b.transAxes, fontsize=11, fontweight='b
 fig2.suptitle('SLC5A6 Pan-Cancer Expression & Pro-Tumor Mechanism',
               fontsize=10, fontweight='bold', x=0.05, y=0.99, ha='left')
 
-outpath2 = OUTDIR / 'Fig2_SMVT_mechanism.png'
-fig2.savefig(outpath2, dpi=600, facecolor='white', edgecolor='none')
-fig2.savefig(OUTDIR / 'Fig2_SMVT_mechanism.pdf', facecolor='white', edgecolor='none')
-print(f'OK: {outpath2.name}')
+save_pub(fig2, 'Fig2_SMVT_mechanism', outdir=str(FIGDIR))
+print(f'OK: Fig2_SMVT_mechanism -> {FIGDIR}')
 plt.close()
 
 print('All 4 figures regenerated with proper spacing.')

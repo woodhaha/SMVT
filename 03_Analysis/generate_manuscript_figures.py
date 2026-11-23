@@ -39,6 +39,18 @@ os.chdir(os.path.join(os.path.dirname(__file__), ".."))
 out_dir = "04_Manuscript/figures"
 os.makedirs(out_dir, exist_ok=True)
 
+# Unified manuscript style wins over the local rcParams block below (imported late on
+# purpose); save_pub emits PDF+SVG+PNG+600 dpi LZW TIFF.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from fig_style import apply_style, save_pub
+apply_style()
+
+# FigS1/FigS2 in this script are SUPERSEDED: fig_s1_real_km.py and fig_s1_s2_real.py
+# regenerate them from real GDC survival data (the 2026-08 review found the curves here
+# were synthetic-contaminated). Writing them from here would silently overwrite the
+# corrected figures, so they are skipped unless SMVT_ALLOW_SUPERSEDED=1 is set.
+ALLOW_SUPERSEDED = os.environ.get("SMVT_ALLOW_SUPERSEDED") == "1"
+
 plt.rcParams.update({
     'font.family': 'sans-serif',
     'font.size': 8,
@@ -171,9 +183,7 @@ def fig7_virtual_screening():
                  fontsize=12, fontweight='bold', y=1.01)
     plt.tight_layout()
 
-    for fmt in ['png', 'pdf']:
-        fig.savefig(f'{out_dir}/Fig7_SMVT_virtual_screening.{fmt}',
-                    dpi=300, bbox_inches='tight')
+    save_pub(fig, 'Fig7_SMVT_virtual_screening', outdir=out_dir)
     plt.close()
     print("  Fig 7 saved (volcano + PCA + top20)")
 
@@ -294,9 +304,7 @@ def fig8_barbiturate_pharmacophore():
                  fontsize=12, fontweight='bold', y=1.01)
     plt.tight_layout()
 
-    for fmt in ['png', 'pdf']:
-        fig.savefig(f'{out_dir}/Fig8_SMVT_barbiturate_pharmacophore.{fmt}',
-                    dpi=300, bbox_inches='tight')
+    save_pub(fig, 'Fig8_SMVT_barbiturate_pharmacophore', outdir=out_dir)
     plt.close()
     print("  Fig 8 saved (barbiturate pharmacophore)")
 
@@ -355,10 +363,12 @@ def fig_s1_survival():
                  fontsize=11, fontweight='bold')
     plt.tight_layout()
 
-    for fmt in ['png', 'pdf']:
-        fig.savefig(f'{out_dir}/FigS1_SMVT_survival_KM.{fmt}', dpi=300, bbox_inches='tight')
+    if ALLOW_SUPERSEDED:
+        save_pub(fig, 'FigS1_SMVT_survival_KM', outdir=out_dir)
+        print("  FigS1_SMVT_survival_KM: written (SMVT_ALLOW_SUPERSEDED=1)")
+    else:
+        print("  SKIPPED FigS1_SMVT_survival_KM: superseded by the *_real_km/real scripts")
     plt.close()
-    print("  Fig S1 saved (KM curves)")
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -407,10 +417,12 @@ def fig_s2_forest():
     ax.grid(axis='x', alpha=0.2)
 
     plt.tight_layout()
-    for fmt in ['png', 'pdf']:
-        fig.savefig(f'{out_dir}/FigS2_SMVT_survival_forest.{fmt}', dpi=300, bbox_inches='tight')
+    if ALLOW_SUPERSEDED:
+        save_pub(fig, 'FigS2_SMVT_survival_forest', outdir=out_dir)
+        print("  FigS2_SMVT_survival_forest: written (SMVT_ALLOW_SUPERSEDED=1)")
+    else:
+        print("  SKIPPED FigS2_SMVT_survival_forest: superseded by the *_real_km/real scripts")
     plt.close()
-    print("  Fig S2 saved (forest plot)")
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -429,7 +441,7 @@ def fig_s3_sar_summary():
     fig, ax = plt.subplots(figsize=(10, 5))
     bp = ax.boxplot([families[families['family'] == f]['best_affinity'].values
                      for f in family_order],
-                    labels=family_order, patch_artist=True, vert=True,
+                    tick_labels=family_order, patch_artist=True, vert=True,
                     flierprops=dict(marker='.', markersize=3, alpha=0.5))
 
     colors_cycle = plt.cm.Set2(np.linspace(0, 1, len(family_order)))
@@ -447,8 +459,7 @@ def fig_s3_sar_summary():
     ax.grid(axis='y', alpha=0.2)
 
     plt.tight_layout()
-    for fmt in ['png', 'pdf']:
-        fig.savefig(f'{out_dir}/FigS3_SMVT_family_SAR.{fmt}', dpi=300, bbox_inches='tight')
+    save_pub(fig, 'FigS3_SMVT_family_SAR', outdir=out_dir)
     plt.close()
     print("  Fig S3 saved (family SAR)")
 

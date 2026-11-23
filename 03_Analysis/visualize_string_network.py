@@ -25,6 +25,14 @@ plt.rcParams.update({
 })
 
 OUTDIR = Path(__file__).parent
+FIGDIR = OUTDIR.parent / "04_Manuscript" / "figures"
+
+# Unified manuscript style wins over the local rcParams block above (imported late
+# on purpose); save_pub emits PDF+SVG+PNG+600 dpi LZW TIFF.
+import sys
+sys.path.insert(0, str(OUTDIR))
+from fig_style import apply_style, save_pub
+apply_style()
 C_CENTER  = '#D62728'  # SLC5A6
 C_ANCHOR  = '#E76F51'  # PDZD11
 C_BIOTIN  = '#2CA02C'  # biotin module
@@ -232,10 +240,8 @@ fig.suptitle('SLC5A6 (SMVT) Protein-Protein Interaction Network — STRING v12',
 fig.text(0.02, 0.01, 'Data: STRING v12 (https://string-db.org/), Homo sapiens, combined score >= 0.4',
          fontsize=5, color='grey', style='italic')
 
-out = OUTDIR / 'Fig5_SMVT_STRING_network.png'
-fig.savefig(out, dpi=600, facecolor='white')
-fig.savefig(OUTDIR / 'Fig5_SMVT_STRING_network.pdf', facecolor='white')
-print(f'OK: {out.name}')
+save_pub(fig, 'Fig5_SMVT_STRING_network', outdir=str(FIGDIR))
+print(f'OK: Fig5_SMVT_STRING_network -> {FIGDIR}')
 plt.close()
 
 # ═══════════════════════════════════════════
@@ -286,10 +292,8 @@ ax.text(len(ev_types) + 0.5, -1.2, 'Score', fontsize=5.5, ha='center', fontweigh
 
 fig2.suptitle('SLC5A6 STRING Interaction Evidence Matrix', fontsize=9, fontweight='bold', x=0.2, ha='left')
 
-out2 = OUTDIR / 'Fig6_SMVT_STRING_evidence_heatmap.png'
-fig2.savefig(out2, dpi=600, facecolor='white')
-fig2.savefig(OUTDIR / 'Fig6_SMVT_STRING_evidence_heatmap.pdf', facecolor='white')
-print(f'OK: {out2.name}')
+save_pub(fig2, 'Fig6_SMVT_STRING_evidence_heatmap', outdir=str(FIGDIR))
+print(f'OK: Fig6_SMVT_STRING_evidence_heatmap -> {FIGDIR}')
 plt.close()
 
 print('\nDone: STRING network visualization complete.')

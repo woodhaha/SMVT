@@ -10,7 +10,7 @@ import pandas as pd
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-from fig_style import apply_style, PALETTE
+from fig_style import apply_style, PALETTE, MM, DOUBLE, save_pub
 apply_style()
 from lifelines import KaplanMeierFitter
 from lifelines.statistics import logrank_test
@@ -53,7 +53,7 @@ conn = sqlite3.connect(SQLITE)
 # order by significance (q ascending)
 order = sorted(TYPES, key=lambda a: hr_q.get(a, (1, 1))[1])
 
-fig, axes = plt.subplots(2, 3, figsize=(12, 8))
+fig, axes = plt.subplots(2, 3, figsize=(DOUBLE, 110 * MM))
 for ax, abbrev in zip(axes.flat, order):
     disease = TYPES[abbrev]
     tum = pheno[(pheno['primary disease or tissue'] == disease) &
@@ -79,14 +79,13 @@ for ax, abbrev in zip(axes.flat, order):
     kmf_h.plot_survival_function(ax=ax, color='#d62728', lw=1.5)
     kmf_l.plot_survival_function(ax=ax, color='#1f77b4', lw=1.5)
     hr, q = hr_q[abbrev]
-    ax.set_title(f'{abbrev} (n={len(m)})\nHR={hr:.2f}, q={q:.2e}, log-rank P={lr.p_value:.2g}', fontsize=9)
+    ax.set_title(f'{abbrev} (n={len(m)})\nHR={hr:.2f}, q={q:.2e}, log-rank P={lr.p_value:.2g}', fontsize=7)
     ax.set_xlabel('Months'); ax.set_ylabel('Overall survival')
     ax.set_ylim(0, 1.05); ax.grid(alpha=0.2); ax.legend(fontsize=6)
 
-fig.suptitle('Fig. S1 | Kaplan-Meier overall survival, SLC5A6 median split — 6 FDR-significant cancer types (real per-patient data)', fontsize=11)
+fig.suptitle('Fig. S1 | Kaplan-Meier overall survival, SLC5A6 median split — 6 FDR-significant cancer types (real per-patient data)', fontsize=8)
 plt.tight_layout()
-for fmt in ('png', 'pdf'):
-    fig.savefig(f'{OUT}/FigS1_SMVT_survival_KM.{fmt}', dpi=300, bbox_inches='tight')
+save_pub(fig, 'FigS1_SMVT_survival_KM', outdir=OUT)
 plt.close()
 print('saved FigS1 (real KM, 6 types)')
 conn.close()

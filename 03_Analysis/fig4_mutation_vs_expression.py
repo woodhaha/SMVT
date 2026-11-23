@@ -1,14 +1,16 @@
 """Fig4: SLC5A6 mutation frequency (MC3) vs expression log2FC (recomputed DE)."""
+import os
 import pandas as pd, numpy as np, re, json
 import matplotlib; matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-from fig_style import apply_style, PALETTE
+from fig_style import apply_style, PALETTE, MM, DOUBLE, save_pub
 apply_style()
 
 MAF = 'D:/Researching/SMVT/02_Data/cleaned/slc5a6_mc3_maf.csv'
 DE = 'D:/Researching/SMVT/03_Analysis/outputs/de_table_fdr.json'
-OUT = 'D:/Researching/SMVT/03_Analysis/figures/Fig4_SMVT_mutation_vs_expression.pdf'
-FINAL = 'D:/Researching/SMVT/04_Manuscript/figures/Fig4_SMVT_mutation_vs_expression.pdf'
+STEM = 'Fig4_SMVT_mutation_vs_expression'
+OUT = 'D:/Researching/SMVT/03_Analysis/figures'
+FINAL = 'D:/Researching/SMVT/04_Manuscript/figures'
 
 # code_map + samples from fig_mutation_final.py
 src = open('D:/Researching/SMVT/03_Analysis/fig_mutation_final.py').read()
@@ -32,7 +34,7 @@ mut = pd.DataFrame(mut)
 de = pd.DataFrame(json.load(open(DE)))
 de = de[['cancer', 'log2FC']]
 
-fig, axes = plt.subplots(1, 2, figsize=(12, 5))
+fig, axes = plt.subplots(1, 2, figsize=(DOUBLE, 82 * MM))
 
 # (a) mutation frequency
 m = mut.sort_values('rate', ascending=False)
@@ -40,9 +42,10 @@ cols = ['#e74c3c' if r > 2 else '#3498db' for r in m['rate']]
 axes[0].bar(m['cancer'], m['rate'], color=cols, edgecolor='white', width=0.6)
 axes[0].axhline(2, color='#888', ls='--', lw=0.8, label='2% threshold')
 for i, (c, r) in enumerate(zip(m['cancer'], m['rate'])):
-    axes[0].text(i, r + 0.08, f'{r:.1f}%', ha='center', fontsize=7)
-axes[0].set_ylabel('Mutation frequency (% patients)', fontsize=10)
-axes[0].set_title('a  SLC5A6 somatic mutation rate (MC3)', fontsize=11, fontweight='bold')
+    # stagger alternating labels: bars are ~4 mm apart at 183 mm, one label width
+    axes[0].text(i, r + (0.08 if i % 2 else 0.55), f'{r:.1f}%', ha='center', fontsize=5)
+axes[0].set_ylabel('Mutation frequency (% patients)')
+axes[0].set_title('a  SLC5A6 somatic mutation rate (MC3)')
 axes[0].legend(fontsize=8); axes[0].tick_params(axis='x', rotation=90, labelsize=8)
 axes[0].grid(axis='y', alpha=0.15)
 
@@ -51,15 +54,13 @@ de = de.sort_values('log2FC', ascending=False)
 cols2 = ['#c62828' if x > 0 else '#1565c0' for x in de['log2FC']]
 axes[1].bar(de['cancer'], de['log2FC'], color=cols2, edgecolor='white', width=0.6)
 axes[1].axhline(0, color='#333', lw=0.8)
-axes[1].set_ylabel('Log$_2$ fold change (tumor vs normal)', fontsize=10)
-axes[1].set_title('b  SLC5A6 expression (recomputed, BH-FDR)', fontsize=11, fontweight='bold')
+axes[1].set_ylabel('Log$_2$ fold change (tumor vs normal)')
+axes[1].set_title('b  SLC5A6 expression (recomputed, BH-FDR)')
 axes[1].tick_params(axis='x', rotation=90, labelsize=8)
 axes[1].grid(axis='y', alpha=0.15)
 
 plt.tight_layout()
-plt.savefig(OUT, dpi=300, bbox_inches='tight')
-plt.savefig(OUT.replace('.pdf', '.png'), dpi=300, bbox_inches='tight')
 import shutil
-shutil.copy(OUT, FINAL)
-shutil.copy(OUT.replace('.pdf', '.png'), FINAL.replace('.pdf', '.png'))
+for path in save_pub(fig, STEM, outdir=OUT):
+    shutil.copy(path, FINAL + '/' + os.path.basename(path))
 print('Fig4 saved + synced')
