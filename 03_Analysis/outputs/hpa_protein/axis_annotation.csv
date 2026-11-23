@@ -1,0 +1,10 @@
+Field,SLC5A6,ACACA,ACACB,FASN,HLCS,BTD,SLC5A7
+Gene,SLC5A6,ACACA,ACACB,FASN,HLCS,BTD,SLC5A7
+Ensembl,ENSG00000138074,ENSG00000278540,ENSG00000076555,ENSG00000169710,ENSG00000159267,ENSG00000169814,ENSG00000115665
+Uniprot,Q9Y289,Q13085,O00763,P49327,P50747,P43251,Q9GZV3
+Evidence,Evidence at protein level,Evidence at protein level,Evidence at protein level,Evidence at protein level,Evidence at protein level,Evidence at protein level,Evidence at protein level
+Protein class,Disease related genes; Housekeeping proteins; Metabolic proteins; Plasma proteins; Potential drug targets; Predicted intracellular proteins; Predicted membrane proteins; Transporters,Disease related genes; Enzymes; Essential proteins; Housekeeping proteins; Metabolic proteins; Potential drug targets; Predicted intracellular proteins,Enzymes; Metabolic proteins; Plasma proteins; Predicted intracellular proteins,Cancer-related genes; Enzymes; Essential proteins; Metabolic proteins; Plasma proteins; Predicted intracellular proteins,Disease related genes; Enzymes; Housekeeping proteins; Human disease related genes; Metabolic proteins; Potential drug targets; Predicted intracellular proteins,Biomarker genes; Disease related genes; Enzymes; Housekeeping proteins; Human disease related genes; Metabolic proteins; Plasma proteins; Potential drug targets; Predicted intracellular proteins; Predicted secreted proteins,Disease related genes; Human disease related genes; Metabolic proteins; Potential drug targets; Predicted membrane proteins; Transporters
+Reliability score,,,,,,,
+Subcellular location,Plasma membrane,Nucleoli fibrillar center; Actin filaments; Cytosol,,Plasma membrane; Cytosol,Cytosol,,Nuclear bodies; Cell Junctions; Intermediate filaments
+Subcellular main location,Plasma membrane,Cytosol,,Plasma membrane; Cytosol,Cytosol,,Cell Junctions; Intermediate filaments
+Subcellular additional location,,Nucleoli fibrillar center; Actin filaments,,,,,Nuclear bodies

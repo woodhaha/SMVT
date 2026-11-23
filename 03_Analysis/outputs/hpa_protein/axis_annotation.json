@@ -1,0 +1,173 @@
+{
+ "SLC5A6": {
+  "Gene": "SLC5A6",
+  "Ensembl": "ENSG00000138074",
+  "Uniprot": [
+   "Q9Y289"
+  ],
+  "Protein class": [
+   "Disease related genes",
+   "Housekeeping proteins",
+   "Metabolic proteins",
+   "Plasma proteins",
+   "Potential drug targets",
+   "Predicted intracellular proteins",
+   "Predicted membrane proteins",
+   "Transporters"
+  ],
+  "Evidence": "Evidence at protein level",
+  "Subcellular location": [
+   "Plasma membrane"
+  ],
+  "Subcellular main location": [
+   "Plasma membrane"
+  ],
+  "Subcellular additional location": null
+ },
+ "ACACA": {
+  "Gene": "ACACA",
+  "Ensembl": "ENSG00000278540",
+  "Uniprot": [
+   "Q13085"
+  ],
+  "Protein class": [
+   "Disease related genes",
+   "Enzymes",
+   "Essential proteins",
+   "Housekeeping proteins",
+   "Metabolic proteins",
+   "Potential drug targets",
+   "Predicted intracellular proteins"
+  ],
+  "Evidence": "Evidence at protein level",
+  "Subcellular location": [
+   "Nucleoli fibrillar center",
+   "Actin filaments",
+   "Cytosol"
+  ],
+  "Subcellular main location": [
+   "Cytosol"
+  ],
+  "Subcellular additional location": [
+   "Nucleoli fibrillar center",
+   "Actin filaments"
+  ]
+ },
+ "ACACB": {
+  "Gene": "ACACB",
+  "Ensembl": "ENSG00000076555",
+  "Uniprot": [
+   "O00763"
+  ],
+  "Protein class": [
+   "Enzymes",
+   "Metabolic proteins",
+   "Plasma proteins",
+   "Predicted intracellular proteins"
+  ],
+  "Evidence": "Evidence at protein level",
+  "Subcellular location": null,
+  "Subcellular main location": null,
+  "Subcellular additional location": null
+ },
+ "FASN": {
+  "Gene": "FASN",
+  "Ensembl": "ENSG00000169710",
+  "Uniprot": [
+   "P49327"
+  ],
+  "Protein class": [
+   "Cancer-related genes",
+   "Enzymes",
+   "Essential proteins",
+   "Metabolic proteins",
+   "Plasma proteins",
+   "Predicted intracellular proteins"
+  ],
+  "Evidence": "Evidence at protein level",
+  "Subcellular location": [
+   "Plasma membrane",
+   "Cytosol"
+  ],
+  "Subcellular main location": [
+   "Plasma membrane",
+   "Cytosol"
+  ],
+  "Subcellular additional location": null
+ },
+ "HLCS": {
+  "Gene": "HLCS",
+  "Ensembl": "ENSG00000159267",
+  "Uniprot": [
+   "P50747"
+  ],
+  "Protein class": [
+   "Disease related genes",
+   "Enzymes",
+   "Housekeeping proteins",
+   "Human disease related genes",
+   "Metabolic proteins",
+   "Potential drug targets",
+   "Predicted intracellular proteins"
+  ],
+  "Evidence": "Evidence at protein level",
+  "Subcellular location": [
+   "Cytosol"
+  ],
+  "Subcellular main location": [
+   "Cytosol"
+  ],
+  "Subcellular additional location": null
+ },
+ "BTD": {
+  "Gene": "BTD",
+  "Ensembl": "ENSG00000169814",
+  "Uniprot": [
+   "P43251"
+  ],
+  "Protein class": [
+   "Biomarker genes",
+   "Disease related genes",
+   "Enzymes",
+   "Housekeeping proteins",
+   "Human disease related genes",
+   "Metabolic proteins",
+   "Plasma proteins",
+   "Potential drug targets",
+   "Predicted intracellular proteins",
+   "Predicted secreted proteins"
+  ],
+  "Evidence": "Evidence at protein level",
+  "Subcellular location": null,
+  "Subcellular main location": null,
+  "Subcellular additional location": null
+ },
+ "SLC5A7": {
+  "Gene": "SLC5A7",
+  "Ensembl": "ENSG00000115665",
+  "Uniprot": [
+   "Q9GZV3"
+  ],
+  "Protein class": [
+   "Disease related genes",
+   "Human disease related genes",
+   "Metabolic proteins",
+   "Potential drug targets",
+   "Predicted membrane proteins",
+   "Transporters"
+  ],
+  "Evidence": "Evidence at protein level",
+  "Subcellular location": [
+   "Nuclear bodies",
+   "Cell Junctions",
+   "Intermediate filaments"
+  ],
+  "Subcellular main location": [
+   "Cell Junctions",
+   "Intermediate filaments"
+  ],
+  "Subcellular additional location": [
+   "Nuclear bodies"
+  ]
+ }
+}
