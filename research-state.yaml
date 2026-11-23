@@ -17,7 +17,11 @@ current_focus: 投稿目标 npj Systems Biology and Applications（Nature Portfo
 - **⚠️ 文档与磁盘不符（本轮查明）**：10-26 条目写的 `CSBJ_submission/`（elsarticle 迁移 + 24 图 + docx 全套）**全盘不存在**（D:\\Researching 全域搜索无命中，04_Manuscript 也无 elsarticle 痕迹）。结论：CSBJ 那次模板迁移已随改投 PLOS 被丢弃/回退，10-26 条目作为历史保留但勿再当作可用投稿包。**唯一可用投稿包 = npj_submission/**
 - **authors.md 新建**（npj_submission/）：5/6 作者邮箱+ORCID 复用 ImmunoTargets npj 已核实记录（同源同一批人），**Jiancheng Sun 的邮箱/ORCID 无记录 → 须本人提供**；通讯作者只用 0009-0005-1818-4789（Springer 已绑，温医重复 0000-0002-4523-2943 合并未完成）
 - **审稿人池**：`_archive/stale_cover_letters/CBM_suggested_reviewers.md`（2026-10-29 逐条 Crossref 核实）仍可用，但须按稿件引用关系判断利害：Zhang Z.=zhen2026 通讯（我们整个跨结构验证以他为基准）、Wang B.=tripathi2025 通讯（我们两次引他的数据作羧基必需性的实验依据，属正面引用非反驳）；Said/Terasaki 无冲突=首推两名
-- **待办**：npj SBA 四门槛（IF/中科院分区/On Hold/APC）+ 温医目录核对（正在联网查）；Sun 邮箱；SI 是否拆成单独文件
+- **期刊四门槛已核实（2026-11-23，联网+本地双查，写入 paper-match journal_cache）**：IF **4.4**（JCR 2025，5年 4.2，出版社页+WoS 双源）；中科院 **生物学2区/数学与计算生物学2区，非Top**（2025年3月升级版=最后官方版；iikx/ai4paper/xueshu 三源一致 2区，LetPub 同表渲染残缺疑似3区 → **3区不可完全排除**，此为聚合站推导，CAS 门户未能直连）；**On Hold = 否**（Clarivate MJL 实时抓取 maxAge=0，SCIE+Current Contents+BIOSIS+ESI）；**APC $3,490**（出版社页，full OA 无订阅选项，DOAJ 同值；LetPub 旧值 $3,290 作废）
+- **温医政策（本地三源文件实测，非推断）**：`高质量目录.pdf`(2022,11页,**纯图片版无文字层**：pdftotext 提取 0 词)→ 250dpi chi_sim OCR 后 "npj" 零命中，**但 OCR 只识别出 ~133 条 ISSN，目录宣称 6+94+228=328 条 ⇒ 覆盖率约 40%，"零命中"不足以断定不在目录**（同页可见 NATURE REVIEWS/CELL BIOLOGY 等条目，2056-676X 系 Nature Reviews Disease Primers 非 npj）；已 400dpi 复跑中，定论前勿把"无目录奖励"当已确认；`三不预警目录20251107.xlsx` 37 条 ISSN 逐条比对 → **无本刊**；`仅不奖励目录20250701.pdf` 为**出版社级**名单（MDPI/Frontiers/Hindawi/Karger/Elsevier Masson 等），**无 Springer/Nature Portfolio 行** ⇒ 不属整线不奖励。净结论：无目录奖励，是否计分取决于按中科院分区计的那条线（分区本身仍是 2区/3区 待官方口径）
+- **⚠️ 更正两条前提**：本刊 **2015 年创刊**（NLM Catalog "v1, 2015"），不是"2023 新刊无 IF"；年发文 ~151-165 篇，期刊方中位 **8 天**到初审决定、**155 天**到接收（此前 10-26 记的"审稿~8周"是第三方口径，已覆盖）
+- **scope 契合度=核心身份而非勉强收**：Aims 明文"computational and mathematical approaches…drug discovery"+multi-omics+单细胞+网络生物学；同刊纯计算先例 10.1038/s41540-026-00780-6（网络药理+分子模拟鉴定配体，无湿实验）、10.1038/s41540-025-00602-1（15 癌型 hallmark 网络，纯计算）
+- **待办**：Sun 邮箱/ORCID（无记录，须本人给）；SI 是否拆单独文件（当前已在文中声明"随正文文件提供"，与合并 PDF 一致）；投稿执行
 - **遗留可选**：SI 目前与正文合在一个 PDF（Nature 系刊通常单独上传 supplementary 文件）；正文对 SI 的引用是硬编码 "Fig.~S9" 文本，只有 4 个 \ref{} 且全指主文表格 → 拆分零风险，需要时再拆
 
 ## 2026-10-26 — 投稿冲刺（本轮完成）
