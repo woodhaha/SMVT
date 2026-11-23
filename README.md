@@ -8,6 +8,7 @@ Companion code for *Structure-Based Discovery of Carboxyl-Bearing Ligands of the
 |--------|---------|
 | 1. Pan-cancer expression & survival | `03_Analysis/run_pancancer.py`, `multivariate_survival.py`, `survival_gdc.py`, `survival_analysis_real.py` |
 | 2. Mutation landscape + ESM-2 pathogenicity | `03_Analysis/extract_slc5a6_maf.py`, `fig_mutation_final.py`, `esm_pathogenicity_mc3.py`, `esm650_crossval.py` |
+| 2b. Single-cell cell-type localization (GSE178341) | `03_Analysis/R_scripts/slc5a6_celltype_localization.R`, `fig_slc5a6_celltype.py`, `fig_slc5a6_tumor_intrinsic_main.py` |
 | 3. PPI & pathway enrichment | `03_Analysis/visualize_string_network.py`, `pathlinkR_analysis.R` |
 | 4. Virtual KO | `03_Analysis/run_scTenifoldKnk_light.R`, `pc_regression_GRN.py` |
 | 5. Virtual screening (ML + docking + SAR) | `03_Analysis/pharmacophore_ml_screen.py`, `docking_batch_screen.py`, `docking_expanded.py`, `merge_anticancer.py`, `sar_deep_analysis.py`, `pathc_v2.py`, `glutarimide_hunt.py` |
@@ -25,5 +26,6 @@ Input datasets and access URLs are listed in [`data_sources.md`](data_sources.md
 ## Key results
 
 - Virtual screening: 11,823 compounds → 20 hits with ΔG < −8.0 kcal/mol (three chemotypes: adamantane-carboxylic acids, barbiturates/glutarimides, NMDA-axis ligands).
+- Single-cell (GSE178341, 370,115 CRC cells): SLC5A6 is epithelial-enriched and higher in tumor than normal epithelium (28.3% vs 6.95% positive) — the bulk overexpression is tumor-cell-intrinsic.
 - MD: 8 compounds × 100 ns, all stable (RMSD < 3 Å).
 - Best head group: adamantane-carboxylic acid (ΔG −7.73, cryo-EM validated).
