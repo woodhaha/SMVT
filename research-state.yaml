@@ -4,7 +4,7 @@ status: active
 
 # 项目背景
 # SMVT: Na+-dependent multivitamin transporter (SLC5A6). 泛癌表达/突变景观 + 结构药理学 + MD。
-# 8 compounds 100ns MD 全部完成 (2026-07-04)。现处稿件 figure 精修阶段。
+# 8 compounds 100ns MD 全部完成 (2026-07-04)。现处 npj 投稿包定稿阶段（sn-jnl 模板，编译干净）。
 
 current_focus: 投稿目标 npj Systems Biology and Applications（Nature Portfolio）。npj_submission/ 已建成并迁移到官方 sn-jnl 模板：\documentclass[pdflatex,sn-nature]{sn-jnl}，47 页 / 0 错误 / 0 undefined / bibtex 干净 / 摘要 134 词（≤150）/ 37 条参考文献 / 32 图全存在。待办：GitHub 推送（代码可及性声称）、期刊指标四门槛（分区/IF/On Hold/APC + 温医目录）核完再投。【2026-11-23 会话保存】
 
@@ -14,6 +14,10 @@ current_focus: 投稿目标 npj Systems Biology and Applications（Nature Portfo
 - **声明段**：转 backmatter 环境 + \bmhead，标题改 Nature 规范名（"Use of AI"→"Use of Generative AI in the preparation of the work"；CRediT→"Author contributions"；"Declaration of competing interest"→"Competing interests"，正文改 Nature 句式 "The authors declare no competing interests."；Elsevier 式长声明删除）
 - **一致性修复**：Fig.~S23（GSE178341 单细胞）在 SI 图列表里有图无 legend → 补写 S23 legend；SI 总数声明 "S1--S22" 陈旧 → 改 "S1--S23"；删除 PLOS 专属 "Author Summary" 段（npj 无此文稿类型）
 - **刊史**：CBM（On Hold→WoS 移除，作废）→ CSBJ（10-26 包）→ PLOS Comput Biol（11-04）→ **npj Systems Biology and Applications（今日）**；各家均未实际投出
+- **⚠️ 文档与磁盘不符（本轮查明）**：10-26 条目写的 `CSBJ_submission/`（elsarticle 迁移 + 24 图 + docx 全套）**全盘不存在**（D:\\Researching 全域搜索无命中，04_Manuscript 也无 elsarticle 痕迹）。结论：CSBJ 那次模板迁移已随改投 PLOS 被丢弃/回退，10-26 条目作为历史保留但勿再当作可用投稿包。**唯一可用投稿包 = npj_submission/**
+- **authors.md 新建**（npj_submission/）：5/6 作者邮箱+ORCID 复用 ImmunoTargets npj 已核实记录（同源同一批人），**Jiancheng Sun 的邮箱/ORCID 无记录 → 须本人提供**；通讯作者只用 0009-0005-1818-4789（Springer 已绑，温医重复 0000-0002-4523-2943 合并未完成）
+- **审稿人池**：`_archive/stale_cover_letters/CBM_suggested_reviewers.md`（2026-10-29 逐条 Crossref 核实）仍可用，但须按稿件引用关系判断利害：Zhang Z.=zhen2026 通讯（我们整个跨结构验证以他为基准）、Wang B.=tripathi2025 通讯（我们两次引他的数据作羧基必需性的实验依据，属正面引用非反驳）；Said/Terasaki 无冲突=首推两名
+- **待办**：npj SBA 四门槛（IF/中科院分区/On Hold/APC）+ 温医目录核对（正在联网查）；Sun 邮箱；SI 是否拆成单独文件
 - **遗留可选**：SI 目前与正文合在一个 PDF（Nature 系刊通常单独上传 supplementary 文件）；正文对 SI 的引用是硬编码 "Fig.~S9" 文本，只有 4 个 \ref{} 且全指主文表格 → 拆分零风险，需要时再拆
 
 ## 2026-10-26 — 投稿冲刺（本轮完成）
