@@ -1,5 +1,8 @@
 # Author Metadata — npj Systems Biology and Applications (SNAPP)
 
+**Manuscript**: Structure-Based Discovery of Carboxyl-Bearing Ligands for the Multivitamin
+Transporter SLC5A6, a Tumor-Intrinsic Pan-Cancer Metabolic Vulnerability
+
 Source for e-mails/ORCIDs below: `D:\Researching\ImmunoTargets\npj\submission_checklist_npj.md`
 (same co-author group, already used in a live Springer Nature submission). Do **not** copy an
 unverified value into the submission form — the ⚠️ row needs the author to confirm.
