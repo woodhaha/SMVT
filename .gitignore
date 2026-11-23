@@ -97,3 +97,6 @@ _archive/
 
 # Final MD snapshots (regenerable from trajectories)
 *_final.pdb
+
+# Per-cell derived tables (regenerable from GEO + analysis scripts)
+03_Analysis/outputs/*.csv.gz

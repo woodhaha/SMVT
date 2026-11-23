@@ -27,6 +27,7 @@ CMAP = "RdBu_r"
 def apply_style():
     matplotlib.rcParams.update({
         "font.family": ["Arial", "Helvetica", "DejaVu Sans", "sans-serif"],
+        "font.sans-serif": ["Arial", "Helvetica", "DejaVu Sans"],
         "font.size": 8,
         "axes.titlesize": 10,
         "axes.titleweight": "bold",
@@ -40,6 +41,8 @@ def apply_style():
         "axes.linewidth": 0.8,
         "xtick.major.width": 0.8,
         "ytick.major.width": 0.8,
+        "xtick.direction": "out",
+        "ytick.direction": "out",
         "lines.linewidth": 1.2,
         "legend.frameon": False,
         "figure.dpi": 100,
