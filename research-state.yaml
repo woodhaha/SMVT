@@ -36,7 +36,8 @@ current_focus: 目标刊 npj Systems Biology and Applications（Nature Portfolio
 - **SNAPP 上传格式硬约束（记忆库已有，本轮实测触发）**：figure 输入框**只收 jpeg/tiff/eps，不收 PDF** ⇒ 主图 Fig1–9 必须各有 600dpi LZW TIFF（补 Fig9 后 9/9 齐）；补充图合并单个 PDF 走 supplementary 框；upload_file **必须串行**（并行丢文件，IJCD 踩过）；文件须先拷进 `C:\Users\woodh\Documents`（MCP 只认 workspace root）；作者名自动解析会把 "Jiancheng Sun, MD, Attending Surgeon¹" 拆成 first=Attending/last=Surgeon¹ ⇒ **逐作者核对**
 - **HPA 记忆已更正**（重写 `hpa-api.md` + MEMORY.md 索引行）：旧记录三个 endpoint 两个已 404；`ENSG-基因名-<任何后缀>.tsv` 返回同一份 269 kB HTML，是陷阱不是数据；定量走 `download/tsv/<name>.tsv.zip`（www 主机、zip 非 gz、normal_tissue→normal_ihc_data、pathology→cancer_data）
 - **验证状态**：`npj_submission/verify_package.py` **33/33 全绿**（每条数字回源 CSV/TSV 重算：IHC 每组织最高等级从 501 行重算、UMAP 370,115 细胞与三阳性率、CPTAC 结肠 1.0520/5.64e-17）；`smvt_audit.py` tripwires **AUDIT PASSED**；引用 37 条 **0 不匹配 0 未解析**（中途一次 "1 unresolved" 是 Crossref 瞬时网络，复跑归零——核实过，非假设）；稿件 52 页 0 error
-- **待办**：**Sun 邮箱/ORCID（唯一卡投稿动作的）**；多癌种单细胞（需下载）、空间转录组（本机无数据）两层未动；SI 拆单独文件仍可选
+- **投稿物料已暂存**（commit `a2886ff`）：`python stage_snapp.py` → `C:/Users/woodh/Documents/_snapp_npj/`（manuscript_source.zip 含 tex+bbl+sn-jnl.cls+36 图 PDF；main_figures **9/9** 张 600dpi LZW TIFF；cover_letter.txt 已剥 markdown 标记；MANIFEST.txt 尺寸+MD5 供上传后核对）。上传顺序与已知坑在 `npj_submission/SUBMISSION_OPS.md`：串行上传（并行静默丢文件）、作者名解析会把 "Jiancheng Sun, MD, Attending Surgeon" 拆成 first=Attending/last=Surgeon、COI 是页面 radio 非签名 PDF、**提交当天须重跑 stage**（否则信上日期与图是旧的）
+- **待办**：**Sun 邮箱/ORCID（唯一卡投稿动作的）**；多癌种单细胞（HPA 无按细胞类型的 bulk：`single_cell_type.tsv.zip` 404，只有 `rna_celline.tsv.zip` 205MB 是细胞系 RNA ⇒ 这层必须走 GEO 下载+重跑嵌入，小时级，未获确认不开）；空间转录组（本机无数据）；SI 拆单独文件仍可选
 - **遗留可选**：SI 目前与正文合在一个 PDF（Nature 系刊通常单独上传 supplementary 文件）；正文对 SI 的引用是硬编码 "Fig.~S9" 文本，只有 4 个 \ref{} 且全指主文表格 → 拆分零风险，需要时再拆
 
 ## 2026-10-26 — 投稿冲刺（本轮完成）
