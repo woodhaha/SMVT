@@ -6,7 +6,7 @@ status: active
 # SMVT: Na+-dependent multivitamin transporter (SLC5A6). 泛癌表达/突变景观 + 结构药理学 + MD。
 # 8 compounds 100ns MD 全部完成 (2026-07-04)。现处 npj 投稿包定稿阶段（sn-jnl 模板，编译干净）。
 
-current_focus: 投稿目标 npj Systems Biology and Applications（Nature Portfolio）。npj_submission/ 已建成并迁移到官方 sn-jnl 模板：\documentclass[pdflatex,sn-nature]{sn-jnl}，47 页 / 0 错误 / 0 undefined / bibtex 干净 / 摘要 134 词（≤150）/ 37 条参考文献 / 32 图全存在。待办：GitHub 推送（代码可及性声称）、期刊指标四门槛（分区/IF/On Hold/APC + 温医目录）核完再投。【2026-11-23 会话保存】
+current_focus: 目标刊 npj Systems Biology and Applications（Nature Portfolio；IF 4.4、生物学2区非Top、非 On Hold、APC $3,490 纯OA、MEDLINE 收录、2015 创刊；温医三不预警/不奖励均无本刊，2022/23 高质量目录 OCR 全文覆盖后无本刊⇒无目录奖励，2026 版 T/Q 在校内 VPN 后未核）。投稿包 `npj_submission/` 已 ready：sn-jnl 官方模板、52 页 0 error、摘要 137 词、37 引用 Crossref 字段级 0 不匹配、`verify_package.py` 33/33、tripwires 全过、主图 1–9 全部有 600dpi LZW TIFF（SNAPP 只收 tiff/jpeg/eps）。本轮新增两层证据并已写进正文：CPTAC 质谱独立复现（结肠 logFC +1.05, p_adj 5.6e-17；肺鳞 +0.50, p 8.4e-7）+ 全量 370,115 细胞 UMAP（FigS24/S25）；同时 DepMap 证明 SLC5A6 **非细胞自主必需**（均值 +0.015，1150 株仅 1 株 ≤−0.5），GDSC2 **未筛任何预测配体** ⇒ 措辞已按"营养条件性依赖"重写，标题保留 Vulnerability 但正文加限定。**唯一卡投稿动作的是 Jiancheng Sun 的邮箱+ORCID（无记录，不可编造）。**【2026-11-24 会话保存】
 
 ## 2026-11-23 — npj 迁移（本轮完成）
 - **模板**：PLOS article 壳（geometry/authblk/cite/marvosym + \begin{abstract}）→ Springer Nature **sn-jnl** 官方类（pdflatex + sn-nature 数字引用）；作者块改 \author/\affil/\equalcont/\email，\abstract{}/\keywords{}/\maketitle
@@ -29,7 +29,14 @@ current_focus: 投稿目标 npj Systems Biology and Applications（Nature Portfo
 - **rdkit 2026.9.2 已装进可用运行时**（Fig7/8 结构图需要；`smvt-md` env 有 rdkit 但一碰 canvas.draw 就整进程消失，实测无输出）
 - **审计全绿**：`npj_submission/smvt_audit.py`（不动技能本体的薄壳）→ tripwires 15 必含 + 16 陈旧值 **AUDIT PASSED**；引用 **37 条 0 不匹配 0 未解析**；稿件 51 页 0 error，SI 声明改 S1–S25，图注补 S24/S25，cover letter 加第 4 条（蛋白层证据+其局限）
 - **坑记录**：heredoc 会把反斜杠吃掉一层 → `mc["5.6\\times..."]` 变成真 TAB 存进 JSON，tripwire 键被写坏；构造含反斜杠的字符串要用 `chr(92)`
-- **待办**：Sun 邮箱/ORCID；SI 拆单独文件（可选）；fresh agent 独立全稿复核（纪律 A，尚未做）；多癌种单细胞扩展 / 空间转录组两层未动
+## 2026-11-24 续 — 主张降级三轮 + Fig9 重建 + 独立验证
+- **claim-scan（独立 fresh agent；brief 必须短，长 brief 连杀 pharmaco/fresh-verify 两个 agent，API 400）抓出 24 处 overclaim，其中三条是我自己这周写进去的**：FigS24 图注我写 "establishing…detection floor"（0/20 MS + ≤Medium IHC 只配 indicating）；"Vina docking scores were used as orthogonal validation" 与正文反复声明的"两法排序不相关"自相矛盾；PC-regression GRN 同样被称 orthogonal validation 而 Methods 已自撤。**最狠的是结构性矛盾**：加了 DepMap 非必需结论却没扫 scRNA 虚拟敲除节，那里标题仍写 "Virtual Knockout Analysis **Confirms** Metabolic Dependency"、首句 "To computationally **validate** the functional dependence" —— 论文自己的新结果否认存在可 confirm 的 dependence
+- 三轮降级共 **24 处**（`e481d1c` / `0089738` / `1621027`），每条在 commit message 里给理由。最后不再依赖被截断的报告：把 live 文本剩余 strong verb **逐个读上下文自判**（7 处：STRING 证据通道、docking self-consistency、"has yet been validated"否定句、"constrains rather than confirms"、两处 cross-validation 统计 = 正当保留；gnomAD confirmed→indicate 已改）。cover letter 头条同步带上非必需性与营养条件框架——信不许比稿子敢说
+- **Fig9 是真隐患**：唯一无生成脚本的图，且页面 **1275×720 pt = 449×254 mm＝183 mm 栏宽上限的 2.5 倍**（按印刷缩放字号必跌破 5pt）。已按 `outputs/docking_final/hits20_for_fig.json` 重建为 183×146 mm、5.6pt、四格式（TIFF tag259=5 LZW 已验），新脚本 `03_Analysis/fig9_expanded_hits.py` 会打印它画出的 20 个 ΔG 供与正文对账。**phenobarbital 扩展库 −8.17 vs 已上市药库 −8.30 是两个库，不是矛盾**，图注已标明来源库
+- **SNAPP 上传格式硬约束（记忆库已有，本轮实测触发）**：figure 输入框**只收 jpeg/tiff/eps，不收 PDF** ⇒ 主图 Fig1–9 必须各有 600dpi LZW TIFF（补 Fig9 后 9/9 齐）；补充图合并单个 PDF 走 supplementary 框；upload_file **必须串行**（并行丢文件，IJCD 踩过）；文件须先拷进 `C:\Users\woodh\Documents`（MCP 只认 workspace root）；作者名自动解析会把 "Jiancheng Sun, MD, Attending Surgeon¹" 拆成 first=Attending/last=Surgeon¹ ⇒ **逐作者核对**
+- **HPA 记忆已更正**（重写 `hpa-api.md` + MEMORY.md 索引行）：旧记录三个 endpoint 两个已 404；`ENSG-基因名-<任何后缀>.tsv` 返回同一份 269 kB HTML，是陷阱不是数据；定量走 `download/tsv/<name>.tsv.zip`（www 主机、zip 非 gz、normal_tissue→normal_ihc_data、pathology→cancer_data）
+- **验证状态**：`npj_submission/verify_package.py` **33/33 全绿**（每条数字回源 CSV/TSV 重算：IHC 每组织最高等级从 501 行重算、UMAP 370,115 细胞与三阳性率、CPTAC 结肠 1.0520/5.64e-17）；`smvt_audit.py` tripwires **AUDIT PASSED**；引用 37 条 **0 不匹配 0 未解析**（中途一次 "1 unresolved" 是 Crossref 瞬时网络，复跑归零——核实过，非假设）；稿件 52 页 0 error
+- **待办**：**Sun 邮箱/ORCID（唯一卡投稿动作的）**；多癌种单细胞（需下载）、空间转录组（本机无数据）两层未动；SI 拆单独文件仍可选
 - **遗留可选**：SI 目前与正文合在一个 PDF（Nature 系刊通常单独上传 supplementary 文件）；正文对 SI 的引用是硬编码 "Fig.~S9" 文本，只有 4 个 \ref{} 且全指主文表格 → 拆分零风险，需要时再拆
 
 ## 2026-10-26 — 投稿冲刺（本轮完成）
