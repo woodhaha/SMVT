@@ -1,6 +1,6 @@
 # Cover Letter — npj Systems Biology and Applications
 
-**Date**: 2026-11-23
+**Date**: 2026-11-24
 **To**: The Editors, npj Systems Biology and Applications
 **Re**: Submission of "Structure-Based Discovery of Carboxyl-Bearing Ligands for the Multivitamin Transporter SLC5A6, a Tumor-Intrinsic Pan-Cancer Metabolic Vulnerability"
 
